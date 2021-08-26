@@ -114,8 +114,8 @@ improvements before adding them to Weblate.
         mado.write('---|---|---\n')
         for iso, name in sorted(isos.items()):
             desc = description(iso)
-            html.write(f'<tr><td>{name}</td><td><a target="_blank" href="{desc[1]}">{desc[0]}</a></td><td><a href="{iso}.html">HTML</a> <a href="{iso}.md">MD</a> <a href="{iso}.tsv">TSV</a></td></tr>\n')
-            mado.write(f'{name} | [{desc[0]}]({desc[1]}) | [MD]({iso}.md) [HTML]({iso}.html) [TSV]({iso}.tsv)\n')
+            html.write(f'<tr><td>{name}</td><td><a target="_blank" href="{desc[1]}">{desc[0]}</a></td><td><a href="html/{iso}.html">HTML</a> <a href="md/{iso}.md">MD</a> <a href="tsv/{iso}.tsv">TSV</a></td></tr>\n')
+            mado.write(f'{name} | [{desc[0]}]({desc[1]}) | [MD](md/{iso}.md) [HTML](html/{iso}.html) [TSV](tsv/{iso}.tsv)\n')
         html.write('</table>\n')
 
         footer(html, mado)
@@ -130,17 +130,17 @@ def main():
         iso = sourcepath.parts[-2]
         name = iso.replace('iso_', 'ISO ')
         isos[iso] = name
-        with open(path.join(path.join(__location__, '..'), f'{iso}.html'), 'w') as html, \
-        open(path.join(path.join(__location__, '..'), f'{iso}.md'), 'w')as mado, \
-        open(path.join(path.join(__location__, '..'), f'{iso}.tsv'), 'w')as tsv:
+        with open(path.join(path.join(__location__, '..'), f'html/{iso}.html'), 'w') as html, \
+        open(path.join(path.join(__location__, '..'), f'md/{iso}.md'), 'w')as mado, \
+        open(path.join(path.join(__location__, '..'), f'tsv/{iso}.tsv'), 'w')as tsv:
             sourcefile = pofile(sourcepath)
             header(html, mado, name)
             desc = description(iso)
             html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden.</p>\n')
-            html.write(f'<p><a target="_blank" href="{desc[1]}">{desc[0]}</a>. Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% zijn vertaald op {dtstamp}.</p>\n')
+            html.write(f'<p><a target="_blank" href="{desc[1]}">{desc[0]}</a>. Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% is vertaald op {dtstamp}.</p>\n')
             mado.write('Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden.\n')
             mado.write('\n')
-            mado.write(f'[{desc[0]}]({desc[1]}). Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% zijn vertaald op {dtstamp}.\n')
+            mado.write(f'[{desc[0]}]({desc[1]}). Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% is vertaald op {dtstamp}.\n')
             tsv.write('Codebeschijving\tEngels\tNederlands\n')
             if len(sourcefile.translated_entries()):
                 html.write(f'<h2>Vertaald ({len(sourcefile.translated_entries())})</h2>')

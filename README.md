@@ -51,11 +51,11 @@ Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocod
 
 Standaard | Beschrijving | Vertalingen
 ---|---|---
-ISO 15924 | [Vierletterige codes schriftsystemen](https://nl.wikipedia.org/wiki/ISO_15924) | [MD](iso_15924.md) [HTML](iso_15924.html) [TSV](iso_15924.tsv)
-ISO 3166-1 | [Drieletterige codes landnamen](https://nl.wikipedia.org/wiki/ISO_3166-1) | [MD](iso_3166-1.md) [HTML](iso_3166-1.html) [TSV](iso_3166-1.tsv)
-ISO 3166-2 | [Codes onderverdelingen van landen](https://nl.wikipedia.org/wiki/ISO_3166-2) | [MD](iso_3166-2.md) [HTML](iso_3166-2.html) [TSV](iso_3166-2.tsv)
-ISO 3166-3 | [Vierletterige codes voormalige landen](https://nl.wikipedia.org/wiki/ISO_3166-3) | [MD](iso_3166-3.md) [HTML](iso_3166-3.html) [TSV](iso_3166-3.tsv)
-ISO 4217 | [Drieletteringe codes valuta's](https://nl.wikipedia.org/wiki/ISO_4217) | [MD](iso_4217.md) [HTML](iso_4217.html) [TSV](iso_4217.tsv)
-ISO 639-2 | [Drieletteringe codes talen](https://nl.wikipedia.org/wiki/ISO_639#ISO_639-2) | [MD](iso_639-2.md) [HTML](iso_639-2.html) [TSV](iso_639-2.tsv)
-ISO 639-3 | [Drieletteringe codes alle talen](https://nl.wikipedia.org/wiki/ISO_639#ISO_639-3) | [MD](iso_639-3.md) [HTML](iso_639-3.html) [TSV](iso_639-3.tsv)
-ISO 639-5 | [Drieletterige codes taalfamilies](https://en.wikipedia.org/wiki/ISO_639-5) | [MD](iso_639-5.md) [HTML](iso_639-5.html) [TSV](iso_639-5.tsv)
+ISO 15924 | [Vierletterige codes schriftsystemen](https://nl.wikipedia.org/wiki/ISO_15924) | [MD](md/iso_15924.md) [HTML](html/iso_15924.html) [TSV](tsv/iso_15924.tsv)
+ISO 3166-1 | [Drieletterige codes landnamen](https://nl.wikipedia.org/wiki/ISO_3166-1) | [MD](md/iso_3166-1.md) [HTML](html/iso_3166-1.html) [TSV](tsv/iso_3166-1.tsv)
+ISO 3166-2 | [Codes onderverdelingen van landen](https://nl.wikipedia.org/wiki/ISO_3166-2) | [MD](md/iso_3166-2.md) [HTML](html/iso_3166-2.html) [TSV](tsv/iso_3166-2.tsv)
+ISO 3166-3 | [Vierletterige codes voormalige landen](https://nl.wikipedia.org/wiki/ISO_3166-3) | [MD](md/iso_3166-3.md) [HTML](html/iso_3166-3.html) [TSV](tsv/iso_3166-3.tsv)
+ISO 4217 | [Drieletteringe codes valuta's](https://nl.wikipedia.org/wiki/ISO_4217) | [MD](md/iso_4217.md) [HTML](html/iso_4217.html) [TSV](tsv/iso_4217.tsv)
+ISO 639-2 | [Drieletteringe codes talen](https://nl.wikipedia.org/wiki/ISO_639#ISO_639-2) | [MD](md/iso_639-2.md) [HTML](html/iso_639-2.html) [TSV](tsv/iso_639-2.tsv)
+ISO 639-3 | [Drieletteringe codes alle talen](https://nl.wikipedia.org/wiki/ISO_639#ISO_639-3) | [MD](md/iso_639-3.md) [HTML](html/iso_639-3.html) [TSV](tsv/iso_639-3.tsv)
+ISO 639-5 | [Drieletterige codes taalfamilies](https://en.wikipedia.org/wiki/ISO_639-5) | [MD](md/iso_639-5.md) [HTML](html/iso_639-5.html) [TSV](tsv/iso_639-5.tsv)
