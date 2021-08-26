@@ -37,7 +37,9 @@ def header(html, mado, title):
 <title>{title}</title>
 </head>
 <body>
-<h1>{title}</h1>''')
+<h1>{title}</h1>
+<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden.</p>
+''')
     mado.write(f'''# {title}
 
 ''')
@@ -54,17 +56,31 @@ def index(isos):
     open(path.join(path.join(__location__, '..'), 'README.md'), 'w') as mado:
         header(html, mado, 'ISO-codes')
 
-        mado.write('''_Nederlandse vertaling van ISO-codes._
+        mado.write('''_Nederlandse vertaling van ISO-codes voor verbetering schrijfhulpbestanden._
 
-Dutch translation of ISO codes.
+Dutch translation of ISO codes for improving writing aid files.
 
 ## Source
 
-The upstream source is https://salsa.debian.org/iso-codes-team/iso-codes
+The upstream source is https://salsa.debian.org/iso-codes-team/iso-codes with
+https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/main/COPYING as
+license.
 
-## Prerequisits
+## Usage
 
-For generating the HTML, MarkDown and TSV files in this repository, install
+The files offered here are only for improving Dutch writing aid files such as
+word list, spelling checker dictionary, hyphenations patterns, etc. The Dutch
+translations are best used from upstream stable releases which are found at:
+- [source files](https://salsa.debian.org/iso-codes-team/iso-codes/-/releases)
+- [Debian package](https://packages.debian.org/search?keywords=iso-codes)
+- [Ubuntu package](https://packages.ubuntu.com/search?keywords=iso-codes)
+
+These contain XML files with translations in MO files. For use in Python,
+please see [pycountry](https://pypi.org/project/pycountry/).
+
+## Updating
+
+For generating updated versions of the MarkDown, HTML and TSV files, install
 [polib](https://pypi.org/project/polib/) with e.g.:
 
     sudo pip3 install -U polib
@@ -75,27 +91,25 @@ Then in the directory `scripts`, run:
     ./extracht.sh
     ./convert.py
 
-## Usage
-
-The files offered here are only for improving Dutch word list, spelling
-checking, hyphenations patterns, etc. For using the upstream translations, see
-for example:
-- TODO Debian package
-- TODO pycountry package
-
 ## Contributing
 
 Translating the remaining language names is not trivial. Only when you are
 very sure about your Dutch translation skills, please contribute via
-https://hosted.weblate.org/languages/nl/iso-codes/
+https://hosted.weblate.org/languages/nl/iso-codes/ . When using sources for
+translations, be absolutely sure they are of high quality. Some are simply put
+through a translation service and keep incorrect translation in orbit.
 
 For questions regarding existing translations, you can also open an issue
-at https://github.com/OpenTaal/opentaal-isocodes/issues
+at https://github.com/OpenTaal/opentaal-isocodes/issues to discuss
+improvements before adding them to Weblate.
+
 ''')
 
-        html.write('''<p></p>''')
+        html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden.</p>\n')
         html.write('<table>\n')
         html.write('<tr><th>Standaard</th><th>Beschrijving</th><th>Vertalingen</th></tr>\n')
+        mado.write('Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden.\n')
+        mado.write('\n')
         mado.write('Standaard | Beschrijving | Vertalingen\n')
         mado.write('---|---|---\n')
         for iso, name in sorted(isos.items()):
@@ -122,7 +136,10 @@ def main():
             sourcefile = pofile(sourcepath)
             header(html, mado, name)
             desc = description(iso)
+            html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden.</p>\n')
             html.write(f'<p><a target="_blank" href="{desc[1]}">{desc[0]}</a>. Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% zijn vertaald op {dtstamp}.</p>\n')
+            mado.write('Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden.\n')
+            mado.write('\n')
             mado.write(f'[{desc[0]}]({desc[1]}). Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% zijn vertaald op {dtstamp}.\n')
             tsv.write('Codebeschijving\tEngels\tNederlands\n')
             if len(sourcefile.translated_entries()):

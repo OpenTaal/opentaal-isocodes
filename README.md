@@ -1,16 +1,30 @@
 # ISO-codes
 
-_Nederlandse vertaling van ISO-codes._
+_Nederlandse vertaling van ISO-codes voor verbetering schrijfhulpbestanden._
 
-Dutch translation of ISO codes.
+Dutch translation of ISO codes for improving writing aid files.
 
 ## Source
 
-The upstream source is https://salsa.debian.org/iso-codes-team/iso-codes
+The upstream source is https://salsa.debian.org/iso-codes-team/iso-codes with
+https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/main/COPYING as
+license.
 
-## Prerequisits
+## Usage
 
-For generating the HTML, MarkDown and TSV files in this repository, install
+The files offered here are only for improving Dutch writing aid files such as
+word list, spelling checker dictionary, hyphenations patterns, etc. The Dutch
+translations are best used from upstream stable releases which are found at:
+- [source files](https://salsa.debian.org/iso-codes-team/iso-codes/-/releases)
+- [Debian package](https://packages.debian.org/search?keywords=iso-codes)
+- [Ubuntu package](https://packages.ubuntu.com/search?keywords=iso-codes)
+
+These contain XML files with translations in MO files. For use in Python,
+please see [pycountry](https://pypi.org/project/pycountry/).
+
+## Updating
+
+For generating updated versions of the MarkDown, HTML and TSV files, install
 [polib](https://pypi.org/project/polib/) with e.g.:
 
     sudo pip3 install -U polib
@@ -21,22 +35,20 @@ Then in the directory `scripts`, run:
     ./extracht.sh
     ./convert.py
 
-## Usage
-
-The files offered here are only for improving Dutch word list, spelling
-checking, hyphenations patterns, etc. For using the upstream translations, see
-for example:
-- TODO Debian package
-- TODO pycountry package
-
 ## Contributing
 
 Translating the remaining language names is not trivial. Only when you are
 very sure about your Dutch translation skills, please contribute via
-https://hosted.weblate.org/languages/nl/iso-codes/
+https://hosted.weblate.org/languages/nl/iso-codes/ . When using sources for
+translations, be absolutely sure they are of high quality. Some are simply put
+through a translation service and keep incorrect translation in orbit.
 
 For questions regarding existing translations, you can also open an issue
-at https://github.com/OpenTaal/opentaal-isocodes/issues
+at https://github.com/OpenTaal/opentaal-isocodes/issues to discuss
+improvements before adding them to Weblate.
+
+Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden.
+
 Standaard | Beschrijving | Vertalingen
 ---|---|---
 ISO 15924 | [Vierletterige codes schriftsystemen](https://nl.wikipedia.org/wiki/ISO_15924) | [MD](iso_15924.md) [HTML](iso_15924.html) [TSV](iso_15924.tsv)
