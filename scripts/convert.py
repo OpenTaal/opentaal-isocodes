@@ -38,7 +38,6 @@ def header(html, mado, title):
 </head>
 <body>
 <h1>{title}</h1>
-<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden.</p>
 ''')
     mado.write(f'''# {title}
 
@@ -108,8 +107,6 @@ improvements before adding them to Weblate.
         html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden.</p>\n')
         html.write('<table>\n')
         html.write('<tr><th>Standaard</th><th>Beschrijving</th><th>Vertalingen</th></tr>\n')
-        mado.write('Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden.\n')
-        mado.write('\n')
         mado.write('Standaard | Beschrijving | Vertalingen\n')
         mado.write('---|---|---\n')
         for iso, name in sorted(isos.items()):

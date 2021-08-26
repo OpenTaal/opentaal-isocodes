@@ -47,8 +47,6 @@ For questions regarding existing translations, you can also open an issue
 at https://github.com/OpenTaal/opentaal-isocodes/issues to discuss
 improvements before adding them to Weblate.
 
-Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden.
-
 Standaard | Beschrijving | Vertalingen
 ---|---|---
 ISO 15924 | [Vierletterige codes schriftsystemen](https://nl.wikipedia.org/wiki/ISO_15924) | [MD](md/iso_15924.md) [HTML](html/iso_15924.html) [TSV](tsv/iso_15924.tsv)
