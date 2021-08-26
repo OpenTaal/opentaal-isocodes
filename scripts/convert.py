@@ -101,7 +101,7 @@ at https://github.com/OpenTaal/opentaal-isocodes/issues
         for iso, name in sorted(isos.items()):
             desc = description(iso)
             html.write(f'<tr><td>{name}</td><td><a target="_blank" href="{desc[1]}">{desc[0]}</a></td><td><a href="{iso}.html">HTML</a> <a href="{iso}.md">MD</a> <a href="{iso}.tsv">TSV</a></td></tr>\n')
-            mado.write(f'{name} | [{desc[0]}]({desc[1]}) | [HTML]({iso}.html) [MD]({iso}.md) [TSV]({iso}.tsv)\n')
+            mado.write(f'{name} | [{desc[0]}]({desc[1]}) | [MD]({iso}.md) [HTML]({iso}.html) [TSV]({iso}.tsv)\n')
         html.write('</table>\n')
 
         footer(html, mado)
@@ -126,7 +126,7 @@ def main():
             mado.write(f'[{desc[0]}]({desc[1]}). Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% zijn vertaald op {dtstamp}.\n')
             tsv.write(f'#%date={dtstamp}\n')
             tsv.write(f'# {desc[0]}. Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% zijn vertaald.\n')
-            tsv.write('#%header0=Codebeschijving\tEngels\tNederlands\n')
+            tsv.write('#%header0=Codebeschijving Engels Nederlands\n')
             if len(sourcefile.translated_entries()):
                 html.write(f'<h2>Vertaald ({len(sourcefile.translated_entries())})</h2>')
                 html.write('<table>\n')
