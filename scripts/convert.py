@@ -124,9 +124,7 @@ def main():
             desc = description(iso)
             html.write(f'<p><a target="_blank" href="{desc[1]}">{desc[0]}</a>. Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% zijn vertaald op {dtstamp}.</p>\n')
             mado.write(f'[{desc[0]}]({desc[1]}). Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% zijn vertaald op {dtstamp}.\n')
-            tsv.write(f'#%date={dtstamp}\n')
-            tsv.write(f'# {desc[0]}. Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% zijn vertaald.\n')
-            tsv.write('#%header0=Codebeschijving Engels Nederlands\n')
+            tsv.write('Codebeschijving\tEngels\tNederlands\n')
             if len(sourcefile.translated_entries()):
                 html.write(f'<h2>Vertaald ({len(sourcefile.translated_entries())})</h2>')
                 html.write('<table>\n')
