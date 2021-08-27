@@ -105,7 +105,7 @@ improvements before adding them to Weblate.
 
 ''')
 
-        html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden.</p>\n')
+        html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden!</p>\n')
         html.write('<table>\n')
         html.write('<tr><th>Standaard</th><th>Beschrijving</th><th>Vertalingen</th></tr>\n')
         mado.write('Standaard | Beschrijving | Vertalingen\n')
@@ -184,9 +184,9 @@ def main():
             sourcefile = pofile(sourcepath)
             header(html, mado, name)
             desc = description(iso)
-            html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden.</p>\n')
+            html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden!</p>\n')
             html.write(f'<p><a target="_blank" href="{desc[1]}">{desc[0]}</a>. Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% is vertaald op {dtstamp}.</p>\n')
-            mado.write('Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden.\n')
+            mado.write('Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden!\n')
             mado.write('\n')
             mado.write(f'[{desc[0]}]({desc[1]}). Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% is vertaald op {dtstamp}.\n')
             tsv.write('Codebeschijving\tEngels\tNederlands\n')
