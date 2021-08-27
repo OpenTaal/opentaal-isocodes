@@ -147,8 +147,8 @@ def main():
                 mado.write('Codebeschrijving | Engels | Nederlands\n')
                 mado.write('---|---|---\n')
                 for entry in sourcefile.translated_entries():
-                    html.write(f'<tr><td style="font-family: monospace;">{entry.comment}</td><td style="font-family: monospace;">{entry.msgid}</td><td style="font-family: monospace;">{entry.msgstr}</td></tr>\n')
-                    mado.write(f'`{entry.comment}` | `{entry.msgid}` | `{entry.msgstr}`\n')
+                    html.write(f'<tr><td style="font-family: monospace;">{entry.comment}</td><td style="font-family: monospace;"><a target="_blank" href="https://en.wikipedia.org/wiki/{entry.msgid}">{entry.msgid}</a></td><td style="font-family: monospace;"><a target="_blank" href="https://nl.wikipedia.org/wiki/{entry.msgstr}">{entry.msgstr}</a></td></tr>\n')
+                    mado.write(f'`{entry.comment}` | [`{entry.msgid}`](https://en.wikipedia.org/wiki/{entry.msgid.replace(" ", "_")}) | [`{entry.msgstr}`](https://nl.wikipedia.org/wiki/{entry.msgstr.replace(" ", "_")})\n')
                     tsv.write(f'{entry.comment}\t{entry.msgid}\t{entry.msgstr}\n')
                 html.write('</table>\n')
             if len(sourcefile.untranslated_entries()):
@@ -159,8 +159,8 @@ def main():
                 mado.write('Codebeschrijving | Engels\n')
                 mado.write('---|---\n')
                 for entry in sourcefile.untranslated_entries():
-                    html.write(f'<tr><td style="font-family: monospace;">{entry.comment}</td><td style="font-family: monospace;">{entry.msgid}</td></tr>\n')
-                    mado.write(f'`{entry.comment}` | `{entry.msgid}`\n')
+                    html.write(f'<tr><td style="font-family: monospace;">{entry.comment}</td><td style="font-family: monospace;"><a target="_blank" href="https://en.wikipedia.org/wiki/{entry.msgid}">{entry.msgid}</a></td></tr>\n')
+                    mado.write(f'`{entry.comment}` | [`{entry.msgid}`](https://en.wikipedia.org/wiki/{entry.msgid.replace(" ", "_")})\n')
                     tsv.write(f'{entry.comment}\t{entry.msgid}\t\n')
                 html.write('</table>\n')
             footer(html, mado)
