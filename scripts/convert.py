@@ -4,6 +4,7 @@
 from datetime import datetime
 from os import getcwd, path
 from pathlib import Path
+import sys
 from polib import pofile
 
 __location__ = path.realpath(path.join(getcwd(), path.dirname(__file__)))
@@ -117,6 +118,56 @@ improvements before adding them to Weblate.
 
         footer(html, mado)
 
+def htmlpart(parts, base):
+    if '; ' in parts:
+        if ' / ' in parts:
+            print(f'ERROR: Too complex {parts}')
+            sys.exit(1)
+        else:
+            parts = parts.split('; ')
+            ndx = 0
+            while ndx < len(parts):
+                parts[ndx] = f'<a target="_blank" href="{base}{parts[ndx]}">{parts[ndx]}</a>'
+                ndx += 1
+            return '; '.join(parts)
+    else:
+        if ' / ' in parts:
+            parts = parts.split(' / ')
+            ndx = 0
+            while ndx < len(parts):
+                parts[ndx] = f'<a target="_blank" href="{base}{parts[ndx]}">{parts[ndx]}</a>'
+                ndx += 1
+            return ' / '.join(parts)
+        else:
+            return f'<a target="_blank" href="{base}{parts}">{parts}</a>'
+        
+        
+    
+def madopart(parts, base):
+    if '; ' in parts:
+        if ' / ' in parts:
+            print(f'ERROR: Too complex {parts}')
+            sys.exit(1)
+        else:
+            parts = parts.split('; ')
+            ndx = 0
+            while ndx < len(parts):
+                parts[ndx] = f'[`{parts[ndx]}`]({base}{parts[ndx].replace(" ", "_")})'
+                ndx += 1
+            return '; '.join(parts)
+    else:
+        if ' / ' in parts:
+            parts = parts.split(' / ')
+            ndx = 0
+            while ndx < len(parts):
+                parts[ndx] = f'[`{parts[ndx]}`]({base}{parts[ndx].replace(" ", "_")})'
+                ndx += 1
+            return ' / '.join(parts)
+        else:
+            return f'[`{parts}`]({base}{parts.replace(" ", "_")})'
+        
+        
+    
 def main():
     '''Run main functionality.'''
     utcnow = datetime.utcnow()
@@ -147,8 +198,12 @@ def main():
                 mado.write('Codebeschrijving | Engels | Nederlands\n')
                 mado.write('---|---|---\n')
                 for entry in sourcefile.translated_entries():
-                    html.write(f'<tr><td style="font-family: monospace;">{entry.comment}</td><td style="font-family: monospace;"><a target="_blank" href="https://en.wikipedia.org/wiki/{entry.msgid}">{entry.msgid}</a></td><td style="font-family: monospace;"><a target="_blank" href="https://nl.wikipedia.org/wiki/{entry.msgstr}">{entry.msgstr}</a></td></tr>\n')
-                    mado.write(f'`{entry.comment}` | [`{entry.msgid}`](https://en.wikipedia.org/wiki/{entry.msgid.replace(" ", "_")}) | [`{entry.msgstr}`](https://nl.wikipedia.org/wiki/{entry.msgstr.replace(" ", "_")})\n')
+                    partsid = htmlpart(entry.msgid, 'https://en.wikipedia.org/wiki/')
+                    partsstr = htmlpart(entry.msgstr, 'https://nl.wikipedia.org/wiki/')
+                    html.write(f'<tr><td style="font-family: monospace;">{entry.comment}</td><td style="font-family: monospace;">{partsid}</td><td style="font-family: monospace;">{partsstr}</td></tr>\n')
+                    partsid = madopart(entry.msgid, 'https://en.wikipedia.org/wiki/')
+                    partsstr = madopart(entry.msgstr, 'https://nl.wikipedia.org/wiki/')
+                    mado.write(f'`{entry.comment}` | {partsid} | {partsstr}\n')
                     tsv.write(f'{entry.comment}\t{entry.msgid}\t{entry.msgstr}\n')
                 html.write('</table>\n')
             if len(sourcefile.untranslated_entries()):
@@ -159,8 +214,10 @@ def main():
                 mado.write('Codebeschrijving | Engels\n')
                 mado.write('---|---\n')
                 for entry in sourcefile.untranslated_entries():
-                    html.write(f'<tr><td style="font-family: monospace;">{entry.comment}</td><td style="font-family: monospace;"><a target="_blank" href="https://en.wikipedia.org/wiki/{entry.msgid}">{entry.msgid}</a></td></tr>\n')
-                    mado.write(f'`{entry.comment}` | [`{entry.msgid}`](https://en.wikipedia.org/wiki/{entry.msgid.replace(" ", "_")})\n')
+                    partsid = htmlpart(entry.msgid, 'https://en.wikipedia.org/wiki/')
+                    html.write(f'<tr><td style="font-family: monospace;">{entry.comment}</td><td style="font-family: monospace;">{partsid}</td></tr>\n')
+                    partsid = madopart(entry.msgid, 'https://en.wikipedia.org/wiki/')
+                    mado.write(f'`{entry.comment}` | {partsid}\n')
                     tsv.write(f'{entry.comment}\t{entry.msgid}\t\n')
                 html.write('</table>\n')
             footer(html, mado)

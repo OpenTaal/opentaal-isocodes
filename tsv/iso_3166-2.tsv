@@ -26,7 +26,7 @@ Name for AF-GHO	Ghōr	Ghowr
 Name for AF-HEL	Helmand	Helmand
 Name for AF-HER	Herāt	Herat
 Name for AF-JOW	Jowzjān	Jowzjan
-Name for AF-KAB	Kābul	Kaboel
+Name for AF-KAB	Kābul	Kabul
 Name for AF-KAN	Kandahār	Kandahar
 Name for AF-KAP	Kāpīsā	Kapisa
 Name for AF-KDZ	Kunduz	Kunduz
@@ -1909,6 +1909,7 @@ Name for KP-06	Hwanghae-bukto	Hwanghae-bukto
 Name for KW-FA	Al Farwānīyah	Al Farwanlyah
 Name for KW-MU	Mubārak al Kabīr	Mubarak Al-Kabier
 Name for KZ-ALA	Almaty	Alma-Ata
+Name for KZ-AST	Nur-Sultan	Nur-Sultan
 Name for KZ-MAN	Mangghystaū oblysy	Mangıstaw, Oblast
 Name for KZ-PAV	Pavlodar oblysy	Pavlodar, Oblast
 Name for KZ-VOS	Shyghys Qazaqstan oblysy	Oost-Kazachstan, Oblast
@@ -1930,8 +1931,14 @@ Name for LA-XE	Xékong	Sekong
 Name for LA-XI	Xiangkhouang	Xiangkhouang
 Name for LA-XS	Xaisômboun	Xaisômboun
 Name for LB-AK	Aakkâr	Akkar
+Name for LB-BA	Bayrūt	Beiroet
 Name for LB-BH	Baalbek-Hermel	Baalbek-Hermel
+Name for LB-JL	Jabal Lubnān	Libanongebergte
+Name for LC-02	Castries	Castries
 Name for LC-03, Name for SB-CH	Choiseul	Choiseul
+Name for LC-08	Micoud	Micoud
+Name for LC-10	Soufrière	Soufrière
+Name for LC-11	Vieux Fort	Vieux Fort
 Name for LI-01	Balzers	Balzers
 Name for LI-02	Eschen	Eschen
 Name for LI-03	Gamprin	Gamprin
@@ -1944,7 +1951,13 @@ Name for LI-09	Triesen	Triesen
 Name for LI-10	Triesenberg	Triesenberg
 Name for LI-11	Vaduz	Vaduz
 Name for LK-12	Gampaha	Gampaha
+Name for LK-41	Jaffna	Jaffna
+Name for LK-45	Mullaittivu	Mullaitivu
+Name for LK-52	Ampara	Ampara
+Name for LK-53	Trincomalee	Trincomalee
+Name for LK-72	Polonnaruwa	Polonnaruwa
 Name for LK-81	Badulla	Badulla
+Name for LK-9	Sabaragamuwa Province	Sabaragamuwa
 Name for LK-91	Ratnapura	Ratnapura
 Name for LR-BG	Bong	Bong
 Name for LR-BM	Bomi	Bomi
@@ -1952,6 +1965,7 @@ Name for LR-CM	Grand Cape Mount	Grand Cape Mount
 Name for LR-GB	Grand Bassa	Grand Bassa
 Name for LR-GG	Grand Gedeh	Grand Gedeh
 Name for LR-GK	Grand Kru	Grand Kru
+Name for LR-GP	Gbarpolu	Gbarpolu
 Name for LR-LO	Lofa	Lofa
 Name for LR-MG	Margibi	Margibi
 Name for LR-MO	Montserrado	Montserrado
@@ -1967,6 +1981,35 @@ Name for LS-G	Quthing	Quthing
 Name for LS-H	Qacha's Nek	Qacha's Nek
 Name for LS-J	Mokhotlong	Mokhotlong
 Name for LS-K	Thaba-Tseka	Thaba-Tseka
+Name for LT-02	Alytaus miestas	Alytaus miestas
+Name for LT-03	Alytus	Alytus
+Name for LT-07	Druskininkai	Druskininkai
+Name for LT-09	Ignalina	Ignalina
+Name for LT-10	Jonava	Jonava
+Name for LT-12	Jurbarkas	Jurbarkas
+Name for LT-15	Kauno miestas	Kauno miestas
+Name for LT-16	Kaunas	Kaunas
+Name for LT-22	Kretinga	Kretinga
+Name for LT-24	Lazdijai	Lazdijai
+Name for LT-28	Neringa	Neringa
+Name for LT-30	Pakruojis	Pakruojis
+Name for LT-31	Palangos miestas	Palangos miestas
+Name for LT-34	Pasvalys	Pasvalys
+Name for LT-36	Prienai	Prienai
+Name for LT-38	Raseiniai	Raseiniai
+Name for LT-39	Rietavo	Rietavo
+Name for LT-48	Skuodas	Skuodas
+Name for LT-54	Utena	Utena
+Name for LT-57	Vilniaus miestas	Vilniaus miestas
+Name for LT-58	Vilnius	Vilnius
+Name for LT-59	Visaginas	Visaginas
+Name for LT-60	Zarasai	Zarasai
+Name for LT-AL	Alytaus apskritis	Alytus (district)
+Name for LT-KU	Kauno apskritis	Kaunas (district)
+Name for LT-PN	Panevėžio apskritis	Panevėžys (district)
+Name for LT-SA	Šiaulių apskritis	Šiauliai (district)
+Name for LT-UT	Utenos apskritis	Utena (district)
+Name for LT-VL	Vilniaus apskritis	Vilnius (district)
 Name for LU-DI	Diekirch	Diekirch
 Name for LU-GR	Grevenmacher	Grevenmacher
 Name for LV-001	Aglonas novads	Aglona
@@ -4083,61 +4126,45 @@ Name for KM-M	Mohéli
 Name for KP-13	Raseon	
 Name for KR-49	Jeju-teukbyeoljachido	
 Name for KR-50	Sejong	
-Name for KZ-AST	Nur-Sultan	
-Name for LB-BA	Bayrūt	
-Name for LB-JL	Jabal Lubnān	
-Name for LC-02	Castries	
-Name for LC-08	Micoud	
-Name for LC-10	Soufrière	
-Name for LC-11	Vieux Fort	
-Name for LK-41	Jaffna	
-Name for LK-45	Mullaittivu	
-Name for LK-52	Ampara	
-Name for LK-53	Trincomalee	
-Name for LK-72	Polonnaruwa	
-Name for LK-9	Sabaragamuwa Province	
-Name for LR-GP	Gbarpolu	
 Name for LT-01	Akmenė	
-Name for LT-03	Alytus	
 Name for LT-04	Anykščiai	
 Name for LT-05	Birštono	
 Name for LT-06	Biržai	
-Name for LT-07	Druskininkai	
 Name for LT-08	Elektrėnai	
-Name for LT-09	Ignalina	
 Name for LT-11	Joniškis	
-Name for LT-12	Jurbarkas	
+Name for LT-13	Kaišiadorys	
+Name for LT-14	Kalvarijos	
 Name for LT-17	Kazlų Rūdos	
 Name for LT-18	Kėdainiai	
 Name for LT-19	Kelmė	
+Name for LT-20	Klaipėdos miestas	
 Name for LT-21	Klaipėda	
 Name for LT-23	Kupiškis	
-Name for LT-24	Lazdijai	
+Name for LT-25	Marijampolė	
 Name for LT-26	Mažeikiai	
 Name for LT-27	Molėtai	
 Name for LT-29	Pagėgiai	
-Name for LT-30	Pakruojis	
-Name for LT-31	Palangos miestas	
-Name for LT-34	Pasvalys	
+Name for LT-32	Panevėžio miestas	
+Name for LT-33	Panevėžys	
 Name for LT-35	Plungė	
 Name for LT-37	Radviliškis	
-Name for LT-38	Raseiniai	
 Name for LT-40	Rokiškis	
 Name for LT-41	Šakiai	
 Name for LT-42	Šalčininkai	
+Name for LT-43	Šiaulių miestas	
 Name for LT-44	Šiauliai	
 Name for LT-45	Šilalė	
 Name for LT-46	Šilutė	
 Name for LT-47	Širvintos	
-Name for LT-48	Skuodas	
 Name for LT-49	Švenčionys	
 Name for LT-50	Tauragė	
 Name for LT-51	Telšiai	
+Name for LT-52	Trakai	
 Name for LT-53	Ukmergė	
-Name for LT-54	Utena	
 Name for LT-55	Varėna	
 Name for LT-56	Vilkaviškis	
-Name for LT-58	Vilnius	
+Name for LT-KL	Klaipėdos apskritis	
+Name for LT-TA	Tauragės apskritis	
 Name for LU-CA	Capellen	
 Name for LU-CL	Clerf	
 Name for LU-EC	Echternach	
