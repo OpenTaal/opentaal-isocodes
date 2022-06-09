@@ -1,5 +1,5 @@
 Codebeschijving	Engels	Nederlands
-Name for AED	UAE Dirham	VAE-Dirham
+Name for AED	UAE Dirham	VAE-dirham
 Name for AFN	Afghani	Afghani
 Name for ALL	Lek	Lek
 Name for AMD	Armenian Dram	Armeense dram
@@ -8,7 +8,7 @@ Name for AOA	Kwanza	Angolese kwanza
 Name for ARS	Argentine Peso	Argentijnse peso
 Name for AUD	Australian Dollar	Australische dollar
 Name for AWG	Aruban Florin	Arubaanse gulden
-Name for AZN	Azerbaijanian Manat	Azerbeidzjaanse manat
+Name for AZN	Azerbaijan Manat	Azerbeidzjaanse manat
 Name for BAM	Convertible Mark	Converteerbare marken
 Name for BBD	Barbados Dollar	Barbadiaanse dollar
 Name for BDT	Taka	Bengalese taka
@@ -18,6 +18,7 @@ Name for BIF	Burundi Franc	Burundese frank
 Name for BMD	Bermudian Dollar	Bermuda-dollar
 Name for BND	Brunei Dollar	Bruneise dollar
 Name for BOB	Boliviano	Boliviaanse boliviano
+Name for BOV	Mvdol	Boliviaanse mvdol
 Name for BRL	Brazilian Real	Braziliaanse real
 Name for BSD	Bahamian Dollar	Bahamaanse dollar
 Name for BTN	Ngultrum	Bhutaanse ngultrum
@@ -26,11 +27,15 @@ Name for BYN	Belarusian Ruble	Wit-Russische roebel
 Name for BZD	Belize Dollar	Belizaanse dollar
 Name for CAD	Canadian Dollar	Canadese dollar
 Name for CDF	Congolese Franc	Kongolese franc
+Name for CHE	WIR Euro	WIR euro
 Name for CHF	Swiss Franc	Zwitserse frank
+Name for CHW	WIR Franc	WIR frank
+Name for CLF	Unidad de Fomento	Chileense unidades de fomento
 Name for CLP	Chilean Peso	Chileense peso
 Name for CNY	Yuan Renminbi	Chinese renminbi yuan
 Name for COP	Colombian Peso	Colombiaanse peso
-Name for CRC	Costa Rican Colon	Costaricaanse colón
+Name for COU	Unidad de Valor Real	Colombiaanse unidad de valor real
+Name for CRC	Costa Rican Colon	Costa Ricaanse colon
 Name for CUC	Peso Convertible	Converteerbare peso
 Name for CUP	Cuban Peso	Cubaanse peso
 Name for CVE	Cabo Verde Escudo	Kaapverdische escudo
@@ -50,7 +55,7 @@ Name for GEL	Lari	Georgische lari
 Name for GHS	Ghana Cedi	Ghanese cedi
 Name for GIP	Gibraltar Pound	Gibraltarees pond
 Name for GMD	Dalasi	Gambiaanse dalasi
-Name for GNF	Guinea Franc	Guinese frank
+Name for GNF	Guinean Franc	Guineese frank
 Name for GTQ	Quetzal	Guatemalaans quetzal
 Name for GYD	Guyana Dollar	Guyaanse dollar
 Name for HKD	Hong Kong Dollar	Hongkongse dollar
@@ -58,9 +63,9 @@ Name for HNL	Lempira	Hondurese lempira
 Name for HRK	Kuna	Kuna
 Name for HTG	Gourde	Haïtiaanse gourde
 Name for HUF	Forint	Hongaarse forint
-Name for IDR	Rupiah	Indonesische rupiah
+Name for IDR	Rupiah	Indonesische roepia
 Name for ILS	New Israeli Sheqel	nieuwe Israëlische shekel
-Name for INR	Indian Rupee	Indiase rupee
+Name for INR	Indian Rupee	Indiase roepie
 Name for IQD	Iraqi Dinar	Iraakse dinar
 Name for IRR	Iranian Rial	Iraanse rial
 Name for ISK	Iceland Krona	IJslandse kroon
@@ -70,15 +75,15 @@ Name for JPY	Yen	Japanse yen
 Name for KES	Kenyan Shilling	Keniaanse shilling
 Name for KGS	Som	Kirgizische som
 Name for KHR	Riel	Cambodjaanse riel
-Name for KMF	Comoro Franc	Comorese frank
+Name for KMF	Comorian Franc	Comorese frank
 Name for KPW	North Korean Won	Noord-Koreaanse won
 Name for KRW	Won	Zuid-Koreaanse won
 Name for KWD	Kuwaiti Dinar	Koeweitse dinar
 Name for KYD	Cayman Islands Dollar	Kaaimaneilandse dollar
 Name for KZT	Tenge	Kazachse tenge
-Name for LAK	Kip	Laotiaanse kip
+Name for LAK	Lao Kip	Laotiaanse kip
 Name for LBP	Lebanese Pound	Libanees pond
-Name for LKR	Sri Lanka Rupee	Srilankaanse rupee
+Name for LKR	Sri Lanka Rupee	Srilankaanse roepie
 Name for LRD	Liberian Dollar	Liberiaanse dollar
 Name for LSL	Loti	Lesotho loti
 Name for LYD	Libyan Dinar	Libische dinar
@@ -89,25 +94,26 @@ Name for MKD	Denar	Macedonische denar
 Name for MMK	Kyat	Kyat
 Name for MNT	Tugrik	Mongoolse tugrik
 Name for MOP	Pataca	Macause pataca
-Name for MRO	Ouguiya	Mauritaanse quguiya
-Name for MUR	Mauritius Rupee	Mauritiaanse rupee
+Name for MRU	Ouguiya	Mauritaanse quguiya
+Name for MUR	Mauritius Rupee	Mauritiaanse roepie
 Name for MVR	Rufiyaa	Maldivische rufiyaa
 Name for MWK	Malawi Kwacha	Malawische kwacha
 Name for MXN	Mexican Peso	Mexicaanse peso
+Name for MXV	Mexican Unidad de Inversion (UDI)	Mexicaanse unidad de inversion
 Name for MYR	Malaysian Ringgit	Maleisische ringgit
 Name for MZN	Mozambique Metical	Mozambiquaanse metical
 Name for NAD	Namibia Dollar	Namibische dollar
 Name for NGN	Naira	Nigeriaanse naire
 Name for NIO	Cordoba Oro	Nicaraguaanse córdoba oro
 Name for NOK	Norwegian Krone	Noorse kroon
-Name for NPR	Nepalese Rupee	Nepalese rupee
+Name for NPR	Nepalese Rupee	Nepalese roepie
 Name for NZD	New Zealand Dollar	Nieuw-Zeelandse dollar
 Name for OMR	Rial Omani	Omaanse rial
 Name for PAB	Balboa	Panamaanse balboa
 Name for PEN	Sol	Sol
 Name for PGK	Kina	Papua Nieuw Guineaanse kina
 Name for PHP	Philippine Peso	Filipijnse peso
-Name for PKR	Pakistan Rupee	Pakistaanse rupee
+Name for PKR	Pakistan Rupee	Pakistaanse roepie
 Name for PLN	Zloty	Poolse zloty
 Name for PYG	Guarani	Paraguaanse guarani
 Name for QAR	Qatari Rial	Qatarese rial
@@ -117,16 +123,16 @@ Name for RUB	Russian Ruble	Russische roebel
 Name for RWF	Rwanda Franc	Rwandese frank
 Name for SAR	Saudi Riyal	Saudische riyal
 Name for SBD	Solomon Islands Dollar	Salomon-dollar
-Name for SCR	Seychelles Rupee	Seychelse rupee
+Name for SCR	Seychelles Rupee	Seychelse roepie
 Name for SDG	Sudanese Pound	Sudanese pond
 Name for SEK	Swedish Krona	Zweedse kroon
 Name for SGD	Singapore Dollar	Singaporese dollar
 Name for SHP	Saint Helena Pound	Sint-Heleens pond
-Name for SLL	Leone	Sierraleoonse leone
+Name for SLE, Name for SLL	Leone	Sierraleoonse leone
 Name for SOS	Somali Shilling	Somalische shilling
 Name for SRD	Surinam Dollar	Surinamese dollar
 Name for SSP	South Sudanese Pound	Zuid-Sudanese pond
-Name for STD	Dobra	Sao Tomése dobra
+Name for STN	Dobra	Sao Tomése dobra
 Name for SVC	El Salvador Colon	Salvadoraanse colon
 Name for SYP	Syrian Pound	Syrisch pond
 Name for SZL	Lilangeni	Swazische lilangeni
@@ -142,15 +148,18 @@ Name for TZS	Tanzanian Shilling	Tanzaniaanse shilling
 Name for UAH	Hryvnia	Oekraïense grivna
 Name for UGX	Uganda Shilling	Ugandese shilling
 Name for USD	US Dollar	US-dollar
+Name for USN	US Dollar (Next day)	Amerikaanse dollar (volgende dag)
+Name for UYI	Uruguay Peso en Unidades Indexadas (UI)	Uruguayaanse peso en unidades indexadas (UI)
 Name for UYU	Peso Uruguayo	Uruguayaanse peso
+Name for UYW	Unidad Previsional	Uruguayaanse unidad previsional
 Name for UZS	Uzbekistan Sum	Oezbeekse som
-Name for VEF	Bolívar	Bolívar
+Name for VED, Name for VES	Bolívar Soberano	Boliviaanse soberano
 Name for VND	Dong	Vietnamese dong
 Name for VUV	Vatu	Vanuatu vatu
 Name for WST	Tala	Samoa tala
 Name for XAF	CFA Franc BEAC	CFA-frank BEAC
-Name for XAG	Silver	1 Troy ounce zilver
-Name for XAU	Gold	1 Troy ounce goud
+Name for XAG	Silver	1 troy ounce zilver
+Name for XAU	Gold	1 troy ounce goud
 Name for XBA	Bond Markets Unit European Composite Unit (EURCO)	Aandelenmarkteenheid Europese samengestelde eenheid (EURCO)
 Name for XBB	Bond Markets Unit European Monetary Unit (E.M.U.-6)	Aandelenmarkteenheid Europese monetaire eenheid (E.M.U.-6)
 Name for XBC	Bond Markets Unit European Unit of Account 9 (E.U.A.-9)	Aandelenmarkteenheid Europese rekeningeneenheid 9 (E.U.A.-9)
@@ -158,14 +167,14 @@ Name for XBD	Bond Markets Unit European Unit of Account 17 (E.U.A.-17)	Aandelenm
 Name for XCD	East Caribbean Dollar	Oost-Caribische dollar
 Name for XDR	SDR (Special Drawing Right)	SDR (Speciale trekkingsrechten)
 Name for XOF	CFA Franc BCEAO	CFA-frank BCEAO
-Name for XPD	Palladium	1 Troy ounce palladium
+Name for XPD	Palladium	1 troy ounce palladium
 Name for XPF	CFP Franc	CFP-frank
-Name for XPT	Platinum	1 Troy ounce platina
-Name for XSU	Sucre	Sucre
-Name for XTS	Codes specifically reserved for testing purposes	Code speciaal voor testdoeleinden gereserveerd
-Name for XUA	ADB Unit of Account	ADB Eenheid voor een rekening
+Name for XPT	Platinum	1 troy ounce platina
+Name for XSU	Sucre	suiker
+Name for XTS	Codes specifically reserved for testing purposes	Code speciaal gereserveerd voor testdoeleinden
+Name for XUA	ADB Unit of Account	ADB Eenheid van een rekening
 Name for XXX	The codes assigned for transactions where no currency is involved	De codes toegekend voor transacties waarbij geen valuta is betrokken
 Name for YER	Yemeni Rial	Jemenitische rial
-Name for ZAR	Rand	Zuid-Afrikaanse Rand
+Name for ZAR	Rand	Zuid-Afrikaanse rand
 Name for ZMW	Zambian Kwacha	Zambiaanse kwacha
 Name for ZWL	Zimbabwe Dollar	Zimbabwaanse dollar

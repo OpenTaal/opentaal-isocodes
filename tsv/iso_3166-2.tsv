@@ -1003,7 +1003,7 @@ Name for ES-TF	Santa Cruz de Tenerife	Santa Cruz de Tenerife
 Name for ES-VA	Valladolid	Valladolid
 Name for ES-Z	Zaragoza	Zaragoza
 Name for ES-ZA	Zamora	Zamora
-Name for FI-01	Ahvenanmaan maakunta	Åland
+Name for FI-01	Åland	Åland
 Name for FI-02	Etelä-Karjala	Zuid-Karelië
 Name for FI-03	Etelä-Pohjanmaa	Zuid-Österbotten
 Name for FI-04	Etelä-Savo	Zuid-Savo
@@ -4018,12 +4018,12 @@ Name for ET-AF	Afar
 Name for ET-GA	Gambela Peoples	
 Name for ET-SN	Southern Nations, Nationalities and Peoples	
 Name for ET-SO	Somali	
-Name for FI-06	Egentliga Tavastland	
-Name for FI-13	Norra Karelen	
-Name for FI-14	Norra Österbotten	
-Name for FI-15	Norra Savolax	
-Name for FI-16	Päijänne-Tavastland	
-Name for FI-19	Egentliga Finland	
+Name for FI-06	Kanta-Häme	
+Name for FI-13	Pohjois-Karjala	
+Name for FI-14	Pohjois-Pohjanmaa	
+Name for FI-15	Pohjois-Savo	
+Name for FI-16	Päijät-Häme	
+Name for FI-19	Varsinais-Suomi	
 Name for FJ-03	Cakaudrove	
 Name for FJ-04	Kadavu	
 Name for FJ-06	Lomaiviti	
@@ -4032,6 +4032,7 @@ Name for FJ-09	Naitasiri
 Name for FJ-12	Rewa	
 Name for FJ-13	Serua	
 Name for GB-BCP	Bournemouth, Christchurch and Poole	
+Name for GB-WLS	Wales [Cymru GB-CYM]	
 Name for GH-BO	Bono	
 Name for GL-QT	Kommune Qeqertalik	
 Name for GR-69	Ágion Óros	
