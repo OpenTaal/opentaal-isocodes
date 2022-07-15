@@ -151,6 +151,7 @@ Name for AZ-BAR	Bərdə	Barda
 Name for AZ-BEY	Beyləqan	Beylaqan
 Name for AZ-BIL	Biləsuvar	Bilasuvar
 Name for AZ-CAB	Cəbrayıl	Cabrayil
+Name for AZ-CAL	Cəlilabad	Cəlilabad
 Name for AZ-CUL	Culfa	Culfa
 Name for AZ-DAS	Daşkəsən	Daskasan
 Name for AZ-FUZ	Füzuli	Fuzuli
@@ -368,6 +369,7 @@ Name for BG-18	Ruse	Roese
 Name for BG-19	Silistra	Silistra
 Name for BG-20	Sliven	Sliven
 Name for BG-21	Smolyan	Smoljan
+Name for BG-22	Sofia (stolitsa)	Sofia-Hoofdstad
 Name for BG-23	Sofia	Sofia
 Name for BG-24	Stara Zagora	Stara Zagora
 Name for BG-25	Targovishte	Targovisjte
@@ -536,11 +538,19 @@ Name for CA-ON	Ontario	Ontario
 Name for CA-PE	Prince Edward Island	Prins Edwardeiland
 Name for CA-QC	Quebec	Québec
 Name for CA-SK	Saskatchewan	Saskatchewan
+Name for CD-BU	Bas-Uélé	Bas-Uele
 Name for CD-EQ	Équateur	Evenaarsprovincie
+Name for CD-KL	Kwilu	Kwilu
 Name for CD-KN	Kinshasa	Kinshasa
+Name for CD-KS	Kasaï	Kasaï
+Name for CD-LO	Lomami	Lomami
 Name for CD-MA	Maniema	Maniema
+Name for CD-MN	Mai-Ndombe	Mai-Ndombe
 Name for CD-NK	Nord-Kivu	Noord-Kivu
 Name for CD-SK	Sud-Kivu	Zuid-Kivu
+Name for CD-SU	Sud-Ubangi	Zuid-Ubangi
+Name for CD-TO	Tshopo	Tshopo
+Name for CD-TU	Tshuapa	Tshuapa
 Name for CF-AC	Ouham	Ouham
 Name for CF-BB	Bamingui-Bangoran	Bamingui-Bangoran
 Name for CF-BGF	Bangui	Bangui
@@ -549,6 +559,7 @@ Name for CF-HK	Haute-Kotto	Boven-Kotto
 Name for CF-HM	Haut-Mbomou	Boven-Mbomou
 Name for CF-HS	Haute-Sangha / Mambéré-Kadéï	Haute-Sangha / Mambéré-Kadéï
 Name for CF-KB	Gribingui	Gribingui
+Name for CF-KG	Kemö-Gïrïbïngï	Kémo-Gribingui
 Name for CF-LB	Lobaye	Lobaye
 Name for CF-MB	Mbomou	Mbomou
 Name for CF-NM	Nana-Mambéré	Nana-Mambéré
@@ -591,14 +602,19 @@ Name for CH-VD	Vaud	Vaud
 Name for CH-VS	Valais	Valais
 Name for CH-ZG	Zug	Zug
 Name for CH-ZH	Zürich	Zürich
+Name for CI-AB	Abidjan	Abidjan
+Name for CI-LC	Lacs	Lacs
+Name for CI-SM	Sassandra-Marahoué	Sassandra-Marahoué
 Name for CL-AN	Antofagasta	Antofagasta
 Name for CL-AP	Arica y Parinacota	Arica y Parinacota
 Name for CL-AT	Atacama	Atacama
+Name for CL-BI	Biobío	Biobío
 Name for CL-CO	Coquimbo	Coquimbo
 Name for CL-LI	Libertador General Bernardo O'Higgins	Bevrijder Generaal Bernard O'Higgins
 Name for CL-LL	Los Lagos	Los Lagos
 Name for CL-LR, Name for EC-R	Los Ríos	Los Ríos
 Name for CL-ML	Maule	Maule
+Name for CL-NB	Ñuble	Ñuble
 Name for CL-RM	Región Metropolitana de Santiago	Hoofdstedelijke regio van Santiago
 Name for CL-TA	Tarapacá	Tarapacá
 Name for CL-VS	Valparaíso	Valparaíso
@@ -622,12 +638,14 @@ Name for CN-HA	Henan Sheng	Provincie Henan
 Name for CN-HB	Hubei Sheng	Provincie Hubei
 Name for CN-HE	Hebei Sheng	Provincie Hebei
 Name for CN-HI	Hainan Sheng	Provincie Hainan
+Name for CN-HK	Hong Kong SAR	Hongkong (speciale bestuurlijke regio)
 Name for CN-HL	Heilongjiang Sheng	Provincie Heilongjiang
 Name for CN-HN	Hunan Sheng	Provincie Hunan
 Name for CN-JL	Jilin Sheng	Provincie Jilin
 Name for CN-JS	Jiangsu Sheng	Provincie Jiangsu
 Name for CN-JX	Jiangxi Sheng	Provincie Jiangxi
 Name for CN-LN	Liaoning Sheng	Provincie Liaoning
+Name for CN-MO	Macao SAR	Macau (speciale bestuurlijke regio)
 Name for CN-NM	Nei Mongol Zizhiqu	Autonome Regio Binnen-Mongolië
 Name for CN-NX	Ningxia Huizi Zizhiqu	Autonome Hui Regio Ningxia
 Name for CN-QH	Qinghai Sheng	Provincie Qinghai
@@ -691,6 +709,7 @@ Name for CU-11	Holguín	Holguín
 Name for CU-12	Granma	Granma
 Name for CU-13	Santiago de Cuba	Santiago de Cuba
 Name for CU-14	Guantánamo	Guantánamo
+Name for CU-15	Artemisa	Artemisa
 Name for CU-99	Isla de la Juventud	Isla de la Juventud
 Name for CV-B	Ilhas de Barlavento	Ilhas de Barlavento
 Name for CV-BR	Brava	Brava
@@ -1349,8 +1368,8 @@ Name for GE-GU	Guria	Guria
 Name for GH-AA	Greater Accra	Groot-Accra
 Name for GH-AH	Ashanti	Ashanti
 Name for GH-TV	Volta	Volta
-Name for GH-UE	Upper East	Opper-Oost
-Name for GH-UW	Upper West	Opper-West
+Name for GH-UE	Upper East	Upper East
+Name for GH-UW	Upper West	Upper West
 Name for GL-KU	Kommune Kujalleq	Gemeente Kujalleq
 Name for GL-QE	Qeqqata Kommunia	Gemeente Qeqqata
 Name for GL-SM	Kommuneqarfik Sermersooq	Gemeente Sermersooq
@@ -1468,7 +1487,6 @@ Name for HR-09	Ličko-senjska županija	Lika-Senj, Provincie
 Name for HR-10	Virovitičko-podravska županija	Virovitica-Podravina, Provincie
 Name for HR-11	Požeško-slavonska županija	Pozega-Slavonië, Provincie
 Name for HR-12	Brodsko-posavska županija	Brod-Posavina, Provincie
-Name for HR-13	Zadarska županija	Istrië, Provincie
 Name for HR-14	Osječko-baranjska županija	Osijek-Baranja, Provincie
 Name for HR-15	Šibensko-kninska županija	Sibenik-Knin, Provincie
 Name for HR-16	Vukovarsko-srijemska županija	Vukovar-Srijem, Provincie
@@ -1981,24 +1999,33 @@ Name for LS-G	Quthing	Quthing
 Name for LS-H	Qacha's Nek	Qacha's Nek
 Name for LS-J	Mokhotlong	Mokhotlong
 Name for LS-K	Thaba-Tseka	Thaba-Tseka
+Name for LT-01	Akmenė	Akmenė
 Name for LT-02	Alytaus miestas	Alytaus miestas
 Name for LT-03	Alytus	Alytus
 Name for LT-07	Druskininkai	Druskininkai
+Name for LT-08	Elektrėnai	Elektrėnai
 Name for LT-09	Ignalina	Ignalina
 Name for LT-10	Jonava	Jonava
 Name for LT-12	Jurbarkas	Jurbarkas
 Name for LT-15	Kauno miestas	Kauno miestas
 Name for LT-16	Kaunas	Kaunas
+Name for LT-18	Kėdainiai	Kėdainiai
+Name for LT-19	Kelmė	Kelmė
+Name for LT-21	Klaipėda	Klaipėda
 Name for LT-22	Kretinga	Kretinga
 Name for LT-24	Lazdijai	Lazdijai
+Name for LT-27	Molėtai	Molėtai
 Name for LT-28	Neringa	Neringa
+Name for LT-29	Pagėgiai	Pagėgiai
 Name for LT-30	Pakruojis	Pakruojis
 Name for LT-31	Palangos miestas	Palangos miestas
 Name for LT-34	Pasvalys	Pasvalys
+Name for LT-35	Plungė	Plungė
 Name for LT-36	Prienai	Prienai
 Name for LT-38	Raseiniai	Raseiniai
 Name for LT-39	Rietavo	Rietavo
 Name for LT-48	Skuodas	Skuodas
+Name for LT-50	Tauragė	Tauragė
 Name for LT-54	Utena	Utena
 Name for LT-57	Vilniaus miestas	Vilniaus miestas
 Name for LT-58	Vilnius	Vilnius
@@ -2006,8 +2033,10 @@ Name for LT-59	Visaginas	Visaginas
 Name for LT-60	Zarasai	Zarasai
 Name for LT-AL	Alytaus apskritis	Alytus (district)
 Name for LT-KU	Kauno apskritis	Kaunas (district)
+Name for LT-MR	Marijampolės apskritis	Marijampolė (district)
 Name for LT-PN	Panevėžio apskritis	Panevėžys (district)
 Name for LT-SA	Šiaulių apskritis	Šiauliai (district)
+Name for LT-TE	Telšių apskritis	Telšiai (district)
 Name for LT-UT	Utenos apskritis	Utena (district)
 Name for LT-VL	Vilniaus apskritis	Vilnius (district)
 Name for LU-DI	Diekirch	Diekirch
@@ -2160,7 +2189,7 @@ Name for MA-08	Drâa-Tafilalet	Drâa-Tafilalet
 Name for MA-09	Souss-Massa	Souss-Massa
 Name for MA-10	Guelmim-Oued Noun (EH-partial)	Guelmim-Oued Noun (EH-gedeeltelijk)
 Name for MA-11	Laâyoune-Sakia El Hamra (EH-partial)	Laâyoune-Sakia El Hamra (EH-gedeeltelijk)
-Name for MA-12	Dakhla-Oued Ed-Dahab (EH)	Oued ed Dahab (EH)
+Name for MA-12	Dakhla-Oued Ed-Dahab (EH)	Dakhla-Oued ed Dahab (EH)
 Name for MA-AGD	Agadir-Ida-Ou-Tanane	Agadir-Ida-Ou-Tanane
 Name for MA-AOU	Aousserd (EH)	Aousserd (EH)
 Name for MA-ASZ	Assa-Zag (EH-partial)	Assa-Zag (EH-gedeeltelijk)
@@ -2317,8 +2346,10 @@ Name for MH-ALL	Ailinglaplap	Ailinglaplap
 Name for MH-ARN	Arno	Arno
 Name for MH-AUR	Aur	Aur
 Name for MH-EBO	Ebon	Ebon
+Name for MH-ENI	Enewetak & Ujelang	Eniwetok en Ujelang
 Name for MH-JAB	Jabat	Jabat
 Name for MH-JAL	Jaluit	Jaluit
+Name for MH-KIL	Bikini & Kili	Bikini en Kili
 Name for MH-KWA	Kwajalein	Kwajalein
 Name for MH-L	Ralik chain	Ralik-keten
 Name for MH-LAE	Lae	Lae
@@ -2786,20 +2817,22 @@ Name for PG-SHM	Southern Highlands	Zuidelijke Hooglanden
 Name for PG-WBK	West New Britain	West-Nieuw-Brittannië
 Name for PG-WHM	Western Highlands	Westelijke Hooglanden
 Name for PH-00	National Capital Region	Nationale Hoofstadregio
-Name for PH-01	Ilocos (Region I)	Ilocos (Region I)
-Name for PH-02	Cagayan Valley (Region II)	Cagayan Valley (Region II)
-Name for PH-03	Central Luzon (Region III)	Central Luzon (Region III)
-Name for PH-05	Bicol (Region V)	Bicol (Region V)
-Name for PH-06	Western Visayas (Region VI)	Western Visayas (Region VI)
-Name for PH-07	Central Visayas (Region VII)	Central Visayas (Region VII)
-Name for PH-08	Eastern Visayas (Region VIII)	Eastern Visayas (Region VIII)
-Name for PH-09	Zamboanga Peninsula (Region IX)	Zamboanga Peninsula (Region IX)
-Name for PH-10	Northern Mindanao (Region X)	Noordelijk Mindanao (Region X)
-Name for PH-11	Davao (Region XI)	Davao (Region XI)
-Name for PH-12	Soccsksargen (Region XII)	Soccsksargen (Region XII)
-Name for PH-13	Caraga (Region XIII)	Caraga (Region XIII)
+Name for PH-01	Ilocos (Region I)	Ilocos (Regio I)
+Name for PH-02	Cagayan Valley (Region II)	Cagayan Valley (Regio II)
+Name for PH-03	Central Luzon (Region III)	Central Luzon (Regio III)
+Name for PH-05	Bicol (Region V)	Bicol (Regio V)
+Name for PH-06	Western Visayas (Region VI)	Western Visayas (Regio VI)
+Name for PH-07	Central Visayas (Region VII)	Central Visayas (Regio VII)
+Name for PH-08	Eastern Visayas (Region VIII)	Eastern Visayas (Regio VIII)
+Name for PH-09	Zamboanga Peninsula (Region IX)	Zamboanga Peninsula (Regio IX)
+Name for PH-10	Northern Mindanao (Region X)	Noordelijk Mindanao (Regio X)
+Name for PH-11	Davao (Region XI)	Davao (Regio XI)
+Name for PH-12	Soccsksargen (Region XII)	Soccsksargen (Regio XII)
+Name for PH-13	Caraga (Region XIII)	Caraga (Regio XIII)
 Name for PH-14	Autonomous Region in Muslim Mindanao (ARMM)	Autonome Regio in Muslim Mindanao (ARMM)
-Name for PH-15	Cordillera Administrative Region (CAR)	Cordillera Administrative Region (CAR)
+Name for PH-15	Cordillera Administrative Region (CAR)	Cordillera Administratieve Regio (CAR)
+Name for PH-40	Calabarzon (Region IV-A)	Calabarzon (Regio IV-A)
+Name for PH-41	Mimaropa (Region IV-B)	Mimaropa (Regio IV-B)
 Name for PH-ABR	Abra	Abra
 Name for PH-AGN	Agusan del Norte	Agusan del Norte
 Name for PH-AGS	Agusan del Sur	Zuid-Agusan
@@ -3087,6 +3120,8 @@ Name for SC-22	Saint Louis	Saint Louis
 Name for SC-23	Takamaka	Takamaka
 Name for SC-24	Les Mamelles	Les Mamelles
 Name for SC-25	Roche Caiman	Roche Caiman
+Name for SD-NB	Blue Nile	Blauwe Nijl
+Name for SD-NW	White Nile	Witte Nijl
 Name for SG-01	Central Singapore	Singapore-Centrale-Regio
 Name for SG-05	South West	Zuid-West
 Name for SH-AC	Ascension	Ascension
@@ -3914,7 +3949,7 @@ Name for ZA-NC	Northern Cape	Noord-Kaap
 Name for ZA-WC	Western Cape	West-Kaap
 Name for ZM-04	Luapula	Luapula
 Name for ZM-06	North-Western	Noord-West
-Name for ZM-08	Copperbelt	Copperbelt
+Name for ZM-08	Copperbelt	Copperbelt; Kopergordel
 Name for ZM-09	Lusaka	Lusaka
 Name for ZW-BU	Bulawayo	Bulawayo
 Name for ZW-HA	Harare	Harare
@@ -3927,24 +3962,8 @@ Name for ZW-MS	Matabeleland South	Matabeleland Zuid
 Name for ZW-MV	Masvingo	Masvingo
 Name for ZW-MW	Mashonaland West	Mashonaland West
 Name for BD-22	Jashore	
-Name for BG-22	Sofia (stolitsa)	
-Name for CD-BU	Bas-Uélé	
-Name for CD-KL	Kwilu	
-Name for CD-KS	Kasaï	
-Name for CD-LO	Lomami	
-Name for CD-MN	Mai-Ndombe	
-Name for CD-SU	Sud-Ubangi	
-Name for CD-TO	Tshopo	
-Name for CD-TU	Tshuapa	
-Name for CF-KG	Kemö-Gïrïbïngï	
-Name for CI-AB	Abidjan	
-Name for CI-LC	Lacs	
-Name for CI-SM	Sassandra-Marahoué	
-Name for CL-BI	Biobío	
-Name for CL-NB	Ñuble	
-Name for CN-HK	Hong Kong SAR	
-Name for CN-MO	Macao SAR	
-Name for CU-15	Artemisa	
+Name for BY-HO	Gomel'skaja oblast'	
+Name for BY-HR	Grodnenskaja oblast'	
 Name for DJ-OB	Awbūk	
 Name for DO-08	El Seibo	
 Name for DO-19	Hermanas Mirabal	
@@ -4039,6 +4058,7 @@ Name for GR-69	Ágion Óros
 Name for GR-F	Ionía Nísia	
 Name for GR-M	Kríti	
 Name for GW-BL	Bolama / Bijagós	
+Name for HR-13	Zadarska županija	
 Name for HT-OU	Lwès	
 Name for HT-SE	Sidès	
 Name for IL-HA	H̱efa	
@@ -4121,33 +4141,37 @@ Name for IS-THG	Þingeyjarsveit
 Name for IS-TJO	Tjörneshreppur	
 Name for IS-VEM	Vestmannaeyjabær	
 Name for IS-VOP	Vopnafjarðarhreppur	
+Name for KG-C	Chuyskaya oblast'	
 Name for KG-GO	Gorod Osh	
+Name for KG-J	Dzhalal-Abadskaya oblast'	
+Name for KG-Y	Issyk-Kul'skaja oblast'	
 Name for KH-23	Kaeb	
 Name for KM-M	Mohéli	
 Name for KP-13	Raseon	
 Name for KR-49	Jeju-teukbyeoljachido	
 Name for KR-50	Sejong	
-Name for LT-01	Akmenė	
+Name for KZ-AKM	Akmolinskaja oblast'	
+Name for KZ-AKT	Aktjubinskaja oblast'	
+Name for KZ-ALM	Almatinskaja oblast'	
+Name for KZ-ATY	Atyrauskaja oblast'	
+Name for KZ-KAR	Karagandinskaja oblast'	
+Name for KZ-KUS	Kostanajskaja oblast'	
+Name for KZ-KZY	Kyzylordinskaja oblast'	
+Name for KZ-SEV	Severo-Kazahstanskaja oblast'	
+Name for KZ-YUZ	Turkestankaya oblast'	
 Name for LT-04	Anykščiai	
 Name for LT-05	Birštono	
 Name for LT-06	Biržai	
-Name for LT-08	Elektrėnai	
 Name for LT-11	Joniškis	
 Name for LT-13	Kaišiadorys	
 Name for LT-14	Kalvarijos	
 Name for LT-17	Kazlų Rūdos	
-Name for LT-18	Kėdainiai	
-Name for LT-19	Kelmė	
 Name for LT-20	Klaipėdos miestas	
-Name for LT-21	Klaipėda	
 Name for LT-23	Kupiškis	
 Name for LT-25	Marijampolė	
 Name for LT-26	Mažeikiai	
-Name for LT-27	Molėtai	
-Name for LT-29	Pagėgiai	
 Name for LT-32	Panevėžio miestas	
 Name for LT-33	Panevėžys	
-Name for LT-35	Plungė	
 Name for LT-37	Radviliškis	
 Name for LT-40	Rokiškis	
 Name for LT-41	Šakiai	
@@ -4158,7 +4182,6 @@ Name for LT-45	Šilalė
 Name for LT-46	Šilutė	
 Name for LT-47	Širvintos	
 Name for LT-49	Švenčionys	
-Name for LT-50	Tauragė	
 Name for LT-51	Telšiai	
 Name for LT-52	Trakai	
 Name for LT-53	Ukmergė	
@@ -4175,7 +4198,6 @@ Name for LU-WI	Wiltz
 Name for ME-22	Gusinje	
 Name for ME-23	Petnjica	
 Name for ME-24	Tuzi	
-Name for MH-KIL	Bikini & Kili	
 Name for MH-UTI	Utrik	
 Name for MM-18	Nay Pyi Taw	
 Name for MV-03	Faadhippolhu	
@@ -4199,6 +4221,11 @@ Name for PE-JUN	Hunin
 Name for PE-LMA	Lima hatun llaqta	
 Name for PG-HLA	Hela	
 Name for PG-JWK	Jiwaka	
+Name for PH-COM	Davao de Oro	
+Name for PH-DVO	Davao Occidental	
+Name for RU-IN	Ingushetiya, Respublika	
+Name for RU-KYA	Krasnojarskij kraj	
+Name for RU-SA	Saha, Respublika	
 Name for SA-02	Makkah al Mukarramah	
 Name for SA-09	Jāzān	
 Name for SC-04	Au Cap	
@@ -4207,6 +4234,7 @@ Name for SC-27	Ile Perseverance II
 Name for SD-GD	Gedaref	
 Name for SD-GZ	Gezira	
 Name for SD-KH	Khartoum	
+Name for SD-NR	River Nile	
 Name for SD-RS	Red Sea	
 Name for SI-050	Koper	
 Name for SO-SA	Sanaag	
@@ -4240,6 +4268,7 @@ Name for TZ-11	Zanzibar South
 Name for TZ-27	Geita	
 Name for TZ-30	Simiyu	
 Name for UA-30	Kyiv	
+Name for UA-32	Kyivska oblast	
 Name for UG-117	Buikwe	
 Name for UG-118	Bukomansibi	
 Name for UG-123	Kyankwanzi	

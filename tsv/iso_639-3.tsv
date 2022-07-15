@@ -186,7 +186,7 @@ Name for aij	Lishanid Noshan	Lishanid Noshan
 Name for aik	Ake	Ake
 Name for ail	Aimele	Aimele
 Name for aim	Aimol	Aimol
-Name for ain	Ainu (Japan)	Ainu (Japan)
+Name for ain	Ainu (Japan)	Aino (Japan)
 Name for aio	Aiton	Aiton
 Name for aip	Burumakok	Burumakok
 Name for aiq	Aimaq	Aimaq
@@ -571,9 +571,6 @@ Name for bhl	Bimin	Bimin
 Name for bhm	Bathari	Bathari
 Name for bho	Bhojpuri	Bhojpuri
 Name for bhp	Bima	Bima
-Name for bhq	Tukang Besi South	Tukang Besi South
-Name for bhr	Bara Malagasy	Bara Malagasy
-Inverted name for bhr	Malagasy, Bara	Malagasy, Bara
 Name for bhs	Buwal	Buwal
 Name for bht	Bhattiyali	Bhattiyali
 Name for bhu	Bhunjia	Bhunjia
@@ -835,7 +832,7 @@ Name for btw	Butuanon	Butuanon
 Name for btx	Batak Karo	Batak Karo
 Name for bty	Bobot	Bobot
 Name for btz	Batak Alas-Kluet	Batak Alas-Kluet
-Name for bua	Buriat	Boeriaats
+Name for bua	Buriat	Boerjatisch
 Name for bub	Bua	Bua
 Name for buc	Bushi	Bushi
 Name for bud	Ntcham	Ntcham
@@ -897,16 +894,16 @@ Name for bxf	Bilur	Bilur
 Name for bxg	Bangala	Bangala
 Name for bxk	Bukusu	Bukusu
 Name for bxl	Jalkunan	Jalkunan
-Name for bxm	Mongolia Buriat	Mongools Buriat
-Inverted name for bxm	Buriat, Mongolia	Buriat, Mongools
+Name for bxm	Mongolia Buriat	Mongools Boerjatisch
+Inverted name for bxm	Buriat, Mongolia	Boerjatisch, Mongools
 Name for bxn	Burduna	Burduna
 Name for bxo	Barikanchi	Barikanchi
 Name for bxp	Bebil	Bebil
 Name for bxr	Russia Buriat	Russisch Boerjatisch
-Inverted name for bxr	Buriat, Russia	Buriat, Rusland
+Inverted name for bxr	Buriat, Russia	Boerjatisch, Russisch
 Name for bxs	Busam	Busam
-Name for bxu	China Buriat	Chinees Boeriatisch
-Inverted name for bxu	Buriat, China	Buriat, China
+Name for bxu	China Buriat	Chinees Boerjatisch
+Inverted name for bxu	Buriat, China	Boerjatisch, Chinees
 Name for bxz	Binahari	Binahari
 Name for bya	Batak	Batak
 Name for byb	Bikya	Bikya
@@ -1074,6 +1071,7 @@ Inverted name for cmg	Mongolian, Classical	Mongools, Klassiek
 Name for cmo	Central Mnong	Centraal-Santali
 Name for cns	Central Asmat	Centraal-Santali
 Name for cof	Colorado	Colorado
+Name for com	Comanche	Comanche
 Name for cop	Coptic	Koptisch
 Name for cor	Cornish	Cornish
 Name for cos	Corsican	Corsicaans
@@ -1108,6 +1106,10 @@ Name for eng	English	Engels
 Inverted name for enm	English, Middle (1100-1500)	Engels, Middel (1100-1500)
 Name for enq	Enga	Enga
 Name for epo	Esperanto	Esperanto
+Name for esi	North Alaskan Inupiatun	Noord-Alaskaans Inupiatun
+Inverted name for esi	Inupiatun, North Alaskan	Inupiatun, Noord-Alaskaans
+Name for esk	Northwest Alaska Inupiatun	Noordwest-Alaskaans Inupiatun
+Inverted name for esk	Inupiatun, Northwest Alaska	Inupiatun, Noordwest-Alaskaans
 Name for est	Estonian	Estlands
 Name for eus	Basque	Baskisch
 Name for ewe	Ewe	Ewe
@@ -1120,10 +1122,10 @@ Name for fin	Finnish	Fins
 Name for fon	Fon	Fon
 Name for fra	French	Frans
 Name for frk	Frankish	Frankisch
-Name for frm	Middle French (ca. 1400-1600)	Middelfrans (ca.1400-1600)
-Inverted name for frm	French, Middle (ca. 1400-1600)	Middelfrans (ca. 1400-1600)
+Name for frm	Middle French (ca. 1400-1600)	Middelfrans (ca. 1400-1600)
+Inverted name for frm	French, Middle (ca. 1400-1600)	Frans, Middel (ca. 1400-1600)
 Name for fro	Old French (842-ca. 1400)	Oudfrans (842-ca. 1400)
-Inverted name for fro	French, Old (842-ca. 1400)	Oudfrans (842-ca. 1400)
+Inverted name for fro	French, Old (842-ca. 1400)	Frans, Oud (842-ca. 1400)
 Name for frr	Northern Frisian	Noord-Fries
 Name for frs	Eastern Frisian	Oost-Fries
 Name for ful	Fulah	Fulah
@@ -1144,7 +1146,7 @@ Name for glh	Northwest Pashai	Noordoostelijk Pashai
 Inverted name for glh	Pashai, Northwest	Pashai, Noordoostelijk
 Name for glu	Gula (Chad)	Gula (Tsjaad)
 Name for glv	Manx	Manx
-Name for gmh	Middle High German (ca. 1050-1500)	Middelhoogduits (ca.1050-1500)
+Name for gmh	Middle High German (ca. 1050-1500)	Middelhoogduits (ca. 1050-1500)
 Inverted name for gmh	German, Middle High (ca. 1050-1500)	Middelhoogduits (ca. 1050-1500)
 Name for gml	Middle Low German	Middellaagduits
 Inverted name for gml	German, Middle Low	Middellaagduits
@@ -1230,10 +1232,14 @@ Name for kat	Georgian	Georgisch
 Name for kau	Kanuri	Kanuri
 Name for kaw	Kawi	Kawi
 Name for kaz	Kazakh	Kazachs
-Name for kbd	Kabardian	Kabardisch, Tsjerkessisch
+Name for kbv	Dera (Indonesia)	Dera (Indonesië)
+Name for kcp	Kanga	Kannada, Kanara Kanarees
+Name for kcu	Kami (Tanzania)	Kami (Tanzania)
+Name for kfe	Kota (India)	Kota (Indonesië)
 Name for kgv	Karas	Karas
 Name for kha	Khasi	Khasi
 Name for khm	Central Khmer	Centraal-Khmer
+Inverted name for khm	Khmer, Central	Khmer, Centraal
 Name for kho	Khotanese	Khotanees
 Name for kik	Kikuyu	Kikuyu
 Name for kin	Kinyarwanda	Kinyarwanda
@@ -1266,7 +1272,11 @@ Name for kua	Kuanyama	Kuanyama
 Name for kum	Kumyk	Kumyk
 Name for kur	Kurdish	Koerdisch
 Name for kut	Kutenai	Kutenaïsch
+Name for kvd	Kui (Indonesia)	Kui (Indonesië)
+Name for kvt	Lahta Karen	Lahta Karen
 Inverted name for kxl	Kurux, Nepali	Kurux, Nepalees
+Name for kxm	Northern Khmer	Noord-Khmer
+Inverted name for kxm	Khmer, Northern	Khmer, Noord
 Name for lab	Linear A	Lineair A
 Name for lad	Ladino	Ladino
 Name for lae	Pattani	Pattani
@@ -1280,6 +1290,7 @@ Name for lbk	Central Bontok	Centraal-Bontok
 Inverted name for lbk	Bontok, Central	Santali, Centraal
 Name for lcd	Lola	Lola
 Name for lez	Lezghian	Lezghiaans
+Name for lhh	Laha (Indonesia)	Laha (Indonesië)
 Name for lif	Limbu	Limbu
 Name for lin	Lingala	Lingala
 Name for lit	Lithuanian	Litouws
@@ -1288,6 +1299,7 @@ Name for lln	Lele (Chad)	Lele (Tsjaad)
 Name for lol	Mongo	Mongo
 Name for loz	Lozi	Lozi
 Name for lrl	Lari	Georgische lari
+Name for lti	Leti (Indonesia)	Leti (Indonesië)
 Name for lua	Luba-Lulua	Luba-Lulua
 Name for lub	Luba-Katanga	Luba-Katanga
 Name for lug	Ganda	Ganda
@@ -1295,6 +1307,7 @@ Name for lui	Luiseno	Luiseno
 Name for lun	Lunda	Lunda
 Name for luo	Luo (Kenya and Tanzania)	Luo (Kenia en Tanzania)
 Name for lus	Lushai	Lushai
+Name for luw	Luo (Cameroon)	Luo (Kameroen)
 Name for mad	Madurese	Madurees
 Name for mag	Magahi	Magahisch
 Name for mah	Marshallese	Marshallees
@@ -1314,9 +1327,15 @@ Name for mec	Mara	Mara
 Name for mel	Central Melanau	Centraal-Santali
 Name for mer	Meru	Meru
 Name for mfy	Mayo	Mayo
+Name for mga	Middle Irish (900-1200)	Middeliers (900-1200)
 Inverted name for mga	Irish, Middle (900-1200)	Iers, Middel (900-1200)
+Name for mgs	Manda (Tanzania)	Mandra (Tanzania)
+Name for mha	Manda (India)	Manda (India)
+Name for mhs	Buru (Indonesia)	Buru (Indonesië)
+Name for mhz	Mor (Mor Islands)	Mor (Moreilanden)
 Name for min	Minangkabau	Minangkabau
 Name for mis	Uncoded languages	Niet-gecodeerde talen
+Name for mjh	Mwera (Nyasa)	Mwera (Nyasa)
 Name for mkd	Macedonian	Macedonisch
 Name for mlg	Malagasy	Malagassisch
 Name for mlt	Maltese	Maltees
@@ -1327,18 +1346,24 @@ Name for moh	Mohawk	Mohawk
 Name for mon	Mongolian	Mongools
 Name for mos	Mossi	Mossisch
 Name for mpk	Mbara (Chad)	Mbara (Tsjaad)
+Name for mqa	Maba (Indonesia)	Maba (Indonesië)
 Name for mri	Maori	Maori
+Name for mrr	Maria (India)	Maria (India)
 Name for mtn	Matagalpa	Matagalpa
 Name for mul	Multiple languages	Meerdere talen
 Name for mus	Creek	Creek
 Name for mvw	Machinga	Machinga
 Name for mwl	Mirandese	Mirandees
 Name for mwr	Marwari	Marwari
+Name for mxn	Moi (Indonesia)	Moi (Indonesië)
 Name for mya	Burmese	Burmees
+Name for myi	Mina (India)	Mina (India)
 Name for myv	Erzya	Erzya
 Name for nap	Neapolitan	Napolitaans
 Name for nau	Nauru	Nauru
+Name for nbl	South Ndebele	Zuid-Ndebele
 Inverted name for nbl	Ndebele, South	Ndebele, Zuid
+Name for nde	North Ndebele	Ndebele-Noord
 Inverted name for nde	Ndebele, North	Ndebele, Noord
 Name for ndo	Ndonga	Ndonga
 Name for ner	Yahadian	Yahadian
@@ -1347,6 +1372,7 @@ Name for nfa	Dhao	Dhao
 Name for nge	Ngemba	Ngemba
 Name for ngi	Ngizim	Ngizim
 Name for nia	Nias	Niaas
+Name for nih	Nyiha (Tanzania)	Nyiha (Tanzania)
 Name for nil	Nila	Nila
 Name for nim	Nilamba	Nilamba
 Name for nio	Nganasan	Nganasan
@@ -1385,6 +1411,7 @@ Name for nkz	Nkari	Nkari
 Name for nlc	Nalca	Nalca
 Name for nld	Dutch	Nederlands
 Name for nno	Norwegian Nynorsk	Noors Nynorsk
+Inverted name for nod	Thai, Northern	Thai, Noord
 Name for nog	Nogai	Nogai
 Inverted name for non	Norse, Old	Noors, Oud
 Name for nor	Norwegian	Noors
@@ -1395,15 +1422,26 @@ Name for nym	Nyamwezi	Nyamwezi
 Name for nyn	Nyankole	Nyankools
 Name for nyo	Nyoro	Nyoro
 Name for nzi	Nzima	Nzima
-Name for oar	Old Aramaic (up to 700 BCE)	Iers, Oud (tot 700 v.Chr.)
-Inverted name for oar	Aramaic, Old (up to 700 BCE)	Iers, Oud (tot 700 v.Chr.)
+Name for oar	Old Aramaic (up to 700 BCE)	Oudaramees (tot 700 v.Chr.)
+Inverted name for oar	Aramaic, Old (up to 700 BCE)	Aramees, Oud (tot 700 v.Chr.)
+Name for oav	Old Avar	Oudavaars
+Inverted name for oav	Avar, Old	Avaars, Oud
+Name for obt	Old Breton	Oudbretons, Oudbretoens
+Inverted name for obt	Breton, Old	Bretons, Oud; Bretoens, Oud
 Name for oci	Occitan (post 1500)	Occitaans (na 1500)
 Name for ohu	Old Hungarian	Oudhongaars
 Name for oji	Ojibwa	Ojibwa
+Name for okm	Middle Korean (10th-16th cent.)	Middelkoreaans (10e-16e eeuw)
+Inverted name for okm	Korean, Middle (10th-16th cent.)	Koreaans, Middel (10e-16e eeuw)
+Name for oko	Old Korean (3rd-9th cent.)	Oudkoreaans (3e-9e eeuw)
+Inverted name for oko	Korean, Old (3rd-9th cent.)	Koreaans, Oud (3e-9e eeuw)
 Name for orm	Oromo	Oromo
 Inverted name for ort	Oriya, Adivasi	Odia, Adivasi
 Name for osa	Osage	Osage
+Name for ota	Ottoman Turkish (1500-1928)	Ottomaans Turks (1500-1928)
 Inverted name for ota	Turkish, Ottoman (1500-1928)	Turks, Ottomaans (1500-1928)
+Name for oui	Old Uighur	Oudoeigoers, Oudoejgoers
+Inverted name for oui	Uighur, Old	Oeigoers, Oud; Oejgoers, Oud
 Name for pag	Pangasinan	Pangasinaans
 Name for pal	Pahlavi	Pehlevi
 Name for pam	Pampanga	Pampanga
@@ -1428,7 +1466,7 @@ Name for pcp	Pacahuara	Pacahuara
 Name for pcw	Pyapun	Pyapun
 Name for pda	Anam	Anam
 Name for peo	Old Persian (ca. 600-400 B.C.)	Oudperzisch (ca. 600-400 v.Chr.)
-Inverted name for peo	Persian, Old (ca. 600-400 B.C.)	Oudperzisch (ca. 600-400 v.Chr.)
+Inverted name for peo	Persian, Old (ca. 600-400 B.C.)	Perzisch, Oud (ca. 600-400 v.Chr.)
 Name for pep	Kunja	Kunja
 Name for phn	Phoenician	Fenicisch
 Name for pli	Pali	Pali
@@ -1445,6 +1483,8 @@ Name for pus	Pushto	Poesjto
 Name for que	Quechua	Quechua
 Name for raj	Rajasthani	Rajasthani
 Name for rap	Rapanui	Rapanui
+Name for reg	Kara (Tanzania)	Kara (Tanzania)
+Name for ria	Riang (India)	Riang (India)
 Name for rki	Rakhine	Rakhine
 Name for rmm	Roma	Rome
 Name for roh	Romansh	Romaans
@@ -1462,6 +1502,7 @@ Name for ruy	Mala (Nigeria)	Mala (Nigeria)
 Name for ruz	Ruma	Ruma
 Name for rwa	Rawo	Rawo
 Name for rwk	Rwa	Rwa
+Name for rwr	Marwari (India)	Marwari (India)
 Name for saa	Saba	Saba
 Name for sad	Sandawe	Sandawe
 Name for sag	Sango	Sangho
@@ -1473,9 +1514,11 @@ Name for sas	Sasak	Sasaaks
 Name for sat	Santali	Santali
 Name for saz	Saurashtra	Saurashtra
 Name for sbi	Seti	Seti
+Name for sbp	Sangu (Tanzania)	Sangu (Tanzania)
 Name for scn	Sicilian	Siciliaans
 Name for sco	Scots	Schots
 Name for sel	Selkup	Sulkoeps
+Name for sga	Old Irish (to 900)	Oudiers (tot 900)
 Inverted name for sga	Irish, Old (to 900)	Iers, Oud (tot 900)
 Name for shn	Shan	Shan
 Inverted name for shu	Arabic, Chadian	Arabisch, Tsjaads
@@ -1497,6 +1540,7 @@ Name for som	Somali	Somali
 Inverted name for sot	Sotho, Southern	Sothaans, Zuid
 Name for sov	Sonsorol	Sonsorol
 Name for spa	Spanish	Spaans
+Name for spb	Sepa (Indonesia)	Sepa (Indonesië)
 Name for sqi	Albanian	Albanees
 Name for srd	Sardinian	Sardijns
 Name for srn	Sranan Tongo	Sranan Tongo
@@ -1529,7 +1573,9 @@ Name for tkl	Tokelau	Tokelau
 Name for tli	Tlingit	Tlingit
 Name for tma	Tama (Chad)	Tama (Tsjaad)
 Name for tmh	Tamashek	Tamasjek
+Name for tmn	Taman (Indonesia)	Taman (Indonesië)
 Name for tog	Tonga (Nyasa)	Tonga (Nyasa)
+Name for toi	Tonga (Zambia)	Tonga (Zambia)
 Name for ton	Tonga (Tonga Islands)	Tonga (Tonga-eilanden)
 Name for tpi	Tok Pisin	Tok Pisin
 Name for tsi	Tsimshian	Tsimsjiaans
@@ -1542,6 +1588,7 @@ Name for tur	Turkish	Turks
 Name for tuv	Turkana	Turkana
 Name for tvl	Tuvalu	Tuvalu
 Name for tvu	Tunen	Tunen
+Name for twe	Tewa (Indonesia)	Tewa (Indonesië)
 Name for twi	Twi	Twi
 Name for txg	Tangut	Tangut
 Name for tyv	Tuvinian	Tuviniaans
@@ -1561,12 +1608,20 @@ Name for vol	Volapük	Volapük
 Name for vot	Votic	Votisch
 Name for was	Washo	Wasjo
 Name for wln	Walloon	Waals
+Name for wmm	Maiwa (Indonesia)	Maiwa (Indonesië)
 Name for wol	Wolof	Wolof
+Name for xbm	Middle Breton	Middelbretons, Middelbretoens
+Inverted name for xbm	Breton, Middle	Bretons, Middel; Bretoens, Middel
 Name for xcr	Carian	Carisch
 Name for xho	Xhosa	Xhosa
 Name for xkv	Kgalagadi	Kgalagadi
 Name for xlc	Lycian	Lycisch
 Name for xld	Lydian	Lydisch
+Name for xna	Ancient North Arabian	Oudnoord-Arabisch
+Inverted name for xna	North Arabian, Ancient	Noord-Arabisch, Oud
+Name for xxb	Boro (Ghana)	Boro (Ghana)
+Name for xzp	Ancient Zapotec	Oudzapotec
+Inverted name for xzp	Zapotec, Ancient	Zapotec, Oud
 Name for yao	Yao	Yao
 Name for yap	Yapese	Yapees
 Name for yba	Yala	Yala
@@ -1588,36 +1643,44 @@ Name for zne	Zande (individual language)	Zande (individuele taal)
 Name for zng	Mang	Mang
 Name for znk	Manangkari	Manangkari
 Name for zns	Mangas	Mangas
+Name for zoc	Copainalá Zoque	Copainalá Zoque
 Inverted name for zoc	Zoque, Copainalá	Zoque, Copainalá
 Inverted name for zoh	Zoque, Chimalapa	Zoque, Chimalapa
 Name for zom	Zou	Zou
 Inverted name for zoo	Zapotec, Asunción Mixtepec	Zapotec, Asunción Mixtepec
 Inverted name for zoq	Zoque, Tabasco	Zoque, Tabasco
 Inverted name for zor	Zoque, Rayón	Zoque, Rayón
+Name for zos	Francisco León Zoque	Francisco León Zoque
 Inverted name for zos	Zoque, Francisco León	Zoque, Francisco León
 Inverted name for zpa	Zapotec, Lachiguiri	Zapotec, Lachiguiri
 Inverted name for zpb	Zapotec, Yautepec	Zapotec, Yautepec
 Inverted name for zpc	Zapotec, Choapan	Zapotec, Choapan
-Inverted name for zpd	Zapotec, Southeastern Ixtlán	Zapotec, Southeastern Ixtlán
 Inverted name for zpe	Zapotec, Petapa	Zapotec, Petapa
+Name for zpf	San Pedro Quiatoni Zapotec	San Pedro Quiatoni Zapotec
 Inverted name for zpf	Zapotec, San Pedro Quiatoni	Zapotec, San Pedro Quiatoni
+Name for zpg	Guevea De Humboldt Zapotec	Guevea De Humboldt Zapotec
 Inverted name for zpg	Zapotec, Guevea De Humboldt	Zapotec, Guevea De Humboldt
 Inverted name for zph	Zapotec, Totomachapan	Zapotec, Totomachapan
+Name for zpi	Santa María Quiegolani Zapotec	Santa María Quiegolani Zapotec
 Inverted name for zpi	Zapotec, Santa María Quiegolani	Zapotec, Santa María Quiegolani
 Inverted name for zpj	Zapotec, Quiavicuzas	Zapotec, Quiavicuzas
 Inverted name for zpk	Zapotec, Tlacolulita	Zapotec, Tlacolulita
 Inverted name for zpl	Zapotec, Lachixío	Zapotec, Lachixío
 Inverted name for zpm	Zapotec, Mixtepec	Zapotec, Mixtepec
+Name for zpn	Santa Inés Yatzechi Zapotec	Santa Inés Yatzechi Zapotec
 Inverted name for zpn	Zapotec, Santa Inés Yatzechi	Zapotec, Santa Inés Yatzechi
 Inverted name for zpo	Zapotec, Amatlán	Zapotec, Amatlán
 Inverted name for zpp	Zapotec, El Alto	Zapotec, El Alto
 Inverted name for zpq	Zapotec, Zoogocho	Zapotec, Zoogocho
+Name for zpr	Santiago Xanica Zapotec	Santiago Xanica Zapotec
 Inverted name for zpr	Zapotec, Santiago Xanica	Zapotec, Santiago Xanica
 Inverted name for zps	Zapotec, Coatlán	Zapotec, Coatlán
+Name for zpt	San Vicente Coatlán Zapotec	San Vicente Coatlán Zapotec
 Inverted name for zpt	Zapotec, San Vicente Coatlán	Zapotec, San Vicente Coatlán
 Inverted name for zpu	Zapotec, Yalálag	Zapotec, Yalálag
 Inverted name for zpv	Zapotec, Chichicapan	Zapotec, Chichicapan
 Inverted name for zpw	Zapotec, Zaniza	Zapotec, Zaniza
+Name for zpx	San Baltazar Loxicha Zapotec	San Baltazar Loxicha Zapotec
 Inverted name for zpx	Zapotec, San Baltazar Loxicha	Zapotec, San Baltazar Loxicha
 Inverted name for zpy	Zapotec, Mazaltepec	Zapotec, Mazaltepec
 Inverted name for zpz	Zapotec, Texmelucan	Zapotec, Texmelucan
@@ -1632,19 +1695,26 @@ Name for zsa	Sarasira	Sarasira
 Name for zsk	Kaskean	Kaskean
 Name for zsl	Zambian Sign Language	Zambiaanse gebarentaal
 Inverted name for zsm	Malay, Standard	Maleis, standaard
-Inverted name for zsr	Zapotec, Southern Rincon	Zapotec, Southern Rincon
 Name for zsu	Sukurum	Sukurum
 Inverted name for zte	Zapotec, Elotepec	Zapotec, Elotepec
 Inverted name for ztg	Zapotec, Xanaguía	Zapotec, Xanaguía
+Name for ztl	Lapaguía-Guivini Zapotec	Lapaguía-Guivini, Zapotec
 Inverted name for ztl	Zapotec, Lapaguía-Guivini	Zapotec, Lapaguía-Guivini
+Name for ztm	San Agustín Mixtepec Zapotec	San Agustín Mixtepec Zapotec
 Inverted name for ztm	Zapotec, San Agustín Mixtepec	Zapotec, San Agustín Mixtepec
+Name for ztn	Santa Catarina Albarradas Zapotec	Santa Catarina Albarradas Zapotec
 Inverted name for ztn	Zapotec, Santa Catarina Albarradas	Zapotec, Santa Catarina Albarradas
+Name for ztp	Loxicha Zapotec	Loxicha Zapotec
 Inverted name for ztp	Zapotec, Loxicha	Zapotec, Loxicha
+Name for ztq	Quioquitani-Quierí Zapotec	Quioquitani-Quierí Zapotec
 Inverted name for ztq	Zapotec, Quioquitani-Quierí	Zapotec, Quioquitani-Quierí
 Inverted name for zts	Zapotec, Tilquiapan	Zapotec, Tilquiapan
 Inverted name for ztt	Zapotec, Tejalapan	Zapotec, Tejalapan
+Name for ztu	Güilá Zapotec	Güilá Zapotec
 Inverted name for ztu	Zapotec, Güilá	Zapotec, Güilá
+Name for ztx	Zaachila Zapotec	Zaachila Zapotec
 Inverted name for ztx	Zapotec, Zaachila	Zapotec, Zaachila
+Name for zty	Yatee Zapotec	Yatee Zapotec
 Inverted name for zty	Zapotec, Yatee	Zapotec, Yatee
 Name for zua	Zeem	Zeem
 Name for zuh	Tokano	Tokano
@@ -1923,6 +1993,9 @@ Name for bgn	Western Balochi
 Name for bgp	Eastern Balochi	
 Name for bhn	Bohtan Neo-Aramaic	
 Inverted name for bhn	Neo-Aramaic, Bohtan	
+Name for bhq	Tukang Besi South	
+Name for bhr	Bara Malagasy	
+Inverted name for bhr	Malagasy, Bara	
 Name for bij	Vaghat-Ya-Bijim-Legeri	
 Name for biw	Kol (Cameroon)	
 Name for bjf	Barzani Jewish Neo-Aramaic	
@@ -2100,9 +2173,13 @@ Name for cld	Chaldean Neo-Aramaic
 Name for cle	Lealao Chinantec	
 Inverted name for cle	Chinantec, Lealao	
 Name for clh	Chilisso	
+Name for clj	Laitu Chin	
+Inverted name for clj	Chin, Laitu	
 Name for clk	Idu-Mishmi	
 Name for clo	Lowland Oaxaca Chontal	
 Inverted name for clo	Chontal, Lowland Oaxaca	
+Name for clt	Lautu Chin	
+Inverted name for clt	Chin, Lautu	
 Name for clw	Chulym	
 Name for cly	Eastern Highland Chatino	
 Inverted name for cly	Chatino, Eastern Highland	
@@ -2112,11 +2189,13 @@ Inverted name for cmn	Chinese, Mandarin
 Inverted name for cmo	Mnong, Central	
 Name for cmr	Mro-Khimi Chin	
 Name for cmt	Camtho	
+Name for cna	Changthang	
 Name for cnb	Chinbon Chin	
 Inverted name for cnb	Chin, Chinbon	
 Name for cnc	Côông	
 Inverted name for cng	Qiang, Northern	
 Name for cni	Asháninka	
+Name for cnk	Khumi Chin	
 Inverted name for cnk	Chin, Khumi	
 Name for cnl	Lalana Chinantec	
 Inverted name for cnl	Chinantec, Lalana	
@@ -2164,6 +2243,8 @@ Name for crh	Crimean Tatar
 Name for cri	Sãotomense	
 Name for crk	Plains Cree	
 Inverted name for crk	Cree, Plains	
+Name for crl	Northern East Cree	
+Inverted name for crl	Cree, Northern East	
 Name for crm	Moose Cree	
 Inverted name for crm	Cree, Moose	
 Name for crn	El Nayar Cora	
@@ -2182,10 +2263,14 @@ Inverted name for csa	Chinantec, Chiltepec
 Inverted name for csh	Chin, Asho	
 Name for csi	Coast Miwok	
 Inverted name for csi	Miwok, Coast	
+Inverted name for csj	Chin, Songlai	
 Name for csk	Jola-Kasa	
 Name for csm	Central Sierra Miwok	
 Inverted name for csm	Miwok, Central Sierra	
 Name for cso	Sochiapam Chinantec	
+Inverted name for cso	Chinantec, Sochiapam	
+Name for csv	Sumtu Chin	
+Inverted name for csv	Chin, Sumtu	
 Name for csw	Swampy Cree	
 Inverted name for csw	Cree, Swampy	
 Name for csy	Siyin Chin	
@@ -2238,6 +2323,7 @@ Inverted name for czn	Chatino, Zenzontepec
 Name for czo	Min Zhong Chinese	
 Inverted name for czo	Chinese, Min Zhong	
 Name for czt	Zotung Chin	
+Inverted name for czt	Chin, Zotung	
 Name for daa	Dangaléat	
 Name for dah	Gwahatike	
 Name for dai	Day	
@@ -2318,6 +2404,7 @@ Name for djk	Eastern Maroon Creole
 Name for djm	Jamsay Dogon	
 Inverted name for djm	Dogon, Jamsay	
 Name for djr	Djambarrpuyngu	
+Name for dju	Kapriman	
 Name for dka	Dakpakha	
 Name for dkr	Kuijau	
 Inverted name for dks	Dinka, Southeastern	
@@ -2459,15 +2546,13 @@ Name for enw	Enwan (Akwa Ibom State)
 Name for enx	Enxet	
 Name for eot	Beti (Côte d'Ivoire)	
 Name for epi	Epie	
+Inverted name for erk	Efate, South	
 Name for err	Erre	
 Name for ers	Ersu	
 Name for ert	Eritai	
 Name for erw	Erokwanas	
 Name for ese	Ese Ejja	
 Name for esh	Eshtehardi	
-Inverted name for esi	Inupiatun, North Alaskan	
-Name for esk	Northwest Alaska Inupiatun	
-Inverted name for esk	Inupiatun, Northwest Alaska	
 Name for esm	Esuma	
 Name for esq	Esselen	
 Name for ess	Central Siberian Yupik	
@@ -2491,6 +2576,7 @@ Name for fag	Finongan
 Name for fai	Faiwol	
 Name for fak	Fang (Cameroon)	
 Name for fal	South Fali	
+Inverted name for fal	Fali, South	
 Name for fam	Fam	
 Name for fan	Fang (Equatorial Guinea)	
 Name for fau	Fayu	
@@ -2508,6 +2594,7 @@ Name for fkk	Kirya-Konzəl
 Name for fla	Kalispel-Pend d'Oreille	
 Name for flh	Foau	
 Name for fll	North Fali	
+Inverted name for fll	Fali, North	
 Name for fln	Flinders Island	
 Name for flr	Fuliiru	
 Name for fmp	Fe'fe'	
@@ -2546,6 +2633,7 @@ Name for gae	Guarequena
 Name for gag	Gagauz	
 Name for gaj	Gadsup	
 Name for gak	Gamkonora	
+Name for gam	Kandawo	
 Name for gas	Adiwasi Garasia	
 Inverted name for gas	Garasia, Adiwasi	
 Name for gau	Mudhili Gadaba	
@@ -2563,6 +2651,7 @@ Inverted name for gbh	Gbe, Defi
 Name for gbi	Galela	
 Inverted name for gbj	Gadaba, Bodo	
 Name for gbn	Mo'da	
+Inverted name for gbo	Grebo, Northern	
 Name for gbp	Gbaya-Bossangoa	
 Name for gbq	Gbaya-Bozoum	
 Name for gbs	Gbesi Gbe	
@@ -2606,6 +2695,7 @@ Name for ggg	Gurgula
 Name for ggt	Gitua	
 Name for ggw	Gogodala	
 Name for gha	Ghadamès	
+Inverted name for ghh	Ghale, Northern	
 Name for ghk	Geko Karen	
 Name for ghl	Ghulfan	
 Name for ghn	Ghanongga	
@@ -2694,6 +2784,7 @@ Name for gwm	Awngthim
 Name for gwu	Guwamu	
 Name for gya	Northwest Gbaya	
 Inverted name for gya	Gbaya, Northwest	
+Name for gyd	Kayardild	
 Name for gym	Ngäbere	
 Name for gyn	Guyanese Creole English	
 Inverted name for gyn	Creole English, Guyanese	
@@ -2710,13 +2801,16 @@ Name for hed	Herdé
 Name for hei	Heiltsuk	
 Name for hgm	Hai//om	
 Name for hhi	Hoia Hoia	
+Name for hhr	Kerak	
 Name for hih	Pamosu	
 Name for hij	Hijuk	
 Name for hik	Seit-Kaitetu	
 Name for hiw	Hiw	
 Name for hix	Hixkaryána	
+Name for hka	Kahe	
 Name for hkk	Hunjara-Kaina Ke	
 Name for hld	Halang Doan	
+Name for hlt	Matu Chin	
 Name for hlu	Hieroglyphic Luwian	
 Inverted name for hlu	Luwian, Hieroglyphic	
 Name for hmb	Humburi Senni Songhay	
@@ -2791,6 +2885,7 @@ Name for idd	Ede Idaca
 Name for idt	Idaté	
 Name for ifa	Amganad Ifugao	
 Inverted name for ifa	Ifugao, Amganad	
+Name for ifb	Batad Ifugao	
 Inverted name for ifb	Ifugao, Batad	
 Name for ife	Ifè	
 Name for ifk	Tuwali Ifugao	
@@ -2809,6 +2904,7 @@ Name for ihw	Bidhawal
 Name for iin	Thiin	
 Name for ijc	Izon	
 Name for ijj	Ede Ije	
+Name for ijn	Kalabari	
 Name for ike	Eastern Canadian Inuktitut	
 Inverted name for ike	Inuktitut, Eastern Canadian	
 Name for ikk	Ika	
@@ -2917,6 +3013,7 @@ Inverted name for jiy	Jinuo, Buyuan
 Name for jje	Jejueo	
 Name for jka	Kaera	
 Name for jko	Kubo	
+Name for jkp	Paku Karen	
 Name for jmd	Yamdena	
 Name for jmi	Jimi (Nigeria)	
 Name for jml	Jumli	
@@ -2925,6 +3022,7 @@ Name for jms	Mashi (Nigeria)
 Name for jmw	Mouwase	
 Name for jmx	Western Juxtlahuaca Mixtec	
 Inverted name for jmx	Mixtec, Western Juxtlahuaca	
+Name for jna	Jangshung	
 Name for jod	Wojenaka	
 Name for jog	Jogi	
 Name for jor	Jorá	
@@ -2954,6 +3052,7 @@ Name for kav	Katukína
 Name for kay	Kamayurá	
 Name for kbb	Kaxuiâna	
 Name for kbc	Kadiwéu	
+Name for kbd	Kabardian	
 Name for kbh	Camsá	
 Name for kbk	Grass Koiari	
 Inverted name for kbk	Koiari, Grass	
@@ -2967,26 +3066,34 @@ Name for kcg	Tyap
 Name for kcl	Kela (Papua New Guinea)	
 Name for kcm	Gula (Central African Republic)	
 Name for kcn	Nubi	
+Name for kcw	Kabwari	
 Name for kcx	Kachama-Ganjule	
 Name for kdd	Yankunytjatjara	
 Name for kdk	Numèè	
 Name for kdl	Tsikimba	
 Name for kdp	Kaningdon-Nindem	
+Name for kea	Kabuverdianu	
 Name for keb	Kélé	
 Name for kec	Keiga	
 Name for kee	Eastern Keres	
 Inverted name for kee	Keres, Eastern	
 Name for kef	Kpessi	
+Name for keh	Keak	
 Name for kek	Kekchí	
 Name for kel	Kela (Democratic Republic of Congo)	
+Name for kep	Kaikadi	
+Name for ker	Kera	
 Name for ket	Ket	
 Name for keu	Akebu	
+Name for kev	Kanikkaran	
 Name for kew	West Kewa	
 Inverted name for kew	Kewa, West	
 Name for kfb	Northwestern Kolami	
 Inverted name for kfb	Kolami, Northwestern	
 Name for kfc	Konda-Dora	
 Inverted name for kfd	Koraga, Korra	
+Name for kfi	Kannada Kurumba	
+Inverted name for kfi	Kurumba, Kannada	
 Name for kfj	Kemiehua	
 Name for kfo	Koro (Côte d'Ivoire)	
 Inverted name for kfw	Naga, Kharam	
@@ -3008,10 +3115,12 @@ Inverted name for khq	Songhay, Koyra Chiini
 Name for khu	Nkhumbi	
 Name for khw	Khowar	
 Name for khy	Kele (Democratic Republic of Congo)	
+Name for khz	Keapara	
 Name for kia	Kim	
 Name for kic	Kickapoo	
 Name for kif	Eastern Parbate Kham	
 Inverted name for kif	Kham, Eastern Parbate	
+Name for kih	Kilmeri	
 Name for kij	Kilivila	
 Name for kio	Kiowa	
 Name for kip	Sheshi Kham	
@@ -3025,6 +3134,7 @@ Name for kiz	Kisi
 Name for kjb	Q'anjob'al	
 Inverted name for kjc	Konjo, Coastal	
 Name for kjf	Khalaj	
+Name for kjg	Khmu	
 Name for kjj	Khinalugh	
 Name for kjk	Highland Konjo	
 Inverted name for kjk	Konjo, Highland	
@@ -3041,6 +3151,7 @@ Inverted name for kjs	Kewa, East
 Name for kjt	Phrae Pwo Karen	
 Inverted name for kjt	Karen, Phrae Pwo	
 Name for kjz	Bumthangkha	
+Name for kka	Kakanda	
 Name for kkb	Kwerisa	
 Name for kkc	Odoodee	
 Name for kkg	Mabaka Valley Kalinga	
@@ -3079,11 +3190,13 @@ Name for kmx	Waboda
 Name for kmz	Khorasani Turkish	
 Name for kna	Dera (Nigeria)	
 Inverted name for knc	Kanuri, Central	
+Name for kne	Kankanaey	
 Name for knj	Western Kanjobal	
 Inverted name for knj	Kanjobal, Western	
 Name for knl	Keninjal	
 Name for kno	Kono (Sierra Leone)	
 Name for knq	Kintaq	
+Name for knr	Kaningra	
 Name for knt	Panoan Katukína	
 Inverted name for knt	Katukína, Panoan	
 Name for knu	Kono (Guinea)	
@@ -3106,6 +3219,7 @@ Name for kpj	Karajá
 Name for kpn	Kepkiriwát	
 Name for kpo	Ikposo	
 Name for kpq	Korupun-Sela	
+Name for kpt	Karata	
 Name for kpv	Komi-Zyrian	
 Name for kpx	Mountain Koiali	
 Inverted name for kpx	Koiali, Mountain	
@@ -3113,6 +3227,8 @@ Name for kpz	Kupsabiny
 Name for kqa	Mum	
 Name for kqc	Doromu-Koki	
 Name for kqd	Koy Sanjaq Surat	
+Name for kqg	Khe	
+Name for kqh	Kisankasa	
 Name for kqi	Koitabu	
 Name for kqk	Kotafon Gbe	
 Inverted name for kqk	Gbe, Kotafon	
@@ -3121,6 +3237,7 @@ Name for kqp	Kimré
 Name for kqt	Klias River Kadazan	
 Inverted name for kqt	Kadazan, Klias River	
 Name for kqv	Okolod	
+Name for kqw	Kandas	
 Name for kqx	Mser	
 Name for krd	Kairui-Midiki	
 Name for krf	Koro (Vanuatu)	
@@ -3131,6 +3248,7 @@ Name for kry	Kryts
 Inverted name for krz	Kanum, Sota	
 Name for ksa	Shuwa-Zamani	
 Name for ksh	Kölsch	
+Name for ksk	Kansa	
 Name for kst	Winyé	
 Name for ksw	S'gaw Karen	
 Inverted name for ksw	Karen, S'gaw	
@@ -3166,6 +3284,7 @@ Name for kuw	Kpagua
 Name for kux	Kukatja	
 Name for kuy	Kuuku-Ya'u	
 Name for kva	Bagvalal	
+Name for kve	Kalabakan	
 Name for kvg	Kuni-Boazi	
 Name for kvj	Psikye	
 Name for kvn	Border Kuna	
@@ -3184,6 +3303,7 @@ Name for kvz	Tsakwambo
 Name for kwa	Dâw	
 Name for kwb	Kwa	
 Name for kwi	Awa-Cuaiquer	
+Name for kwr	Kwer	
 Name for kws	Kwese	
 Name for kwt	Kwesten	
 Name for kwu	Kwakum	
@@ -3219,11 +3339,13 @@ Inverted name for kzc	Kulango, Bondoukou
 Name for kzf	Da'a Kaili	
 Inverted name for kzf	Kaili, Da'a	
 Name for kzi	Kelabit	
+Name for kzp	Kaidipang	
 Name for kzs	Sugut Dusun	
 Inverted name for kzs	Dusun, Sugut	
 Name for kzu	Kayupulau	
 Name for kzv	Komyandaret	
 Name for kzw	Karirí-Xocó	
+Name for kzx	Kamarian	
 Name for kzy	Kango (Tshopo District)	
 Name for lac	Lacandon	
 Name for laj	Lango (Uganda)	
@@ -3299,10 +3421,14 @@ Name for llg	Lole
 Name for lli	Teke-Laali	
 Name for llj	Ladji Ladji	
 Name for llk	Lelak	
+Name for llo	Khlor	
+Name for llp	North Efate	
+Inverted name for llp	Efate, North	
 Name for lma	East Limba	
 Inverted name for lma	Limba, East	
 Name for lme	Pévé	
 Name for lmf	South Lembata	
+Inverted name for lmf	Lembata, South	
 Name for lmh	Lambichhong	
 Name for lmj	West Lembata	
 Inverted name for lmj	Lembata, West	
@@ -3311,6 +3437,7 @@ Name for lmv	Lomaiviti
 Name for lmw	Lake Miwok	
 Inverted name for lmw	Miwok, Lake	
 Name for lna	Langbashe	
+Name for lng	Langobardic	
 Name for lnj	Leningitij	
 Inverted name for lnl	Banda, South Central	
 Name for lnn	Lorediakarkar	
@@ -3331,6 +3458,7 @@ Name for lpe	Lepki
 Inverted name for lrc	Luri, Northern	
 Name for lrv	Larevat	
 Name for lsa	Lasgerdi	
+Name for lsh	Lish	
 Name for lsr	Aruop	
 Name for ltc	Late Middle Chinese	
 Inverted name for ltc	Chinese, Late Middle	
@@ -3381,6 +3509,7 @@ Name for mbt	Matigsalug Manobo
 Name for mbu	Mbula-Bwazza	
 Name for mbv	Mbulungish	
 Name for mbx	Mari (East Sepik Province)	
+Name for mbz	Amoltepec Mixtec	
 Inverted name for mbz	Mixtec, Amoltepec	
 Name for mcb	Machiguenga	
 Name for mcc	Bitur	
@@ -3432,6 +3561,7 @@ Inverted name for mfn	Mbembe, Cross River
 Name for mfo	Mbe	
 Name for mfu	Mbwela	
 Name for mfx	Melo	
+Name for mfz	Mabaan	
 Name for mgc	Morokodo	
 Name for mgh	Makhuwa-Meetto	
 Name for mgi	Lijili	
@@ -3451,6 +3581,7 @@ Name for mhu	Digaro-Mishmi
 Name for mhw	Mbukushu	
 Name for mib	Atatláhuca Mixtec	
 Inverted name for mib	Mixtec, Atatláhuca	
+Name for mie	Ocotepec Mixtec	
 Inverted name for mie	Mixtec, Ocotepec	
 Name for mif	Mofu-Gudur	
 Name for mig	San Miguel El Grande Mixtec	
@@ -3471,8 +3602,10 @@ Name for miq	Mískito
 Name for mir	Isthmus Mixe	
 Inverted name for mir	Mixe, Isthmus	
 Inverted name for mit	Mixtec, Southern Puebla	
+Name for miu	Cacaloxtepec Mixtec	
 Inverted name for miu	Mixtec, Cacaloxtepec	
 Name for miw	Akoye	
+Name for mix	Mixtepec Mixtec	
 Inverted name for mix	Mixtec, Mixtepec	
 Name for miy	Ayutla Mixtec	
 Inverted name for miy	Mixtec, Ayutla	
@@ -3551,6 +3684,7 @@ Name for mqb	Mbuko
 Name for mqf	Momuna	
 Name for mqg	Kota Bangun Kutai Malay	
 Inverted name for mqg	Malay, Kota Bangun Kutai	
+Name for mqh	Tlazoyaltepec Mixtec	
 Inverted name for mqh	Mixtec, Tlazoyaltepec	
 Name for mqk	Rajah Kabunsuwan Manobo	
 Inverted name for mqk	Manobo, Rajah Kabunsuwan	
@@ -3579,6 +3713,8 @@ Name for msb	Masbatenyo
 Name for msc	Sankaran Maninka	
 Inverted name for msc	Maninka, Sankaran	
 Name for msf	Mekwei	
+Name for msh	Masikoro Malagasy	
+Inverted name for msh	Malagasy, Masikoro	
 Name for msi	Sabah Malay	
 Name for msj	Ma (Democratic Republic of Congo)	
 Name for msm	Agusan Manobo	
@@ -3592,6 +3728,7 @@ Name for msx	Moresada
 Name for mta	Cotabato Manobo	
 Inverted name for mta	Manobo, Cotabato	
 Name for mtb	Anyin Morofo	
+Name for mte	Mono (Solomon Islands)	
 Name for mtf	Murik (Papua New Guinea)	
 Name for mtg	Una	
 Name for mth	Munggui	
@@ -3600,6 +3737,7 @@ Name for mtk	Mbe'
 Name for mto	Totontepec Mixe	
 Inverted name for mto	Mixe, Totontepec	
 Name for mtp	Wichí Lhamtés Nocten	
+Name for mtu	Tututepec Mixtec	
 Inverted name for mtu	Mixtec, Tututepec	
 Name for mtv	Asaro'o	
 Name for mtx	Tidaá Mixtec	
@@ -3615,6 +3753,7 @@ Inverted name for mut	Muria, Western
 Name for muv	Muthuvan	
 Name for mvb	Mattole	
 Name for mve	Marwari (Pakistan)	
+Name for mvf	Peripheral Mongolian	
 Name for mvg	Yucuañe Mixtec	
 Inverted name for mvg	Mixtec, Yucuañe	
 Name for mvh	Mulgi	
@@ -3656,11 +3795,14 @@ Name for mxp	Tlahuitoltepec Mixe
 Inverted name for mxp	Mixe, Tlahuitoltepec	
 Name for mxq	Juquila Mixe	
 Inverted name for mxq	Mixe, Juquila	
+Name for mxs	Huitepec Mixtec	
 Inverted name for mxs	Mixtec, Huitepec	
+Name for mxt	Jamiltepec Mixtec	
 Inverted name for mxt	Mixtec, Jamiltepec	
 Name for mxu	Mada (Cameroon)	
 Name for mxv	Metlatónoc Mixtec	
 Inverted name for mxv	Mixtec, Metlatónoc	
+Name for mxy	Southeastern Nochixtlán Mixtec	
 Inverted name for mxy	Mixtec, Southeastern Nochixtlán	
 Inverted name for mxz	Masela, Central	
 Name for myk	Mamara Senoufo	
@@ -3699,13 +3841,13 @@ Name for nat	Ca̱hungwa̱rya̱
 Name for nay	Narrinyeri	
 Name for naz	Coatepec Nahuatl	
 Inverted name for naz	Nahuatl, Coatepec	
+Name for nbc	Chang Naga	
 Inverted name for nbc	Naga, Chang	
 Name for nbd	Ngbinda	
 Name for nbe	Konyak Naga	
 Inverted name for nbe	Naga, Konyak	
 Name for nbi	Mao Naga	
 Inverted name for nbi	Naga, Mao	
-Name for nbl	South Ndebele	
 Name for nbm	Ngbaka Ma'bo	
 Name for nbo	Nkukoli	
 Name for nbq	Nggem	
@@ -3733,7 +3875,7 @@ Inverted name for ncx	Nahuatl, Central Puebla
 Name for ncz	Natchez	
 Name for ndb	Kenswei Nsei	
 Name for ndd	Nde-Nsele-Nta	
-Name for nde	North Ndebele	
+Name for ndf	Nadruvian	
 Name for ndg	Ndengereko	
 Name for ndi	Samba Leko	
 Name for ndk	Ndaka	
@@ -3765,6 +3907,7 @@ Name for ngc	Ngombe (Democratic Republic of Congo)
 Name for ngd	Ngando (Central African Republic)	
 Name for ngg	Ngbaka Manza	
 Name for ngh	N/u	
+Name for ngk	Dalabon	
 Name for ngl	Lomwe	
 Name for ngm	Ngatik Men's Creole	
 Name for ngn	Ngwo	
@@ -3805,6 +3948,7 @@ Inverted name for nhz	Nahuatl, Santa María La Alta
 Name for nif	Nek	
 Name for nii	Nii	
 Name for nik	Southern Nicobarese	
+Inverted name for nik	Nicobarese, Southern	
 Name for nin	Ninzo	
 Name for niv	Gilyak	
 Name for nja	Nzanyi	
@@ -3848,6 +3992,8 @@ Inverted name for nma	Naga, Maram
 Inverted name for nmb	Nambas, Big	
 Name for nme	Mzieme Naga	
 Inverted name for nme	Naga, Mzieme	
+Name for nmf	Tangkhul Naga (India)	
+Inverted name for nmf	Naga, Tangkhul (India)	
 Name for nmh	Monsang Naga	
 Inverted name for nmh	Naga, Monsang	
 Name for nmj	Ngombe (Central African Republic)	
@@ -3869,6 +4015,7 @@ Name for nne	Ngandyera
 Inverted name for nng	Naga, Maring	
 Name for nnh	Ngiemboon	
 Name for nni	North Nuaulu	
+Inverted name for nni	Nuaulu, North	
 Name for nnj	Nyangatom	
 Name for nnk	Nankina	
 Name for nnl	Northern Rengma Naga	
@@ -3911,6 +4058,7 @@ Name for nrf	Jèrriais
 Name for nri	Chokri Naga	
 Inverted name for nri	Naga, Chokri	
 Name for nrp	North Picene	
+Inverted name for nrp	Picene, North	
 Inverted name for nsa	Naga, Sangtam	
 Name for nsh	Ngoshie	
 Name for nsm	Sumi Naga	
@@ -3941,6 +4089,7 @@ Name for nuw	Nguluwan
 Name for nuy	Nunggubuyu	
 Name for nuz	Tlamacazapa Nahuatl	
 Inverted name for nuz	Nahuatl, Tlamacazapa	
+Name for nvh	Nasarian	
 Name for nvo	Nyokon	
 Name for nwa	Nawathinehena	
 Name for nwb	Nyabwa	
@@ -3956,6 +4105,7 @@ Name for nxd	Ngando (Democratic Republic of Congo)
 Name for nxg	Ngad'a	
 Name for nxk	Koki Naga	
 Name for nxl	South Nuaulu	
+Inverted name for nxl	Nuaulu, South	
 Name for nxn	Ngawun	
 Name for nxr	Ninggerum	
 Name for nye	Nyengo	
@@ -3976,7 +4126,6 @@ Name for nzu	Teke-Nzikou
 Name for nzy	Nzakambay	
 Name for nzz	Nanga Dama Dogon	
 Inverted name for nzz	Dogon, Nanga Dama	
-Name for oav	Old Avar	
 Name for obi	Obispeño	
 Name for obk	Southern Bontok	
 Name for obl	Oblo	
@@ -4056,6 +4205,7 @@ Name for orn	Orang Kanaq
 Name for ors	Orang Seletar	
 Name for oru	Ormuri	
 Name for orw	Oro Win	
+Name for osi	Osing	
 Name for osx	Old Saxon	
 Name for ote	Mezquital Otomi	
 Inverted name for ote	Otomi, Mezquital	
@@ -4104,6 +4254,7 @@ Name for pbh	E'ñapa Woromaipu
 Name for pbl	Mak (Nigeria)	
 Name for pbs	Central Pame	
 Inverted name for pbs	Pame, Central	
+Name for pbu	Northern Pashto	
 Name for pca	Santa Inés Ahuatempan Popoloca	
 Inverted name for pca	Popoloca, Santa Inés Ahuatempan	
 Name for pcc	Bouyei	
@@ -4111,6 +4262,7 @@ Name for pcd	Picard
 Name for pdc	Pennsylvania German	
 Inverted name for pdc	German, Pennsylvania	
 Name for pdt	Plautdietsch	
+Name for pea	Peranakan Indonesian	
 Name for peb	Eastern Pomo	
 Inverted name for peb	Pomo, Eastern	
 Name for ped	Mala (Papua New Guinea)	
@@ -4168,6 +4320,8 @@ Name for plr	Palaka Senoufo
 Inverted name for plr	Senoufo, Palaka	
 Name for pls	San Marcos Tlacoyalco Popoloca	
 Inverted name for pls	Popoloca, San Marcos Tlacoyalco	
+Name for plt	Plateau Malagasy	
+Inverted name for plt	Malagasy, Plateau	
 Name for plv	Southwest Palawano	
 Inverted name for plv	Palawano, Southwest	
 Name for plw	Brooke's Point Palawano	
@@ -4362,6 +4516,7 @@ Inverted name for qxw	Quechua, Jauja Wanca
 Name for rab	Camling	
 Inverted name for raf	Meohang, Western	
 Name for rak	Tulu-Bohuai	
+Name for rar	Rarotongan	
 Name for rat	Razajerdi	
 Name for raz	Rahambuu	
 Inverted name for rbb	Palaung, Rumai	
@@ -4382,9 +4537,11 @@ Name for rgu	Ringgou
 Name for rif	Tarifit	
 Name for ril	Riang (Myanmar)	
 Name for rit	Ritarungo	
+Name for rjg	Rajong	
 Name for rka	Kraol	
 Name for rkb	Rikbaktsa	
 Name for rkh	Rakahanga-Manihiki	
+Name for rmb	Rembarunga	
 Name for rmc	Carpathian Romani	
 Name for rmd	Traveller Danish	
 Inverted name for rmd	Danish, Traveller	
@@ -4395,6 +4552,7 @@ Name for rmn	Balkan Romani
 Name for rmp	Rempi	
 Name for rmq	Caló	
 Inverted name for rmw	Romani, Welsh	
+Name for rnl	Ranglong	
 Name for rnr	Nari Nari	
 Name for rnw	Rungwa	
 Name for rob	Tae'	
@@ -4406,6 +4564,7 @@ Name for roo	Rotokas
 Name for rpn	Repanbitip	
 Name for rrt	Arritinngithigh	
 Name for rtc	Rungtu Chin	
+Inverted name for rtc	Chin, Rungtu	
 Name for rub	Gungu	
 Name for ruf	Luguru	
 Name for ruh	Ruga	
@@ -4437,6 +4596,7 @@ Inverted name for sci	Creole Malay, Sri Lankan
 Name for scp	Helambu Sherpa	
 Name for scq	Sa'och	
 Name for scs	North Slavey	
+Inverted name for scs	Slavey, North	
 Name for scu	Shumcho	
 Name for sda	Toraja-Sa'dan	
 Name for sdo	Bukar-Sadung Bidayuh	
@@ -4506,7 +4666,10 @@ Inverted name for sju	Sami, Ume
 Name for ska	Skagit	
 Name for ske	Seke (Vanuatu)	
 Name for skf	Sakirabiá	
+Name for skg	Sakalava Malagasy	
+Inverted name for skg	Malagasy, Sakalava	
 Name for skj	Seke (Nepal)	
+Name for skk	Sok	
 Name for skn	Kolibugan Subanon	
 Inverted name for skn	Subanon, Kolibugan	
 Name for sko	Seko Tengah	
@@ -4539,6 +4702,7 @@ Name for sob	Sobei
 Name for soc	So (Democratic Republic of Congo)	
 Name for soe	Songomeno	
 Name for sok	Sokoro	
+Name for sox	Swo	
 Name for soy	Miyobe	
 Name for spc	Sapé	
 Name for spe	Sepa (Papua New Guinea)	
@@ -4602,13 +4766,16 @@ Name for svb	Ulau-Suain
 Name for svc	Vincentian Creole English	
 Inverted name for svc	Creole English, Vincentian	
 Name for swa	Swahili (macrolanguage)	
+Name for swb	Maore Comorian	
 Name for swc	Congo Swahili	
 Name for swh	Swahili (individual language)	
 Name for swi	Sui	
 Inverted name for swk	Sena, Malawi	
 Name for swn	Sawknah	
+Name for sws	Seluwasan	
 Name for swu	Suwawa	
 Name for swx	Suruahá	
+Name for sxe	Sighu	
 Name for sxg	Shixing	
 Name for sxo	Sorothaptic	
 Name for sxu	Upper Saxon	
@@ -4627,6 +4794,7 @@ Name for szc	Semaq Beri
 Name for szg	Sengele	
 Name for szv	Isu (Fako Division)	
 Inverted name for taa	Tanana, Lower	
+Name for tab	Tabassaran	
 Name for tac	Lowland Tarahumara	
 Inverted name for tac	Tarahumara, Lowland	
 Name for taf	Tapirapé	
@@ -4743,6 +4911,8 @@ Name for tjw	Djabwurrung
 Name for tka	Truká	
 Name for tkd	Tukudede	
 Name for tkf	Tukumanféd	
+Name for tkg	Tesaka Malagasy	
+Inverted name for tkg	Malagasy, Tesaka	
 Name for tkn	Toku-No-Shima	
 Name for tkp	Tikopia	
 Name for tkr	Tsakhur	
@@ -4776,6 +4946,7 @@ Name for tnd	Angosturas Tunebo
 Inverted name for tnd	Tunebo, Angosturas	
 Name for tne	Tinoc Kallahan	
 Inverted name for tne	Kallahan, Tinoc	
+Name for tnk	Kwamera	
 Name for tnl	Lenakel	
 Name for tnn	North Tanna	
 Inverted name for tnn	Tanna, North	
@@ -4838,6 +5009,7 @@ Inverted name for tro	Naga, Tarao
 Name for trp	Kok Borok	
 Name for trq	San Martín Itunyoso Triqui	
 Inverted name for trq	Triqui, San Martín Itunyoso	
+Name for trr	Taushiro	
 Name for trs	Chicahuaxtla Triqui	
 Inverted name for trs	Triqui, Chicahuaxtla	
 Name for tru	Turoyo	
@@ -4896,6 +5068,9 @@ Inverted name for txn	Tarangan, West
 Name for txo	Toto	
 Name for txt	Citak	
 Name for txu	Kayapó	
+Name for txy	Tanosy Malagasy	
+Inverted name for txy	Malagasy, Tanosy	
+Name for tye	Kyanga	
 Name for tyh	O'du	
 Name for tyi	Teke-Tsaayi	
 Name for typ	Thaypan	
@@ -4911,9 +5086,11 @@ Name for uar	Tairuma
 Name for ubi	Ubi	
 Name for ubl	Buhi'non Bikol	
 Inverted name for ubl	Bikol, Buhi'non	
+Name for ubr	Ubir	
 Name for uda	Uda	
 Name for ude	Udihe	
 Name for udi	Udi	
+Name for udj	Ujir	
 Name for ufi	Ufim	
 Name for ugb	Kuku-Ugbanh	
 Name for uge	Ughele	
@@ -4960,6 +5137,8 @@ Name for usa	Usarufa
 Name for ush	Ushojo	
 Name for usi	Usui	
 Name for usu	Uya	
+Name for uta	Otank	
+Name for utp	Amba (Solomon Islands)	
 Name for utr	Etulo	
 Name for utu	Utu	
 Name for uun	Kulon-Pazeh	
@@ -4970,6 +5149,7 @@ Inverted name for uve	Uvean, West
 Name for uvl	Lote	
 Name for uwa	Kuku-Uwanh	
 Name for uya	Doko-Uyanga	
+Inverted name for uzn	Uzbek, Northern	
 Name for vaa	Vaagri Booli	
 Name for vah	Varhadi-Nagpuri	
 Name for val	Vehes	
@@ -5003,7 +5183,9 @@ Inverted name for vmj	Mixtec, Ixtayutla
 Name for vmk	Makhuwa-Shirima	
 Name for vmm	Mitlatongo Mixtec	
 Inverted name for vmm	Mixtec, Mitlatongo	
+Name for vmp	Soyaltepec Mazatec	
 Inverted name for vmp	Mazatec, Soyaltepec	
+Name for vmq	Soyaltepec Mixtec	
 Inverted name for vmq	Mixtec, Soyaltepec	
 Name for vmu	Muluridyi	
 Name for vmv	Valley Maidu	
@@ -5024,6 +5206,7 @@ Name for wag	Wa'ema
 Name for wah	Watubela	
 Name for wap	Wapishana	
 Name for war	Waray (Philippines)	
+Name for wat	Kaninuwa	
 Name for wau	Waurá	
 Name for way	Wayana	
 Name for waz	Wampur	
@@ -5046,6 +5229,7 @@ Name for weg	Wergaia
 Name for wei	Kiunum	
 Name for wem	Weme Gbe	
 Inverted name for wem	Gbe, Weme	
+Name for weo	Wemale	
 Name for wep	Westphalien	
 Name for wes	Cameroon Pidgin	
 Inverted name for wes	Pidgin, Cameroon	
@@ -5074,10 +5258,12 @@ Name for wir	Wiraféd
 Name for wiu	Wiru	
 Name for wiv	Vitu	
 Name for wiy	Wiyot	
+Name for wkb	Kumbaran	
 Name for wkw	Wakawaka	
 Name for wky	Wangkayutyuru	
 Name for wlc	Mwali Comorian	
 Inverted name for wlc	Comorian, Mwali	
+Name for wlg	Kunbarlang	
 Name for wll	Wali (Sudan)	
 Name for wlm	Middle Welsh	
 Inverted name for wlm	Welsh, Middle	
@@ -5114,6 +5300,7 @@ Name for wrz	Waray (Australia)
 Name for wsa	Warembori	
 Name for wsg	Adilabad Gondi	
 Inverted name for wsg	Gondi, Adilabad	
+Name for wsk	Waskia	
 Name for wsr	Owenia	
 Name for wsv	Wotapuri-Katarqalai	
 Name for wtf	Watiwa	
@@ -5189,6 +5376,8 @@ Inverted name for xmn	Persian, Manichaean Middle
 Name for xmp	Kuku-Mu'inh	
 Name for xmq	Kuku-Mangk	
 Name for xmv	Antankarana Malagasy	
+Inverted name for xmv	Malagasy, Antankarana	
+Name for xmw	Tsimihety Malagasy	
 Inverted name for xmw	Malagasy, Tsimihety	
 Name for xmy	Mayaguduna	
 Name for xmz	Mori Bawah	
@@ -5218,7 +5407,9 @@ Name for xrd	Gundungurra
 Name for xri	Krikati-Timbira	
 Name for xrr	Raetic	
 Name for xrt	Aranama-Tamique	
+Name for xsa	Sabaean	
 Name for xsl	South Slavey	
+Inverted name for xsl	Slavey, South	
 Name for xsn	Sanga (Nigeria)	
 Name for xsq	Makhuwa-Saka	
 Name for xsu	Sanumá	
@@ -5236,6 +5427,7 @@ Name for xti	Sinicahua Mixtec
 Inverted name for xti	Mixtec, Sinicahua	
 Name for xtj	San Juan Teita Mixtec	
 Inverted name for xtj	Mixtec, San Juan Teita	
+Name for xtl	Tijaltepec Mixtec	
 Inverted name for xtl	Mixtec, Tijaltepec	
 Name for xtm	Magdalena Peñasco Mixtec	
 Inverted name for xtm	Mixtec, Magdalena Peñasco	
@@ -5280,6 +5472,7 @@ Name for xya	Yaygir
 Name for xyj	Mayi-Yapi	
 Name for xyt	Mayi-Thakurti	
 Name for xyy	Yorta Yorta	
+Name for xzh	Zhang-Zhung	
 Name for yaa	Yaminahua	
 Name for yab	Yuhup	
 Name for yac	Pass Valley Yali	
@@ -5290,6 +5483,7 @@ Name for yag	Yámana
 Name for yah	Yazgulyam	
 Name for yaj	Banda-Yangere	
 Name for yal	Yalunka	
+Name for yar	Yabarana	
 Name for yas	Nugunu (Cameroon)	
 Name for yav	Yangben	
 Name for yaw	Yawalapití	
@@ -5333,6 +5527,7 @@ Name for yli	Angguruk Yali
 Inverted name for yli	Yali, Angguruk	
 Name for yll	Yil	
 Name for yln	Langnian Buyang	
+Name for ylo	Naluo Yi	
 Inverted name for ylo	Yi, Naluo	
 Name for ylr	Yalarnnga	
 Name for ylu	Aribwaung	
@@ -5341,6 +5536,7 @@ Name for ymg	Yamongeri
 Name for ymk	Makwe	
 Name for yml	Iamalele	
 Name for ymq	Qila Muji	
+Name for yna	Aluo	
 Name for ynk	Naukan Yupik	
 Name for ynl	Yangulam	
 Name for yom	Yombe	
@@ -5399,17 +5595,35 @@ Name for yzg	E'ma Buyang
 Name for zaa	Sierra de Juárez Zapotec	
 Inverted name for zaa	Zapotec, Sierra de Juárez	
 Name for zab	Western Tlacolula Valley Zapotec	
+Inverted name for zab	Zapotec, Western Tlacolula Valley	
+Name for zac	Ocotlán Zapotec	
 Inverted name for zac	Zapotec, Ocotlán	
+Name for zad	Cajonos Zapotec	
+Inverted name for zad	Zapotec, Cajonos	
+Name for zae	Yareni Zapotec	
+Inverted name for zae	Zapotec, Yareni	
 Name for zaf	Ayoquesco Zapotec	
 Inverted name for zaf	Zapotec, Ayoquesco	
+Name for zai	Isthmus Zapotec	
+Inverted name for zai	Zapotec, Isthmus	
 Name for zam	Miahuatlán Zapotec	
 Inverted name for zam	Zapotec, Miahuatlán	
 Name for zao	Ozolotepec Zapotec	
 Inverted name for zao	Zapotec, Ozolotepec	
+Name for zaq	Aloápam Zapotec	
 Inverted name for zaq	Zapotec, Aloápam	
+Name for zar	Rincón Zapotec	
+Inverted name for zar	Zapotec, Rincón	
 Name for zas	Santo Domingo Albarradas Zapotec	
 Inverted name for zas	Zapotec, Santo Domingo Albarradas	
+Name for zat	Tabaa Zapotec	
+Inverted name for zat	Zapotec, Tabaa	
+Name for zav	Yatzachi Zapotec	
 Inverted name for zav	Zapotec, Yatzachi	
+Name for zaw	Mitla Zapotec	
+Inverted name for zaw	Zapotec, Mitla	
+Name for zax	Xadani Zapotec	
+Inverted name for zax	Zapotec, Xadani	
 Name for zbe	East Berawan	
 Name for zbw	West Berawan	
 Name for zca	Coatecas Altas Zapotec	
@@ -5425,6 +5639,7 @@ Inverted name for zgh	Tamazight, Standard Moroccan
 Name for zia	Zia	
 Name for zik	Zimakani	
 Name for zil	Zialo	
+Name for zkk	Karankawa	
 Name for zko	Kott	
 Name for zkp	São Paulo Kaingáng	
 Inverted name for zkp	Kaingáng, São Paulo	
@@ -5440,16 +5655,26 @@ Name for zmn	Mbangwe
 Name for zmq	Mituku	
 Name for zmr	Maranunggu	
 Name for zoh	Chimalapa Zoque	
+Name for zoo	Asunción Mixtepec Zapotec	
 Name for zoq	Tabasco Zoque	
 Name for zor	Rayón Zoque	
 Name for zpa	Lachiguiri Zapotec	
+Name for zpb	Yautepec Zapotec	
+Name for zpc	Choapan Zapotec	
+Name for zpd	Southeastern Ixtlán Zapotec	
+Inverted name for zpd	Zapotec, Southeastern Ixtlán	
+Name for zpe	Petapa Zapotec	
 Name for zph	Totomachapan Zapotec	
 Name for zpj	Quiavicuzas Zapotec	
 Name for zpk	Tlacolulita Zapotec	
 Name for zpl	Lachixío Zapotec	
+Name for zpv	Chichicapan Zapotec	
 Name for zpy	Mazaltepec Zapotec	
 Name for zpz	Texmelucan Zapotec	
 Name for zsm	Standard Malay	
+Name for zsr	Southern Rincon Zapotec	
+Inverted name for zsr	Zapotec, Southern Rincon	
+Name for zte	Elotepec Zapotec	
 Name for ztg	Xanaguía Zapotec	
 Name for zts	Tilquiapan Zapotec	
 Name for ztt	Tejalapan Zapotec	

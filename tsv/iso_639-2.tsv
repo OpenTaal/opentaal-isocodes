@@ -54,13 +54,13 @@ Name for bik	Bikol	Bikol
 Name for bin	Bini; Edo	Bini; Edo
 Name for bis	Bislama	Bislama
 Name for bla	Siksika	Siksika
-Name for bnt	Bantu (Other)	Bantu (Overige)
+Name for bnt	Bantu (Other)	Bantu (overige)
 Name for bod	Tibetan	Tibetaans
 Name for bos	Bosnian	Bosnisch
 Name for bra	Braj	Braj
 Name for bre	Breton	Bretons, Bretoens
-Name for btk	Batak languages	Batak-talen
-Name for bua	Buriat	Boeriaats
+Name for btk	Batak languages	Bataktalen
+Name for bua	Buriat	Boerjatisch
 Name for bug	Buginese	Buginees
 Name for bul	Bulgarian	Bulgaars
 Name for byn	Blin; Bilin	Blin; Bilin
@@ -82,16 +82,17 @@ Name for chn	Chinook jargon	Chinook-jargon
 Name for cho	Choctaw	Choctaw
 Name for chp	Chipewyan; Dene Suline	Chipewyan; Dene Suline
 Name for chr	Cherokee	Cherokee
-Name for chu	Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic	Kerkslavisch; Oud-Slavisch; Oud-Bulgaars; Oud-Kerkslavisch
+Name for chu	Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic	Kerkslavisch; OudSlavisch; OudBulgaars; Oudkerkslavisch
 Name for chv	Chuvash	Tsjoevasjisch
 Name for chy	Cheyenne	Cheyenne
 Name for cmc	Chamic languages	Chamische talen
+Name for cnr	Montenegrin	Montenegrijns
 Name for cop	Coptic	Koptisch
 Name for cor	Cornish	Cornish
 Name for cos	Corsican	Corsicaans
-Name for cpe	Creoles and pidgins, English based	Creools en pidgins, Op het Engels gebaseerd
-Name for cpf	Creoles and pidgins, French-based	Creools en pidgins, Op het Frans gebaseerd
-Name for cpp	Creoles and pidgins, Portuguese-based	Creools en pidgins, Op het Portugees gebaseerd
+Name for cpe	Creoles and pidgins, English based	Creools en pidgins, op het Engels gebaseerd
+Name for cpf	Creoles and pidgins, French-based	Creools en pidgins, op het Frans gebaseerd
+Name for cpp	Creoles and pidgins, Portuguese-based	Creools en pidgins, op het Portugees gebaseerd
 Name for cre	Cree	Cree
 Name for crh	Crimean Tatar; Crimean Turkish	Krim Tataars; Krim Turks
 Name for crp	Creoles and pidgins	Creools en Pidgin
@@ -137,8 +138,8 @@ Name for fin	Finnish	Fins
 Name for fiu	Finno-Ugrian languages	Fins-Uralische talen
 Name for fon	Fon	Fon
 Name for fra	French	Frans
-Name for frm	French, Middle (ca. 1400-1600)	Middelfrans (ca. 1400-1600)
-Name for fro	French, Old (842-ca. 1400)	Oudfrans (842-ca. 1400)
+Name for frm	French, Middle (ca. 1400-1600)	Frans, Middel (ca. 1400-1600)
+Name for fro	French, Old (842-ca. 1400)	Frans, Oud (842-ca. 1400)
 Name for frr	Northern Frisian	Noord-Fries
 Name for frs	Eastern Frisian	Oost-Fries
 Name for fry	Western Frisian	Fries
@@ -486,4 +487,3 @@ Name for zul	Zulu	Zoeloe
 Name for zun	Zuni	Zuni
 Name for zxx	No linguistic content; Not applicable	Geen linguïstische inhoud; niet van toepassing
 Name for zza	Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki	Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki
-Name for cnr	Montenegrin	

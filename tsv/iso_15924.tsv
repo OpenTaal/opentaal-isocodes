@@ -4,7 +4,7 @@ Name for Afak	Afaka	Afaka
 Name for Aghb	Caucasian Albanian	Kaukasisch Albanees
 Name for Ahom	Ahom, Tai Ahom	Ahom, Tai Ahom
 Name for Arab	Arabic	Arabisch
-Name for Aran	Arabic (Nastaliq variant)	Arabisch (Nastaliq variant)
+Name for Aran	Arabic (Nastaliq variant)	Arabisch (Nastaliqvariant)
 Name for Armi	Imperial Aramaic	Rijks-Aramees
 Name for Armn	Armenian	Armeens
 Name for Avst	Avestan	Avestaans
@@ -46,24 +46,24 @@ Name for Gran	Grantha	Grantha
 Name for Grek	Greek	Grieks
 Name for Gujr	Gujarati	Gujarati
 Name for Guru	Gurmukhi	Gurmukhi
-Name for Hanb	Han with Bopomofo (alias for Han + Bopomofo)	Han met Bopomofo (alias voor Han + Bopomofo)
+Name for Hanb	Han with Bopomofo (alias for Han + Bopomofo)	Han met Bopomofo
 Name for Hang	Hangul (Hangŭl, Hangeul)	Hangul (Hangŭl, Hangeul)
 Name for Hani	Han (Hanzi, Kanji, Hanja)	Han (Hanzi, Kanji, Hanja)
 Name for Hano	Hanunoo (Hanunóo)	Hanunoo (Hanunóo)
-Name for Hans	Han (Simplified variant)	Han (vereenvoudigd)
-Name for Hant	Han (Traditional variant)	Han (traditioneel)
+Name for Hans	Han (Simplified variant)	Han (vereenvoudigde variant)
+Name for Hant	Han (Traditional variant)	Han (traditionele variant)
 Name for Hatr	Hatran	Hatran
 Name for Hebr	Hebrew	Hebreeuws
 Name for Hira	Hiragana	Hiragana
 Name for Hluw	Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)	Anatolische hiërogliefen (Luwische hiërogliefen, Hettitische hiërogliefen)
 Name for Hmng	Pahawh Hmong	Pahawh Hmong
-Name for Hrkt	Japanese syllabaries (alias for Hiragana + Katakana)	Japanse lettergrepen (alias voor Hiragana + Katakana)
+Name for Hrkt	Japanese syllabaries (alias for Hiragana + Katakana)	Japanse lettergrepen (Hiragana en Katakana)
 Name for Hung	Old Hungarian (Hungarian Runic)	Oudhongaars (Hongaarse runen)
 Name for Inds	Indus (Harappan)	Indus (Harappan)
-Name for Ital	Old Italic (Etruscan, Oscan, etc.)	Oud-Italiaans (Etruskisch, Oskisch, etc.)
+Name for Ital	Old Italic (Etruscan, Oscan, etc.)	Ouditaliaans (Etruskisch, Oskisch, etc.)
 Name for Jamo	Jamo (alias for Jamo subset of Hangul)	Jamo (alias voor Jamo subset van Hangul)
 Name for Java	Javanese	Javaans
-Name for Jpan	Japanese (alias for Han + Hiragana + Katakana)	Japans (alias voor Han + Hiragana + Katakana)
+Name for Jpan	Japanese (alias for Han + Hiragana + Katakana)	Japans (Han, Hiragana en Katakana)
 Name for Jurc	Jurchen	Jurchen
 Name for Kali	Kayah Li	Kayah Li
 Name for Kana	Katakana	Katakana
@@ -73,13 +73,13 @@ Name for Khoj	Khojki	Khojki
 Name for Kitl	Khitan large script	Khitan grote letters
 Name for Kits	Khitan small script	Khitan kleine letters
 Name for Knda	Kannada	Kannada
-Name for Kore	Korean (alias for Hangul + Han)	Koreaans (alias voor (Hangul + Han)
+Name for Kore	Korean (alias for Hangul + Han)	Koreaans (Hangul en Han)
 Name for Kpel	Kpelle	Kpelle
 Name for Kthi	Kaithi	Kaithi
 Name for Lana	Tai Tham (Lanna)	Noordelijk Thai (Lanna)
 Name for Laoo	Lao	Lao
-Name for Latf	Latin (Fraktur variant)	Latijn (Fraktur-variant)
-Name for Latg	Latin (Gaelic variant)	Latijn (Gaelic-variant)
+Name for Latf	Latin (Fraktur variant)	Latijn (Frakturvariant)
+Name for Latg	Latin (Gaelic variant)	Latijn (Gaelicvariant)
 Name for Latn	Latin	Latijn
 Name for Leke	Leke	Leke
 Name for Lepc	Lepcha (Róng)	Lepcha (Róng)
@@ -101,12 +101,12 @@ Name for Mero	Meroitic Hieroglyphs	Meroïtische hiërogliefen
 Name for Mlym	Malayalam	Malayalam
 Name for Modi	Modi, Moḍī	Modi, Moḍī
 Name for Mong	Mongolian	Mongools
-Name for Moon	Moon (Moon code, Moon script, Moon type)	Moon (Moon code, Moon script, Moon type)
+Name for Moon	Moon (Moon code, Moon script, Moon type)	Moon (Mooncode, Moonschrift, Moontype)
 Name for Mroo	Mro, Mru	Mro, Mru
 Name for Mtei	Meitei Mayek (Meithei, Meetei)	Meitei Mayek (Meithei, Meetei)
 Name for Mult	Multani	Multani
-Name for Mymr	Myanmar (Burmese)	Birmees
-Name for Narb	Old North Arabian (Ancient North Arabian)	Oud-Noord-Arabisch
+Name for Mymr	Myanmar (Burmese)	Birmaans (Birmees)
+Name for Narb	Old North Arabian (Ancient North Arabian)	Oudnoord-arabisch
 Name for Nbat	Nabataean	Nabatees
 Name for Newa	Newa, Newar, Newari, Nepāla lipi	Newa, Newar, Newari, Nepal lipi
 Name for Nkgb	Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)	Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)
@@ -114,7 +114,7 @@ Name for Nkoo	N’Ko	N’Ko
 Name for Nshu	Nüshu	Nüshu
 Name for Ogam	Ogham	Ogham
 Name for Olck	Ol Chiki (Ol Cemet’, Ol, Santali)	Ol Chiki (Ol Cemet’, Ol, Santali)
-Name for Orkh	Old Turkic, Orkhon Runic	Oud Turks, Orkhon runen
+Name for Orkh	Old Turkic, Orkhon Runic	Oudturks, Orkhon runen
 Name for Orya	Oriya	Oriya
 Name for Osge	Osage	Osage
 Name for Osma	Osmanya	Osmanya
@@ -148,9 +148,9 @@ Name for Sora	Sora Sompeng	Sora Sompeng
 Name for Sund	Sundanese	Soendanees
 Name for Sylo	Syloti Nagri	Syloti Nagri
 Name for Syrc	Syriac	Syrisch
-Name for Syre	Syriac (Estrangelo variant)	Syrisch (Estrangelo-variant)
-Name for Syrj	Syriac (Western variant)	Syrisch (Westerse variant)
-Name for Syrn	Syriac (Eastern variant)	Syrisch (Oosterse variant)
+Name for Syre	Syriac (Estrangelo variant)	Syrisch (Estrangelovariant)
+Name for Syrj	Syriac (Western variant)	Syrisch (westerse variant)
+Name for Syrn	Syriac (Eastern variant)	Syrisch (oosterse variant)
 Name for Tagb	Tagbanwa	Tagbanwa
 Name for Takr	Takri, Ṭākrī, Ṭāṅkrī	Takri, Ṭākrī, Ṭāṅkrī
 Name for Tale	Tai Le	Tai Le
@@ -176,7 +176,7 @@ Name for Xsux	Cuneiform, Sumero-Akkadian	Spijkerschrift, Sumerisch-Akkadiaans
 Name for Yiii	Yi	Yi
 Name for Zinh	Code for inherited script	Code voor overgeërfd schrift
 Name for Zmth	Mathematical notation	Wiskundige notatie
-Name for Zsye	Symbols (Emoji variant)	Symbolen (Emoji-variant)
+Name for Zsye	Symbols (Emoji variant)	Symbolen (emojivariant)
 Name for Zsym	Symbols	Symbolen
 Name for Zxxx	Code for unwritten documents	Code voor ongeschreven documenten
 Name for Zyyy	Code for undetermined script	Code voor onbepaald schrift
