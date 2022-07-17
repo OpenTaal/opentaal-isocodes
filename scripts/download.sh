@@ -3,6 +3,7 @@ set -e
 
 cd ..
 wget -O iso-codes.zip https://hosted.weblate.org/download-language/nl/iso-codes/?format=zip
+rm -rf iso-codes
 unzip -o iso-codes.zip
 rm -f iso-codes.zip
 cd iso-codes

@@ -1,7 +1,7 @@
 Codebeschijving	Engels	Nederlands
 Name for AED	UAE Dirham	VAE-dirham
-Name for AFN	Afghani	Afghani
-Name for ALL	Lek	Lek
+Name for AFN	Afghani	afghani
+Name for ALL	Lek	lek
 Name for AMD	Armenian Dram	Armeense dram
 Name for ANG	Netherlands Antillean Guilder	Antilliaanse gulden
 Name for AOA	Kwanza	Angolese kwanza
@@ -15,7 +15,7 @@ Name for BDT	Taka	Bengalese taka
 Name for BGN	Bulgarian Lev	Bulgaarse lev
 Name for BHD	Bahraini Dinar	Bahreinse dinar
 Name for BIF	Burundi Franc	Burundese frank
-Name for BMD	Bermudian Dollar	Bermuda-dollar
+Name for BMD	Bermudian Dollar	Bermudaanse dollar
 Name for BND	Brunei Dollar	Bruneise dollar
 Name for BOB	Boliviano	Boliviaanse boliviano
 Name for BOV	Mvdol	Boliviaanse mvdol
@@ -27,9 +27,9 @@ Name for BYN	Belarusian Ruble	Wit-Russische roebel
 Name for BZD	Belize Dollar	Belizaanse dollar
 Name for CAD	Canadian Dollar	Canadese dollar
 Name for CDF	Congolese Franc	Kongolese franc
-Name for CHE	WIR Euro	WIR euro
+Name for CHE	WIR Euro	WIR-euro
 Name for CHF	Swiss Franc	Zwitserse frank
-Name for CHW	WIR Franc	WIR frank
+Name for CHW	WIR Franc	WIR-frank
 Name for CLF	Unidad de Fomento	Chileense unidades de fomento
 Name for CLP	Chilean Peso	Chileense peso
 Name for CNY	Yuan Renminbi	Chinese renminbi yuan
@@ -60,7 +60,7 @@ Name for GTQ	Quetzal	Guatemalaans quetzal
 Name for GYD	Guyana Dollar	Guyaanse dollar
 Name for HKD	Hong Kong Dollar	Hongkongse dollar
 Name for HNL	Lempira	Hondurese lempira
-Name for HRK	Kuna	Kuna
+Name for HRK	Kuna	kuna
 Name for HTG	Gourde	Haïtiaanse gourde
 Name for HUF	Forint	Hongaarse forint
 Name for IDR	Rupiah	Indonesische roepia
@@ -91,7 +91,7 @@ Name for MAD	Moroccan Dirham	Marokkaanse dirham
 Name for MDL	Moldovan Leu	Moldavische leu
 Name for MGA	Malagasy Ariary	Malagasische ariary
 Name for MKD	Denar	Macedonische denar
-Name for MMK	Kyat	Kyat
+Name for MMK	Kyat	kyat
 Name for MNT	Tugrik	Mongoolse tugrik
 Name for MOP	Pataca	Macause pataca
 Name for MRU	Ouguiya	Mauritaanse quguiya
@@ -110,7 +110,7 @@ Name for NPR	Nepalese Rupee	Nepalese roepie
 Name for NZD	New Zealand Dollar	Nieuw-Zeelandse dollar
 Name for OMR	Rial Omani	Omaanse rial
 Name for PAB	Balboa	Panamaanse balboa
-Name for PEN	Sol	Sol
+Name for PEN	Sol	sol
 Name for PGK	Kina	Papua Nieuw Guineaanse kina
 Name for PHP	Philippine Peso	Filipijnse peso
 Name for PKR	Pakistan Rupee	Pakistaanse roepie
@@ -142,12 +142,12 @@ Name for TMT	Turkmenistan New Manat	Turkmeense manat
 Name for TND	Tunisian Dinar	Tunesische dinar
 Name for TOP	Pa’anga	Tongaanse pa'anga
 Name for TRY	Turkish Lira	Turkse lire
-Name for TTD	Trinidad and Tobago Dollar	Trinidad en Tobago dollar
+Name for TTD	Trinidad and Tobago Dollar	Trinidad en Tobagodollar
 Name for TWD	New Taiwan Dollar	nieuwe Taiwanese dollar
 Name for TZS	Tanzanian Shilling	Tanzaniaanse shilling
 Name for UAH	Hryvnia	Oekraïense grivna
 Name for UGX	Uganda Shilling	Ugandese shilling
-Name for USD	US Dollar	US-dollar
+Name for USD	US Dollar	Amerikaanse dollar
 Name for USN	US Dollar (Next day)	Amerikaanse dollar (volgende dag)
 Name for UYI	Uruguay Peso en Unidades Indexadas (UI)	Uruguayaanse peso en unidades indexadas (UI)
 Name for UYU	Peso Uruguayo	Uruguayaanse peso

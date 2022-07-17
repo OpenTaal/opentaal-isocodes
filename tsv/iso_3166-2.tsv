@@ -72,10 +72,10 @@ Name for AM-AR	Ararat	Ararat
 Name for AM-AV	Armavir	Armavir
 Name for AM-ER	Erevan	Jerevan
 Name for AM-GR	Geġark'unik'	Gegark'unik'
-Name for AM-KT	Kotayk'	Kotayk''
+Name for AM-KT	Kotayk'	Kotayk'
 Name for AM-LO	Loṙi	Lori
 Name for AM-SH	Širak	Sirak
-Name for AM-SU	Syunik'	Syunik''
+Name for AM-SU	Syunik'	Syunik'
 Name for AM-TV	Tavuš	Tavus
 Name for AM-VD	Vayoć Jor	Vayoc Jor
 Name for AO-BGO	Bengo	Bengo
@@ -173,7 +173,7 @@ Name for AZ-MAS	Masallı	Masalli
 Name for AZ-MI	Mingəçevir	Mingacevir
 Name for AZ-NA	Naftalan	Naftalan
 Name for AZ-NEF	Neftçala	Neftcala
-Name for AZ-NV, Name for AZ-NX	Naxçıvan	Nachitsjevan [Naxçivan]
+Name for AZ-NV, Name for AZ-NX	Naxçıvan	Nachitsjevan
 Name for AZ-OGU	Oğuz	Oguz
 Name for AZ-ORD	Ordubad	Ordubad
 Name for AZ-QAB	Qəbələ	Qabala
@@ -211,9 +211,9 @@ Name for AZ-YE, Name for AZ-YEV	Yevlax	Yevlax
 Name for AZ-ZAN	Zəngilan	Zangilan
 Name for AZ-ZAQ	Zaqatala	Zaqatala
 Name for AZ-ZAR	Zərdab	Zardab
-Name for BA-BIH	Federacija Bosne i Hercegovine	Federatie Bosnië-Herzegovina
+Name for BA-BIH	Federacija Bosne i Hercegovine	Bosnië-Herzegovina, Federatie
 Name for BA-BRC	Brčko distrikt	Brcko-district
-Name for BA-SRP	Republika Srpska	Republiek Servië
+Name for BA-SRP	Republika Srpska	Servië, Republiek
 Name for BB-01	Christ Church	Christ Church
 Name for BB-02, Name for DM-02, Name for GD-01, Name for JM-02, Name for VC-02	Saint Andrew	Saint Andrew
 Name for BB-04, Name for JM-08	Saint James	Saint James
@@ -228,6 +228,7 @@ Name for BD-04	Brahmanbaria	Brahmanbaria
 Name for BD-05	Bagerhat	Bagerhat
 Name for BD-07	Bhola	Bhola
 Name for BD-09	Chandpur	Chandpur
+Name for BD-10, Name for BD-B	Chattogram	Chittagong
 Name for BD-11	Cox's Bazar	Cox's Bazar
 Name for BD-12	Chuadanga	Chuadanga
 Name for BD-13, Name for BD-C	Dhaka	Dhaka
@@ -240,9 +241,12 @@ Name for BD-19	Gaibandha	Gaibandha
 Name for BD-20	Habiganj	Habiganj
 Name for BD-21	Jamalpur	Jamalpur
 Name for BD-23	Jhenaidah	Jhenaidah
+Name for BD-24	Joypurhat	Jaipurhat
+Name for BD-25	Jhalakathi	Jhalokati
 Name for BD-26	Kishoreganj	Kishoreganj
 Name for BD-27, Name for BD-D	Khulna	Khulna
 Name for BD-28	Kurigram	Kurigram
+Name for BD-29	Khagrachhari	Khagrachari
 Name for BD-30	Kushtia	Kushtia
 Name for BD-31	Lakshmipur	Lakshmipur
 Name for BD-32	Lalmonirhat	Lalmonirhat
@@ -258,6 +262,7 @@ Name for BD-41	Netrakona	Netrakona
 Name for BD-42	Narsingdi	Narsingdi
 Name for BD-43	Narail	Narail
 Name for BD-44	Natore	Natore
+Name for BD-45	Chapai Nawabganj	Chapai Nawabganj
 Name for BD-46	Nilphamari	Nilphamari
 Name for BD-47	Noakhali	Noakhali
 Name for BD-48	Naogaon	Naogaon
@@ -348,7 +353,7 @@ Name for BF-YAT	Yatenga	Yatenga
 Name for BF-ZIR	Ziro	Ziro
 Name for BF-ZON	Zondoma	Zondoma
 Name for BF-ZOU	Zoundwéogo	Zoundwéogo
-Name for BG-01	Blagoevgrad	Blagoevgrad
+Name for BG-01	Blagoevgrad	Blagoëvgrad
 Name for BG-02	Burgas	Boergas
 Name for BG-03	Varna	Varna
 Name for BG-04	Veliko Tarnovo	Veliko Tarnovo
@@ -356,7 +361,7 @@ Name for BG-05	Vidin	Vidin
 Name for BG-06	Vratsa	Vratsa
 Name for BG-07	Gabrovo	Gabrovo
 Name for BG-08	Dobrich	Dobritsj
-Name for BG-09	Kardzhali	Kardzhali
+Name for BG-09	Kardzhali	Kardzjali
 Name for BG-10	Kyustendil	Kjoestendil
 Name for BG-11	Lovech	Lovetsj
 Name for BG-12, Name for US-MT	Montana	Montana
@@ -517,9 +522,11 @@ Name for BW-NW, Name for SG-03	North West	Noord-West
 Name for BW-SE, Name for SG-04	South East	Zuid-Oost
 Name for BW-SO, Name for RW-05, Name for SL-S, Name for ZM-07	Southern	Zuid
 Name for BW-SP	Selibe Phikwe	Selibe Phikwe
-Name for BY-BR	Bresckaja voblasć	Brest, Oblast
-Name for BY-MA	Mahilioŭskaja voblasć	Mahiljow, Oblast
-Name for BY-VI	Viciebskaja voblasć	Vitebsk, Oblast
+Name for BY-BR	Bresckaja voblasć	Brest, Provincie
+Name for BY-HO	Gomel'skaja oblast'	Homel, Provincie
+Name for BY-HR	Grodnenskaja oblast'	Grodno, Provincie
+Name for BY-MA	Mahilioŭskaja voblasć	Mahiljow, Provincie
+Name for BY-VI	Viciebskaja voblasć	Vitebsk, Provincie
 Name for BZ-BZ	Belize	Belize
 Name for BZ-CY	Cayo	Cayo
 Name for BZ-CZL	Corozal	Corozal
@@ -554,12 +561,12 @@ Name for CD-TU	Tshuapa	Tshuapa
 Name for CF-AC	Ouham	Ouham
 Name for CF-BB	Bamingui-Bangoran	Bamingui-Bangoran
 Name for CF-BGF	Bangui	Bangui
-Name for CF-BK	Basse-Kotto	Neder-Kotto
-Name for CF-HK	Haute-Kotto	Boven-Kotto
-Name for CF-HM	Haut-Mbomou	Boven-Mbomou
-Name for CF-HS	Haute-Sangha / Mambéré-Kadéï	Haute-Sangha / Mambéré-Kadéï
+Name for CF-BK	Basse-Kotto	Basse-Kotto
+Name for CF-HK	Haute-Kotto	Haute-Kotto
+Name for CF-HM	Haut-Mbomou	Haut-Mbomou
+Name for CF-HS	Haute-Sangha / Mambéré-Kadéï	Mambéré-Kadéï
 Name for CF-KB	Gribingui	Gribingui
-Name for CF-KG	Kemö-Gïrïbïngï	Kémo-Gribingui
+Name for CF-KG	Kemö-Gïrïbïngï	Kémo
 Name for CF-LB	Lobaye	Lobaye
 Name for CF-MB	Mbomou	Mbomou
 Name for CF-NM	Nana-Mambéré	Nana-Mambéré
@@ -615,7 +622,7 @@ Name for CL-LL	Los Lagos	Los Lagos
 Name for CL-LR, Name for EC-R	Los Ríos	Los Ríos
 Name for CL-ML	Maule	Maule
 Name for CL-NB	Ñuble	Ñuble
-Name for CL-RM	Región Metropolitana de Santiago	Hoofdstedelijke regio van Santiago
+Name for CL-RM	Región Metropolitana de Santiago	Santiago, Hoofdstedelijke Regio van
 Name for CL-TA	Tarapacá	Tarapacá
 Name for CL-VS	Valparaíso	Valparaíso
 Name for CM-AD	Adamaoua	Adamaoua
@@ -626,39 +633,40 @@ Name for CM-NW, Name for ZA-NW	North-West	Noord-West
 Name for CM-OU	West	West
 Name for CM-SU	South	Zuid
 Name for CM-SW	South-West	Zuid-West
-Name for CN-AH	Anhui Sheng	Provincie Anhui
-Name for CN-BJ	Beijing Shi	Peking, Stadsprovincie [Beijing, Stadsprovincie]
-Name for CN-CQ	Chongqing Shi	Tsjoengking, Stadsprovincie [Chongqing, Stadsprovincie]
-Name for CN-FJ	Fujian Sheng	Provincie Fujian
-Name for CN-GD	Guangdong Sheng	Provincie Guangdong
-Name for CN-GS	Gansu Sheng	Provincie Gansu
+Name for CN-AH	Anhui Sheng	Anhui, Provincie
+Name for CN-BJ	Beijing Shi	Peking, Stadsprovincie; Beijing, Stadsprovincie
+Name for CN-CQ	Chongqing Shi	Tsjoengking, Stadsprovincie; Chongqing, Stadsprovincie
+Name for CN-FJ	Fujian Sheng	Fujian, Provincie
+Name for CN-GD	Guangdong Sheng	Guangdong, Provincie
+Name for CN-GS	Gansu Sheng	Gansu, Provincie
 Name for CN-GX	Guangxi Zhuangzu Zizhiqu	Guangxi Zhuang Autonome Regio
-Name for CN-GZ	Guizhou Sheng	Provincie Guizhou
-Name for CN-HA	Henan Sheng	Provincie Henan
-Name for CN-HB	Hubei Sheng	Provincie Hubei
-Name for CN-HE	Hebei Sheng	Provincie Hebei
-Name for CN-HI	Hainan Sheng	Provincie Hainan
+Name for CN-GZ	Guizhou Sheng	Guizhou, Provincie
+Name for CN-HA	Henan Sheng	Henan, Provincie
+Name for CN-HB	Hubei Sheng	Hubei, Provincie
+Name for CN-HE	Hebei Sheng	Hebei, Provincie
+Name for CN-HI	Hainan Sheng	Hainan, Provincie
 Name for CN-HK	Hong Kong SAR	Hongkong (speciale bestuurlijke regio)
-Name for CN-HL	Heilongjiang Sheng	Provincie Heilongjiang
-Name for CN-HN	Hunan Sheng	Provincie Hunan
-Name for CN-JL	Jilin Sheng	Provincie Jilin
-Name for CN-JS	Jiangsu Sheng	Provincie Jiangsu
-Name for CN-JX	Jiangxi Sheng	Provincie Jiangxi
-Name for CN-LN	Liaoning Sheng	Provincie Liaoning
+Name for CN-HL	Heilongjiang Sheng	Heilongjiang, Provincie
+Name for CN-HN	Hunan Sheng	Hunan, Provincie
+Name for CN-JL	Jilin Sheng	Jilin, Provincie
+Name for CN-JS	Jiangsu Sheng	Jiangsu, Provincie
+Name for CN-JX	Jiangxi Sheng	Jiangxi, Provincie
+Name for CN-LN	Liaoning Sheng	Liaoning, Provincie
 Name for CN-MO	Macao SAR	Macau (speciale bestuurlijke regio)
-Name for CN-NM	Nei Mongol Zizhiqu	Autonome Regio Binnen-Mongolië
+Name for CN-NM	Nei Mongol Zizhiqu	Binnen-Mongolië, Autonome Regio
 Name for CN-NX	Ningxia Huizi Zizhiqu	Autonome Hui Regio Ningxia
-Name for CN-QH	Qinghai Sheng	Provincie Qinghai
-Name for CN-SC	Sichuan Sheng	Provincie Sichuan
-Name for CN-SD	Shandong Sheng	Provincie Shandong
+Name for CN-QH	Qinghai Sheng	Qinghai, Provincie
+Name for CN-SC	Sichuan Sheng	Sichuan, Provincie
+Name for CN-SD	Shandong Sheng	Shandong, Provincie
 Name for CN-SH	Shanghai Shi	Sjanghai, Stadsprovincie
-Name for CN-SN	Shaanxi Sheng	Provincie Shaanxi
-Name for CN-SX	Shanxi Sheng	Provincie Shanxi
+Name for CN-SN	Shaanxi Sheng	Shaanxi, Provincie
+Name for CN-SX	Shanxi Sheng	Shanxi, Provincie
 Name for CN-TJ	Tianjin Shi	Tianjin, Stadsprovincie
+Name for CN-TW	Taiwan Sheng	Hainan, Provincie
 Name for CN-XJ	Xinjiang Uygur Zizhiqu	Xinjiang, Autonome Oeigoerse Regio
 Name for CN-XZ	Xizang Zizhiqu	Tibetaanse Autonome Regio
-Name for CN-YN	Yunnan Sheng	Provincie Yunnan
-Name for CN-ZJ	Zhejiang Sheng	Provincie Zhejiang
+Name for CN-YN	Yunnan Sheng	Yunnan, Provincie
+Name for CN-ZJ	Zhejiang Sheng	Zhejiang, Provincie
 Name for CO-ANT	Antioquia	Antioquia
 Name for CO-ARA	Arauca	Arauca
 Name for CO-ATL	Atlántico	Atlántico
@@ -671,7 +679,7 @@ Name for CO-CAU	Cauca	Cauca
 Name for CO-CES	Cesar	Cesar
 Name for CO-CHO	Chocó	Chocó
 Name for CO-CUN	Cundinamarca	Cundinamarca
-Name for CO-DC	Distrito Capital de Bogotá	Hoofdstedelijk gewest van Bogotá
+Name for CO-DC	Distrito Capital de Bogotá	Bogotá, Hoofdstedelijk Gewest van
 Name for CO-GUA	Guainía	Guainía
 Name for CO-GUV	Guaviare	Guaviare
 Name for CO-HUI	Huila	Huila
@@ -732,7 +740,7 @@ Name for CV-SS	São Salvador do Mundo	São Salvador do Mundo
 Name for CV-SV	São Vicente	São Vicente
 Name for CV-TA	Tarrafal	Tarrafal
 Name for CV-TS	Tarrafal de São Nicolau	Tarrafal de São Nicolau
-Name for CZ-20	Středočeský kraj	Regio Midden-Bohemen
+Name for CZ-20	Středočeský kraj	Midden-Bohemen, Regio
 Name for CZ-201	Benešov	Benešov
 Name for CZ-202	Beroun	Beroun
 Name for CZ-203	Kladno	Kladno
@@ -745,7 +753,7 @@ Name for CZ-209	Praha-východ	Praag-Oost
 Name for CZ-20A	Praha-západ	Praag-West
 Name for CZ-20B	Příbram	Příbram
 Name for CZ-20C	Rakovník	Rakovník
-Name for CZ-31	Jihočeský kraj	Regio Zuid-Bohemen
+Name for CZ-31	Jihočeský kraj	Zuid-Bohemen, Regio
 Name for CZ-311	České Budějovice	České Budějovice
 Name for CZ-312	Český Krumlov	Český Krumlov
 Name for CZ-313	Jindřichův Hradec	Jindřichův Hradec
@@ -753,7 +761,7 @@ Name for CZ-314	Písek	Písek
 Name for CZ-315	Prachatice	Prachatice
 Name for CZ-316	Strakonice	Strakonice
 Name for CZ-317	Tábor	Tábor
-Name for CZ-32	Plzeňský kraj	Regio Pilsen
+Name for CZ-32	Plzeňský kraj	Pilsen, Regio
 Name for CZ-321	Domažlice	Domažlice
 Name for CZ-322	Klatovy	Klatovy
 Name for CZ-323	Plzeň-město	Plzeň-město
@@ -761,11 +769,11 @@ Name for CZ-324	Plzeň-jih	Plzeň-jih
 Name for CZ-325	Plzeň-sever	Plzeň-sever
 Name for CZ-326	Rokycany	Rokycany
 Name for CZ-327	Tachov	Tachov
-Name for CZ-41	Karlovarský kraj	Regio Karlsbad
+Name for CZ-41	Karlovarský kraj	Karlsbad, Regio
 Name for CZ-411	Cheb	Cheb
 Name for CZ-412	Karlovy Vary	Karlsbad
 Name for CZ-413	Sokolov	Sokolov
-Name for CZ-42	Ústecký kraj	Regio Ústí nad Labem
+Name for CZ-42	Ústecký kraj	Ústí nad Labem, Regio
 Name for CZ-421	Děčín	Děčín
 Name for CZ-422	Chomutov	Chomutov
 Name for CZ-423	Litoměřice	Litoměřice
@@ -773,29 +781,29 @@ Name for CZ-424	Louny	Louny
 Name for CZ-425	Most	Most
 Name for CZ-426	Teplice	Teplice
 Name for CZ-427	Ústí nad Labem	Ústí nad Labem
-Name for CZ-51	Liberecký kraj	Regio Liberec
+Name for CZ-51	Liberecký kraj	Liberec, Regio
 Name for CZ-511	Česká Lípa	Česká Lípa
 Name for CZ-512	Jablonec nad Nisou	Jablonec nad Nisou
 Name for CZ-513	Liberec	Liberec
 Name for CZ-514	Semily	Semily
-Name for CZ-52	Královéhradecký kraj	Regio Hradec Králové
+Name for CZ-52	Královéhradecký kraj	Hradec Králové, Regio
 Name for CZ-521	Hradec Králové	Hradec Králové
 Name for CZ-522	Jičín	Jičín
 Name for CZ-523	Náchod	Náchod
 Name for CZ-524	Rychnov nad Kněžnou	Rychnov nad Kněžnou
 Name for CZ-525	Trutnov	Trutnov
-Name for CZ-53	Pardubický kraj	Regio Pardubice
+Name for CZ-53	Pardubický kraj	Pardubice, Regio
 Name for CZ-531	Chrudim	Chrudim
 Name for CZ-532	Pardubice	Pardubice
 Name for CZ-533	Svitavy	Svitavy
 Name for CZ-534	Ústí nad Orlicí	Ústí nad Orlicí
-Name for CZ-63	Kraj Vysočina	Regio Vysočina
+Name for CZ-63	Kraj Vysočina	Vysočina, Regio
 Name for CZ-631	Havlíčkův Brod	Havlíčkův Brod
 Name for CZ-632	Jihlava	Jihlava
 Name for CZ-633	Pelhřimov	Pelhřimov
 Name for CZ-634	Třebíč	Třebíč
 Name for CZ-635	Žďár nad Sázavou	Žďár nad Sázavou
-Name for CZ-64	Jihomoravský kraj	Regio Zuid-Moravië
+Name for CZ-64	Jihomoravský kraj	Zuid-Moravië, Regio
 Name for CZ-641	Blansko	Blansko
 Name for CZ-642	Brno-město	Brno-město
 Name for CZ-643	Brno-venkov	Brno-venkov
@@ -803,18 +811,18 @@ Name for CZ-644	Břeclav	Břeclav
 Name for CZ-645	Hodonín	Hodonín
 Name for CZ-646	Vyškov	Vyškov
 Name for CZ-647	Znojmo	Znojmo
-Name for CZ-71	Olomoucký kraj	Regio Olomouc
+Name for CZ-71	Olomoucký kraj	Olomouc, Regio
 Name for CZ-711	Jeseník	Jeseník
 Name for CZ-712	Olomouc	Olomouc
 Name for CZ-713	Prostějov	Prostějov
 Name for CZ-714	Přerov	Přerov
 Name for CZ-715	Šumperk	Šumperk
-Name for CZ-72	Zlínský kraj	Regio Zlín
+Name for CZ-72	Zlínský kraj	Zlín, Regio
 Name for CZ-721	Kroměříž	Kroměříž
 Name for CZ-722	Uherské Hradiště	Uherské Hradiště
 Name for CZ-723	Vsetín	Vsetín
 Name for CZ-724	Zlín	Zlín
-Name for CZ-80	Moravskoslezský kraj	Regio Moravisch-Silezië
+Name for CZ-80	Moravskoslezský kraj	Moravisch-Silezië, Regio
 Name for CZ-801	Bruntál	Bruntál
 Name for CZ-803	Karviná	Karviná
 Name for CZ-804	Nový Jičín	Nový Jičín
@@ -987,6 +995,7 @@ Name for ES-AV	Ávila	Ávila
 Name for ES-BA	Badajoz	Badajoz
 Name for ES-BI	Bizkaia	Bizkaia
 Name for ES-BU	Burgos	Burgos
+Name for ES-C	A Coruña [La Coruña]	A Coruña
 Name for ES-CA	Cádiz	Cádiz
 Name for ES-CB, Name for ES-S	Cantabria	Cantabrië
 Name for ES-CC	Cáceres	Cáceres
@@ -997,13 +1006,17 @@ Name for ES-CN	Canarias	Canarische Eilanden
 Name for ES-CR	Ciudad Real	Ciudad Real
 Name for ES-CU	Cuenca	Cuenca
 Name for ES-EX	Extremadura	Extremadura
+Name for ES-GA	Galicia [Galicia]	Galicia
 Name for ES-GC	Las Palmas	Las Palmas
+Name for ES-GI	Girona [Gerona]	Gerona
 Name for ES-GR, Name for NI-GR	Granada	Granada
 Name for ES-GU	Guadalajara	Guadalajara
 Name for ES-H	Huelva	Huelva
 Name for ES-HU	Huesca	Huesca
 Name for ES-J	Jaén	Jaén
+Name for ES-L	Lleida [Lérida]	Lerida
 Name for ES-LE, Name for NI-LE	León	León
+Name for ES-LU	Lugo [Lugo]	Lugo
 Name for ES-M	Madrid	Madrid
 Name for ES-MA	Málaga	Málaga
 Name for ES-MC	Murcia, Región de	Murcia, Regio
@@ -1012,6 +1025,7 @@ Name for ES-ML	Melilla	Melilla
 Name for ES-MU	Murcia	Murcia
 Name for ES-O	Asturias	Asturië
 Name for ES-P	Palencia	Palencia
+Name for ES-PV	Euskal Herria	Baskenland
 Name for ES-SA	Salamanca	Salamanca
 Name for ES-SE	Sevilla	Sevilla
 Name for ES-SG	Segovia	Segovia
@@ -1129,7 +1143,7 @@ Name for FR-86	Vienne	Vienne
 Name for FR-87	Haute-Vienne	Hoog-Vienne
 Name for FR-88	Vosges	Vogezen
 Name for FR-89	Yonne	Yonne
-Name for FR-90	Territoire de Belfort	Territorium van Belfort
+Name for FR-90	Territoire de Belfort	Belfort, Territorium van
 Name for FR-91	Essonne	Essonne
 Name for FR-92	Hauts-de-Seine	Hoog-Seine
 Name for FR-93	Seine-Saint-Denis	Seine-Saint-Denis
@@ -1158,7 +1172,7 @@ Name for FR-PAC	Provence-Alpes-Côte-d’Azur	Provence-Alpes-Côte-d'Azur
 Name for FR-PDL	Pays-de-la-Loire	Pays-de-la-Loire
 Name for FR-PF	Polynésie française	Frans-Polynesië
 Name for FR-PM	Saint-Pierre-et-Miquelon	Saint-Pierre-et-Miquelon
-Name for FR-TF	Terres australes françaises	Franse Zuidelijke en Antarctische Gebieden
+Name for FR-TF	Terres australes françaises	Franse Zuidelijke Gebieden
 Name for FR-WF	Wallis-et-Futuna	Wallis en Futuna
 Name for GA-1	Estuaire	Estuaire
 Name for GA-2	Haut-Ogooué	Haut-Ogooué
@@ -1172,6 +1186,7 @@ Name for GA-9	Woleu-Ntem	Woleu-Ntem
 Name for GB-ABD	Aberdeenshire	Aberdeenshire
 Name for GB-ABE	Aberdeen City	Aberdeen
 Name for GB-AGB	Argyll and Bute	Argyll en Bute
+Name for GB-AGY	Isle of Anglesey [Sir Ynys Môn GB-YNM]	Anglesey
 Name for GB-AND	Ards and North Down	Ards en North Down
 Name for GB-ANN	Antrim and Newtownabbey	Antrim en Newtownabbey
 Name for GB-ANS	Angus	Angus
@@ -1181,6 +1196,7 @@ Name for GB-BDF	Bedford	Bedford
 Name for GB-BDG	Barking and Dagenham	Barking en Dagenham
 Name for GB-BEN	Brent	Brent
 Name for GB-BEX	Bexley	Bexley
+Name for GB-BGE	Bridgend [Pen-y-bont ar Ogwr GB-POG]	Bridgend
 Name for GB-BGW	Blaenau Gwent	Blaenau Gwent
 Name for GB-BIR	Birmingham	Birmingham
 Name for GB-BKM	Buckinghamshire	Buckinghamshire
@@ -1195,20 +1211,25 @@ Name for GB-BRY	Bromley	Bromley
 Name for GB-BST	Bristol, City of	Bristol, City of
 Name for GB-BUR	Bury	Bury
 Name for GB-CAM	Cambridgeshire	Cambridgeshire
+Name for GB-CAY	Caerphilly [Caerffili GB-CAF]	Caerphilly
 Name for GB-CBF	Central Bedfordshire	Centraal-Bedfordshire
 Name for GB-CCG	Causeway Coast and Glens	Causeway Coast en Glens
+Name for GB-CGN	Ceredigion [Sir Ceredigion]	Ceredigion
 Name for GB-CHE	Cheshire East	Oost-Cheshire
 Name for GB-CHW	Cheshire West and Chester	West-Cheshire en Chester
 Name for GB-CLD	Calderdale	Calderdale
 Name for GB-CLK	Clackmannanshire	Clackmannanshire
 Name for GB-CMA	Cumbria	Cumbria
 Name for GB-CMD	Camden	Camden
+Name for GB-CMN	Carmarthenshire [Sir Gaerfyrddin GB-GFY]	Carmarthenshire
 Name for GB-CON	Cornwall	Cornwall
 Name for GB-COV	Coventry	Coventry
+Name for GB-CRF	Cardiff [Caerdydd GB-CRD]	Cardiff
 Name for GB-CRY	Croydon	Croydon
 Name for GB-CWY	Conwy	Conwy
 Name for GB-DAL	Darlington	Darlington
 Name for GB-DBY	Derbyshire	Derbyshire
+Name for GB-DEN	Denbighshire [Sir Ddinbych GB-DDB]	Denbighshire
 Name for GB-DER	Derby	Derby
 Name for GB-DEV	Devon	Devon
 Name for GB-DGY	Dumfries and Galloway	Dumfries en Galloway
@@ -1230,6 +1251,7 @@ Name for GB-ESS	Essex	Essex
 Name for GB-ESX	East Sussex	Oost-Sussex
 Name for GB-FAL	Falkirk	Falkirk
 Name for GB-FIF	Fife	Fife
+Name for GB-FLN	Flintshire [Sir y Fflint GB-FFL]	Flintshire
 Name for GB-FMO	Fermanagh and Omagh	Fermanagh en Omagh
 Name for GB-GAT	Gateshead	Gateshead
 Name for GB-GLG	Glasgow City	Glasgow
@@ -1257,7 +1279,7 @@ Name for GB-KEC	Kensington and Chelsea	Kensington en Chelsea
 Name for GB-KEN	Kent	Kent
 Name for GB-KHL	Kingston upon Hull	Kingston upon Hull
 Name for GB-KIR	Kirklees	Kirklees
-Name for GB-KTT	Kingston upon Thames	Kingston a/d Thames
+Name for GB-KTT	Kingston upon Thames	Kingston upon Thames
 Name for GB-KWL	Knowsley	Knowsley
 Name for GB-LAN	Lancashire	Lancashire
 Name for GB-LBC	Lisburn and Castlereagh	Lisburn en Castlereagh
@@ -1276,12 +1298,14 @@ Name for GB-MDW	Medway	Medway
 Name for GB-MEA	Mid and East Antrim	Mid and East Antrim
 Name for GB-MIK	Milton Keynes	Milton Keynes
 Name for GB-MLN	Midlothian	Midlothian
+Name for GB-MON	Monmouthshire [Sir Fynwy GB-FYN]	Monmouthshire
 Name for GB-MRT	Merton	Merton
 Name for GB-MRY	Moray	Moray
+Name for GB-MTY	Merthyr Tydfil [Merthyr Tudful GB-MTU]	Merthyr Tydfil
 Name for GB-NAY	North Ayrshire	Noord-Ayrshire
 Name for GB-NBL	Northumberland	Northumberland
 Name for GB-NEL	North East Lincolnshire	North East Lincolnshire
-Name for GB-NET	Newcastle upon Tyne	Newcastle a/d Tyne
+Name for GB-NET	Newcastle upon Tyne	Newcastle upon Tyne
 Name for GB-NFK	Norfolk	Norfolk
 Name for GB-NGM	Nottingham	Nottingham
 Name for GB-NLK	North Lanarkshire	North Lanarkshire
@@ -1289,13 +1313,16 @@ Name for GB-NLN	North Lincolnshire	North Lincolnshire
 Name for GB-NMD	Newry, Mourne and Down	Newry, Mourne and Down
 Name for GB-NSM	North Somerset	Noord-Somerset
 Name for GB-NTH	Northamptonshire	Northamptonshire
+Name for GB-NTL	Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]	Neath Port Talbot
 Name for GB-NTT	Nottinghamshire	Nottinghamshire
 Name for GB-NTY	North Tyneside	Noord-Tyneside
 Name for GB-NWM	Newham	Newham
+Name for GB-NWP	Newport [Casnewydd GB-CNW]	Newport
 Name for GB-NYK	North Yorkshire	North Yorkshire
 Name for GB-OLD	Oldham	Oldham
 Name for GB-ORK	Orkney Islands	Orkney-eilanden
 Name for GB-OXF	Oxfordshire	Oxfordshire
+Name for GB-PEM	Pembrokeshire [Sir Benfro GB-BNF]	Pembrokeshire
 Name for GB-PKN	Perth and Kinross	Perth en Kinross
 Name for GB-PLY	Plymouth	Plymouth
 Name for GB-POR	Portsmouth	Portsmouth
@@ -1303,10 +1330,11 @@ Name for GB-POW	Powys	Powys
 Name for GB-PTE	Peterborough	Peterborough
 Name for GB-RCC	Redcar and Cleveland	Redcar en Cleveland
 Name for GB-RCH	Rochdale	Rochdale
+Name for GB-RCT	Rhondda Cynon Taff [Rhondda CynonTaf]	Rhondda Cynon Taf
 Name for GB-RDB	Redbridge	Redbridge
 Name for GB-RDG	Reading	Reading
 Name for GB-RFW	Renfrewshire	Renfrewshire
-Name for GB-RIC	Richmond upon Thames	Richmond a/d Thames
+Name for GB-RIC	Richmond upon Thames	Richmond upon Thames
 Name for GB-ROT	Rotherham	Rotherham
 Name for GB-RUT	Rutland	Rutland
 Name for GB-SAW	Sandwell	Sandwell
@@ -1333,14 +1361,17 @@ Name for GB-STN	Sutton	Sutton
 Name for GB-STS	Staffordshire	Staffordshire
 Name for GB-STT	Stockton-on-Tees	Stockton aan Tees
 Name for GB-STY	South Tyneside	Zuid-Tyneside
+Name for GB-SWA	Swansea [Abertawe GB-ATA]	Swansea
 Name for GB-SWD	Swindon	Swindon
 Name for GB-SWK	Southwark	Southwark
 Name for GB-TAM	Tameside	Tameside
 Name for GB-TFW	Telford and Wrekin	Telford en Wrekin
 Name for GB-THR	Thurrock	Thurrock
 Name for GB-TOB	Torbay	Torbay
+Name for GB-TOF	Torfaen [Tor-faen]	Torfaen
 Name for GB-TRF	Trafford	Trafford
 Name for GB-TWH	Tower Hamlets	Tower Hamlets
+Name for GB-VGL	Vale of Glamorgan, The [Bro Morgannwg GB-BMG]	Vale of Glamorgan
 Name for GB-WAR	Warwickshire	Warwickshire
 Name for GB-WBK	West Berkshire	Westberkshire
 Name for GB-WDU	West Dunbartonshire	Westdunbartonshire
@@ -1350,6 +1381,7 @@ Name for GB-WIL	Wiltshire	Wiltshire
 Name for GB-WKF	Wakefield	Wakefield
 Name for GB-WLL	Walsall	Walsall
 Name for GB-WLN	West Lothian	West-Lothian
+Name for GB-WLS	Wales [Cymru GB-CYM]	Wales
 Name for GB-WLV	Wolverhampton	Wolverhampton
 Name for GB-WND	Wandsworth	Wandsworth
 Name for GB-WNM	Windsor and Maidenhead	Windsor en Maidenhead
@@ -1357,6 +1389,7 @@ Name for GB-WOK	Wokingham	Wokingham
 Name for GB-WOR	Worcestershire	Worcestershire
 Name for GB-WRL	Wirral	Wirral
 Name for GB-WRT	Warrington	Warrington
+Name for GB-WRX	Wrexham [Wrecsam GB-WRC]	Wrexham
 Name for GB-WSM	Westminster	Westminster
 Name for GB-WSX	West Sussex	West-Sussex
 Name for GB-YOR	York	York
@@ -1412,6 +1445,7 @@ Name for GN-SI	Siguiri	Siguiri
 Name for GN-TE	Télimélé	Télimélé
 Name for GN-TO	Tougué	Tougué
 Name for GN-YO	Yomou	Yomou
+Name for GQ-C	Região Continental	Continentale Regio
 Name for GQ-KN	Kié-Ntem	Kié-Ntem
 Name for GQ-LI	Litoral	Litoral
 Name for GQ-WN	Wele-Nzas	Wele-Nzas
@@ -1487,6 +1521,7 @@ Name for HR-09	Ličko-senjska županija	Lika-Senj, Provincie
 Name for HR-10	Virovitičko-podravska županija	Virovitica-Podravina, Provincie
 Name for HR-11	Požeško-slavonska županija	Pozega-Slavonië, Provincie
 Name for HR-12	Brodsko-posavska županija	Brod-Posavina, Provincie
+Name for HR-13	Zadarska županija	Zadar, Provincie
 Name for HR-14	Osječko-baranjska županija	Osijek-Baranja, Provincie
 Name for HR-15	Šibensko-kninska županija	Sibenik-Knin, Provincie
 Name for HR-16	Vukovarsko-srijemska županija	Vukovar-Srijem, Provincie
@@ -1644,6 +1679,7 @@ Name for IR-24	Ardabīl	Ardebil
 Name for IR-25	Qom	Qom
 Name for IR-26	Qazvīn	Qazvin
 Name for IR-27	Golestān	Golestan
+Name for IS-1	Höfuðborgarsvæði	Hoofdstedelijke Regio
 Name for IS-2	Suðurnes	Zuidelijk schiereiland
 Name for IS-3	Vesturland	Westland
 Name for IS-4	Vestfirðir	Westfjorden
@@ -1743,8 +1779,8 @@ Name for IT-PU	Pesaro e Urbino	Pesaro en Urbino
 Name for IT-PV	Pavia	Pavia
 Name for IT-PZ	Potenza	Potenza
 Name for IT-RA	Ravenna	Ravenna
-Name for IT-RC	Reggio Calabria	Regio Calabrië
-Name for IT-RE	Reggio Emilia	Regio Emilië
+Name for IT-RC	Reggio Calabria	Calabrië, Regio
+Name for IT-RE	Reggio Emilia	Emilië, Regio
 Name for IT-RG	Ragusa	Ragusa
 Name for IT-RI	Rieti	Rieti
 Name for IT-RM	Roma	Rome
@@ -1886,20 +1922,27 @@ Name for KE-44	Uasin Gishu	Uasin Gishu
 Name for KE-45	Vihiga	Vihiga
 Name for KE-46	Wajir	Wajir
 Name for KE-47	West Pokot	West-Pokot
-Name for KG-B	Batken	Batken, Oblast
-Name for KG-N	Naryn	Naryn
-Name for KG-O	Osh	Osj
-Name for KG-T	Talas	Talas
+Name for KG-B	Batken	Batken, Provincie
+Name for KG-C	Chuyskaya oblast'	Tsjoej, Provincie
+Name for KG-GB	Bishkek Shaary	Bisjkek
+Name for KG-GO	Gorod Osh	Oš (stad)
+Name for KG-J	Dzhalal-Abadskaya oblast'	Dzjalal-Abad, Provincie
+Name for KG-N	Naryn	Naryn, Provincie
+Name for KG-O	Osh	Oš, Provincie
+Name for KG-T	Talas	Talas, Provincie
+Name for KG-Y	Issyk-Kul'skaja oblast'	Ysykköl, Provincie
 Name for KH-11	Mondol Kiri	Mondol Kiri
-Name for KH-12	Phnom Penh	Stedelijk gewest Phnom-Penh
+Name for KH-12	Phnom Penh	Phnom-Penh, Stedelijk Gewest
 Name for KH-13	Preah Vihear	Preah Vihear
 Name for KH-14	Prey Veaeng	Prey Veng
 Name for KH-15	Pousaat	Pouthisat
 Name for KH-16	Rotanak Kiri	Ratanakiri
 Name for KH-17	Siem Reab	Siem Reab
+Name for KH-18	Preah Sihanouk	Sihanoukville, Stedelijk Gewest
 Name for KH-20	Svaay Rieng	Svay Rieng
 Name for KH-21	Taakaev	Takev
 Name for KH-22	Otdar Mean Chey	Oddar Meancheay
+Name for KH-24	Pailin	Pailin, Stedelijk Gewest
 Name for KH-4	Kampong Chhnang	Kampong Chhnang
 Name for KH-7	Kampot	Kampot
 Name for KI-G	Gilbert Islands	Gilbert-eilanden
@@ -1924,14 +1967,31 @@ Name for KN-N	Nevis	Nevis
 Name for KP-04	Chagang-do	Chagang-do
 Name for KP-05	Hwanghae-namdo	Hwanghae-namdo
 Name for KP-06	Hwanghae-bukto	Hwanghae-bukto
+Name for KR-11	Seoul-teukbyeolsi	Seoul, Stadsgewest; Seoel, Stadsgewest
+Name for KR-43	Chungcheongbuk-do	Noord-Chungcheong; Chungcheongbuk-do
+Name for KR-44	Chungcheongnam-do	Zuid-Chungcheong; Chungcheongnam-do
+Name for KR-45	Jeollabuk-do	Noord-Jeolla; Jeollabuk-do
+Name for KR-46	Jeollanam-do	Zuid-Jeolla; Jeollanam-do
+Name for KR-47	Gyeongsangbuk-do	Noord-Gyeongsang; Gyeongsangbuk-do
+Name for KR-48	Gyeongsangnam-do	Zuid-Gyeongsang; Gyeongsangnam-do
 Name for KW-FA	Al Farwānīyah	Al Farwanlyah
 Name for KW-MU	Mubārak al Kabīr	Mubarak Al-Kabier
+Name for KZ-AKM	Akmolinskaja oblast'	Aqmola, Provincie
+Name for KZ-AKT	Aktjubinskaja oblast'	Aqtöbe, Provincie
 Name for KZ-ALA	Almaty	Alma-Ata
+Name for KZ-ALM	Almatinskaja oblast'	Almaty, Provincie
 Name for KZ-AST	Nur-Sultan	Nur-Sultan
-Name for KZ-MAN	Mangghystaū oblysy	Mangıstaw, Oblast
-Name for KZ-PAV	Pavlodar oblysy	Pavlodar, Oblast
-Name for KZ-VOS	Shyghys Qazaqstan oblysy	Oost-Kazachstan, Oblast
-Name for KZ-ZHA	Zhambyl oblysy	Jambıl, Oblast
+Name for KZ-ATY	Atyrauskaja oblast'	Atıraw, Provincie
+Name for KZ-KAR	Karagandinskaja oblast'	Karaganda, Provincie
+Name for KZ-KUS	Kostanajskaja oblast'	Qostanay, Provincie
+Name for KZ-KZY	Kyzylordinskaja oblast'	Qızılorda, Provincie
+Name for KZ-MAN	Mangghystaū oblysy	Mañğıstaw, Provincie
+Name for KZ-PAV	Pavlodar oblysy	Pavlodar, Provincie
+Name for KZ-SEV	Severo-Kazahstanskaja oblast'	Noord-Kazachstan, Provincie
+Name for KZ-VOS	Shyghys Qazaqstan oblysy	Oost-Kazachstan, Provincie
+Name for KZ-YUZ	Turkestankaya oblast'	Türkistan, Provincie
+Name for KZ-ZAP	Batys Qazaqstan oblysy	Batıs Qazaqstan, Provincie
+Name for KZ-ZHA	Zhambyl oblysy	Jambıl, Provincie
 Name for LA-AT	Attapu	Attapeu
 Name for LA-BK	Bokèo	Bokeo
 Name for LA-BL	Bolikhamxai	Bolikhamsai
@@ -2103,7 +2163,7 @@ Name for LV-059	Madonas novads	Madona
 Name for LV-060	Mazsalacas novads	Mazsalaca
 Name for LV-061	Mālpils novads	Mālpils
 Name for LV-062	Mārupes novads	Mārupe
-Name for LV-063	Mērsraga novads	Mērsraga novads
+Name for LV-063	Mērsraga novads	Mērsraga
 Name for LV-064	Naukšēnu novads	Naukšēni
 Name for LV-065	Neretas novads	Nereta
 Name for LV-066	Nīcas novads	Nīca
@@ -2151,12 +2211,12 @@ Name for LV-107	Viesītes novads	Viesīte
 Name for LV-108	Viļakas novads	Viļaka
 Name for LV-109	Viļānu novads	Viļāni
 Name for LV-110	Zilupes novads	Zilupe
-Name for LV-DGV	Daugavpils	Daugavpils
-Name for LV-JEL	Jelgava	Jelgava
-Name for LV-JKB	Jēkabpils	Jēkabpils
+Name for LV-DGV	Daugavpils	Daugavpils (stad)
+Name for LV-JEL	Jelgava	Jelgava (stad)
+Name for LV-JKB	Jēkabpils	Jēkabpils (stad)
 Name for LV-JUR	Jūrmala	Jūrmala
 Name for LV-LPX	Liepāja	Liepāja
-Name for LV-REZ	Rēzekne	Rēzekne
+Name for LV-REZ	Rēzekne	Rēzekne (stad)
 Name for LV-RIX	Rīga	Riga
 Name for LV-VEN	Ventspils	Ventspils
 Name for LV-VMR	Valmiera	Valmiera
@@ -2281,6 +2341,7 @@ Name for MC-SR	Saint-Roman	Saint-Roman
 Name for MC-VR	Vallon de la Rousse	Vallon de la Rousse
 Name for MD-AN	Anenii Noi	Anenii Noi
 Name for MD-BA	Bălți	Bălți
+Name for MD-BD	Bender [Tighina]	Bender
 Name for MD-BR	Briceni	Briceni
 Name for MD-BS	Basarabeasca	Basarabeasca
 Name for MD-CA	Cahul	Cahul
@@ -2438,7 +2499,7 @@ Name for ML-2	Koulikoro	Koulikoro
 Name for ML-3	Sikasso	Sikasso
 Name for ML-4	Ségou	Ségou
 Name for ML-5	Mopti	Mopti
-Name for ML-6	Tombouctou	Timboektoe [Tombouctou]
+Name for ML-6	Tombouctou	Timboektoe; Tombouctou
 Name for ML-7	Gao	Gao
 Name for ML-8	Kidal	Kidal
 Name for ML-BKO	Bamako	Bamako
@@ -2555,7 +2616,7 @@ Name for MU-SA	Savanne	Savanne
 Name for MV-MLE	Male	Male
 Name for MW-BA	Balaka	Balaka
 Name for MW-BL	Blantyre	Blantyre
-Name for MW-C	Central Region	Centrale regio
+Name for MW-C	Central Region	Centrale Regio
 Name for MW-CK	Chikwawa	Chikwawa
 Name for MW-CR	Chiradzulu	Chiradzulu
 Name for MW-CT	Chitipa	Chitipa
@@ -2571,7 +2632,7 @@ Name for MW-MH	Machinga	Machinga
 Name for MW-MU	Mulanje	Mulanje
 Name for MW-MW, Name for TZ-18	Mwanza	Mwanza
 Name for MW-MZ	Mzimba	Mzimba
-Name for MW-N	Northern Region	Noordelijke regio
+Name for MW-N	Northern Region	Noordelijke Regio
 Name for MW-NB	Nkhata Bay	Nkhata Baai
 Name for MW-NE	Neno	Neno
 Name for MW-NI	Ntchisi	Ntchisi
@@ -2580,7 +2641,7 @@ Name for MW-NS	Nsanje	Nsanje
 Name for MW-NU	Ntcheu	Ntcheu
 Name for MW-PH	Phalombe	Phalombe
 Name for MW-RU	Rumphi	Rumphi
-Name for MW-S	Southern Region	Zuidelijke regio
+Name for MW-S	Southern Region	Zuidelijke Regio
 Name for MW-SA	Salima	Salima
 Name for MW-TH	Thyolo	Thyolo
 Name for MW-ZO	Zomba	Zomba
@@ -2619,19 +2680,19 @@ Name for MX-ZAC	Zacatecas	Zacatecas
 Name for MY-01	Johor	Johor
 Name for MY-02	Kedah	Kedah
 Name for MY-03	Kelantan	Kelantan
-Name for MY-04	Melaka	Malakka [Melaka]
+Name for MY-04	Melaka	Malakka; Melaka
 Name for MY-05	Negeri Sembilan	Negeri Sembilan
 Name for MY-06	Pahang	Pahang
-Name for MY-07	Pulau Pinang	Penang [Pulau Pinang]
+Name for MY-07	Pulau Pinang	Penang; Pulau Pinang
 Name for MY-08	Perak	Perak
 Name for MY-09	Perlis	Perlis
 Name for MY-10	Selangor	Selangor
 Name for MY-11	Terengganu	Terengganu
 Name for MY-12	Sabah	Sabah
 Name for MY-13	Sarawak	Sarawak
-Name for MY-14	Wilayah Persekutuan Kuala Lumpur	Federaal territorium Kuala Lumpur
-Name for MY-15	Wilayah Persekutuan Labuan	Federaal territorium Labuan
-Name for MY-16	Wilayah Persekutuan Putrajaya	Federaal territorium Putrajaya
+Name for MY-14	Wilayah Persekutuan Kuala Lumpur	Kuala Lumpur, Federaal Territorium
+Name for MY-15	Wilayah Persekutuan Labuan	Labuan, Federaal Territorium
+Name for MY-16	Wilayah Persekutuan Putrajaya	Putrajaya, Federaal Territorium
 Name for MZ-A	Niassa	Niassa
 Name for MZ-B	Manica	Manica
 Name for MZ-G, Name for PS-GZA	Gaza	Gaza
@@ -2722,8 +2783,8 @@ Name for NO-03	Oslo	Oslo
 Name for NO-11	Rogaland	Rogaland
 Name for NO-15	Møre og Romsdal	Møre og Romsdal
 Name for NO-18	Nordland	Nordland
-Name for NO-21	Svalbard (Arctic Region)	Spitsbergen [Svalbard] (arctische regio)
-Name for NO-22	Jan Mayen (Arctic Region)	Jan Mayen (arctische regio)
+Name for NO-21	Svalbard (Arctic Region)	Spitsbergen (Arctische regio); Svalbard (Arctische regio)
+Name for NO-22	Jan Mayen (Arctic Region)	Jan Mayen (Arctische regio)
 Name for NP-BA	Bagmati	Bagmati
 Name for NP-BH	Bheri	Bheri
 Name for NP-DH	Dhawalagiri	Dhawalagiri
@@ -2755,7 +2816,9 @@ Name for NZ-AUK	Auckland	Auckland
 Name for NZ-BOP	Bay of Plenty	Bay of Plenty
 Name for NZ-CAN	Canterbury	Canterbury
 Name for NZ-CIT	Chatham Islands Territory	Chatham Islands Territory
+Name for NZ-GIS	Gisborne	Gisborne
 Name for NZ-HKB	Hawke's Bay	Hawke's Bay
+Name for NZ-MBH	Marlborough	Marlborough
 Name for NZ-MWT	Manawatu-Wanganui	Manawatu-Wanganui
 Name for NZ-NTL	Northland	Noordland
 Name for NZ-OTA	Otago	Otago
@@ -2829,8 +2892,8 @@ Name for PH-10	Northern Mindanao (Region X)	Noordelijk Mindanao (Regio X)
 Name for PH-11	Davao (Region XI)	Davao (Regio XI)
 Name for PH-12	Soccsksargen (Region XII)	Soccsksargen (Regio XII)
 Name for PH-13	Caraga (Region XIII)	Caraga (Regio XIII)
-Name for PH-14	Autonomous Region in Muslim Mindanao (ARMM)	Autonome Regio in Muslim Mindanao (ARMM)
-Name for PH-15	Cordillera Administrative Region (CAR)	Cordillera Administratieve Regio (CAR)
+Name for PH-14	Autonomous Region in Muslim Mindanao (ARMM)	Autonome Regio in Muslim Mindanao; ARMM
+Name for PH-15	Cordillera Administrative Region (CAR)	Cordillera Administratieve Regio; CAR
 Name for PH-40	Calabarzon (Region IV-A)	Calabarzon (Regio IV-A)
 Name for PH-41	Mimaropa (Region IV-B)	Mimaropa (Regio IV-B)
 Name for PH-ABR	Abra	Abra
@@ -2925,7 +2988,7 @@ Name for PL-18	Podkarpackie	Subkarpaten
 Name for PL-20	Podlaskie	Podlachië
 Name for PL-22	Pomorskie	Pommeren
 Name for PL-24	Śląskie	Silezië
-Name for PL-26	Świętokrzyskie	Święty Krzyż [Heilig Kruis]
+Name for PL-26	Świętokrzyskie	Heilig Kruis; Święty Krzyż
 Name for PL-28	Warmińsko-mazurskie	Ermland-Mazurië
 Name for PL-30	Wielkopolskie	Groot-Polen
 Name for PL-32	Zachodniopomorskie	West-Pommeren
@@ -3073,24 +3136,28 @@ Name for RS-VO	Vojvodina	Vojvodina
 Name for RU-BA	Bashkortostan, Respublika	Basjkirostan, Republiek
 Name for RU-CE	Chechenskaya Respublika	Tsjetsjenië, Republiek
 Name for RU-CHE	Chelyabinskaya oblast'	Tsjeljabinsk, Oblast
-Name for RU-CHU	Chukotskiy avtonomnyy okrug	Autonoom District Tsjoekotka
+Name for RU-CHU	Chukotskiy avtonomnyy okrug	Tsjoekotka, Autonoom District
 Name for RU-CU	Chuvashskaya Respublika	Tsjoevasjië, Republiek
 Name for RU-DA	Dagestan, Respublika	Dagestan, Republiek
 Name for RU-KAM	Kamchatskiy kray	Kamtsjatka, Kraj
 Name for RU-KC	Karachayevo-Cherkesskaya Respublika	Karatsjaj-Tsjerkessië, Republiek
+Name for RU-KHM	Hanty-Mansijskij avtonomnyj okrug	Chanto-Mansië, Autonoom District
 Name for RU-KLU	Kaluzhskaya oblast'	Kaloega, Oblast
 Name for RU-KO	Komi, Respublika	Komi, Republiek
 Name for RU-MOW	Moskva	Moskou
+Name for RU-NEN	Neneckij avtonomnyj okrug	Nenetsië, Autonoom District
 Name for RU-NIZ	Nizhegorodskaya oblast'	Nizjni Novgorod, Oblast
+Name for RU-SE	Severnaja Osetija, Respublika	Noord-Ossetië; Noord-Ossetië-Alanië, Republiek
 Name for RU-SPE	Sankt-Peterburg	Sint-Petersburg
-Name for RU-TA	Tatarstan, Respublika	Tatarije, Republiek [Tatarstan, Republiek]
+Name for RU-TA	Tatarstan, Respublika	Tatarije, Republiek; Tatarstan, Republiek
 Name for RU-VOR	Voronezhskaya oblast'	Voronezj, Oblast
+Name for RU-YAN	Jamalo-Neneckij avtonomnyj okrug	Jamalië, Autonoom District
 Name for RU-ZAB	Zabajkal'skij kraj	Zabajkalski, Kraj
 Name for SA-05	Al Qaşīm	Al Qasim
 Name for SA-07	Tabūk	Tabuk
 Name for SA-10	Najrān	Najran
 Name for SA-12, Name for YE-JA	Al Jawf	Al Jawf
-Name for SB-CT	Capital Territory (Honiara)	Hoofdstedelijk Gewest (Honiara)
+Name for SB-CT	Capital Territory (Honiara)	Honiara, Hoofdstedelijk Gewest
 Name for SB-GU	Guadalcanal	Guadalcanal
 Name for SB-IS	Isabel	Isabel
 Name for SB-ML	Malaita	Malaita
@@ -3122,6 +3189,27 @@ Name for SC-24	Les Mamelles	Les Mamelles
 Name for SC-25	Roche Caiman	Roche Caiman
 Name for SD-NB	Blue Nile	Blauwe Nijl
 Name for SD-NW	White Nile	Witte Nijl
+Name for SE-AB	Stockholms län [SE-01]	Stockholm, Graafschap
+Name for SE-AC	Västerbottens län [SE-24]	Västerbotten, Graafschap
+Name for SE-BD	Norrbottens län [SE-25]	Norrbotten, Graafschap
+Name for SE-C	Uppsala län [SE-03]	Zuid-Gyeongsang; Gyeongsangnam-do
+Name for SE-D	Södermanlands län [SE-04]	Södermanland, Graafschap
+Name for SE-E	Östergötlands län [SE-05]	Östergötland, Graafschap
+Name for SE-F	Jönköpings län [SE-06]	Jönköpings, Graafschap
+Name for SE-G	Kronobergs län [SE-07]	Kronoberg, Graafschap
+Name for SE-H	Kalmar län [SE-08]	Kalmar, Graafschap
+Name for SE-I	Gotlands län [SE-09]	Gotland, Graafschap
+Name for SE-K	Blekinge län [SE-10]	Blekinge, Graafschap
+Name for SE-M	Skåne län [SE-12]	Skåne, Graafschap
+Name for SE-N	Hallands län [SE-13]	Halland, Graafschap
+Name for SE-O	Västra Götalands län [SE-14]	Västra Götaland, Graafschap
+Name for SE-S	Värmlands län [SE-17]	Värmland, Graafschap
+Name for SE-T	Örebro län [SE-18]	Örebro, Graafschap
+Name for SE-U	Västmanlands län [SE-19]	Västmanland, Graafschap
+Name for SE-W	Dalarnas län [SE-20]	Dalarna, Graafschap
+Name for SE-X	Gävleborgs län [SE-21]	Gävleborg, Graafschap
+Name for SE-Y	Västernorrlands län [SE-22]	Västernorrland, Graafschap
+Name for SE-Z	Jämtlands län [SE-23]	Jämtlands, Graafschap
 Name for SG-01	Central Singapore	Singapore-Centrale-Regio
 Name for SG-05	South West	Zuid-West
 Name for SH-AC	Ascension	Ascension
@@ -3183,6 +3271,7 @@ Name for SI-055	Kungota	Kungota
 Name for SI-056	Kuzma	Kuzma
 Name for SI-057	Laško	Lasko
 Name for SI-058	Lenart	Lenart
+Name for SI-059	Lendava	Lendava
 Name for SI-060	Litija	Litija
 Name for SI-061	Ljubljana	Ljubljana
 Name for SI-062	Ljubno	Ljubno
@@ -3278,6 +3367,7 @@ Name for SI-157	Dolenjske Toplice	Dolenjske Toplice
 Name for SI-158	Grad	Grad
 Name for SI-159	Hajdina	Hajdina
 Name for SI-160	Hoče-Slivnica	Hoce-Slivnica
+Name for SI-161	Hodoš	Hodoš
 Name for SI-162	Horjul	Jorjul
 Name for SI-163	Jezersko	Jezersko
 Name for SI-164	Komenda	Komenda
@@ -3664,7 +3754,32 @@ Name for TZ-23	Singida	Singida
 Name for TZ-24	Tabora	Tabora
 Name for TZ-25	Tanga	Tanga
 Name for TZ-26	Manyara	Manyara
+Name for UA-05	Vinnytska oblast	Vinnytsja, Provincie
+Name for UA-07	Volynska oblast	Wolynië, Provincie
+Name for UA-09	Luhanska oblast	Loehansk, Provindie
+Name for UA-12	Dnipropetrovska oblast	Dnjepropetrovsk, Provincie
+Name for UA-14	Donetska oblast	Donetsk, Provincie
+Name for UA-18	Zhytomyrska oblast	Zjytomyr, Provincie
+Name for UA-21	Zakarpatska oblast	Transkarpatië, Provincie
+Name for UA-23	Zaporizka oblast	Zaporizja, Provincie
+Name for UA-26	Ivano-Frankivska oblast	Ivano-Frankivsk, Provincie
+Name for UA-30	Kyiv	Kiev (stad)
+Name for UA-32	Kyivska oblast	Kiev, Provincie
+Name for UA-35	Kirovohradska oblast	Kirovohrad, Provincie
 Name for UA-40	Sevastopol	Sebastopol
+Name for UA-46	Lvivska oblast	Lviv, Provincie
+Name for UA-48	Mykolaivska oblast	Mykolajiv, Provincie
+Name for UA-51	Odeska oblast	Odessa, Provincie
+Name for UA-53	Poltavska oblast	Poltava, Provincie
+Name for UA-56	Rivnenska oblast	Rivne, Provincie
+Name for UA-59	Sumska oblast	Soemy, Provincie
+Name for UA-61	Ternopilska oblast	Ternopil, Provincie
+Name for UA-63	Kharkivska oblast	Charkov, Provincie
+Name for UA-65	Khersonska oblast	Cherson, Provincie
+Name for UA-68	Khmelnytska oblast	Chmelnytsky, Provincie
+Name for UA-71	Cherkaska oblast	Tsjerkasy, Provincie
+Name for UA-74	Chernihivska oblast	Tsjernihiv, Provincie
+Name for UA-77	Chernivetska oblast	Tsjernivtsi, Provincie
 Name for UG-101	Kalangala	Kalangala
 Name for UG-102	Kampala	Kampala
 Name for UG-103	Kiboga	Kiboga
@@ -3836,6 +3951,7 @@ Name for UZ-TK, Name for UZ-TO	Toshkent	Toshkent
 Name for UZ-XO	Xorazm	Xorazm
 Name for VC-01	Charlotte	Charlotte
 Name for VC-06	Grenadines	Grenadines
+Name for VE-A	Distrito Capital	Bogotá, Hoofdstedelijk Gewest van
 Name for VE-B	Anzoátegui	Anzoátegui
 Name for VE-C	Apure	Apure
 Name for VE-D	Aragua	Aragua
@@ -3912,6 +4028,7 @@ Name for VN-CT	Cần Thơ	Can Tho
 Name for VN-DN	Đà Nẵng	Da Nang (stad)
 Name for VN-HN	Hà Nội	Hanoi
 Name for VN-HP	Hải Phòng	Hai Phong
+Name for VN-SG	Hồ Chí Minh	Ho Chi Minhstad
 Name for VU-MAP	Malampa	Malampa
 Name for VU-PAM	Pénama	Penama
 Name for VU-SAM	Sanma	Sanma
@@ -3929,16 +4046,23 @@ Name for WS-SA	Satupa'itea	Satupa'itea
 Name for WS-TU	Tuamasaga	Tuamasaga
 Name for WS-VF	Va'a-o-Fonoti	Va'a-o-Fonoti
 Name for WS-VS	Vaisigano	Vaisigano
+Name for YE-AB	Abyan	Abyan
 Name for YE-DH	Dhamār	Dhamar
 Name for YE-HD	Ḩaḑramawt	Hadramaut
 Name for YE-HJ	Ḩajjah	Hajjah
 Name for YE-HU	Al Ḩudaydah	Al Hudaydah
 Name for YE-IB	Ibb	Ibb
 Name for YE-LA	Laḩij	Lahij
+Name for YE-MA	Ma’rib	Ma'rib
 Name for YE-MR	Al Mahrah	Al Mahrah
 Name for YE-MW	Al Maḩwīt	Al Mahwit
 Name for YE-RA	Raymah	Raymah
+Name for YE-SA	Amānat al ‘Āşimah [city]	Amanat al-Asimah (stad Sanaa)
+Name for YE-SD	Şāʻdah	Sa'dah
 Name for YE-SH	Shabwah	Shabwah
+Name for YE-SN	Şanʻā’	Sanaa
+Name for YE-SU	Arkhabīl Suquţrá	Socotra
+Name for YE-TA	Tāʻizz	Ta'izz
 Name for ZA-EC	Eastern Cape	Oost-Kaap
 Name for ZA-FS	Free State	Oranje-Vrystaat
 Name for ZA-GP	Gauteng	Gauteng
@@ -3962,8 +4086,6 @@ Name for ZW-MS	Matabeleland South	Matabeleland Zuid
 Name for ZW-MV	Masvingo	Masvingo
 Name for ZW-MW	Mashonaland West	Mashonaland West
 Name for BD-22	Jashore	
-Name for BY-HO	Gomel'skaja oblast'	
-Name for BY-HR	Grodnenskaja oblast'	
 Name for DJ-OB	Awbūk	
 Name for DO-08	El Seibo	
 Name for DO-19	Hermanas Mirabal	
@@ -4026,11 +4148,6 @@ Name for EG-LX	Al Uqşur
 Name for EG-MT	Maţrūḩ	
 Name for ER-DK	Debubawi K’eyyĭḥ Baḥri	
 Name for ER-SK	Semienawi K’eyyĭḥ Baḥri	
-Name for ES-C	A Coruña [La Coruña]	
-Name for ES-GA	Galicia [Galicia]	
-Name for ES-GI	Girona [Gerona]	
-Name for ES-L	Lleida [Lérida]	
-Name for ES-LU	Lugo [Lugo]	
 Name for ES-NA	Nafarroa*	
 Name for ET-AA	Addis Ababa	
 Name for ET-AF	Afar	
@@ -4051,14 +4168,12 @@ Name for FJ-09	Naitasiri
 Name for FJ-12	Rewa	
 Name for FJ-13	Serua	
 Name for GB-BCP	Bournemouth, Christchurch and Poole	
-Name for GB-WLS	Wales [Cymru GB-CYM]	
 Name for GH-BO	Bono	
 Name for GL-QT	Kommune Qeqertalik	
 Name for GR-69	Ágion Óros	
 Name for GR-F	Ionía Nísia	
 Name for GR-M	Kríti	
 Name for GW-BL	Bolama / Bijagós	
-Name for HR-13	Zadarska županija	
 Name for HT-OU	Lwès	
 Name for HT-SE	Sidès	
 Name for IL-HA	H̱efa	
@@ -4141,24 +4256,11 @@ Name for IS-THG	Þingeyjarsveit
 Name for IS-TJO	Tjörneshreppur	
 Name for IS-VEM	Vestmannaeyjabær	
 Name for IS-VOP	Vopnafjarðarhreppur	
-Name for KG-C	Chuyskaya oblast'	
-Name for KG-GO	Gorod Osh	
-Name for KG-J	Dzhalal-Abadskaya oblast'	
-Name for KG-Y	Issyk-Kul'skaja oblast'	
 Name for KH-23	Kaeb	
 Name for KM-M	Mohéli	
 Name for KP-13	Raseon	
 Name for KR-49	Jeju-teukbyeoljachido	
 Name for KR-50	Sejong	
-Name for KZ-AKM	Akmolinskaja oblast'	
-Name for KZ-AKT	Aktjubinskaja oblast'	
-Name for KZ-ALM	Almatinskaja oblast'	
-Name for KZ-ATY	Atyrauskaja oblast'	
-Name for KZ-KAR	Karagandinskaja oblast'	
-Name for KZ-KUS	Kostanajskaja oblast'	
-Name for KZ-KZY	Kyzylordinskaja oblast'	
-Name for KZ-SEV	Severo-Kazahstanskaja oblast'	
-Name for KZ-YUZ	Turkestankaya oblast'	
 Name for LT-04	Anykščiai	
 Name for LT-05	Birštono	
 Name for LT-06	Biržai	
@@ -4211,6 +4313,7 @@ Name for MV-23	South Thiladhunmathi
 Name for MV-27	North Huvadhu Atoll	
 Name for MV-28	South Huvadhu Atoll	
 Name for MV-29	Fuvammulah	
+Name for NA-KA	//Karas	
 Name for NL-FR	Fryslân	
 Name for NO-30	Viken	
 Name for NO-38	Vestfold og Telemark	
@@ -4267,8 +4370,6 @@ Name for TW-LIE	Lienchiang
 Name for TZ-11	Zanzibar South	
 Name for TZ-27	Geita	
 Name for TZ-30	Simiyu	
-Name for UA-30	Kyiv	
-Name for UA-32	Kyivska oblast	
 Name for UG-117	Buikwe	
 Name for UG-118	Bukomansibi	
 Name for UG-123	Kyankwanzi	
@@ -4304,9 +4405,3 @@ Name for UG-432	Kikuube
 Name for UG-433	Kazo	
 Name for WF-SG	Sigave	
 Name for WF-UV	Uvea	
-Name for YE-AB	Abyan	
-Name for YE-MA	Ma’rib	
-Name for YE-SD	Şāʻdah	
-Name for YE-SN	Şanʻā’	
-Name for YE-SU	Arkhabīl Suquţrá	
-Name for YE-TA	Tāʻizz	
