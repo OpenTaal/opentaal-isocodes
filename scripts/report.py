@@ -3,6 +3,8 @@
 
 from datetime import datetime
 from glob import glob
+from operator import itemgetter
+from json import load
 from os import getcwd, path
 from pathlib import Path
 import sys
@@ -55,15 +57,8 @@ def footer(html, mado):
     mado.write('\n')
 
 def htmlcomment(comment, base):
-    if ', ' in comment:
-        results = []
-        for part in comment.split(', '):
-            pos = part.rfind(' ')
-            results.append(f'<a target="_blank" href="{base}{part[pos+1:]}">{part}</a>')
-        return ', '.join(results)
-    else:
-        pos = comment.rfind(' ')
-        return f'<a target="_blank" href="{base}{comment[pos+1:]}">{comment}</a>'
+    pos = comment.find(', ')
+    return f'<a target="_blank" href="{base}{comment[:pos]}">{comment[:pos]}</a>{comment[pos:]}'
 
 def madocomment(comment, base):
     if ', ' in comment:
@@ -214,13 +209,50 @@ def main():
     base_en = 'https://en.wikipedia.org/w/index.php?search='
     base_nl = 'https://nl.wikipedia.org/w/index.php?search='
     isos = {}
+
+    data_639_2_alpha_2 = {}
+    data_639_2_alpha_3 = {}
+    data_3166_1_alpha_2 = {}
+    data_3166_1_alpha_3 = {}
+    data_3166_2 = {}
+    data_3166_3_alpha_2 = {}
+    data_3166_3_alpha_3 = {}
+    data_3166_3_alpha_4 = {}
+    for dataname in ('639-2', '3166-1', '3166-2', '3166-3'):
+        with open(path.join(path.join(__location__, '..'), f'iso_{dataname}.json')) as filepath:
+            keys = {}
+            data = load(filepath)
+            for entry in data[dataname]:
+                if dataname == '3166-1':
+                    data_3166_1_alpha_2[entry['alpha_2']] = {'alpha_3': entry['alpha_3'], 'flag': entry['flag'], 'name': entry['name']}
+                    data_3166_1_alpha_3[entry['alpha_3']] = {'alpha_2': entry['alpha_2'], 'flag': entry['flag'], 'name': entry['name']}
+                    if 'official_name' in entry.keys():
+                        data_3166_1_alpha_2[entry['alpha_2']]['official_name'] = entry['official_name']
+                        data_3166_1_alpha_3[entry['alpha_3']]['official_name'] = entry['official_name']
+                    if 'common_name' in entry.keys():
+                        data_3166_1_alpha_2[entry['alpha_2']]['common_name'] = entry['common_name']
+                        data_3166_1_alpha_3[entry['alpha_3']]['common_name'] = entry['common_name']
+                elif dataname == '3166-2':
+                    data_3166_2[entry['code']] = {'name': entry['name'], 'type': entry['type']}
+                    if 'parent' in entry.keys():
+                        data_3166_2[entry['code']]['parent'] = entry['parent']
+                for key in entry.keys():
+                    if key in keys:
+                        keys[key] += 1
+                    else:
+                        keys[key] = 1
+            print(f'Keys in datafile iso_{dataname}.json')
+            for key, count in sorted(keys.items(), key=itemgetter(1), reverse=True):
+                print(f'\t{count}\t{key}')
+
     for sourcepath in Path(directory.resolve()).glob('*/nl.po'):
         iso = sourcepath.parts[-2]
         name = iso.replace('iso_', 'ISO ')
+        print(name)
         isos[iso] = name
         with open(path.join(path.join(__location__, '..'), f'html/{iso}.html'), 'w') as html, \
-        open(path.join(path.join(__location__, '..'), f'md/{iso}.md'), 'w')as mado, \
-        open(path.join(path.join(__location__, '..'), f'tsv/{iso}.tsv'), 'w')as tsv:
+        open(path.join(path.join(__location__, '..'), f'md/{iso}.md'), 'w') as mado, \
+        open(path.join(path.join(__location__, '..'), f'tsv/{iso}.tsv'), 'w') as tsv:
             sourcefile = pofile(sourcepath)
             header(html, mado, name)
             desc = description(iso, base_nl)
@@ -231,34 +263,130 @@ def main():
             mado.write(f'[{desc[0]}]({desc[1]}). Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% is vertaald op {dtstamp}.\n')
             tsv.write('Codebeschijving\tEngels\tNederlands\n')
             if len(sourcefile.translated_entries()):
+                codes = {}
+                for entry in sourcefile.translated_entries():
+                    for comment in entry.comment.split(', '):
+                        pos = comment.rfind(' ')
+                        comment = f'{comment[pos+1:]}, {comment[:pos]}'
+                        if comment in codes:
+                            print(f'ERROR: Duplicate code {comment}')
+                        else:
+                            codes[comment] = (entry.msgid, entry.msgstr)
                 html.write(f'<h2>Vertaald ({len(sourcefile.translated_entries())})</h2>')
                 html.write('<table>\n')
-                html.write('<tr><th>Codebeschijving</th><th>Engels</th><th>Nederlands</th></tr>\n')
                 mado.write('\n')
-                mado.write('Codebeschrijving | Engels | Nederlands\n')
-                mado.write('---|---|---\n')
-                for entry in sourcefile.translated_entries():
-                    partsid = htmlpart(entry.msgid, base_en)
-                    partsstr = htmlpart(entry.msgstr, base_nl)
-                    html.write(f'<tr><td style="font-family: monospace;">{htmlcomment(entry.comment, base_en)}</td><td style="font-family: monospace;">{partsid}</td><td style="font-family: monospace;">{partsstr}</td></tr>\n')
-                    partsid = madopart(entry.msgid, base_en)
-                    partsstr = madopart(entry.msgstr, base_nl)
-                    mado.write(f'{madocomment(entry.comment, base_en)} | {partsid} | {partsstr}\n')
-                    tsv.write(f'{entry.comment}\t{entry.msgid}\t{entry.msgstr}\n')
+                if iso == 'iso_3166-1':
+                    html.write('<tr><th>Codebeschijving</th><th>Vlag</th><th>Engels</th><th>Nederlands</th></tr>\n')
+                    mado.write('Codebeschrijving | Vlag | Engels | Nederlands\n')
+                    mado.write('---|---|---|---\n')
+                    for code, value in sorted(codes.items()):
+                        pos = code.find(', ')
+                        data_code = code[:pos]
+                        data_name = data_3166_1_alpha_3[data_code]['name']
+                        data_flag = data_3166_1_alpha_3[data_code]['flag']
+                        # if data_name != '' and data_name != value[0]:
+                            # print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
+                        html.write(f'<tr><td style="font-family: monospace;">{htmlcomment(code, base_en)}</td>'
+                                   f'<td style="font-family: monospace;">{data_flag}</td>'
+                                   f'<td style="font-family: monospace;">{htmlpart(value[0], base_en)}</td>'
+                                   f'<td style="font-family: monospace;">{htmlpart(value[1], base_nl)}</td></tr>\n')
+                        mado.write(f'{madocomment(code, base_en)} | '
+                                   f'{data_flag} |'
+                                   f'{madopart(value[0], base_en)} | '
+                                   f'{madopart(value[1], base_nl)}\n')
+                        tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
+                elif iso == 'iso_3166-2':
+                    html.write('<tr><th>Codebeschijving</th><th>Type</th><th>Engels</th><th>Nederlands</th></tr>\n')
+                    mado.write('Codebeschrijving | Type | Engels | Nederlands\n')
+                    mado.write('---|---|---|---\n')
+                    for code, value in sorted(codes.items()):
+                        pos = code.find(', ')
+                        data_code = code[:pos]
+                        data_name = data_3166_2[data_code]['name']
+                        data_type = data_3166_2[data_code]['type']
+                        if data_name != '' and data_name != value[0]:
+                            print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
+                        html.write(f'<tr><td style="font-family: monospace;">{htmlcomment(code, base_en)}</td>'
+                                   f'<td style="font-family: monospace;">{data_type}</td>'
+                                   f'<td style="font-family: monospace;">{htmlpart(value[0], base_en)}</td>'
+                                   f'<td style="font-family: monospace;">{htmlpart(value[1], base_nl)}</td></tr>\n')
+                        mado.write(f'{madocomment(code, base_en)} | '
+                                   f'{data_type} | '
+                                   f'{madopart(value[0], base_en)} | '
+                                   f'{madopart(value[1], base_nl)}\n')
+                        tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
+                else:
+                    html.write('<tr><th>Codebeschijving</th><th>Engels</th><th>Nederlands</th></tr>\n')
+                    mado.write('Codebeschrijving | Engels | Nederlands\n')
+                    mado.write('---|---|---\n')
+                    for code, value in sorted(codes.items()):
+                        html.write(f'<tr><td style="font-family: monospace;">{htmlcomment(code, base_en)}</td>'
+                                   f'<td style="font-family: monospace;">{htmlpart(value[0], base_en)}</td>'
+                                   f'<td style="font-family: monospace;">{htmlpart(value[1], base_nl)}</td></tr>\n')
+                        mado.write(f'{madocomment(code, base_en)} | '
+                                   f'{madopart(value[0], base_en)} | '
+                                   f'{madopart(value[1], base_nl)}\n')
+                        tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
                 html.write('</table>\n')
             if len(sourcefile.untranslated_entries()):
+                codes = {}
+                for entry in sourcefile.translated_entries():
+                    for comment in entry.comment.split(', '):
+                        pos = comment.rfind(' ')
+                        comment = f'{comment[pos+1:]}, {comment[:pos]}'
+                        if comment in codes:
+                            print(f'ERROR: Duplicate code {comment}')
+                        else:
+                            codes[comment] = entry.msgid
                 html.write(f'<h2>Onvertaald ({len(sourcefile.untranslated_entries())})</h2>\n')
                 html.write('<table>\n')
-                html.write('<tr><th>Codebeschijving</th><th>Engels</th></tr>\n')
                 mado.write('\n')
-                mado.write('Codebeschrijving | Engels\n')
-                mado.write('---|---\n')
-                for entry in sourcefile.untranslated_entries():
-                    partsid = htmlpart(entry.msgid, base_en)
-                    html.write(f'<tr><td style="font-family: monospace;">{htmlcomment(entry.comment, base_en)}</td><td style="font-family: monospace;">{partsid}</td></tr>\n')
-                    partsid = madopart(entry.msgid, base_en)
-                    mado.write(f'{madocomment(entry.comment, base_en)} | {partsid}\n')
-                    tsv.write(f'{entry.comment}\t{entry.msgid}\t\n')
+                if iso == 'iso_3166-1':
+                    html.write('<tr><th>Codebeschijving</th><th>Vlag</th><th>Engels</th></tr>\n')
+                    mado.write('Codebeschrijving | Vlag | Engels\n')
+                    mado.write('---|---|---\n')
+                    for code, value in sorted(codes.items()):
+                        pos = code.find(', ')
+                        data_code = code[:pos]
+                        data_name = data_3166_1_alpha_3[data_code]['name']
+                        data_flag = data_3166_1_alpha_3[data_code]['flag']
+                        # if data_name != '' and data_name != value:
+                            # print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
+                        html.write(f'<tr><td style="font-family: monospace;">{htmlcomment(code, base_en)}</td>'
+                                   f'<td style="font-family: monospace;">{data_flag}</td>'
+                                   f'<td style="font-family: monospace;">{htmlpart(value, base_en)}</td></tr>\n')
+                        mado.write(f'{madocomment(code, base_en)} | '
+                                   f'{data_flag} |'
+                                   f'{madopart(value, base_en)}\n')
+                        tsv.write(f'{code}\t{entry.msgid}\t\n')
+                elif iso == 'iso_3166-2':
+                    html.write('<tr><th>Codebeschijving</th><th>Type</th><th>Engels</th></tr>\n')
+                    mado.write('Codebeschrijving | Type | Engels\n')
+                    mado.write('---|---|---\n')
+                    for code, value in sorted(codes.items()):
+                        pos = code.find(', ')
+                        data_code = code[:pos]
+                        data_name = data_3166_2[data_code]['name']
+                        data_type = data_3166_2[data_code]['type']
+                        if data_name != '' and data_name != value:
+                            print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
+                        html.write(f'<tr><td style="font-family: monospace;">{htmlcomment(code, base_en)}</td>'
+                                   f'<td style="font-family: monospace;">{data_type}</td>'
+                                   f'<td style="font-family: monospace;">{htmlpart(value, base_en)}</td></tr>\n')
+                        mado.write(f'{madocomment(code, base_en)} | '
+                                   f'{data_type} |'
+                                   f'{madopart(value, base_en)}\n')
+                        tsv.write(f'{code}\t{entry.msgid}\t\n')
+                else:
+                    html.write('<tr><th>Codebeschijving</th><th>Engels</th></tr>\n')
+                    mado.write('Codebeschrijving | Engels\n')
+                    mado.write('---|---\n')
+                    for code, value in sorted(codes.items()):
+                        html.write(f'<tr><td style="font-family: monospace;">{htmlcomment(code, base_en)}</td>'
+                                   f'<td style="font-family: monospace;">{htmlpart(value, base_en)}</td></tr>\n')
+                        mado.write(f'{madocomment(code, base_en)} | '
+                                   f'{madopart(value, base_en)}\n')
+                        tsv.write(f'{code}\t{entry.msgid}\t\n')
                 html.write('</table>\n')
             footer(html, mado)
 
