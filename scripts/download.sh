@@ -15,7 +15,7 @@ done
 cd ..
 
 if [ -e weblate ]; then
-    rm rf weblate
+    rm -rf weblate
 fi
 mkdir weblate
 cd weblate
@@ -24,6 +24,6 @@ https://hosted.weblate.org/download-language/nl/iso-codes/?format=zip
 unzip -o iso-codes.zip
 rm -f iso-codes.zip
 mv iso-codes/iso-639-2/* .
-rm -rf ico-codes
+rm -rf iso-codes
 rm -rf iso*/*.pot
 cd ..
