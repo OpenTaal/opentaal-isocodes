@@ -46,6 +46,11 @@ For questions regarding existing translations, you can also open an issue
 at https://github.com/OpenTaal/opentaal-isocodes/issues to discuss
 improvements before adding them to Weblate.
 
+For maintaining these translations and supporting them in the Dutch spelling
+checker, donate via
+<a target="_blank" href="https://liberapay.com/opentaal">Liberapay</a> to
+Stichting OpenTaal.
+
 Standaard | Beschrijving | Vertalingen
 ---|---|---
 ISO 15924 | [Vierletterige codes schriftsystemen](https://nl.wikipedia.org/w/index.php?search=ISO_15924) | [MD](md/iso_15924.md) [HTML](html/iso_15924.html) [TSV](tsv/iso_15924.tsv)

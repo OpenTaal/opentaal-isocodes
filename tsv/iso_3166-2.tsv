@@ -234,7 +234,9 @@ BD-02, Name for	Barguna	Barguna
 BD-03, Name for	Bogura	Bogura
 BD-04, Name for	Brahmanbaria	Brahmanbaria
 BD-05, Name for	Bagerhat	Bagerhat
+BD-06, Name for	Barishal	Barisal
 BD-07, Name for	Bhola	Bhola
+BD-08, Name for	Cumilla	Comilla
 BD-09, Name for	Chandpur	Chandpur
 BD-10, Name for	Chattogram	Chittagong
 BD-11, Name for	Cox's Bazar	Cox's Bazar
@@ -291,6 +293,7 @@ BD-61, Name for	Sunamganj	Sunamganj
 BD-62, Name for	Shariatpur	Shariatpur
 BD-63, Name for	Tangail	Tangail
 BD-64, Name for	Thakurgaon	Thakurgaon
+BD-A, Name for	Barishal	Barisal
 BD-B, Name for	Chattogram	Chittagong
 BD-C, Name for	Dhaka	Dhaka
 BD-D, Name for	Khulna	Khulna
@@ -521,6 +524,7 @@ BT-33, Name for	Bumthang	Bumthang
 BT-34, Name for	Zhemgang	Zhemgang
 BT-41, Name for	Trashigang	Trashigang
 BT-42, Name for	Monggar	Monggar
+BT-43, Name for	Pema Gatshel	Pemagatshel
 BT-44, Name for	Lhuentse	Lhuentse
 BT-45, Name for	Samdrup Jongkhar	Samdrup Jongkhar
 BT-GA, Name for	Gasa	Gasa
@@ -534,11 +538,13 @@ BW-JW, Name for	Jwaneng	Jwaneng
 BW-KG, Name for	Kgalagadi	Kgalagadi
 BW-KL, Name for	Kgatleng	Kgatleng
 BW-KW, Name for	Kweneng	Kweneng
+BW-LO, Name for	Lobatse	Lobatse
 BW-NE, Name for	North East	Noord-Oost
 BW-NW, Name for	North West	Noord-West
 BW-SE, Name for	South East	Zuid-Oost
 BW-SO, Name for	Southern	Zuid
 BW-SP, Name for	Selibe Phikwe	Selibe Phikwe
+BW-ST, Name for	Sowa Town	Sowa Town
 BY-BR, Name for	Bresckaja voblasć	Brest, Provincie
 BY-HM, Name for	Gorod Minsk	Minsk (stad)
 BY-HO, Name for	Gomel'skaja oblast'	Homel, Provincie
@@ -565,17 +571,30 @@ CA-PE, Name for	Prince Edward Island	Prins Edwardeiland
 CA-QC, Name for	Quebec	Quebec
 CA-SK, Name for	Saskatchewan	Saskatchewan
 CA-YT, Name for	Yukon	Yukon
+CD-BC, Name for	Kongo Central	Kongo Central
 CD-BU, Name for	Bas-Uélé	Bas-Uele
 CD-EQ, Name for	Équateur	Evenaarsprovincie
+CD-HK, Name for	Haut-Katanga	Haut-Katanga
+CD-HL, Name for	Haut-Lomami	Hoog-Loire
+CD-HU, Name for	Haut-Uélé	Hoog-Pyreneeën
+CD-IT, Name for	Ituri	Asturië
+CD-KC, Name for	Kasaï Central	Mashonaland Centraal
+CD-KE, Name for	Kasaï Oriental	Oost-Kasaï
+CD-KG, Name for	Kwango	Yangon
 CD-KL, Name for	Kwilu	Kwilu
 CD-KN, Name for	Kinshasa	Kinshasa
 CD-KS, Name for	Kasaï	Kasaï
 CD-LO, Name for	Lomami	Lomami
+CD-LU, Name for	Lualaba	Dalaba
 CD-MA, Name for	Maniema	Maniema
 CD-MN, Name for	Mai-Ndombe	Mai-Ndombe
+CD-MO, Name for	Mongala	Monggar
 CD-NK, Name for	Nord-Kivu	Noord-Kivu
+CD-NU, Name for	Nord-Ubangi	Noord-Ubangi
+CD-SA, Name for	Sankuru	Nakuru
 CD-SK, Name for	Sud-Kivu	Zuid-Kivu
 CD-SU, Name for	Sud-Ubangi	Zuid-Ubangi
+CD-TA, Name for	Tanganyika	Telangana
 CD-TO, Name for	Tshopo	Tshopo
 CD-TU, Name for	Tshuapa	Tshuapa
 CF-AC, Name for	Ouham	Ouham
@@ -589,6 +608,7 @@ CF-KB, Name for	Gribingui	Gribingui
 CF-KG, Name for	Kemö-Gïrïbïngï	Kémo
 CF-LB, Name for	Lobaye	Lobaye
 CF-MB, Name for	Mbomou	Mbomou
+CF-MP, Name for	Ombella-Mpoko	Ombella-Mpoko
 CF-NM, Name for	Nana-Mambéré	Nana-Mambéré
 CF-OP, Name for	Ouham-Pendé	Ouham-Pendé
 CF-SE, Name for	Sangha	Sangha
@@ -599,6 +619,7 @@ CG-12, Name for	Pool	Pool
 CG-13, Name for	Sangha	Sangha
 CG-14, Name for	Plateaux	Plateaux
 CG-15, Name for	Cuvette-Ouest	Cuvette-West
+CG-16, Name for	Pointe-Noire	Pointe-Noire
 CG-2, Name for	Lékoumou	Lékoumou
 CG-5, Name for	Kouilou	Kouilou
 CG-7, Name for	Likouala	Likouala
@@ -611,6 +632,7 @@ CH-AR, Name for	Appenzell Ausserrhoden	Appenzell Ausserrhoden
 CH-BE, Name for	Bern	Bern
 CH-BL, Name for	Basel-Landschaft	Bazel-Landschap
 CH-BS, Name for	Basel-Stadt	Basel-Stad
+CH-FR, Name for	Freiburg	Fribourg
 CH-GE, Name for	Genève	Genève
 CH-GL, Name for	Glarus	Glarus
 CH-GR, Name for	Graubünden	Graubünden
@@ -1041,9 +1063,13 @@ EE-198, Name for	Harku	NOG NIET VERTAALD
 EE-205, Name for	Hiiumaa	Hiiumaa
 EE-214, Name for	Häädemeeste	NOG NIET VERTAALD
 EE-245, Name for	Jõelähtme	NOG NIET VERTAALD
+EE-247, Name for	Jõgeva	Jõgevamaa
 EE-251, Name for	Jõhvi	NOG NIET VERTAALD
+EE-255, Name for	Järva	Järvamaa
+EE-272, Name for	Kadrina	Barinas
 EE-283, Name for	Kambja	NOG NIET VERTAALD
 EE-284, Name for	Kanepi	NOG NIET VERTAALD
+EE-291, Name for	Kastre	Kastoria
 EE-293, Name for	Kehtna	NOG NIET VERTAALD
 EE-296, Name for	Keila	NOG NIET VERTAALD
 EE-303, Name for	Kihnu	NOG NIET VERTAALD
@@ -1055,6 +1081,10 @@ EE-353, Name for	Kuusalu	NOG NIET VERTAALD
 EE-37, Name for	Harjumaa	Harjumaa
 EE-39, Name for	Hiiumaa	Hiiumaa
 EE-424, Name for	Loksa	NOG NIET VERTAALD
+EE-430, Name for	Lääneranna	Läänemaa
+EE-431, Name for	Lääne-Harju	Lääne-Virumaa
+EE-432, Name for	Luunja	Punjab
+EE-441, Name for	Lääne-Nigula	Lääne-Virumaa
 EE-442, Name for	Lüganuse	NOG NIET VERTAALD
 EE-446, Name for	Maardu	NOG NIET VERTAALD
 EE-45, Name for	Ida-Virumaa	Ida-Virumaa
@@ -1062,6 +1092,7 @@ EE-478, Name for	Muhu	NOG NIET VERTAALD
 EE-480, Name for	Mulgi	NOG NIET VERTAALD
 EE-486, Name for	Mustvee	NOG NIET VERTAALD
 EE-50, Name for	Jõgevamaa	Jõgevamaa
+EE-503, Name for	Märjamaa	Järvamaa
 EE-511, Name for	Narva	NOG NIET VERTAALD
 EE-514, Name for	Narva-Jõesuu	NOG NIET VERTAALD
 EE-52, Name for	Järvamaa	Järvamaa
@@ -1072,43 +1103,63 @@ EE-567, Name for	Paide	NOG NIET VERTAALD
 EE-586, Name for	Peipsiääre	NOG NIET VERTAALD
 EE-60, Name for	Lääne-Virumaa	Lääne-Virumaa
 EE-615, Name for	Põhja-Sakala	NOG NIET VERTAALD
+EE-618, Name for	Põltsamaa	Põlvamaa
+EE-622, Name for	Põlva	Põlvamaa
+EE-624, Name for	Pärnu	Pärnumaa
+EE-638, Name for	Põhja-Pärnumaa	Pärnumaa
 EE-64, Name for	Põlvamaa	Põlvamaa
 EE-651, Name for	Raasiku	NOG NIET VERTAALD
+EE-653, Name for	Rae	Lae
 EE-661, Name for	Rakvere	NOG NIET VERTAALD
 EE-663, Name for	Rakvere	NOG NIET VERTAALD
+EE-668, Name for	Rapla	Raplamaa
 EE-68, Name for	Pärnumaa	Pärnumaa
 EE-689, Name for	Ruhnu	NOG NIET VERTAALD
 EE-698, Name for	Rõuge	NOG NIET VERTAALD
 EE-708, Name for	Räpina	NOG NIET VERTAALD
 EE-71, Name for	Raplamaa	Raplamaa
+EE-712, Name for	Saarde	Saarland
 EE-714, Name for	Saaremaa	Saaremaa
 EE-719, Name for	Saku	NOG NIET VERTAALD
 EE-726, Name for	Saue	NOG NIET VERTAALD
 EE-732, Name for	Setomaa	NOG NIET VERTAALD
+EE-735, Name for	Sillamäe	Sillamäe
 EE-74, Name for	Saaremaa	Saaremaa
 EE-784, Name for	Tallinn	NOG NIET VERTAALD
 EE-79, Name for	Tartumaa	Tartumaa
 EE-792, Name for	Tapa	NOG NIET VERTAALD
+EE-793, Name for	Tartu	Tartus
+EE-796, Name for	Tartu	Tartus
 EE-803, Name for	Toila	NOG NIET VERTAALD
+EE-809, Name for	Tori	Turijn
 EE-81, Name for	Valgamaa	Valgamaa
 EE-824, Name for	Tõrva	NOG NIET VERTAALD
 EE-834, Name for	Türi	NOG NIET VERTAALD
 EE-84, Name for	Viljandimaa	Viljandimaa
+EE-855, Name for	Valga	Valgamaa
 EE-87, Name for	Võrumaa	Võrumaa
 EE-890, Name for	Viimsi	NOG NIET VERTAALD
+EE-897, Name for	Viljandi	Viljandimaa
+EE-899, Name for	Viljandi	Viljandimaa
 EE-901, Name for	Vinni	NOG NIET VERTAALD
 EE-903, Name for	Viru-Nigula	NOG NIET VERTAALD
 EE-907, Name for	Vormsi	NOG NIET VERTAALD
+EE-917, Name for	Võru	Võrumaa
+EE-919, Name for	Võru	Võrumaa
 EE-928, Name for	Väike-Maarja	NOG NIET VERTAALD
 EG-ALX, Name for	Al Iskandarīyah	Alexandrië
 EG-ASN, Name for	Aswān	Aswan
+EG-AST, Name for	Asyūţ	Assioet
 EG-BA, Name for	Al Baḩr al Aḩmar	Al-Bahr-al-Ahmar
+EG-BH, Name for	Al Buḩayrah	Al Buhayrah
 EG-BNS, Name for	Banī Suwayf	Beni Suef
 EG-C, Name for	Al Qāhirah	Caïro
 EG-DK, Name for	Ad Daqahlīyah	Ad Daqahlyah
+EG-DT, Name for	Dumyāţ	Dimyat
 EG-FYM, Name for	Al Fayyūm	Al Fajoem
 EG-GH, Name for	Al Gharbīyah	Al Gharbiyah
 EG-GZ, Name for	Al Jīzah	Gizeh
+EG-IS, Name for	Al Ismā'īlīyah	Ismaïlia
 EG-JS, Name for	Janūb Sīnā'	Zuidelijke Sinaï
 EG-KB, Name for	Al Qalyūbīyah	Al Qalyubiyah
 EG-KFS, Name for	Kafr ash Shaykh	Kafr ash Shaykh
@@ -1117,8 +1168,10 @@ EG-LX, Name for	Al Uqşur	Luxor
 EG-MN, Name for	Al Minyā	Minya
 EG-MNF, Name for	Al Minūfīyah	Al Minufiyah
 EG-MT, Name for	Maţrūḩ	Matruh
+EG-PTS, Name for	Būr Sa‘īd	Port Said
 EG-SHG, Name for	Sūhāj	Suhaj
 EG-SHR, Name for	Ash Sharqīyah	Ash Sharqiyah
+EG-SIN, Name for	Shamāl Sīnā'	Noordelijke Sinaï
 EG-SUZ, Name for	As Suways	As Suways
 EG-WAD, Name for	Al Wādī al Jadīd	Al Wadi al Jadid
 ER-AN, Name for	Ansabā	Anseba
@@ -1198,9 +1251,15 @@ ES-Z, Name for	Zaragoza	Zaragoza
 ES-ZA, Name for	Zamora	Zamora
 ET-AA, Name for	Addis Ababa	Addis Abeba
 ET-AF, Name for	Afar	Afar
+ET-AM, Name for	Amara	Amhara
+ET-BE, Name for	Benshangul-Gumaz	Benishangul-Gumuz
+ET-DD, Name for	Dire Dawa	Dire Dawa
 ET-GA, Name for	Gambela Peoples	Gambela
+ET-HA, Name for	Harari People	Harare
+ET-OR, Name for	Oromia	Oromiya
 ET-SN, Name for	Southern Nations, Nationalities and Peoples	Yedebub Biheroch Bihereseboch na Hizboch
 ET-SO, Name for	Somali	Somali
+ET-TI, Name for	Tigrai	Tigray
 FI-01, Name for	Åland	Åland
 FI-02, Name for	Etelä-Karjala	Zuid-Karelië
 FI-03, Name for	Etelä-Pohjanmaa	Zuid-Ostrobothnië
@@ -1220,16 +1279,25 @@ FI-16, Name for	Päijät-Häme	Päijät-Häme
 FI-17, Name for	Satakunta	Satakunta
 FI-18, Name for	Uusimaa	Uusimaa
 FI-19, Name for	Varsinais-Suomi	Zuidwest-Finland
-FJ-03, Name for	Cakaudrove	NOG NIET VERTAALD
-FJ-04, Name for	Kadavu	NOG NIET VERTAALD
-FJ-06, Name for	Lomaiviti	NOG NIET VERTAALD
-FJ-07, Name for	Macuata	NOG NIET VERTAALD
-FJ-09, Name for	Naitasiri	NOG NIET VERTAALD
-FJ-12, Name for	Rewa	NOG NIET VERTAALD
-FJ-13, Name for	Serua	NOG NIET VERTAALD
+FJ-01, Name for	Ba	Ba
+FJ-02, Name for	Bua	Bua
+FJ-03, Name for	Cakaudrove	Cakaudrove
+FJ-04, Name for	Kadavu	Kadavu
+FJ-05, Name for	Lau	Lau
+FJ-06, Name for	Lomaiviti	Lomaiviti
+FJ-07, Name for	Macuata	Macuata
+FJ-08, Name for	Nadroga and Navosa	Nadroga-Navosa
+FJ-09, Name for	Naitasiri	Naitasiri
+FJ-10, Name for	Namosi	Namosi
+FJ-11, Name for	Ra	Ra
+FJ-12, Name for	Rewa	Rewa
+FJ-13, Name for	Serua	Serua
+FJ-14, Name for	Tailevu	Tailevu
 FJ-C, Name for	Central	Central
 FJ-E, Name for	Eastern	Oost
+FJ-N, Name for	Northern	Northern
 FJ-R, Name for	Rotuma	Rotuma
+FJ-W, Name for	Western	Western
 FM-KSA, Name for	Kosrae	Kosrae
 FM-PNI, Name for	Pohnpei	Pohnpei
 FM-TRK, Name for	Chuuk	Chuuk
@@ -1385,6 +1453,7 @@ GB-BDF, Name for	Bedford	Bedford
 GB-BDG, Name for	Barking and Dagenham	Barking en Dagenham
 GB-BEN, Name for	Brent	Brent
 GB-BEX, Name for	Bexley	Bexley
+GB-BFS, Name for	Belfast City	Belfast
 GB-BGE, Name for	Bridgend [Pen-y-bont ar Ogwr GB-POG]	Bridgend
 GB-BGW, Name for	Blaenau Gwent	Blaenau Gwent
 GB-BIR, Name for	Birmingham	Birmingham
@@ -1427,6 +1496,7 @@ GB-DND, Name for	Dundee City	Dundee
 GB-DOR, Name for	Dorset	Dorset
 GB-DRS, Name for	Derry and Strabane	Derry en Strabane
 GB-DUD, Name for	Dudley	Dudley
+GB-DUR, Name for	Durham, County	Durham
 GB-EAL, Name for	Ealing	Ealing
 GB-EAY, Name for	East Ayrshire	East Ayrshire
 GB-EDH, Name for	Edinburgh, City of	Edinburgh, City of
@@ -1598,16 +1668,32 @@ GD-10, Name for	Southern Grenadine Islands	Southern Grenadine Islands
 GE-AB, Name for	Abkhazia	Abchazië
 GE-AJ, Name for	Ajaria	Adzjarië
 GE-GU, Name for	Guria	Guria
+GE-IM, Name for	Imereti	Imereti
+GE-KA, Name for	K'akheti	Kakheti
+GE-KK, Name for	Kvemo Kartli	Kvemo Kartli
+GE-MM, Name for	Mtskheta-Mtianeti	Mtskheta-Mtianeti
+GE-RL, Name for	Rach'a-Lechkhumi-Kvemo Svaneti	Racha-Lechkhumi en Kvemo Svaneti
+GE-SJ, Name for	Samtskhe-Javakheti	Samtskhe-Javakheti
+GE-SK, Name for	Shida Kartli	Shida Kartli
+GE-SZ, Name for	Samegrelo-Zemo Svaneti	Samegrelo-Zemo Svaneti
+GE-TB, Name for	Tbilisi	Tbilisi
 GH-AA, Name for	Greater Accra	Groot-Accra
+GH-AF, Name for	Ahafo	Ahafo
 GH-AH, Name for	Ashanti	Ashanti
 GH-BE, Name for	Bono East	Bono Oost
 GH-BO, Name for	Bono	Bono
 GH-CP, Name for	Central	Central
 GH-EP, Name for	Eastern	Oost
 GH-NE, Name for	North East	Noord-Oost
+GH-NP, Name for	Northern	Northern
+GH-OT, Name for	Oti	Oti
+GH-SV, Name for	Savannah	Savannah
 GH-TV, Name for	Volta	Volta
 GH-UE, Name for	Upper East	Upper East
 GH-UW, Name for	Upper West	Upper West
+GH-WN, Name for	Western North	Western North
+GH-WP, Name for	Western	Western
+GL-AV, Name for	Avannaata Kommunia	Gemeente Qeqqata
 GL-KU, Name for	Kommune Kujalleq	Gemeente Kujalleq
 GL-QE, Name for	Qeqqata Kommunia	Gemeente Qeqqata
 GL-QT, Name for	Kommune Qeqertalik	Gemeente Qeqertalik
@@ -1617,6 +1703,7 @@ GM-L, Name for	Lower River	Lower River
 GM-M, Name for	Central River	Central River
 GM-N, Name for	North Bank	North Bank
 GM-U, Name for	Upper River	Upper River
+GM-W, Name for	Western	Western
 GN-B, Name for	Boké	Boké
 GN-BE, Name for	Beyla	Beyla
 GN-BF, Name for	Boffa	Boffa
@@ -1658,12 +1745,29 @@ GN-SI, Name for	Siguiri	Siguiri
 GN-TE, Name for	Télimélé	Télimélé
 GN-TO, Name for	Tougué	Tougué
 GN-YO, Name for	Yomou	Yomou
+GQ-AN, Name for	Annobon	Annobón
+GQ-BN, Name for	Bioko Nord	Bioko Norte
+GQ-BS, Name for	Bioko Sud	Bioko Sur
 GQ-C, Name for	Região Continental	Continentale Regio
+GQ-CS, Name for	Centro Sud	Centro Sur
+GQ-DJ, Name for	Djibloho	Djibouti
+GQ-I, Name for	Região Insular	Eilandenregio
 GQ-KN, Name for	Kié-Ntem	Kié-Ntem
 GQ-LI, Name for	Litoral	Litoral
 GQ-WN, Name for	Wele-Nzas	Wele-Nzas
 GR-69, Name for	Ágion Óros	Oros Athos
+GR-A, Name for	Anatolikí Makedonía kai Thráki	Oost-Macedonië en Thracië
+GR-B, Name for	Kentrikí Makedonía	Centraal-Macedonië
+GR-C, Name for	Dytikí Makedonía	West-Macedonië
+GR-D, Name for	Ípeiros	Epirus
+GR-E, Name for	Thessalía	Thessalië
 GR-F, Name for	Ionía Nísia	Ionische Eilanden
+GR-G, Name for	Dytikí Elláda	West-Griekenland
+GR-H, Name for	Stereá Elláda	Centraal-Griekenland
+GR-I, Name for	Attikí	Attica
+GR-J, Name for	Pelopónnisos	Peloponnesos
+GR-K, Name for	Vóreio Aigaío	Noord-Egeïsche Eilanden
+GR-L, Name for	Nótio Aigaío	Zuid-Egeïsche Eilanden
 GR-M, Name for	Kríti	Kreta
 GT-AV, Name for	Alta Verapaz	Alta Verapaz
 GT-BV, Name for	Baja Verapaz	Baja Verapaz
@@ -1750,10 +1854,13 @@ HR-20, Name for	Međimurska županija	Medjimurje, Provincie
 HR-21, Name for	Grad Zagreb	Zagreb (stad)
 HT-AR, Name for	Artibonite	Artibonite
 HT-CE, Name for	Centre	Centre
+HT-GA, Name for	Grandans	Grand' Anse
 HT-ND, Name for	Nord	Noord
 HT-NE, Name for	Nord-Est	Nord-Est
+HT-NI, Name for	Nip	Nippes
 HT-NO, Name for	Nord-Ouest	Nord-Ouest
 HT-OU, Name for	Lwès	Ouest
+HT-SD, Name for	Sid	Sud
 HT-SE, Name for	Sidès	Sud-Est
 HU-BA, Name for	Baranya	Baranya
 HU-BC, Name for	Békéscsaba	Békéscsaba
@@ -1800,6 +1907,7 @@ HU-ZA, Name for	Zala	Zala
 HU-ZE, Name for	Zalaegerszeg	Zalaegerszeg
 ID-AC, Name for	Aceh	Aceh
 ID-BA, Name for	Bali	Bali
+ID-BB, Name for	Kepulauan Bangka Belitung	Bangka-Belitung
 ID-BE, Name for	Bengkulu	Bengkulu
 ID-BT, Name for	Banten	Banten
 ID-GO, Name for	Gorontalo	Gorontalo
@@ -1815,6 +1923,7 @@ ID-KI, Name for	Kalimantan Timur	Oost-Kalimantan
 ID-KR, Name for	Kepulauan Riau	Riau-eilanden
 ID-KS, Name for	Kalimantan Selatan	Zuid-Kalimantan
 ID-KT, Name for	Kalimantan Tengah	Centraal-Kalimantan
+ID-KU, Name for	Kalimantan Utara	Noord-Kalimantan
 ID-LA, Name for	Lampung	Lampung
 ID-MA, Name for	Maluku	Molukken
 ID-ML, Name for	Maluku	Molukken
@@ -1827,14 +1936,17 @@ ID-PB, Name for	Papua Barat	West-Papua
 ID-PP, Name for	Papua	Papoea
 ID-RI, Name for	Riau	Riau
 ID-SA, Name for	Sulawesi Utara	Noord-Sulawesi
+ID-SB, Name for	Sumatera Barat	West-Sumatra
 ID-SG, Name for	Sulawesi Tenggara	Zuidoost-Sulawesi
 ID-SL, Name for	Sulawesi	Sulawesi
 ID-SM, Name for	Sumatera	Sumatra
 ID-SN, Name for	Sulawesi Selatan	Zuid-Sulawesi
 ID-SR, Name for	Sulawesi Barat	West-Sulawesi
+ID-SS, Name for	Sumatera Selatan	Zuid-Sumatra
 ID-ST, Name for	Sulawesi Tengah	Centraal Sulawesi
 ID-SU, Name for	Sumatera Utara	Noord-Sumatra
 ID-YO, Name for	Yogyakarta	Yogyakarta
+IE-C, Name for	Connaught	Connacht
 IE-CE, Name for	Clare	Clare
 IE-CN, Name for	Cavan	Cavan
 IE-CO, Name for	Cork	Cork
@@ -1866,48 +1978,82 @@ IE-WW, Name for	Wicklow	Wicklow
 IE-WX, Name for	Wexford	Wexford
 IL-D, Name for	Al Janūbī	Debub
 IL-HA, Name for	H̱efa	Haifa
+IL-JM, Name for	Al Quds	Al Kadisiah
 IL-M, Name for	Al Awsaţ	Maekel
 IL-TA, Name for	Tall Abīb	Tel Aviv
+IL-Z, Name for	Ash Shamālī	Ash Shamallyah
 IN-AN, Name for	Andaman and Nicobar Islands	Andaman- en Nicobar-eilanden
 IN-AP, Name for	Andhra Pradesh	Andhra Pradesh
+IN-AR, Name for	Arunāchal Pradesh	Arunachal Pradesh
 IN-AS, Name for	Assam	Assam
 IN-BR, Name for	Bihār	Bihar
+IN-CH, Name for	Chandīgarh	Chandigarh
+IN-CT, Name for	Chhattīsgarh	Chhattisgarh
+IN-DH, Name for	Dādra and Nagar Haveli and Damān and Diu	Dadra en Nagar Haveli
 IN-DL, Name for	Delhi	Delhi
 IN-GA, Name for	Goa	Goa
+IN-GJ, Name for	Gujarāt	Gujarat
+IN-HP, Name for	Himāchal Pradesh	Himachal Pradesh
+IN-HR, Name for	Haryāna	Haryana
+IN-JH, Name for	Jhārkhand	Jharkhand
+IN-JK, Name for	Jammu and Kashmīr	Jammu en Kashmir
+IN-KA, Name for	Karnātaka	Karnataka
 IN-KL, Name for	Kerala	Kerala
 IN-LA, Name for	Ladākh	Ladakh
 IN-LD, Name for	Lakshadweep	Lakshadweep
+IN-MH, Name for	Mahārāshtra	Maharashtra
+IN-ML, Name for	Meghālaya	Meghalaya
 IN-MN, Name for	Manipur	Manipur
 IN-MP, Name for	Madhya Pradesh	Madhya Pradesh
 IN-MZ, Name for	Mizoram	Mizoram
+IN-NL, Name for	Nāgāland	Nagaland
 IN-OR, Name for	Odisha	Odisha
 IN-PB, Name for	Punjab	Punjab
 IN-PY, Name for	Puducherry	Puducherry
+IN-RJ, Name for	Rājasthān	Rajasthan
 IN-SK, Name for	Sikkim	Sikkim
+IN-TG, Name for	Telangāna	Telangana
+IN-TN, Name for	Tamil Nādu	Tamil Nadu
 IN-TR, Name for	Tripura	Tripura
 IN-UP, Name for	Uttar Pradesh	Uttar Pradesh
+IN-UT, Name for	Uttarākhand	Uttarakhand
 IN-WB, Name for	West Bengal	West-Bengalen
+IQ-AN, Name for	Al Anbār	Al Anbar
 IQ-AR, Name for	Arbīl	NOG NIET VERTAALD
+IQ-BA, Name for	Al Başrah	Basra
 IQ-BB, Name for	Bābil	NOG NIET VERTAALD
+IQ-BG, Name for	Baghdād	Bagdad
 IQ-DA, Name for	Dahūk	NOG NIET VERTAALD
 IQ-DI, Name for	Diyālá	NOG NIET VERTAALD
 IQ-DQ, Name for	Dhī Qār	NOG NIET VERTAALD
+IQ-KA, Name for	Karbalā’	'Karbala
+IQ-KI, Name for	Kirkūk	Kirkop
+IQ-MA, Name for	Maysān	Maysan
+IQ-MU, Name for	Al Muthanná	Al Muthanna
+IQ-NA, Name for	An Najaf	Najaf
 IQ-NI, Name for	Nīnawá	NOG NIET VERTAALD
+IQ-QA, Name for	Al Qādisīyah	Al Kadisiah
 IQ-SD, Name for	Şalāḩ ad Dīn	NOG NIET VERTAALD
+IQ-SU, Name for	As Sulaymānīyah	As Sulaymaniyah
 IQ-WA, Name for	Wāsiţ	NOG NIET VERTAALD
 IR-00, Name for	Markazī	Markazi
 IR-01, Name for	Gīlān	Gilan
 IR-02, Name for	Māzandarān	Mazandaran
+IR-03, Name for	Āz̄ārbāyjān-e Shārqī	Oost-Azerbeijan
+IR-04, Name for	Āz̄ārbāyjān-e Ghārbī	West-Azerbeijan
 IR-05, Name for	Kermānshāh	Kermanshah
 IR-06, Name for	Khūzestān	Khoezistan
 IR-07, Name for	Fārs	Fars
 IR-08, Name for	Kermān	Kerman
+IR-09, Name for	Khorāsān-e Raẕavī	Khorasan-e-Razavi
 IR-10, Name for	Eşfahān	Isfahan
 IR-11, Name for	Sīstān va Balūchestān	Sistan en Beloetsjistan
 IR-12, Name for	Kordestān	Kordestan
 IR-13, Name for	Hamadān	Hamadan
+IR-14, Name for	Chahār Maḩāl va Bakhtīārī	Chahar Mahaal en Bakhtiari
 IR-15, Name for	Lorestān	Lorestan
 IR-16, Name for	Īlām	Ilam
+IR-17, Name for	Kohgīlūyeh va Bowyer Aḩmad	Kohjiluyeh en Buyer Ahmad
 IR-18, Name for	Būshehr	Bushehr
 IR-19, Name for	Zanjān	Zanjan
 IR-20, Name for	Semnān	Semnan
@@ -1918,6 +2064,8 @@ IR-24, Name for	Ardabīl	Ardebil
 IR-25, Name for	Qom	Qom
 IR-26, Name for	Qazvīn	Qazvin
 IR-27, Name for	Golestān	Golestan
+IR-28, Name for	Khorāsān-e Shomālī	Khorasan-e-shomali
+IR-29, Name for	Khorāsān-e Jonūbī	Khorasan-e-Jonoobi
 IR-30, Name for	Alborz	Elboers; Elburz; Alborz
 IS-1, Name for	Höfuðborgarsvæði	Hoofdstedelijke Regio
 IS-2, Name for	Suðurnes	Zuidelijk schiereiland
@@ -1937,6 +2085,7 @@ IS-BLA, Name for	Bláskógabyggð	NOG NIET VERTAALD
 IS-BLO, Name for	Blönduósbær	NOG NIET VERTAALD
 IS-BOG, Name for	Borgarbyggð	NOG NIET VERTAALD
 IS-BOL, Name for	Bolungarvíkurkaupstaður	NOG NIET VERTAALD
+IS-DAB, Name for	Dalabyggð	Dalaba
 IS-DAV, Name for	Dalvíkurbyggð	NOG NIET VERTAALD
 IS-DJU, Name for	Djúpavogshreppur	NOG NIET VERTAALD
 IS-EOM, Name for	Eyja- og Miklaholtshreppur	NOG NIET VERTAALD
@@ -1970,8 +2119,11 @@ IS-NOR, Name for	Norðurþing	NOG NIET VERTAALD
 IS-RGE, Name for	Rangárþing eystra	NOG NIET VERTAALD
 IS-RGY, Name for	Rangárþing ytra	NOG NIET VERTAALD
 IS-RHH, Name for	Reykhólahreppur	NOG NIET VERTAALD
+IS-RKN, Name for	Reykjanesbær	Reykjavik
+IS-RKV, Name for	Reykjavíkurborg	Reykjavik
 IS-SBH, Name for	Svalbarðshreppur	NOG NIET VERTAALD
 IS-SBT, Name for	Svalbarðsstrandarhreppur	NOG NIET VERTAALD
+IS-SDN, Name for	Suðurnesjabær	Zuidelijk schiereiland
 IS-SDV, Name for	Súðavíkurhreppur	NOG NIET VERTAALD
 IS-SEL, Name for	Seltjarnarnesbær	NOG NIET VERTAALD
 IS-SEY, Name for	Seyðisfjarðarkaupstaður	NOG NIET VERTAALD
@@ -1993,11 +2145,14 @@ IS-TAL, Name for	Tálknafjarðarhreppur	NOG NIET VERTAALD
 IS-THG, Name for	Þingeyjarsveit	NOG NIET VERTAALD
 IS-TJO, Name for	Tjörneshreppur	NOG NIET VERTAALD
 IS-VEM, Name for	Vestmannaeyjabær	NOG NIET VERTAALD
+IS-VER, Name for	Vesturbyggð	Westfjorden
 IS-VOP, Name for	Vopnafjarðarhreppur	NOG NIET VERTAALD
 IT-21, Name for	Piemonte	Piëmont
+IT-23, Name for	Val d'Aoste	Aostadal
 IT-25, Name for	Lombardia	Lombardije
 IT-32, Name for	Trentino-Alto Adige	Trentino-Zuid-Tirol
 IT-34, Name for	Veneto	Veneto
+IT-36, Name for	Friuli Venezia Giulia	Friuli-Julisch Venetië
 IT-42, Name for	Liguria	Ligurië
 IT-45, Name for	Emilia-Romagna	Emilia-Romagna
 IT-52, Name for	Toscana	Toscane
@@ -2099,6 +2254,7 @@ IT-SO, Name for	Sondrio	Sondrio
 IT-SP, Name for	La Spezia	La Spezia
 IT-SR, Name for	Siracusa	Siracuse
 IT-SS, Name for	Sassari	Sassari
+IT-SU, Name for	Sud Sardegna	Zuid-Sardinië
 IT-SV, Name for	Savona	Savona
 IT-TA, Name for	Taranto	Taranto
 IT-TE, Name for	Teramo	Teramo
@@ -2132,8 +2288,11 @@ JM-12, Name for	Manchester	Manchester
 JM-13, Name for	Clarendon	Clarendon
 JM-14, Name for	Saint Catherine	Saint Catherine
 JO-AJ, Name for	‘Ajlūn	Ajlun
+JO-AM, Name for	Al ‘A̅şimah	Akaba
 JO-AQ, Name for	Al ‘Aqabah	Akaba
 JO-AT, Name for	Aţ Ţafīlah	Tafilah
+JO-AZ, Name for	Az Zarqā’	Zarka
+JO-BA, Name for	Al Balqā’	Balka
 JO-IR, Name for	Irbid	Irbid
 JO-JA, Name for	Jarash	Jerash
 JO-KA, Name for	Al Karak	Kerak
@@ -2243,6 +2402,8 @@ KG-N, Name for	Naryn	Naryn, Provincie
 KG-O, Name for	Osh	Oš, Provincie
 KG-T, Name for	Talas	Talas, Provincie
 KG-Y, Name for	Issyk-Kul'skaja oblast'	Ysykköl, Provincie
+KH-1, Name for	Banteay Mean Choăy	Banteay Mean Cheay
+KH-10, Name for	Kracheh	Kracheh
 KH-11, Name for	Mondol Kiri	Mondol Kiri
 KH-12, Name for	Phnom Penh	Phnom-Penh, Stedelijk Gewest
 KH-13, Name for	Preah Vihear	Preah Vihear
@@ -2251,16 +2412,26 @@ KH-15, Name for	Pousaat	Pouthisat
 KH-16, Name for	Rotanak Kiri	Ratanakiri
 KH-17, Name for	Siem Reab	Siem Reab
 KH-18, Name for	Preah Sihanouk	Sihanoukville, Stedelijk Gewest
+KH-19, Name for	Stoĕng Trêng	Stoeng Treng
+KH-2, Name for	Baat Dambang	Battambang
 KH-20, Name for	Svaay Rieng	Svay Rieng
 KH-21, Name for	Taakaev	Takev
 KH-22, Name for	Otdar Mean Chey	Oddar Meancheay
 KH-23, Name for	Kaeb	Keb; Kaeb
 KH-24, Name for	Pailin	Pailin, Stedelijk Gewest
+KH-25, Name for	Tbong Khmum	Nong Khai
+KH-3, Name for	Kampong Chaam	Kampong Cham
 KH-4, Name for	Kampong Chhnang	Kampong Chhnang
+KH-5, Name for	Kampong Spueu	Kampong Speu
+KH-6, Name for	Kampong Thum	Kampong Thum
 KH-7, Name for	Kampot	Kampot
+KH-8, Name for	Kandaal	Kandal
+KH-9, Name for	Kaoh Kong	Koh Kong
 KI-G, Name for	Gilbert Islands	Gilbert-eilanden
 KI-L, Name for	Line Islands	Line-eilanden
 KI-P, Name for	Phoenix Islands	Phoenix-eilanden
+KM-A, Name for	Andjouân	Anjouan
+KM-G, Name for	Andjazîdja	Grande Comore
 KM-M, Name for	Mohéli	Mohéli
 KN-01, Name for	Christ Church Nichola Town	Christ Church Nichola Town
 KN-02, Name for	Saint Anne Sandy Point	Saint Anne Sandy Point
@@ -2278,10 +2449,18 @@ KN-13, Name for	Saint Thomas Middle Island	Saint Thomas Middle Island
 KN-15, Name for	Trinity Palmetto Point	Trinity Palmetto Point
 KN-K, Name for	Saint Kitts	Saint Kitts
 KN-N, Name for	Nevis	Nevis
+KP-01, Name for	P'yǒngyang	Pyongyang
+KP-02, Name for	P'yǒngan-namdo	Pyongyang-namdo
+KP-03, Name for	P'yǒngan-bukto	Pyongyang-bukto
 KP-04, Name for	Chagang-do	Chagang-do
 KP-05, Name for	Hwanghae-namdo	Hwanghae-namdo
 KP-06, Name for	Hwanghae-bukto	Hwanghae-bukto
+KP-07, Name for	Kangweonto	Gangwon-do
+KP-08, Name for	Hamgyǒng-namdo	Hamgyŏng-namdo
+KP-09, Name for	Hamgyǒng-bukto	Hamgyŏng-bukto
+KP-10, Name for	Ryanggang-do	Yanggang-do
 KP-13, Name for	Raseon	Rason
+KP-14, Name for	Nampho	Lamphun
 KR-11, Name for	Seoul-teukbyeolsi	Seoul, Stadsgewest; Seoel, Stadsgewest
 KR-26, Name for	Busan-gwangyeoksi	Busan Metropolitan City
 KR-27, Name for	Daegu-gwangyeoksi	Daegu Metropolitan City
@@ -2299,7 +2478,10 @@ KR-47, Name for	Gyeongsangbuk-do	Gyeongsangbuk-do; Noord-Gyeongsang
 KR-48, Name for	Gyeongsangnam-do	Gyeongsangnam-do; Zuid-Gyeongsang
 KR-49, Name for	Jeju-teukbyeoljachido	Jeju-do; Jeju Eiland; Quelpaardseiland
 KR-50, Name for	Sejong	Sejong
+KW-AH, Name for	Al Aḩmadī	Ahmadi
 KW-FA, Name for	Al Farwānīyah	Al Farwanlyah
+KW-HA, Name for	Ḩawallī	Hawalli
+KW-JA, Name for	Al Jahrā’	Jahra
 KW-KU, Name for	Al ‘Āşimah	Al-Asimah
 KW-MU, Name for	Mubārak al Kabīr	Mubarak Al-Kabier
 KZ-AKM, Name for	Akmolinskaja oblast'	Aqmola, Provincie
@@ -2314,6 +2496,7 @@ KZ-KZY, Name for	Kyzylordinskaja oblast'	Qızılorda, Provincie
 KZ-MAN, Name for	Mangghystaū oblysy	Mañğıstaw, Provincie
 KZ-PAV, Name for	Pavlodar oblysy	Pavlodar, Provincie
 KZ-SEV, Name for	Severo-Kazahstanskaja oblast'	Noord-Kazachstan, Provincie
+KZ-SHY, Name for	Shymkent	ŞımkentToshkent
 KZ-VOS, Name for	Shyghys Qazaqstan oblysy	Oost-Kazachstan, Provincie
 KZ-YUZ, Name for	Turkestankaya oblast'	Türkistan, Provincie
 KZ-ZAP, Name for	Batys Qazaqstan oblysy	Batıs Qazaqstan, Provincie
@@ -2330,19 +2513,30 @@ LA-OU, Name for	Oudômxai	Udomxai
 LA-PH, Name for	Phôngsali	Phongsali
 LA-SL, Name for	Salavan	Salavan
 LA-SV, Name for	Savannakhét	Savannakhet
+LA-VI, Name for	Viangchan	Viangchan
+LA-VT, Name for	Viangchan	Viangchan
 LA-XA, Name for	Xaignabouli	Sainyabuli
 LA-XE, Name for	Xékong	Sekong
 LA-XI, Name for	Xiangkhouang	Xiangkhouang
 LA-XS, Name for	Xaisômboun	Xaisômboun
 LB-AK, Name for	Aakkâr	Akkar
+LB-AS, Name for	Ash Shimāl	Ash Shamal
 LB-BA, Name for	Bayrūt	Beiroet
 LB-BH, Name for	Baalbek-Hermel	Baalbek-Hermel
+LB-BI, Name for	Al Biqā‘	Balka
+LB-JA, Name for	Al Janūb	Debub
 LB-JL, Name for	Jabal Lubnān	Libanongebergte
+LB-NA, Name for	An Nabaţīyah	Al Gharbiyah
+LC-01, Name for	Anse la Raye	Anse Royale
 LC-02, Name for	Castries	Castries
 LC-03, Name for	Choiseul	Choiseul
+LC-05, Name for	Dennery	Vienne
+LC-06, Name for	Gros Islet	Grosseto
+LC-07, Name for	Laborie	Tabor
 LC-08, Name for	Micoud	Micoud
 LC-10, Name for	Soufrière	Soufrière
 LC-11, Name for	Vieux Fort	Vieux Fort
+LC-12, Name for	Canaries	Canarische Eilanden
 LI-01, Name for	Balzers	Balzers
 LI-02, Name for	Eschen	Eschen
 LI-03, Name for	Gamprin	Gamprin
@@ -2354,15 +2548,40 @@ LI-08, Name for	Schellenberg	Schellenberg
 LI-09, Name for	Triesen	Triesen
 LI-10, Name for	Triesenberg	Triesenberg
 LI-11, Name for	Vaduz	Vaduz
+LK-1, Name for	Western Province	Mountain Province
+LK-11, Name for	Colombo	Colorado
 LK-12, Name for	Gampaha	Gampaha
+LK-13, Name for	Kalutara	Kaḷutara
+LK-2, Name for	Central Province	Mountain Province
+LK-21, Name for	Kandy	Kandal
+LK-22, Name for	Matale	Matale
+LK-23, Name for	Nuwara Eliya	Nuwara Eliya
+LK-3, Name for	Southern Province	Mountain Province
+LK-31, Name for	Galle	Valle
+LK-32, Name for	Matara	Matara
+LK-33, Name for	Hambantota	Hambantoṭa
+LK-4, Name for	Northern Province	Mountain Province
 LK-41, Name for	Jaffna	Jaffna
+LK-42, Name for	Kilinochchi	Kilinochchi
+LK-43, Name for	Mannar	Sannat
+LK-44, Name for	Vavuniya	Vavuniya
 LK-45, Name for	Mullaittivu	Mullaitivu
+LK-5, Name for	Eastern Province	Mountain Province
+LK-51, Name for	Batticaloa	Battambang
 LK-52, Name for	Ampara	Ampara
 LK-53, Name for	Trincomalee	Trincomalee
+LK-6, Name for	North Western Province	Noord-West
+LK-61, Name for	Kurunegala	Kurunegala
+LK-62, Name for	Puttalam	Puttalam
+LK-7, Name for	North Central Province	Midden-Noord
+LK-71, Name for	Anuradhapura	Anuradhapura
 LK-72, Name for	Polonnaruwa	Polonnaruwa
+LK-8, Name for	Uva Province	Mountain Province
 LK-81, Name for	Badulla	Badulla
+LK-82, Name for	Monaragala	Matagalpa
 LK-9, Name for	Sabaragamuwa Province	Sabaragamuwa
 LK-91, Name for	Ratnapura	Ratnapura
+LK-92, Name for	Kegalla	Kegalle
 LR-BG, Name for	Bong	Bong
 LR-BM, Name for	Bomi	Bomi
 LR-CM, Name for	Grand Cape Mount	Grand Cape Mount
@@ -2375,8 +2594,11 @@ LR-MG, Name for	Margibi	Margibi
 LR-MO, Name for	Montserrado	Montserrado
 LR-MY, Name for	Maryland	Maryland
 LR-NI, Name for	Nimba	Nimba
+LR-RG, Name for	River Gee	River Cess
+LR-RI, Name for	River Cess	River Cess
 LR-SI, Name for	Sinoe	Sinoe
 LS-A, Name for	Maseru	Maseru
+LS-B, Name for	Botha-Bothe	Butha-Buthe
 LS-C, Name for	Leribe	Leribe
 LS-D, Name for	Berea	Berea
 LS-E, Name for	Mafeteng	Mafeteng
@@ -2592,6 +2814,7 @@ LY-DR, Name for	Darnah	Darnah
 LY-GT, Name for	Ghāt	Ghat
 LY-JA, Name for	Al Jabal al Akhḑar	Al Jabal al Akhdar
 LY-JG, Name for	Al Jabal al Gharbī	Al Jabal al Gharbī
+LY-JI, Name for	Al Jafārah	Al Jifarah
 LY-JU, Name for	Al Jufrah	Al Jufrah
 LY-KF, Name for	Al Kufrah	Al Kufrah
 LY-MB, Name for	Al Marqab	Al Marqab
@@ -2599,10 +2822,13 @@ LY-MI, Name for	Mişrātah	Misratah
 LY-MJ, Name for	Al Marj	Al Marj
 LY-MQ, Name for	Murzuq	Murzuq
 LY-NL, Name for	Nālūt	Nalut
+LY-NQ, Name for	An Nuqāţ al Khams	An Nuqat al Khams
 LY-SB, Name for	Sabhā	Sabha
 LY-SR, Name for	Surt	Surt
 LY-TB, Name for	Ţarābulus	Tarabulus
+LY-WA, Name for	Al Wāḩāt	Al Wahat
 LY-WD, Name for	Wādī al Ḩayāt	Wadi al Hayat
+LY-WS, Name for	Wādī ash Shāţi’	Wadi Ash Shati'
 LY-ZA, Name for	Az Zāwiyah	Az Zawiyah
 MA-01, Name for	Tanger-Tétouan-Al Hoceïma	Tanger-Tétouan-Al Hoceïma
 MA-02, Name for	L'Oriental	Oriental
@@ -2649,6 +2875,8 @@ MA-JDI, Name for	El Jadida	El Jadida
 MA-JRA, Name for	Jerada	Jerada
 MA-KEN, Name for	Kénitra	Kénitra
 MA-KES, Name for	El Kelâa des Sraghna	El Kelâa des Sraghna
+MA-KHE, Name for	Khémisset	Khemisset
+MA-KHN, Name for	Khénifra	Khenifra
 MA-KHO, Name for	Khouribga	Khouribga
 MA-LAA, Name for	Laâyoune (EH)	Laâyoune (EH)
 MA-LAR, Name for	Larache	Larache
@@ -2679,6 +2907,7 @@ MA-SKH, Name for	Skhirate-Témara	Skhirate-Témara
 MA-TAF, Name for	Tarfaya (EH-partial)	Tarfaya (EH-gedeeltelijk)
 MA-TAI, Name for	Taourirt	Taourirt
 MA-TAO, Name for	Taounate	Taounate
+MA-TAR, Name for	Taroudannt	Taroudant
 MA-TAT, Name for	Tata	Tata
 MA-TAZ, Name for	Taza	Taza
 MA-TET, Name for	Tétouan	Tétouan
@@ -2723,6 +2952,7 @@ MD-DU, Name for	Dubăsari	Dubăsari
 MD-ED, Name for	Edineț	Edineț
 MD-FA, Name for	Fălești	Fălești
 MD-FL, Name for	Florești	Florești
+MD-GA, Name for	Găgăuzia, Unitatea teritorială autonomă (UTAG)	Gagaoezië, Autonome Territoriale Eenheid; UTAG
 MD-GL, Name for	Glodeni	Glodeni
 MD-HI, Name for	Hîncești	Hîncești
 MD-IA, Name for	Ialoveni	Ialoveni
@@ -2819,6 +3049,7 @@ MK-210, Name for	Češinovo-Obleševo	Češinovo-Obleševo
 MK-211, Name for	Štip	Štip
 MK-301, Name for	Vevčani	Vevčani
 MK-303, Name for	Debar	Debar
+MK-304, Name for	Debrca	Debrecen
 MK-307, Name for	Kičevo	Kičevo
 MK-308, Name for	Makedonski Brod	Makedonski Brod
 MK-310, Name for	Ohrid	Ohrid
@@ -2850,6 +3081,7 @@ MK-603, Name for	Vrapčište	Vrapčište
 MK-604, Name for	Gostivar	Gostivar
 MK-605, Name for	Želino	Želino
 MK-606, Name for	Jegunovce	Jegunovce
+MK-607, Name for	Mavrovo i Rostuše	Mavrovo-i-Rostuša
 MK-608, Name for	Tearce	Tearce
 MK-609, Name for	Tetovo	Tetovo
 MK-701, Name for	Kratovo	Kratovo
@@ -2858,20 +3090,33 @@ MK-703, Name for	Kumanovo	Kumanovo
 MK-704, Name for	Lipkovo	Lipkovo
 MK-705, Name for	Rankovce	Rankovce
 MK-706, Name for	Staro Nagoričane	Staro Nagoričane
+MK-801, Name for	Aerodrom †	Aerodrom
 MK-802, Name for	Aračinovo	Aračinovo
+MK-803, Name for	Butel †	Butel
+MK-804, Name for	Gazi Baba †	Gazi Baba
+MK-805, Name for	Gjorče Petrov †	Gjorče Petrov
 MK-806, Name for	Zelenikovo	Zelenikovo
 MK-807, Name for	Ilinden	Ilinden
+MK-808, Name for	Karpoš †	Karpoš
+MK-809, Name for	Kisela Voda †	Kisela Voda
 MK-810, Name for	Petrovec	Petrovec
+MK-811, Name for	Saraj †	Saraj
 MK-812, Name for	Sopište	Sopište
 MK-813, Name for	Studeničani	Studeničani
+MK-814, Name for	Centar †	Centar
+MK-815, Name for	Čair †	Čair
+MK-816, Name for	Čučer-Sandevo	Čučer Sandevo
+MK-817, Name for	Šuto Orizari †	Šuto Orizari
 ML-1, Name for	Kayes	Kayes
+ML-10, Name for	Taoudénit	Taoudenni
 ML-2, Name for	Koulikoro	Koulikoro
 ML-3, Name for	Sikasso	Sikasso
 ML-4, Name for	Ségou	Ségou
 ML-5, Name for	Mopti	Mopti
-ML-6, Name for	Tombouctou	Timboektoe; Tombouctou
+ML-6, Name for	Tombouctou	Timboektoe
 ML-7, Name for	Gao	Gao
 ML-8, Name for	Kidal	Kidal
+ML-9, Name for	Ménaka	Ménaka
 ML-BKO, Name for	Bamako	Bamako
 MM-01, Name for	Sagaing	Sagaing
 MM-02, Name for	Bago	Bago
@@ -2897,23 +3142,34 @@ MN-046, Name for	Uvs	Uvs
 MN-047, Name for	Töv	Töv
 MN-049, Name for	Selenge	Selenge
 MN-051, Name for	Sühbaatar	Sühbaatar
+MN-053, Name for	Ömnögovĭ	Ömnögovĭ
 MN-055, Name for	Övörhangay	Övörhangaj
 MN-057, Name for	Dzavhan	Dzavhan
+MN-059, Name for	Dundgovĭ	Dundgovĭ
 MN-061, Name for	Dornod	Dornod
+MN-063, Name for	Dornogovĭ	Dornogovĭ
+MN-064, Name for	Govĭ-Sümber	Govĭsümber
+MN-065, Name for	Govĭ-Altay	Govĭ-Altay
 MN-067, Name for	Bulgan	Bulgan
 MN-069, Name for	Bayanhongor	Bayanhongor
 MN-071, Name for	Bayan-Ölgiy	Bayan-Ölgi
 MN-073, Name for	Arhangay	Arhangay
+MN-1, Name for	Ulaanbaatar	Ulaanbaatar
 MR-01, Name for	Hodh ech Chargui	Hodh ech Chargui
+MR-02, Name for	Hodh el Gharbi	Hodh El Gharbi
 MR-03, Name for	Assaba	Assaba
 MR-04, Name for	Gorgol	Gorgol
 MR-05, Name for	Brakna	Brakna
 MR-06, Name for	Trarza	Trarza
 MR-07, Name for	Adrar	Adrar
+MR-08, Name for	Dakhlet Nouâdhibou	Dakhlet Nouadhibou
 MR-09, Name for	Tagant	Tagant
 MR-10, Name for	Guidimaka	Guidimaka
 MR-11, Name for	Tiris Zemmour	Tiris Zemmour
 MR-12, Name for	Inchiri	Inchiri
+MR-13, Name for	Nouakchott Ouest	Nouakchott Ouest
+MR-14, Name for	Nouakchott Nord	Nouakchott Nord
+MR-15, Name for	Nouakchott Sud	Nouakchott Sud
 MT-01, Name for	Attard	Attard
 MT-02, Name for	Balzan	Balzan
 MT-03, Name for	Birgu	Birgu
@@ -2958,20 +3214,27 @@ MT-41, Name for	Pietà	Pietà
 MT-42, Name for	Qala	Qala
 MT-43, Name for	Qormi	Qormi
 MT-44, Name for	Qrendi	Qrendi
+MT-45, Name for	Rabat Gozo	Rabat
 MT-46, Name for	Rabat Malta	Rabat Malta
 MT-47, Name for	Safi	Safi
+MT-48, Name for	Saint Julian's	Saint James
 MT-49, Name for	Saint John	Saint John
+MT-50, Name for	Saint Lawrence	San Lawrenz
+MT-51, Name for	Saint Paul's Bay	Saint Paul
 MT-52, Name for	Sannat	Sannat
+MT-53, Name for	Saint Lucia's	Saint Louis
 MT-54, Name for	Santa Venera	Santa Venera
 MT-55, Name for	Siġġiewi	Siġġiewi
 MT-56, Name for	Sliema	Sliema
 MT-57, Name for	Swieqi	Swieqi
+MT-58, Name for	Ta' Xbiex	Ta' Xbiex
 MT-59, Name for	Tarxien	Tarxien
 MT-60, Name for	Valletta	Valletta
 MT-61, Name for	Xagħra	Xagħra
 MT-62, Name for	Xewkija	Xewkija
 MT-63, Name for	Xgħajra	Xgħajra
 MT-64, Name for	Żabbar	Żabbar
+MT-65, Name for	Żebbuġ Gozo	Żebbuġ Għawdex
 MT-66, Name for	Żebbuġ Malta	Żebbuġ Malta
 MT-67, Name for	Żejtun	Żejtun
 MT-68, Name for	Żurrieq	Żurrieq
@@ -3093,14 +3356,19 @@ MZ-G, Name for	Gaza	Gaza
 MZ-I, Name for	Inhambane	Inhambane
 MZ-L, Name for	Maputo	Maputo
 MZ-MPM, Name for	Maputo	Maputo
+MZ-N, Name for	Nampula	Nampula
 MZ-P, Name for	Cabo Delgado	Cabo Delgado
+MZ-Q, Name for	Zambézia	Zambezia
 MZ-S, Name for	Sofala	Sofala
 MZ-T, Name for	Tete	Tete
+NA-CA, Name for	Zambezi	Zambezia
 NA-ER, Name for	Erongo	Erongo
 NA-HA, Name for	Hardap	Hardap
 NA-KA, Name for	//Karas	//Karas
+NA-KE, Name for	Kavango East	Okavango
 NA-KH, Name for	Khomas	Khomas
 NA-KU, Name for	Kunene	Kunene
+NA-KW, Name for	Kavango West	Okavango
 NA-OD, Name for	Otjozondjupa	Otjozondjupa
 NA-OH, Name for	Omaheke	Omaheke
 NA-ON, Name for	Oshana	Oshana
@@ -3129,6 +3397,7 @@ NG-EB, Name for	Ebonyi	Ebonyi
 NG-ED, Name for	Edo	Edo
 NG-EK, Name for	Ekiti	Ekiti
 NG-EN, Name for	Enugu	Enugu
+NG-FC, Name for	Abuja Federal Capital Territory	Abuja Hoofdstedelijk Gewest
 NG-GO, Name for	Gombe	Gombe
 NG-IM, Name for	Imo	Imo
 NG-JI, Name for	Jigawa	Jigawa
@@ -3139,6 +3408,7 @@ NG-KO, Name for	Kogi	Kogi
 NG-KT, Name for	Katsina	Katsina
 NG-KW, Name for	Kwara	Kwara
 NG-LA, Name for	Lagos	Lagos
+NG-NA, Name for	Nasarawa	Nassarawa
 NG-NI, Name for	Niger	Niger
 NG-OG, Name for	Ogun	Ogun
 NG-ON, Name for	Ondo	Ondo
@@ -3150,6 +3420,8 @@ NG-SO, Name for	Sokoto	Sokoto
 NG-TA, Name for	Taraba	Taraba
 NG-YO, Name for	Yobe	Yobe
 NG-ZA, Name for	Zamfara	Zamfara
+NI-AN, Name for	Costa Caribe Norte	Noord-Camarines
+NI-AS, Name for	Costa Caribe Sur	Zuid-Camarines
 NI-BO, Name for	Boaco	Boaco
 NI-CA, Name for	Carazo	Carazo
 NI-CI, Name for	Chinandega	Chinandega
@@ -3197,7 +3469,10 @@ NO-46, Name for	Vestland	Vestland
 NO-50, Name for	Trööndelage	Trøndelag
 NO-54, Name for	Romssa ja Finnmárkku	Troms og Finnmark
 NP-1, Name for	Central	Central
+NP-2, Name for	Mid Western	West
+NP-3, Name for	Western	Western
 NP-4, Name for	Eastern	Oost
+NP-5, Name for	Far Western	West
 NP-BA, Name for	Bagmati	Bagmati
 NP-BH, Name for	Bheri	Bheri
 NP-DH, Name for	Dhawalagiri	Dhawalagiri
@@ -3209,8 +3484,13 @@ NP-LU, Name for	Lumbini	Lumbini
 NP-MA, Name for	Mahakali	Mahakali
 NP-ME, Name for	Mechi	Mechi
 NP-NA, Name for	Narayani	Narayani
+NP-P1, Name for	Province 1	Princes Town
+NP-P2, Name for	Province 2	Princes Town
+NP-P3, Name for	Bāgmatī	Bagmati
 NP-P4, Name for	Gandaki	Gandaki
+NP-P5, Name for	Province 5	Princes Town
 NP-P6, Name for	Karnali	Karnali
+NP-P7, Name for	Sudūr Pashchim	Sudur Pashchimanchal
 NP-RA, Name for	Rapti	Rapti
 NP-SA, Name for	Sagarmatha	Sagarmatha
 NP-SE, Name for	Seti	Seti
@@ -3218,6 +3498,7 @@ NR-01, Name for	Aiwo	Aiwo
 NR-02, Name for	Anabar	Anabar
 NR-03, Name for	Anetan	Anetan
 NR-04, Name for	Anibare	Anibare
+NR-05, Name for	Baitsi	Baiti
 NR-06, Name for	Boe	Boe
 NR-07, Name for	Buada	Buada
 NR-08, Name for	Denigomodu	Denigomodu
@@ -3235,20 +3516,28 @@ NZ-GIS, Name for	Gisborne	Gisborne
 NZ-HKB, Name for	Hawke's Bay	Hawke's Bay
 NZ-MBH, Name for	Marlborough	Marlborough
 NZ-MWT, Name for	Manawatu-Wanganui	Manawatu-Wanganui
+NZ-NSN, Name for	Nelson	Nelson City
 NZ-NTL, Name for	Northland	Noordland
 NZ-OTA, Name for	Otago	Otago
 NZ-STL, Name for	Southland	Zuidland
+NZ-TAS, Name for	Tasman	Tasmanië
 NZ-TKI, Name for	Taranaki	Taranaki
 NZ-WGN, Name for	Wellington	Wellington
 NZ-WKO, Name for	Waikato	Waikato
 NZ-WTC, Name for	West Coast	Westkust
+OM-BJ, Name for	Janūb al Bāţinah	Al Batinah
+OM-BS, Name for	Shamāl al Bāţinah	Al Batinah
 OM-BU, Name for	Al Buraymī	Al Buraymī
+OM-DA, Name for	Ad Dākhilīyah	Ad Dachiliyah
 OM-MA, Name for	Masqaţ	Masqaţ
 OM-MU, Name for	Musandam	Musandam
+OM-SJ, Name for	Janūb ash Sharqīyah	Ash Sharqiyah
+OM-SS, Name for	Shamāl ash Sharqīyah	Ash Sharqiyah
 OM-WU, Name for	Al Wusţá	Al Wusta
 OM-ZA, Name for	Az̧ Z̧āhirah	Az Zahirah
 OM-ZU, Name for	Z̧ufār	Z̧ufār
 PA-1, Name for	Bocas del Toro	Bocas del Toro
+PA-10, Name for	Panamá Oeste	Panama
 PA-2, Name for	Coclé	Coclé
 PA-3, Name for	Colón	Colón
 PA-4, Name for	Chiriquí	Chiriquí
@@ -3258,6 +3547,7 @@ PA-7, Name for	Los Santos	Los Santos
 PA-8, Name for	Panamá	Panama
 PA-9, Name for	Veraguas	Veraguas
 PA-EM, Name for	Emberá	Emberá
+PA-KY, Name for	Guna Yala	Kuna Yala
 PA-NB, Name for	Ngöbe-Buglé	Ngöbe-Buglé
 PE-AMA, Name for	Amarumayu	Amazonas
 PE-ANC, Name for	Ancash	Áncash
@@ -3300,11 +3590,13 @@ PG-MPM, Name for	Madang	Madang
 PG-MRL, Name for	Manus	Manus
 PG-NCD, Name for	National Capital District (Port Moresby)	National Capital District (Port Moresby)
 PG-NIK, Name for	New Ireland	New Ireland
+PG-NPP, Name for	Northern	Northern
 PG-NSB, Name for	Bougainville	Bougainville
 PG-SAN, Name for	West Sepik	West Sepik
 PG-SHM, Name for	Southern Highlands	Southern Highlands
 PG-WBK, Name for	West New Britain	West New Britain
 PG-WHM, Name for	Western Highlands	Western Highlands
+PG-WPD, Name for	Western	Western
 PH-00, Name for	National Capital Region	Nationale Hoofstadregio
 PH-01, Name for	Ilocos (Region I)	Ilocos (Regio I)
 PH-02, Name for	Cagayan Valley (Region II)	Cagayan Valley (Regio II)
@@ -3330,6 +3622,7 @@ PH-ALB, Name for	Albay	Albay
 PH-ANT, Name for	Antique	Antique
 PH-APA, Name for	Apayao	Apayao
 PH-AUR, Name for	Aurora	Aurora
+PH-BAN, Name for	Bataan	Batasn
 PH-BAS, Name for	Basilan	Basilan
 PH-BEN, Name for	Benguet	Benguet
 PH-BIL, Name for	Biliran	Biliran
@@ -3359,6 +3652,7 @@ PH-ILI, Name for	Iloilo	Iloilo
 PH-ILN, Name for	Ilocos Norte	Ilocos Norte
 PH-ILS, Name for	Ilocos Sur	Ilocos Sur
 PH-ISA, Name for	Isabela	Isabela
+PH-KAL, Name for	Kalinga	Ealing
 PH-LAG, Name for	Laguna	Laguna
 PH-LAN, Name for	Lanao del Norte	Lanao del Norte
 PH-LAS, Name for	Lanao del Sur	Lanao del Sur
@@ -3396,6 +3690,7 @@ PH-SUN, Name for	Surigao del Norte	Surigao del Norte
 PH-SUR, Name for	Surigao del Sur	Surigao del Sur
 PH-TAR, Name for	Tarlac	Tarlac
 PH-TAW, Name for	Tawi-Tawi	Tawi-Tawi
+PH-WSA, Name for	Samar	Samarkand
 PH-ZAN, Name for	Zamboanga del Norte	Zamboanga del Norte
 PH-ZAS, Name for	Zamboanga del Sur	Zamboanga del Sur
 PH-ZMB, Name for	Zambales	Zambales
@@ -3403,6 +3698,7 @@ PH-ZSI, Name for	Zamboanga Sibugay	Zamboanga Sibugay
 PK-BA, Name for	Balochistan	Beloetsjistan
 PK-GB, Name for	Gilgit-Baltistan	Gilgit-Baltistan
 PK-IS, Name for	Islamabad	Islamabad
+PK-JK, Name for	Azad Jammu and Kashmir	Jammu en Kashmir
 PK-KP, Name for	Khyber Pakhtunkhwa	Khyber Pakhtunkhwa
 PK-PB, Name for	Punjab	Punjab
 PK-SD, Name for	Sindh	Sindh
@@ -3428,6 +3724,7 @@ PS-GZA, Name for	Gaza	Gaza
 PS-HBN, Name for	Hebron	Hebron
 PS-JEM, Name for	Jerusalem	Jeruzalem
 PS-JEN, Name for	Jenin	Jenin
+PS-JRH, Name for	Jericho and Al Aghwar	Jericho
 PS-KYS, Name for	Khan Yunis	Khan Yunis
 PS-NBS, Name for	Nablus	Nablus
 PS-NGZ, Name for	North Gaza	Noord-Gaza
@@ -3460,6 +3757,7 @@ PT-30, Name for	Região Autónoma da Madeira	Autonome Regio Madeira
 PW-002, Name for	Aimeliik	Aimeliik
 PW-004, Name for	Airai	Airai
 PW-010, Name for	Angaur	Angaur
+PW-050, Name for	Hatohobei	Hatobohei
 PW-100, Name for	Kayangel	Kayangel
 PW-150, Name for	Koror	Koror
 PW-212, Name for	Melekeok	Melekeok
@@ -3490,7 +3788,12 @@ PY-7, Name for	Itapúa	Itapúa
 PY-8, Name for	Misiones	Misiones
 PY-9, Name for	Paraguarí	Paraguarí
 PY-ASU, Name for	Asunción	Asunción
+QA-DA, Name for	Ad Dawḩah	Ad Dawhah
 QA-KH, Name for	Al Khawr wa adh Dhakhīrah	Al Khawr wa adh Dhakhīrah
+QA-MS, Name for	Ash Shamāl	Ash Shamal
+QA-RA, Name for	Ar Rayyān	Ar Rayyan
+QA-SH, Name for	Ash Shīḩānīyah	Ash Shamallyah
+QA-US, Name for	Umm Şalāl	Umm Salal
 QA-WA, Name for	Al Wakrah	Al Wakrah
 QA-ZA, Name for	Az̧ Z̧a‘āyin	Az Za'ayin
 RO-AB, Name for	Alba	Alba
@@ -3574,21 +3877,53 @@ RU-AMU, Name for	Amurskaja oblast'	Amoer, Oblast
 RU-ARK, Name for	Arhangel'skaja oblast'	Arkhangelsk, Oblast
 RU-AST, Name for	Astrahanskaja oblast'	Astrachan, Oblast
 RU-BA, Name for	Bashkortostan, Respublika	Basjkirostan, Republiek
+RU-BEL, Name for	Belgorodskaja oblast'	Belgorod, Oblast
+RU-BRY, Name for	Brjanskaja oblast'	Brjansk, Oblast
+RU-BU, Name for	Burjatija, Respublika	Boerjatië, Republiek
 RU-CE, Name for	Chechenskaya Respublika	Tsjetsjenië, Republiek
 RU-CHE, Name for	Chelyabinskaya oblast'	Tsjeljabinsk, Oblast
 RU-CHU, Name for	Chukotskiy avtonomnyy okrug	Tsjoekotka, Autonoom District
 RU-CU, Name for	Chuvashskaya Respublika	Tsjoevasjië, Republiek
 RU-DA, Name for	Dagestan, Respublika	Dagestan, Republiek
 RU-IN, Name for	Ingushetiya, Respublika	Ingoesjetië, Republiek
+RU-IRK, Name for	Irkutskaja oblast'	Irkoetsk, Oblast
+RU-IVA, Name for	Ivanovskaja oblast'	Ivanovo, Oblast
 RU-KAM, Name for	Kamchatskiy kray	Kamtsjatka, Kraj
+RU-KB, Name for	Kabardino-Balkarskaja Respublika	Kabardië-Balkarië, Republiek
 RU-KC, Name for	Karachayevo-Cherkesskaya Respublika	Karatsjaj-Tsjerkessië, Republiek
+RU-KDA, Name for	Krasnodarskij kraj	Krasnodar, Kraj
+RU-KEM, Name for	Kemerovskaja oblast'	Kemerovo, Oblast
+RU-KGD, Name for	Kaliningradskaja oblast'	Kaliningrad, Oblast
+RU-KGN, Name for	Kurganskaja oblast'	Koergan, Oblast
+RU-KHA, Name for	Habarovskij kraj	Chabarovsk, Kraj
 RU-KHM, Name for	Hanty-Mansijskij avtonomnyj okrug	Chanto-Mansië, Autonoom District
+RU-KIR, Name for	Kirovskaja oblast'	Kirov, Oblast
+RU-KK, Name for	Hakasija, Respublika	Chakassië, Republiek
+RU-KL, Name for	Kalmykija, Respublika	Kalmukkië, Republiek
 RU-KLU, Name for	Kaluzhskaya oblast'	Kaloega, Oblast
 RU-KO, Name for	Komi, Respublika	Komi, Republiek
+RU-KOS, Name for	Kostromskaja oblast'	Kostroma, Oblast
+RU-KR, Name for	Karelija, Respublika	Karelië, Republiek
+RU-KRS, Name for	Kurskaja oblast'	Koersk, Oblast
 RU-KYA, Name for	Krasnojarskij kraj	Krasnojarsk, Kraj
+RU-LEN, Name for	Leningradskaja oblast'	Leningrad, Oblast
+RU-LIP, Name for	Lipeckaja oblast'	Lipetsk, Oblast
+RU-MAG, Name for	Magadanskaja oblast'	Magadan, Oblast
+RU-ME, Name for	Marij Èl, Respublika	Mari El, Republiek
+RU-MO, Name for	Mordovija, Respublika	Mordovië, Republiek
+RU-MOS, Name for	Moskovskaja oblast'	Moskou, Oblast
 RU-MOW, Name for	Moskva	Moskou
+RU-MUR, Name for	Murmanskaja oblast'	Moermansk, Oblast
 RU-NEN, Name for	Neneckij avtonomnyj okrug	Nenetsië, Autonoom District
+RU-NGR, Name for	Novgorodskaja oblast'	Novgorod, Oblast
 RU-NIZ, Name for	Nizhegorodskaya oblast'	Nizjni Novgorod, Oblast
+RU-NVS, Name for	Novosibirskaja oblast'	Novosibirsk, Oblast
+RU-OMS, Name for	Omskaja oblast'	Omsk, Oblast
+RU-ORE, Name for	Orenburgskaja oblast'	Orenburg, Oblast
+RU-ORL, Name for	Orlovskaja oblast'	Orjol, Oblast
+RU-PER, Name for	Permskij kraj	Perm, Kraj
+RU-PNZ, Name for	Penzenskaja oblast'	Penza, Oblast
+RU-PRI, Name for	Primorskij kraj	Primorski, Kraj
 RU-PSK, Name for	Pskovskaja oblast'	Pskov, Oblast
 RU-ROS, Name for	Rostovskaja oblast'	Rostov, Oblast
 RU-RYA, Name for	Rjazanskaja oblast'	Rjazan, Oblast
@@ -3616,24 +3951,36 @@ RU-VLG, Name for	Vologodskaja oblast'	Vologda, Oblast
 RU-VOR, Name for	Voronezhskaya oblast'	Voronezj, Oblast
 RU-YAN, Name for	Jamalo-Neneckij avtonomnyj okrug	Jamalië, Autonoom District
 RU-YAR, Name for	Jaroslavskaja oblast'	Jaroslavl, Oblast
+RU-YEV, Name for	Evrejskaja avtonomnaja oblast'	Joodse Autonome Oblast
 RU-ZAB, Name for	Zabajkal'skij kraj	Zabajkalski, Kraj
+RW-01, Name for	City of Kigali	Kigali
 RW-02, Name for	Eastern	Oost
+RW-03, Name for	Northern	Northern
+RW-04, Name for	Western	Western
 RW-05, Name for	Southern	Zuid
+SA-01, Name for	Ar Riyāḑ	Riyad
 SA-02, Name for	Makkah al Mukarramah	Mekka
+SA-03, Name for	Al Madīnah al Munawwarah	Medina
 SA-04, Name for	Ash Sharqīyah	Ash Sharqiyah
 SA-05, Name for	Al Qaşīm	Al Qasim
+SA-06, Name for	Ḩā'il	Hail
 SA-07, Name for	Tabūk	Tabuk
+SA-08, Name for	Al Ḩudūd ash Shamālīyah	Al Hudud ash Shamaliyah
 SA-09, Name for	Jāzān	Jizan
 SA-10, Name for	Najrān	Najran
+SA-11, Name for	Al Bāḩah	Al Bahah
 SA-12, Name for	Al Jawf	Al Jawf
+SA-14, Name for	'Asīr	Asir
 SB-CE, Name for	Central	Central
 SB-CH, Name for	Choiseul	Choiseul
 SB-CT, Name for	Capital Territory (Honiara)	Honiara, Hoofdstedelijk Gewest
 SB-GU, Name for	Guadalcanal	Guadalcanal
 SB-IS, Name for	Isabel	Isabel
+SB-MK, Name for	Makira-Ulawa	Makira
 SB-ML, Name for	Malaita	Malaita
 SB-RB, Name for	Rennell and Bellona	Rennell-Bellona
 SB-TE, Name for	Temotu	Temotu
+SB-WE, Name for	Western	Western
 SC-01, Name for	Anse aux Pins	Anse aux Pins
 SC-02, Name for	Anse Boileau	Anse Boileau
 SC-03, Name for	Anse Etoile	Anse Etoile
@@ -3674,6 +4021,7 @@ SD-KH, Name for	Khartoum	Khartoem
 SD-KN, Name for	North Kordofan	Noord-Kordofan
 SD-KS, Name for	South Kordofan	Zuid-Kordofan
 SD-NB, Name for	Blue Nile	Blauwe Nijl
+SD-NO, Name for	Northern	Northern
 SD-NR, Name for	River Nile	Nijl
 SD-NW, Name for	White Nile	Witte Nijl
 SD-RS, Name for	Red Sea	Rode zee
@@ -3821,6 +4169,8 @@ SI-111, Name for	Sežana	Sezana
 SI-112, Name for	Slovenj Gradec	Slovenj Gradec
 SI-113, Name for	Slovenska Bistrica	Slovenska Bistrica
 SI-114, Name for	Slovenske Konjice	Slovenske Konjice
+SI-115, Name for	Starše	Starče
+SI-116, Name for	Sveti Jurij ob Ščavnici	Sveti Jurij
 SI-117, Name for	Šenčur	Sencur
 SI-118, Name for	Šentilj	Sentilj
 SI-119, Name for	Šentjernej	Sentjernej
@@ -3859,6 +4209,7 @@ SI-152, Name for	Cankova	Cankova
 SI-153, Name for	Cerkvenjak	Cerkvenjak
 SI-154, Name for	Dobje	Dobje
 SI-155, Name for	Dobrna	Dobrna
+SI-156, Name for	Dobrovnik	Dobrovnik
 SI-157, Name for	Dolenjske Toplice	Dolenjske Toplice
 SI-158, Name for	Grad	Grad
 SI-159, Name for	Hajdina	Hajdina
@@ -3884,8 +4235,10 @@ SI-178, Name for	Selnica ob Dravi	Selnica ob Dravi
 SI-179, Name for	Sodražica	Sodrazica
 SI-180, Name for	Solčava	Solcava
 SI-181, Name for	Sveta Ana	Sveta Ana
+SI-182, Name for	Sveti Andraž v Slovenskih goricah	Sveta Andraž v Slovenskih Goricah
 SI-183, Name for	Šempeter-Vrtojba	Sempeter-Vrtojba
 SI-184, Name for	Tabor	Tabor
+SI-185, Name for	Trnovska Vas	Trnovska vas
 SI-186, Name for	Trzin	Trzin
 SI-187, Name for	Velika Polana	Velika Polana
 SI-188, Name for	Veržej	Verzej
@@ -3904,11 +4257,16 @@ SI-200, Name for	Poljčane	Poljčane
 SI-201, Name for	Renče-Vogrsko	Renče-Vogrsko
 SI-202, Name for	Središče ob Dravi	Središče ob Dravi
 SI-203, Name for	Straža	Straža
+SI-204, Name for	Sveta Trojica v Slovenskih goricah	Sveta Trojica v Slovenskih Goricah
 SI-205, Name for	Sveti Tomaž	Sveti Tomaž
+SI-206, Name for	Šmarješke Toplice	Šmarjeske Topliče
 SI-207, Name for	Gorje	Gorje
 SI-208, Name for	Log-Dragomer	Log-Dragomer
 SI-209, Name for	Rečica ob Savinji	Rečica ob Savinji
+SI-210, Name for	Sveti Jurij v Slovenskih goricah	Sveti Jurij v Slovenskih Goricah
 SI-211, Name for	Šentrupert	Šentrupert
+SI-212, Name for	Mirna	Mirna Pec
+SI-213, Name for	Ankaran	Ankara
 SK-BC, Name for	Banskobystrický kraj	Banská Bystrica, Regio
 SK-BL, Name for	Bratislavský kraj	Bratislava, Regio
 SK-KI, Name for	Košický kraj	Košice, Regio
@@ -3918,6 +4276,8 @@ SK-TA, Name for	Trnavský kraj	Trnava, Regio
 SK-TC, Name for	Trenčiansky kraj	Trenčín, Regio
 SK-ZI, Name for	Žilinský kraj	Žilina, Regio
 SL-E, Name for	Eastern	Oost
+SL-N, Name for	Northern	Northern
+SL-NW, Name for	North Western	Noord-West
 SL-S, Name for	Southern	Zuid
 SL-W, Name for	Western Area (Freetown)	Westelijk Gebied (Freetown)
 SM-01, Name for	Acquaviva	Acquaviva
@@ -3926,6 +4286,7 @@ SM-03, Name for	Domagnano	Domagnano
 SM-04, Name for	Faetano	Faetano
 SM-05, Name for	Fiorentino	Fiorentino
 SM-06, Name for	Borgo Maggiore	Borgo Maggiore
+SM-07, Name for	Città di San Marino	San Marino
 SM-08, Name for	Montegiardino	Monte Giardino
 SM-09, Name for	Serravalle	Serravalle
 SN-DB, Name for	Diourbel	Diourbel
@@ -3981,7 +4342,9 @@ SS-NU, Name for	Upper Nile	Opper-Nijl
 SS-UY, Name for	Unity	Eenheid
 SS-WR, Name for	Warrap	Warab
 ST-01, Name for	Água Grande	Água Grande
+ST-02, Name for	Cantagalo	Cantagalo
 ST-03, Name for	Caué	Caué
+ST-04, Name for	Lembá	Lembá
 ST-05, Name for	Lobata	Lobata
 ST-06, Name for	Mé-Zóchi	Mé-Zóchi
 ST-P, Name for	Príncipe	Principe
@@ -4017,22 +4380,35 @@ SZ-HH, Name for	Hhohho	Hhohho
 SZ-LU, Name for	Lubombo	Lubombo
 SZ-MA, Name for	Manzini	Manzini
 SZ-SH, Name for	Shiselweni	Shiselweni
-TD-BO, Name for	Borkou	NOG NIET VERTAALD
-TD-CB, Name for	Chari-Baguirmi	NOG NIET VERTAALD
-TD-GR, Name for	Guéra	NOG NIET VERTAALD
-TD-HL, Name for	Hadjer Lamis	NOG NIET VERTAALD
-TD-KA, Name for	Kanem	NOG NIET VERTAALD
-TD-MC, Name for	Moyen-Chari	NOG NIET VERTAALD
-TD-ME, Name for	Mayo-Kebbi-Est	NOG NIET VERTAALD
-TD-MO, Name for	Mayo-Kebbi-Ouest	NOG NIET VERTAALD
+TD-BA, Name for	Al Baţḩā’	Batha
+TD-BG, Name for	Bahr el Ghazal	Bahr el Ghazal
+TD-BO, Name for	Borkou	Borkou
+TD-CB, Name for	Chari-Baguirmi	Chari-Baguirmi
+TD-EE, Name for	Ennedi-Est	Ennedi Est
+TD-EO, Name for	Ennedi-Ouest	Ennedi Ouest
+TD-GR, Name for	Guéra	Guéra
+TD-HL, Name for	Hadjer Lamis	Hadjer-Lamis
+TD-KA, Name for	Kanem	Kanem
+TD-LC, Name for	Al Buḩayrah	Al Buhayrah
+TD-LO, Name for	Logone-Occidental	Logone Occidental
+TD-LR, Name for	Logone-Oriental	Logone Oriental
+TD-MA, Name for	Mandoul	Mandoul
+TD-MC, Name for	Moyen-Chari	Moyen-Chari
+TD-ME, Name for	Mayo-Kebbi-Est	Mayo-Kebbi Est
+TD-MO, Name for	Mayo-Kebbi-Ouest	Mayo-Kebbi Ouest
 TD-ND, Name for	Madīnat Injamīnā	Ndjamena
-TD-OD, Name for	Ouaddaï	NOG NIET VERTAALD
-TD-SI, Name for	Sila	NOG NIET VERTAALD
-TD-TA, Name for	Tandjilé	NOG NIET VERTAALD
-TD-TI, Name for	Tibastī	Tibastī
-TD-WF, Name for	Wadi Fira	NOG NIET VERTAALD
+TD-OD, Name for	Ouaddaï	Ouaddaï
+TD-SA, Name for	Salamat	Salamat
+TD-SI, Name for	Sila	Sila
+TD-TA, Name for	Tandjilé	Tandjilé
+TD-TI, Name for	Tibastī	Tibesti
+TD-WF, Name for	Wadi Fira	Wadi Fira
+TG-C, Name for	Centrale	Central
+TG-K, Name for	Kara	Karas
+TG-M, Name for	Maritime (Région)	Fromager, Regio
 TG-P, Name for	Plateaux	Plateaux
 TG-S, Name for	Savanes	Savanes
+TH-10, Name for	Krung Thep Maha Nakhon	Krung Thep Maha Nakhon Bangkok
 TH-11, Name for	Samut Prakan	Samut Prakan
 TH-12, Name for	Nonthaburi	Nonthaburi
 TH-13, Name for	Pathum Thani	Pathum Thani
@@ -4058,6 +4434,7 @@ TH-34, Name for	Ubon Ratchathani	Ubon Ratchathani
 TH-35, Name for	Yasothon	Yasothon
 TH-36, Name for	Chaiyaphum	Chaiyaphum
 TH-37, Name for	Amnat Charoen	Amnat Charoen
+TH-38, Name for	Bueng Kan	Stoeng Treng
 TH-39, Name for	Nong Bua Lam Phu	Nong Bua Lam Phu
 TH-40, Name for	Khon Kaen	Khon Kaen
 TH-41, Name for	Udon Thani	Udon Thani
@@ -4134,6 +4511,7 @@ TM-L, Name for	Lebap	Lebap
 TM-M, Name for	Mary	Mary
 TM-S, Name for	Aşgabat	Aşgabat
 TN-11, Name for	Tunis	Tunis
+TN-12, Name for	L'Ariana	Ariana
 TN-13, Name for	Ben Arous	Ben Arous
 TN-14, Name for	La Manouba	Manouba
 TN-21, Name for	Nabeul	Nabeul
@@ -4152,7 +4530,9 @@ TN-53, Name for	Mahdia	Mahdia
 TN-61, Name for	Sfax	Sfax
 TN-71, Name for	Gafsa	Gafsa
 TN-72, Name for	Tozeur	Tozeur
+TN-73, Name for	Kébili	Kebili
 TN-81, Name for	Gabès	Gabès
+TN-82, Name for	Médenine	Medenine
 TN-83, Name for	Tataouine	Tataouine
 TO-01, Name for	'Eua	'Eua
 TO-02, Name for	Ha'apai	Ha'apai
@@ -4260,6 +4640,7 @@ TV-NIT, Name for	Niutao	Niutao
 TV-NKF, Name for	Nukufetau	Nukufetau
 TV-NKL, Name for	Nukulaelae	Nukulaelae
 TV-NMA, Name for	Nanumea	Nanumea
+TV-NMG, Name for	Nanumaga	Nanumanga
 TV-NUI, Name for	Nui	Nui
 TV-VAI, Name for	Vaitupu	Vaitupu
 TW-CHA, Name for	Changhua	Changhua
@@ -4328,6 +4709,7 @@ UA-30, Name for	Kyiv	Kiev (stad)
 UA-32, Name for	Kyivska oblast	Kiev, Provincie
 UA-35, Name for	Kirovohradska oblast	Kirovohrad, Provincie
 UA-40, Name for	Sevastopol	Sebastopol
+UA-43, Name for	Avtonomna Respublika Krym	Krim, Republiek de
 UA-46, Name for	Lvivska oblast	Lviv, Provincie
 UA-48, Name for	Mykolaivska oblast	Mykolajiv, Provincie
 UA-51, Name for	Odeska oblast	Odessa, Provincie
@@ -4359,7 +4741,14 @@ UG-115, Name for	Mityana	Mityana
 UG-116, Name for	Nakaseke	Nakaseke
 UG-117, Name for	Buikwe	NOG NIET VERTAALD
 UG-118, Name for	Bukomansibi	NOG NIET VERTAALD
+UG-119, Name for	Butambala	Butaleja
+UG-120, Name for	Buvuma	Ruvuma
+UG-121, Name for	Gomba	Zomba
+UG-122, Name for	Kalungu	Kasungu
 UG-123, Name for	Kyankwanzi	NOG NIET VERTAALD
+UG-124, Name for	Lwengo	Bengo
+UG-125, Name for	Kyotera	Kyoto
+UG-126, Name for	Kasanda	Kandal
 UG-201, Name for	Bugiri	Bugiri
 UG-202, Name for	Busia	Busia
 UG-203, Name for	Iganga	Iganga
@@ -4379,18 +4768,24 @@ UG-216, Name for	Amuria	Amuria
 UG-217, Name for	Budaka	Budaka
 UG-218, Name for	Bududa	Bududa
 UG-219, Name for	Bukedea	Bukedea
+UG-220, Name for	Bukwo	Bukwa
 UG-221, Name for	Butaleja	Butaleja
 UG-222, Name for	Kaliro	Kaliro
 UG-223, Name for	Manafwa	Manafwa
 UG-224, Name for	Namutumba	Namutumba
 UG-225, Name for	Bulambuli	NOG NIET VERTAALD
+UG-226, Name for	Buyende	Mubende
 UG-227, Name for	Kibuku	NOG NIET VERTAALD
 UG-228, Name for	Kween	NOG NIET VERTAALD
 UG-229, Name for	Luuka	NOG NIET VERTAALD
+UG-230, Name for	Namayingo	Namangan
+UG-231, Name for	Ngora	Zagora
 UG-232, Name for	Serere	NOG NIET VERTAALD
+UG-233, Name for	Butebo	Butel
 UG-234, Name for	Namisindwa	NOG NIET VERTAALD
 UG-235, Name for	Bugweri	NOG NIET VERTAALD
 UG-236, Name for	Kapelebyong	NOG NIET VERTAALD
+UG-237, Name for	Kalaki	Kalasin
 UG-301, Name for	Adjumani	Adjumani
 UG-302, Name for	Apac	Apac
 UG-303, Name for	Arua	Arua
@@ -4420,10 +4815,14 @@ UG-326, Name for	Lamwo	NOG NIET VERTAALD
 UG-327, Name for	Napak	NOG NIET VERTAALD
 UG-328, Name for	Nwoya	NOG NIET VERTAALD
 UG-329, Name for	Otuke	NOG NIET VERTAALD
+UG-330, Name for	Zombo	Zomba
 UG-331, Name for	Omoro	NOG NIET VERTAALD
 UG-332, Name for	Pakwach	NOG NIET VERTAALD
+UG-333, Name for	Kwania	Pwani
 UG-334, Name for	Nabilatuk	NOG NIET VERTAALD
+UG-335, Name for	Karenga	Yatenga
 UG-336, Name for	Madi-Okollo	NOG NIET VERTAALD
+UG-337, Name for	Obongi	Kaabong
 UG-401, Name for	Bundibugyo	Bundibugyo
 UG-402, Name for	Bushenyi	Bushenyi
 UG-403, Name for	Hoima	Hoima
@@ -4444,17 +4843,25 @@ UG-417, Name for	Ibanda	Ibanda
 UG-418, Name for	Isingiro	Isingiro
 UG-419, Name for	Kiruhura	Kiruhura
 UG-420, Name for	Buhweju	NOG NIET VERTAALD
+UG-421, Name for	Kiryandongo	Bayanhongor
 UG-422, Name for	Kyegegwa	NOG NIET VERTAALD
 UG-423, Name for	Mitooma	NOG NIET VERTAALD
 UG-424, Name for	Ntoroko	NOG NIET VERTAALD
 UG-425, Name for	Rubirizi	NOG NIET VERTAALD
 UG-426, Name for	Sheema	NOG NIET VERTAALD
+UG-427, Name for	Kagadi	Kgalagadi
 UG-428, Name for	Kakumiro	NOG NIET VERTAALD
+UG-429, Name for	Rubanda	Ibanda
+UG-430, Name for	Bunyangabu	Shinyanga
 UG-431, Name for	Rukiga	NOG NIET VERTAALD
 UG-432, Name for	Kikuube	NOG NIET VERTAALD
 UG-433, Name for	Kazo	NOG NIET VERTAALD
+UG-434, Name for	Kitagwenda	Ohangwena
+UG-435, Name for	Rwampara	Gampaha
 UG-C, Name for	Central	Central
 UG-E, Name for	Eastern	Oost
+UG-N, Name for	Northern	Northern
+UG-W, Name for	Western	Western
 UM-67, Name for	Johnston Atoll	Johnston-atol
 UM-71, Name for	Midway Islands	Midway-eilanden
 UM-76, Name for	Navassa Island	Navassa-eiland
@@ -4542,10 +4949,12 @@ UY-TA, Name for	Tacuarembó	Tacuarembó
 UY-TT, Name for	Treinta y Tres	Treinta y Tres
 UZ-AN, Name for	Andijon	Andijon
 UZ-BU, Name for	Buxoro	Buchara
+UZ-FA, Name for	Farg‘ona	Farg'ona
 UZ-JI, Name for	Jizzax	Jizzax
 UZ-NG, Name for	Namangan	Namangan
 UZ-NW, Name for	Navoiy	Navoiy
 UZ-QA, Name for	Qashqadaryo	Qashqadaryo
+UZ-QR, Name for	Qoraqalpog‘iston Respublikasi	Ķoraķalpakië, Autonome Republiek
 UZ-SA, Name for	Samarqand	Samarkand
 UZ-SI, Name for	Sirdaryo	Sirdaryo
 UZ-SU, Name for	Surxondaryo	Surxondaryo
@@ -4580,6 +4989,7 @@ VE-T, Name for	Trujillo	Trujillo
 VE-U, Name for	Yaracuy	Yaracuy
 VE-V, Name for	Zulia	Zulia
 VE-W, Name for	Dependencias Federales	Federale Afhankelijkheden
+VE-X, Name for	La Guaira	La Guajira
 VE-Y, Name for	Delta Amacuro	Delta Amacuro
 VE-Z, Name for	Amazonas	Amazonas
 VN-01, Name for	Lai Châu	Lai Chau
@@ -4591,10 +5001,12 @@ VN-06, Name for	Yên Bái	Yen Bai
 VN-07, Name for	Tuyên Quang	Tuyen Quang
 VN-09, Name for	Lạng Sơn	Lang Son
 VN-13, Name for	Quảng Ninh	Quang Ninh
+VN-14, Name for	Hòa Bình	Hoa Binh
 VN-18, Name for	Ninh Bình	Ninh Binh
 VN-20, Name for	Thái Bình	Thai Binh
 VN-21, Name for	Thanh Hóa	Thanh Hoa
 VN-22, Name for	Nghệ An	Nghe An
+VN-23, Name for	Hà Tĩnh	Ha Tinh
 VN-24, Name for	Quảng Bình	Quang Binh
 VN-25, Name for	Quảng Trị	Quang Tri
 VN-26, Name for	Thừa Thiên-Huế	Thua Thien-Hue
@@ -4604,6 +5016,7 @@ VN-29, Name for	Quảng Ngãi	Quang Ngai
 VN-30, Name for	Gia Lai	Gia Lai
 VN-31, Name for	Bình Định	Binh Dinh
 VN-32, Name for	Phú Yên	Phu Yen
+VN-33, Name for	Đắk Lắk	Dac Lak
 VN-34, Name for	Khánh Hòa	Khanh Hoa
 VN-35, Name for	Lâm Đồng	Lam Dong
 VN-36, Name for	Ninh Thuận	Ninh Thuan
@@ -4611,9 +5024,11 @@ VN-37, Name for	Tây Ninh	Tay Ninh
 VN-39, Name for	Đồng Nai	Dong Nai
 VN-40, Name for	Bình Thuận	Binh Thuan
 VN-41, Name for	Long An	Long An
+VN-43, Name for	Bà Rịa - Vũng Tàu	Bà Rịa-Vũng Tàu
 VN-44, Name for	An Giang	An Giang
 VN-45, Name for	Đồng Tháp	Dong Thap
 VN-46, Name for	Tiền Giang	Tien Giang
+VN-47, Name for	Kiến Giang	Kien Giang
 VN-49, Name for	Vĩnh Long	Vinh Long
 VN-50, Name for	Bến Tre	Ben Tre
 VN-51, Name for	Trà Vinh	Tra Vinh
@@ -4625,6 +5040,7 @@ VN-56, Name for	Bắc Ninh	Bac Ninh
 VN-57, Name for	Bình Dương	Binh Duong
 VN-58, Name for	Bình Phước	Binh Phuoc
 VN-59, Name for	Cà Mau	Ca Mau
+VN-61, Name for	Hải Dương	Hai Duong
 VN-63, Name for	Hà Nam	Ha Nam
 VN-66, Name for	Hưng Yên	Hung Yen
 VN-67, Name for	Nam Định	Nam Dinh
@@ -4660,6 +5076,10 @@ WS-TU, Name for	Tuamasaga	Tuamasaga
 WS-VF, Name for	Va'a-o-Fonoti	Va'a-o-Fonoti
 WS-VS, Name for	Vaisigano	Vaisigano
 YE-AB, Name for	Abyan	Abyan
+YE-AD, Name for	‘Adan	Adana
+YE-AM, Name for	‘Amrān	'Amran
+YE-BA, Name for	Al Bayḑā’	Al Bayda'
+YE-DA, Name for	Aḑ Ḑāli‘	Ad Dali'
 YE-DH, Name for	Dhamār	Dhamar
 YE-HD, Name for	Ḩaḑramawt	Hadramaut
 YE-HJ, Name for	Ḩajjah	Hajjah
@@ -4686,13 +5106,16 @@ ZA-MP, Name for	Mpumalanga	Mpumalanga
 ZA-NC, Name for	Northern Cape	Noord-Kaap
 ZA-NW, Name for	North-West	Noord-West
 ZA-WC, Name for	Western Cape	West-Kaap
+ZM-01, Name for	Western	Western
 ZM-02, Name for	Central	Central
 ZM-03, Name for	Eastern	Oost
 ZM-04, Name for	Luapula	Luapula
+ZM-05, Name for	Northern	Northern
 ZM-06, Name for	North-Western	Noord-West
 ZM-07, Name for	Southern	Zuid
 ZM-08, Name for	Copperbelt	Copperbelt; Kopergordel
 ZM-09, Name for	Lusaka	Lusaka
+ZM-10, Name for	Muchinga	Machinga
 ZW-BU, Name for	Bulawayo	Bulawayo
 ZW-HA, Name for	Harare	Harare
 ZW-MA, Name for	Manicaland	Manicaland

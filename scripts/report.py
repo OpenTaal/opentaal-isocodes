@@ -52,9 +52,13 @@ def header(html, mado, title):
 
 def footer(html, mado):
     '''Write HTML and Markdown footer.'''
-    html.write('''</body>
+    html.write('''<br>
+<small>Voor het onderhouden van deze vertalingen en de ondersteuning hiervan in de Nederlandse spellingcontrole, doneer via <a target="_blank" href="https://liberapay.com/opentaal">Liberapay</a> aan Stichting OpenTaal.</small>
+</body>
 </html''')
-    mado.write('\n')
+    mado.write('''
+<small>Voor het onderhouden van deze vertalingen en de ondersteuning hiervan in de Nederlandse spellingcontrole, doneer via <a target="_blank" href="https://liberapay.com/opentaal">Liberapay</a> aan Stichting OpenTaal.</small>
+''')
 
 def htmlcomment(comment, base):
     '''Write HTML comment, i.e. code with description.'''
@@ -167,7 +171,8 @@ def is_useless(msgstr):
 
 def fix(line):
     '''Fix line.'''
-    for match in (' (na', ' (tot', ' (ca. ', ' (1', ' (2', ' (3', ' (4', ' (5', ' (6', ' (7', ' (8', ' (9'):
+    for match in (' (na', ' (tot', ' (ca. ', ' (1', ' (2', ' (3', ' (4', ' (5',
+                  ' (6', ' (7', ' (8', ' (9'):
         pos = line.find(match)
         if pos != -1:
             line = line[:pos]
@@ -278,7 +283,12 @@ def main():
         open(path.join(path.join(__location__, '..'), f'md/{iso}.md'), 'w') as mado, \
         open(path.join(path.join(__location__, '..'), f'tsv/{iso}.tsv'), 'w') as tsv:  # pylint:disable=unspecified-encoding
             sourcefile = pofile(sourcepath)
-            print(f'{name}\t{sourcefile.percent_translated()}%\t{len(sourcefile)} = {len(sourcefile.translated_entries())} + {len(sourcefile.untranslated_entries())}')
+            print(f'{name}\t'
+                  f'{sourcefile.percent_translated()}%\t'
+                  f'{len(sourcefile)} = '
+                  f'{len(sourcefile.translated_entries())} + '
+                  f'{len(sourcefile.fuzzy_entries())} + '
+                  f'{len(sourcefile.untranslated_entries())}')
             header(html, mado, name)
             desc = description(iso, base_nl)
             html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden! Maak een <a target="_blank" href="https://github.com/OpenTaal/opentaal-isocodes/issues">issue</a> aan voor het geven van feedback.</p>\n')
@@ -289,7 +299,7 @@ def main():
             tsv.write('Codebeschijving\tEngels\tNederlands\n')
 
             codes = {}
-            for entry in sourcefile.translated_entries():
+            for entry in sourcefile.translated_entries() + sourcefile.fuzzy_entries(): #TODO report fuzzy seperately
                 for comment in entry.comment.split(', '):
                     pos = comment.rfind(' ')
                     comment = f'{comment[pos+1:]}, {comment[:pos]}'
@@ -310,7 +320,10 @@ def main():
             html.write('<table>\n')
             mado.write('\n')
             if iso == 'iso_3166-1':
-                html.write('<tr><th>Codebeschijving</th><th>Vlag</th><th>Engels</th><th>Nederlands</th></tr>\n')
+                html.write('<tr><th>Codebeschijving</th>'
+                           '<th>Vlag</th>'
+                           '<th>Engels</th>'
+                           '<th>Nederlands</th></tr>\n')
                 mado.write('Codebeschrijving | Vlag | Engels | Nederlands\n')
                 mado.write('---|---|---|---\n')
                 for code, value in sorted(codes.items()):
@@ -330,7 +343,10 @@ def main():
                                f'{madopart(value[1], base_nl)}\n')
                     tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
             elif iso == 'iso_3166-2':
-                html.write('<tr><th>Codebeschijving</th><th>Type</th><th>Engels</th><th>Nederlands</th></tr>\n')
+                html.write('<tr><th>Codebeschijving</th>'
+                           '<th>Type</th>'
+                           '<th>Engels</th>'
+                           '<th>Nederlands</th></tr>\n')
                 mado.write('Codebeschrijving | Type | Engels | Nederlands\n')
                 mado.write('---|---|---|---\n')
                 for code, value in sorted(codes.items()):
@@ -350,7 +366,9 @@ def main():
                                f'{madopart(value[1], base_nl)}\n')
                     tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
             else:
-                html.write('<tr><th>Codebeschijving</th><th>Engels</th><th>Nederlands</th></tr>\n')
+                html.write('<tr><th>Codebeschijving</th>'
+                           '<th>Engels</th>'
+                           '<th>Nederlands</th></tr>\n')
                 mado.write('Codebeschrijving | Engels | Nederlands\n')
                 mado.write('---|---|---\n')
                 for code, value in sorted(codes.items()):
@@ -359,7 +377,8 @@ def main():
                     if iso == 'iso_639-5':
                         data_name = data_639_5_alpha_3[data_code]['name']
                         if data_name not in ('', value[0]):
-                            print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
+                            print(f'WARNING: Mismatch data name "{data_name}" '
+                                  'with msgid "{value[0]}" for code "{data_code}"')
                     html.write(f'<tr><td style="font-family: monospace;">{htmlcomment(code, base_en)}</td>'
                                f'<td style="font-family: monospace;">{htmlpart(value[0], base_en)}</td>'
                                f'<td style="font-family: monospace;">{htmlpart(value[1], base_nl)}</td></tr>\n')
