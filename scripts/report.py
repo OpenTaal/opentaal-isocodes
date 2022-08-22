@@ -290,12 +290,6 @@ def main():
         open(path.join(path.join(__location__, '..'), f'md/{iso}.md'), 'w') as mado, \
         open(path.join(path.join(__location__, '..'), f'tsv/{iso}.tsv'), 'w') as tsv:  # pylint:disable=unspecified-encoding
             sourcefile = pofile(sourcepath)
-            print(f'{name}\t'
-                  f'{sourcefile.percent_translated()}%\t'
-                  f'{len(sourcefile)} = '
-                  f'{len(sourcefile.translated_entries())} + '
-                  f'{len(sourcefile.fuzzy_entries())} + '
-                  f'{len(sourcefile.untranslated_entries())}')
             header(html, mado, name)
             desc = description(iso, base_nl)
             html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden! Maak een <a target="_blank" href="https://github.com/OpenTaal/opentaal-isocodes/issues">issue</a> aan voor het geven van feedback.</p>\n')
@@ -306,6 +300,8 @@ def main():
             tsv.write('Code\tEngels\tNederlands\n')
 
             codes = {}
+            max_len_msgid = 0
+            max_len_msgstr = 0
             for entry in sourcefile.translated_entries() + sourcefile.fuzzy_entries(): #TODO report fuzzy seperately
                 for comment in entry.comment.split(', '):
                     pos = comment.rfind(' ')
@@ -313,6 +309,10 @@ def main():
                     if comment in codes:
                         print(f'ERROR: Duplicate code {comment}')
                     else:
+                        if len(entry.msgid) > max_len_msgid:
+                            max_len_msgid = len(entry.msgid)
+                        if len(entry.msgstr) > max_len_msgstr:
+                            max_len_msgstr = len(entry.msgstr)
                         codes[comment] = (entry.msgid, entry.msgstr)
             for entry in sourcefile.untranslated_entries():
                 for comment in entry.comment.split(', '):
@@ -321,24 +321,35 @@ def main():
                     if comment in codes:
                         print(f'ERROR: Duplicate code {comment}')
                     else:
+                        if len(entry.msgid) > max_len_msgid:
+                            max_len_msgid = len(entry.msgid)
                         codes[comment] = (entry.msgid, 'NOG NIET VERTAALD')
+            print(f'{name}\t'
+                  f'{max_len_msgid}~{max_len_msgstr}\t'
+                  f'{sourcefile.percent_translated()}%\t'
+                  f'{len(sourcefile)} = '
+                  f'{len(sourcefile.translated_entries())} + '
+                  f'{len(sourcefile.fuzzy_entries())} + '
+                  f'{len(sourcefile.untranslated_entries())}')
 
             # html.write(f'<h2>Vertaald ({len(sourcefile.translated_entries())}), onvertaald </h2>')
             html.write('<table>\n')
             mado.write('\n')
             if iso == 'iso_3166-1':
                 html.write('<tr><th>Code</th>'
+                           '<th>Kort</th>'
                            '<th>Vlag</th>'
                            '<th>Engels</th>'
                            '<th>Nederlands</th>'
-                           '<th>Spellingcontrole</th></tr>\n')
-                mado.write('Code | Vlag | Engels | Nederlands\n')
-                mado.write('---|---|---|---\n')
+                           '<th>Spellingcontrole</th></tr>\n') #TODO refactor voor achtergrondkleur, niet via browser
+                mado.write('Code | Kort | Vlag | Engels | Nederlands\n')
+                mado.write('---|---|---|---|---\n')
                 first = True
                 for code, value in sorted(codes.items()):
                     pos = code.find(', ')
                     data_code = code[:pos]
                     data_name = data_3166_1_alpha_3[data_code]['name']
+                    data_short = data_3166_1_alpha_3[data_code]['alpha_2']
                     data_flag = data_3166_1_alpha_3[data_code]['flag']
                     # if data_name != '' and data_name != value[0]:
                         # print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
@@ -351,14 +362,16 @@ def main():
                             spelling += f'{va[1]}\n'
                         spelling = f'{spelling[:-1]}</textarea></td>'
                     html.write(f'<tr><td>{htmlcomment(code, base_en)}</td>'
+                               f'<td>{data_short}</td>'
                                f'<td>{data_flag}</td>'
                                f'<td>{htmlpart(value[0], base_en)}</td>'
                                f'<td>{htmlpart(value[1], base_nl)}</td>{spelling}</tr>\n')
                     mado.write(f'{madocomment(code, base_en)} | '
+                               f'`{data_short}` |'
                                f'{data_flag} |'
                                f'{madopart(value[0], base_en)} | '
                                f'{madopart(value[1], base_nl)}\n')
-                    tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
+                    tsv.write(f'{code}\t{data_short}\t{data_flag}\t{value[0]}\t{value[1]}\n')
             elif iso == 'iso_3166-2':
                 html.write('<tr><th>Code</th>'
                            '<th>Type</th>'
