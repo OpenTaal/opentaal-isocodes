@@ -253,6 +253,14 @@ def main():
                     data_3166_2_code[entry['code']] = {'name': entry['name'], 'type': entry['type']}
                     if 'parent' in entry.keys():
                         data_3166_2_code[entry['code']]['parent'] = entry['parent']
+                elif dataname == '3166-3':
+                    data_3166_3_alpha_2[entry['alpha_2']] = {'alpha_3': entry['alpha_3'], 'alpha_4': entry['alpha_4'], 'withdrawal_date': entry['withdrawal_date'], 'name': entry['name']}
+                    data_3166_3_alpha_3[entry['alpha_3']] = {'alpha_2': entry['alpha_2'], 'alpha_4': entry['alpha_4'], 'withdrawal_date': entry['withdrawal_date'], 'name': entry['name']}
+                    data_3166_3_alpha_4[entry['alpha_4']] = {'alpha_2': entry['alpha_2'], 'alpha_3': entry['alpha_3'], 'withdrawal_date': entry['withdrawal_date'], 'name': entry['name']}
+                    if 'common_name' in entry.keys():
+                        data_3166_3_alpha_2[entry['alpha_2']]['numeric'] = entry['numeric']
+                        data_3166_3_alpha_3[entry['alpha_3']]['numeric'] = entry['numeric']
+                        data_3166_3_alpha_4[entry['alpha_4']]['numeric'] = entry['numeric']
                 elif dataname == '639-2':
                     data_639_2_alpha_3[entry['alpha_3']] = {'name': entry['name']}
                     if 'alpha_2' in entry.keys():
@@ -282,6 +290,12 @@ def main():
             for key, count in sorted(keys.items(), key=itemgetter(1), reverse=True):
                 print(f'\t{count}\t{key}')
 
+    countries_en = {}
+    countries_nl = {}
+    regions_en = {}
+    regions_nl = {}
+    languages_en = {}
+    languages_nl = {}
     for sourcepath in sorted(Path(directory.resolve()).glob('*/nl.po')):
         iso = sourcepath.parts[-2]
         name = iso.replace('iso_', 'ISO ')
@@ -372,6 +386,9 @@ def main():
                                f'{madopart(value[0], base_en)} | '
                                f'{madopart(value[1], base_nl)}\n')
                     tsv.write(f'{code}\t{data_short}\t{data_flag}\t{value[0]}\t{value[1]}\n')
+                    if code[pos:] == ', Name for':
+                        countries_en[data_short] = value[0]
+                        countries_nl[data_short] = value[1]
             elif iso == 'iso_3166-2':
                 html.write('<tr><th>Code</th>'
                            '<th>Type</th>'
@@ -395,6 +412,9 @@ def main():
                                f'{madopart(value[0], base_en)} | '
                                f'{madopart(value[1], base_nl)}\n')
                     tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
+                    #TODO value[] for index for better sort
+                    regions_en[countries_en[data_code[:2]] + data_code] = (data_code, f'{countries_en[data_code[:2]]}: {value[0]}')
+                    regions_nl[countries_nl[data_code[:2]] + data_code] = (data_code, f'{countries_nl[data_code[:2]]}: {value[1]}')
             else:
                 html.write('<tr><th>Code</th>'
                            '<th>Engels</th>'
@@ -416,8 +436,83 @@ def main():
                                f'{madopart(value[0], base_en)} | '
                                f'{madopart(value[1], base_nl)}\n')
                     tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
+                    if iso == 'iso_639-2':
+                        if code[pos:] == ', Name for' and data_code != 'zxx':
+                            if data_code in languages_en or data_code in languages_nl:
+                                print('ERROR')
+                                sys.exit(1)
+                            languages_en[value[0].replace('; German, Low; Saxon, Low', '')] = data_code
+                            languages_nl[value[1].replace('; Duits, Neder en Saksisch, Neder', '')] = data_code
             html.write('</table>\n')
             footer(html, mado)
+
+    # Write JSON files for HTML select field.
+
+    countries_sort = ('NL', 'BE', 'SR', 'DE', 'AT', 'CH', 'FR', 'ES', 'IT')
+    # max_len = 0
+    with open(path.join(__location__, '../json/regions.json'), 'w') as jsonfile:
+        jsonfile.write('{\n')
+        jsonfile.write('    "en": [')
+        jsonfile.write(f'\n        ["", "- choose a region -"]')
+        for country in countries_sort:
+            for key, values in sorted(regions_en.items()):
+                code, name = values
+                if code[:2] == country:
+                    jsonfile.write(f',\n        ["{code}", "{name}"]')
+        for key, values in sorted(regions_en.items()):
+            code, name = values
+            # if len(code) > max_len:
+                # max_len = len(code)
+            if code[:2] not in countries_sort:
+                jsonfile.write(f',\n        ["{code}", "{name}"]')
+        jsonfile.write('\n    ],\n')
+        jsonfile.write('    "nl": [')
+        jsonfile.write(f'\n        ["", "- kies een regio -"]')
+        for country in countries_sort:
+            for key, values in sorted(regions_nl.items()):
+                code, name = values
+                if code[:2] == country:
+                    jsonfile.write(f',\n        ["{code}", "{name}"]')
+        for key, values in sorted(regions_nl.items()):
+            code, name = values
+            # if len(code) > max_len:
+                # max_len = len(code)
+            if code[:2] not in countries_sort:
+                jsonfile.write(f',\n        ["{code}", "{name}"]')
+        jsonfile.write('\n    ]\n')
+        jsonfile.write('}\n')
+    # print('XXXX', max_len)
+
+    languages_sort = ('nld', 'eng', 'deu', 'fra', 'spa', 'ita', 'gsw', 'nds', 'fry')
+    # max_len = 0
+    with open(path.join(__location__, '../json/languages.json'), 'w') as jsonfile:
+        jsonfile.write('{\n')
+        jsonfile.write('    "en": [')
+        jsonfile.write('\n        ["", "- choose a language -"]')
+        for language in languages_sort:
+            for name, code in sorted(languages_en.items()):
+                if code == language:
+                    jsonfile.write(f',\n        ["{code}", "{name}"]')
+        for name, code in sorted(languages_en.items()):
+            # if len(code) > max_len:
+                # max_len = len(code)
+            if code not in languages_sort:
+                jsonfile.write(f',\n        ["{code}", "{name}"]')
+        jsonfile.write('\n    ],\n')
+        jsonfile.write('    "nl": [')
+        jsonfile.write('\n        ["", "- kies een taal -"]')
+        for language in languages_sort:
+            for name, code in sorted(languages_nl.items()):
+                if code == language:
+                    jsonfile.write(f',\n        ["{code}", "{name}"]')
+        for name, code in sorted(languages_nl.items()):
+            # if len(code) > max_len:
+                # max_len = len(code)
+            if code not in languages_sort:
+                jsonfile.write(f',\n        ["{code}", "{name}"]')
+        jsonfile.write('\n    ]\n')
+        jsonfile.write('}\n')
+    # print('XXXX', max_len)
 
     # words = {}
     # for filepath in glob('../iso-codes/*/nl.po'):
