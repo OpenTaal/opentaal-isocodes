@@ -27,7 +27,7 @@ please see [pycountry](https://pypi.org/project/pycountry/).
 For generating updated versions of the MarkDown, HTML and TSV files, install
 [polib](https://pypi.org/project/polib/) with e.g.:
 
-    sudo pip3 install -U polib
+    sudo pip3 install -U polib termcolor
 
 Then in the directory `scripts`, run:
 

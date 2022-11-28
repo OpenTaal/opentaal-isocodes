@@ -9,11 +9,14 @@ from os import getcwd, path
 from pathlib import Path
 import sys
 
+from hunspell import HunSpell
 from polib import pofile
+from termcolor import cprint
 
 #from nltk import edit_distance
 
 __location__ = path.realpath(path.join(getcwd(), path.dirname(__file__)))
+hun_obj = HunSpell('/usr/share/hunspell/nl.dic', '/usr/share/hunspell/nl.aff')
 
 
 def description(iso, base):
@@ -37,7 +40,7 @@ def description(iso, base):
                     }
     return descriptions[iso]
 
-def header(html, mado, title):
+def header(html, mado, spel, title):
     '''Write HTML and mado header.'''
     html.write(f'''<!DOCTYPE html>
 <html lang="nl">
@@ -53,6 +56,9 @@ textarea {{line-height: 150%;}}
 <h1>{title}</h1>
 ''')
     mado.write(f'''# {title}
+
+''')
+    spel.write(f'''# {title}
 
 ''')
 
@@ -91,7 +97,7 @@ def htmlpart(parts, base):
             prev = ''
             while ndx < len(parts):
                 if prev == parts[ndx]: # not really needed up to now
-                    print(f'WARNING: Identical parts {prev}')
+                    cprint(f'WARNING: Identical parts {prev}', 'yellow')
                 parts[ndx] = f'<a target="_blank" href="{base}{parts[ndx].replace(",", "")}">{parts[ndx]}</a>'
                 prev = parts[ndx]
                 ndx += 1
@@ -106,7 +112,7 @@ def htmlpart(parts, base):
     return f'<a target="_blank" href="{base}{parts.replace(",", "")}">{parts}</a>'
 
 def madopart(parts, base):
-    '''Note that monospace via ` is added insode thie method as it needs to be
+    '''Note that monospace via ` is added inside this method as it needs to be
     inside of the link.'''
     if parts == 'NOG NIET VERTAALD':
         return f'`{parts}`'
@@ -215,6 +221,27 @@ def fix(line):
     return line
 
 
+def write_spelling(spel, code, en, nl):
+    spell = hun_obj.spell(nl)
+    count = 0
+    if not spell:
+        if ' ' in nl:
+            for subterm in nl.split(' '):
+                #TODO also in opentaal-woordinfo
+                if subterm[0] == '(':
+                    subterm = subterm[1:]
+                for end in (';', ',', ')'):
+                    if subterm[-1] == end:
+                        subterm = subterm[:-1]
+                if subterm != '' and not hun_obj.spell(subterm):
+                    spel.write(f'`{code}` | `{en}` | `{nl}` | `{subterm}`\n')
+                    count += 1
+        else:
+            spel.write(f'`{code}` | `{en}` | `{nl}` | `{nl}`\n')
+            count += 1
+    return count
+
+
 def main():
     '''Run main functionality.'''
     utcnow = datetime.utcnow()
@@ -296,15 +323,17 @@ def main():
     regions_nl = {}
     languages_en = {}
     languages_nl = {}
+    print('\nName\t\tMax. length EN~NL\tTrans.\tTotal = Trans. + Fuzzy + Untrans.\tSpelling')
     for sourcepath in sorted(Path(directory.resolve()).glob('*/nl.po')):
         iso = sourcepath.parts[-2]
         name = iso.replace('iso_', 'ISO ')
         isos[iso] = name
         with open(path.join(path.join(__location__, '..'), f'html/{iso}.html'), 'w') as html, \
         open(path.join(path.join(__location__, '..'), f'md/{iso}.md'), 'w') as mado, \
+        open(path.join(path.join(__location__, '..'), f'spelling/{iso}.md'), 'w') as spel, \
         open(path.join(path.join(__location__, '..'), f'tsv/{iso}.tsv'), 'w') as tsv:  # pylint:disable=unspecified-encoding
             sourcefile = pofile(sourcepath)
-            header(html, mado, name)
+            header(html, mado, spel, name)
             desc = description(iso, base_nl)
             html.write('<p>Voor gebruik, lees de <a href="https://github.com/opentaal/opentaal-isocodes">documentatie</a> goed door. Deze bestanden zijn alleen voor reviewdoeleinden! Maak een <a target="_blank" href="https://github.com/OpenTaal/opentaal-isocodes/issues">issue</a> aan voor het geven van feedback.</p>\n')
             html.write(f'<p><a target="_blank" href="{desc[1]}">{desc[0]}</a>. Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% is vertaald op {dtstamp}.</p>\n')
@@ -312,10 +341,15 @@ def main():
             mado.write('\n')
             mado.write(f'[{desc[0]}]({desc[1]}). Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% is vertaald op {dtstamp}.\n')
             tsv.write('Code\tEngels\tNederlands\n')
+            spel.write('Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden! Maak een [issue](https://github.com/OpenTaal/opentaal-isocodes/issues) aan voor het geven van feedback.\n')
+            spel.write('\n')
+            spel.write('Onderstaande tabel geeft een code, Engelse naam, Nederlandse naam en welk deel van de Nederlandse naam niet door de spellingcontrole wordt ondersteund. M.a.w. als spelfout wordt aangeduid.\n')
+            spel.write('\n')
 
             codes = {}
             max_len_msgid = 0
             max_len_msgstr = 0
+            spell_count = 0
             for entry in sourcefile.translated_entries() + sourcefile.fuzzy_entries(): #TODO report fuzzy seperately
                 for comment in entry.comment.split(', '):
                     pos = comment.rfind(' ')
@@ -338,27 +372,21 @@ def main():
                         if len(entry.msgid) > max_len_msgid:
                             max_len_msgid = len(entry.msgid)
                         codes[comment] = (entry.msgid, 'NOG NIET VERTAALD')
-            print(f'{name}\t'
-                  f'{max_len_msgid}~{max_len_msgstr}\t'
-                  f'{sourcefile.percent_translated()}%\t'
-                  f'{len(sourcefile)} = '
-                  f'{len(sourcefile.translated_entries())} + '
-                  f'{len(sourcefile.fuzzy_entries())} + '
-                  f'{len(sourcefile.untranslated_entries())}')
 
             # html.write(f'<h2>Vertaald ({len(sourcefile.translated_entries())}), onvertaald </h2>')
             html.write('<table>\n')
             mado.write('\n')
+            spel.write('\n')
             if iso == 'iso_3166-1':
                 html.write('<tr><th>Code</th>'
                            '<th>Kort</th>'
                            '<th>Vlag</th>'
                            '<th>Engels</th>'
-                           '<th>Nederlands</th>'
-                           '<th>Spellingcontrole</th></tr>\n') #TODO refactor voor achtergrondkleur, niet via browser
+                           '<th>Nederlands</th></tr>\n') #TODO refactor voor achtergrondkleur, niet via browser
                 mado.write('Code | Kort | Vlag | Engels | Nederlands\n')
                 mado.write('---|---|---|---|---\n')
-                first = True
+                spel.write('Code | Engels | Nederlands | Spelling niet ondersteund\n')
+                spel.write('---|---|---|---\n')
                 for code, value in sorted(codes.items()):
                     pos = code.find(', ')
                     data_code = code[:pos]
@@ -367,25 +395,17 @@ def main():
                     data_flag = data_3166_1_alpha_3[data_code]['flag']
                     # if data_name != '' and data_name != value[0]:
                         # print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
-                    spelling = ''
-                    if first:
-                        for co, va in sorted(codes.items()):
-                            if first:
-                                first = False
-                                spelling = f'<td rowspan="{len(codes)}"><textarea data-lt-active="false" cols="65" rows="{len(codes)}">'
-                            spelling += f'{va[1]}\n'
-                        spelling = f'{spelling[:-1]}</textarea></td>'
                     html.write(f'<tr><td>{htmlcomment(code, base_en)}</td>'
                                f'<td>{data_short}</td>'
                                f'<td>{data_flag}</td>'
-                               f'<td>{htmlpart(value[0], base_en)}</td>'
-                               f'<td>{htmlpart(value[1], base_nl)}</td>{spelling}</tr>\n')
+                               f'<td>{htmlpart(value[0], base_en)}</td></tr>\n')
                     mado.write(f'{madocomment(code, base_en)} | '
                                f'`{data_short}` |'
                                f'{data_flag} |'
                                f'{madopart(value[0], base_en)} | '
                                f'{madopart(value[1], base_nl)}\n')
                     tsv.write(f'{code}\t{data_short}\t{data_flag}\t{value[0]}\t{value[1]}\n')
+                    spell_count += write_spelling(spel, code, value[0], value[1])
                     if code[pos:] == ', Name for':
                         countries_en[data_short] = value[0]
                         countries_nl[data_short] = value[1]
@@ -396,13 +416,15 @@ def main():
                            '<th>Nederlands</th></tr>\n')
                 mado.write('Code | Type | Engels | Nederlands\n')
                 mado.write('---|---|---|---\n')
+                spel.write('Code | Engels | Nederlands | Spelling niet ondersteund\n')
+                spel.write('---|---|---|---\n')
                 for code, value in sorted(codes.items()):
                     pos = code.find(', ')
                     data_code = code[:pos]
                     data_name = data_3166_2_code[data_code]['name']
                     data_type = data_3166_2_code[data_code]['type']
                     if data_name not in ('', value[0]):
-                        print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
+                        cprint(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"', 'yellow')
                     html.write(f'<tr><td>{htmlcomment(code, base_en)}</td>'
                                f'<td>{data_type}</td>'
                                f'<td>{htmlpart(value[0], base_en)}</td>'
@@ -412,6 +434,7 @@ def main():
                                f'{madopart(value[0], base_en)} | '
                                f'{madopart(value[1], base_nl)}\n')
                     tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
+                    spell_count += write_spelling(spel, code, value[0], value[1])
                     #TODO value[] for index for better sort
                     regions_en[countries_en[data_code[:2]] + data_code] = (data_code, f'{countries_en[data_code[:2]]}: {value[0]}')
                     regions_nl[countries_nl[data_code[:2]] + data_code] = (data_code, f'{countries_nl[data_code[:2]]}: {value[1]}')
@@ -421,6 +444,8 @@ def main():
                            '<th>Nederlands</th></tr>\n')
                 mado.write('Code | Engels | Nederlands\n')
                 mado.write('---|---|---\n')
+                spel.write('Code | Engels | Nederlands | Spelling niet ondersteund\n')
+                spel.write('---|---|---|---\n')
                 for code, value in sorted(codes.items()):
                     pos = code.find(', ')
                     data_code = code[:pos]
@@ -436,6 +461,7 @@ def main():
                                f'{madopart(value[0], base_en)} | '
                                f'{madopart(value[1], base_nl)}\n')
                     tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
+                    spell_count += write_spelling(spel, code, value[0], value[1])
                     if iso == 'iso_639-2':
                         if code[pos:] == ', Name for' and data_code != 'zxx':
                             if data_code in languages_en or data_code in languages_nl:
@@ -446,14 +472,23 @@ def main():
             html.write('</table>\n')
             footer(html, mado)
 
+            print(f'{name}\t'
+                  f'{max_len_msgid:04d}~{max_len_msgstr:04d}\t\t'
+                  f'{sourcefile.percent_translated():03d}%\t'
+                  f'{len(sourcefile):04d} = '
+                  f'{len(sourcefile.translated_entries()):04d} + '
+                  f'{len(sourcefile.fuzzy_entries()):04d} + '
+                  f'{len(sourcefile.untranslated_entries()):04d}\t\t'
+                  f'{spell_count:04d}')
+
     # Write JSON files for HTML select field.
 
     countries_sort = ('NL', 'BE', 'SR', 'DE', 'AT', 'CH', 'FR', 'ES', 'IT')
     # max_len = 0
-    with open(path.join(__location__, '../json/regions.json'), 'w') as jsonfile:
+    with open(path.join(__location__, '../json/regions.json'), 'w') as jsonfile:  # pylint:disable=unspecified-encoding
         jsonfile.write('{\n')
         jsonfile.write('    "en": [')
-        jsonfile.write(f'\n        ["", "- choose a region -"]')
+        jsonfile.write('\n        ["", "- choose a region -"]')
         for country in countries_sort:
             for key, values in sorted(regions_en.items()):
                 code, name = values
@@ -467,7 +502,7 @@ def main():
                 jsonfile.write(f',\n        ["{code}", "{name}"]')
         jsonfile.write('\n    ],\n')
         jsonfile.write('    "nl": [')
-        jsonfile.write(f'\n        ["", "- kies een regio -"]')
+        jsonfile.write('\n        ["", "- kies een regio -"]')
         for country in countries_sort:
             for key, values in sorted(regions_nl.items()):
                 code, name = values
@@ -485,7 +520,7 @@ def main():
 
     languages_sort = ('nld', 'eng', 'deu', 'fra', 'spa', 'ita', 'gsw', 'nds', 'fry')
     # max_len = 0
-    with open(path.join(__location__, '../json/languages.json'), 'w') as jsonfile:
+    with open(path.join(__location__, '../json/languages.json'), 'w') as jsonfile:  # pylint:disable=unspecified-encoding
         jsonfile.write('{\n')
         jsonfile.write('    "en": [')
         jsonfile.write('\n        ["", "- choose a language -"]')
