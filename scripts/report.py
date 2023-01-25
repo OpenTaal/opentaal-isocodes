@@ -74,7 +74,9 @@ def footer(html, mado):
 
 def htmlcomment(comment, base):
     '''Write HTML comment, i.e. code with description.'''
-    comment = comment.replace('Inverted name', 'Inv.').replace('Official name', 'Off.').replace('Common name', 'Com.')
+    comment = comment.replace('Inverted name', 'Inv.')
+    comment = comment.replace('Official name', 'Off.')
+    comment = comment.replace('Common name', 'Com.')
     pos = comment.find(', ')
     return f'<a target="_blank" href="{base}{comment[:pos]}">{comment[:pos]}</a>&nbsp;{comment[pos+2:-4]}'
 
@@ -189,7 +191,9 @@ def fix(line):
         pos = line.find(match)
         if pos != -1:
             line = line[:pos]
-    for match in (' (familie)', ' (district)', ' (stad)', ' (volgende dag)', ' (overige)', ' (trustgebied)', ', op het Engels gebaseerd', ', op het Frans gebaseerd', ', op het Portugees gebaseerd'):
+    for match in (' (familie)', ' (district)', ' (stad)', ' (volgende dag)',
+                  ' (overige)', ' (trustgebied)', ', op het Engels gebaseerd',
+                  ', op het Frans gebaseerd', ', op het Portugees gebaseerd'):
         if line.endswith(match):
             line = line[:-len(match)]
     #Zuid, etc
@@ -222,6 +226,7 @@ def fix(line):
 
 
 def write_spelling(spel, code, en, nl):
+    '''Write spelling checker information.'''
     spell = hun_obj.spell(nl)
     count = 0
     if not spell:
@@ -268,8 +273,12 @@ def main():
             data = load(filepath)
             for entry in data[dataname]:
                 if dataname == '3166-1':
-                    data_3166_1_alpha_2[entry['alpha_2']] = {'alpha_3': entry['alpha_3'], 'flag': entry['flag'], 'name': entry['name']}
-                    data_3166_1_alpha_3[entry['alpha_3']] = {'alpha_2': entry['alpha_2'], 'flag': entry['flag'], 'name': entry['name']}
+                    data_3166_1_alpha_2[entry['alpha_2']] = {'alpha_3': entry['alpha_3'],
+                                                             'flag': entry['flag'],
+                                                             'name': entry['name']}
+                    data_3166_1_alpha_3[entry['alpha_3']] = {'alpha_2': entry['alpha_2'],
+                                                             'flag': entry['flag'],
+                                                             'name': entry['name']}
                     if 'official_name' in entry.keys():
                         data_3166_1_alpha_2[entry['alpha_2']]['official_name'] = entry['official_name']
                         data_3166_1_alpha_3[entry['alpha_3']]['official_name'] = entry['official_name']
@@ -277,13 +286,23 @@ def main():
                         data_3166_1_alpha_2[entry['alpha_2']]['common_name'] = entry['common_name']
                         data_3166_1_alpha_3[entry['alpha_3']]['common_name'] = entry['common_name']
                 elif dataname == '3166-2':
-                    data_3166_2_code[entry['code']] = {'name': entry['name'], 'type': entry['type']}
+                    data_3166_2_code[entry['code']] = {'name': entry['name'],
+                                                       'type': entry['type']}
                     if 'parent' in entry.keys():
                         data_3166_2_code[entry['code']]['parent'] = entry['parent']
                 elif dataname == '3166-3':
-                    data_3166_3_alpha_2[entry['alpha_2']] = {'alpha_3': entry['alpha_3'], 'alpha_4': entry['alpha_4'], 'withdrawal_date': entry['withdrawal_date'], 'name': entry['name']}
-                    data_3166_3_alpha_3[entry['alpha_3']] = {'alpha_2': entry['alpha_2'], 'alpha_4': entry['alpha_4'], 'withdrawal_date': entry['withdrawal_date'], 'name': entry['name']}
-                    data_3166_3_alpha_4[entry['alpha_4']] = {'alpha_2': entry['alpha_2'], 'alpha_3': entry['alpha_3'], 'withdrawal_date': entry['withdrawal_date'], 'name': entry['name']}
+                    data_3166_3_alpha_2[entry['alpha_2']] = {'alpha_3': entry['alpha_3'],
+                                                             'alpha_4': entry['alpha_4'],
+                                                             'withdrawal_date': entry['withdrawal_date'],
+                                                             'name': entry['name']}
+                    data_3166_3_alpha_3[entry['alpha_3']] = {'alpha_2': entry['alpha_2'],
+                                                             'alpha_4': entry['alpha_4'],
+                                                             'withdrawal_date': entry['withdrawal_date'],
+                                                             'name': entry['name']}
+                    data_3166_3_alpha_4[entry['alpha_4']] = {'alpha_2': entry['alpha_2'],
+                                                             'alpha_3': entry['alpha_3'],
+                                                             'withdrawal_date': entry['withdrawal_date'],
+                                                             'name': entry['name']}
                     if 'common_name' in entry.keys():
                         data_3166_3_alpha_2[entry['alpha_2']]['numeric'] = entry['numeric']
                         data_3166_3_alpha_3[entry['alpha_3']]['numeric'] = entry['numeric']
@@ -340,7 +359,6 @@ def main():
             mado.write('Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden! Maak een [issue](https://github.com/OpenTaal/opentaal-isocodes/issues) aan voor het geven van feedback.\n')
             mado.write('\n')
             mado.write(f'[{desc[0]}]({desc[1]}). Totaal {len(sourcefile)} ISO-codes, {sourcefile.percent_translated()}% is vertaald op {dtstamp}.\n')
-            tsv.write('Code\tEngels\tNederlands\n')
             spel.write('Voor gebruik, lees de [documentatie](https://github.com/opentaal/opentaal-isocodes) goed door. Deze bestanden zijn alleen voor reviewdoeleinden! Maak een [issue](https://github.com/OpenTaal/opentaal-isocodes/issues) aan voor het geven van feedback.\n')
             spel.write('\n')
             spel.write('Onderstaande tabel geeft een code, Engelse naam, Nederlandse naam en welk deel van de Nederlandse naam niet door de spellingcontrole wordt ondersteund. M.a.w. als spelfout wordt aangeduid.\n')
@@ -387,6 +405,7 @@ def main():
                 mado.write('---|---|---|---|---\n')
                 spel.write('Code | Engels | Nederlands | Spelling niet ondersteund\n')
                 spel.write('---|---|---|---\n')
+                tsv.write('Code\tKort\tVlag\tEngels\tNederlands\n')
                 for code, value in sorted(codes.items()):
                     pos = code.find(', ')
                     data_code = code[:pos]
@@ -418,6 +437,7 @@ def main():
                 mado.write('---|---|---|---\n')
                 spel.write('Code | Engels | Nederlands | Spelling niet ondersteund\n')
                 spel.write('---|---|---|---\n')
+                tsv.write('Code\tType\tEngels\tNederlands\n')
                 for code, value in sorted(codes.items()):
                     pos = code.find(', ')
                     data_code = code[:pos]
@@ -433,7 +453,7 @@ def main():
                                f'`{data_type}` | '
                                f'{madopart(value[0], base_en)} | '
                                f'{madopart(value[1], base_nl)}\n')
-                    tsv.write(f'{code}\t{value[0]}\t{value[1]}\n')
+                    tsv.write(f'{code}\t{data_type}\t{value[0]}\t{value[1]}\n')
                     spell_count += write_spelling(spel, code, value[0], value[1])
                     #TODO value[] for index for better sort
                     regions_en[countries_en[data_code[:2]] + data_code] = (data_code, f'{countries_en[data_code[:2]]}: {value[0]}')
@@ -446,6 +466,7 @@ def main():
                 mado.write('---|---|---\n')
                 spel.write('Code | Engels | Nederlands | Spelling niet ondersteund\n')
                 spel.write('---|---|---|---\n')
+                tsv.write('Code\tEngels\tNederlands\n')
                 for code, value in sorted(codes.items()):
                     pos = code.find(', ')
                     data_code = code[:pos]
