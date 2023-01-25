@@ -1,3 +1,10 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/opentaal/opentaal-isocodes)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/opentaal/opentaal-isocodes)
+![GitHub Repo stars](https://img.shields.io/github/stars/opentaal/opentaal-isocodes)
+![GitHub watchers](https://img.shields.io/github/watchers/opentaal/opentaal-isocodes)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/opentaal)
+![Liberapay patrons](https://img.shields.io/liberapay/patrons/opentaal)
+
 # ISO-codes
 
 _Nederlandse vertaling van ISO-codes voor verbetering schrijfhulpbestanden._
@@ -34,7 +41,20 @@ Then in the directory `scripts`, run:
     ./download.sh
     ./report.py
 
-## Contributing
+## See also
+
+Standard | Description | Translations
+---|---|---
+ISO 15924 | [Vierletterige codes schriftsystemen](https://nl.wikipedia.org/w/index.php?search=ISO_15924) | [MD](md/iso_15924.md) [HTML](html/iso_15924.html) [TSV](tsv/iso_15924.tsv)
+ISO 3166-1 | [Drieletterige codes landnamen](https://nl.wikipedia.org/w/index.php?search=ISO_3166-1) | [MD](md/iso_3166-1.md) [HTML](html/iso_3166-1.html) [TSV](tsv/iso_3166-1.tsv)
+ISO 3166-2 | [Codes onderverdelingen van landen](https://nl.wikipedia.org/w/index.php?search=ISO_3166-2) | [MD](md/iso_3166-2.md) [HTML](html/iso_3166-2.html) [TSV](tsv/iso_3166-2.tsv)
+ISO 3166-3 | [Vierletterige codes voormalige landen](https://nl.wikipedia.org/w/index.php?search=ISO_3166-3) | [MD](md/iso_3166-3.md) [HTML](html/iso_3166-3.html) [TSV](tsv/iso_3166-3.tsv)
+ISO 4217 | [Drieletterige codes valuta's](https://nl.wikipedia.org/w/index.php?search=ISO_4217) | [MD](md/iso_4217.md) [HTML](html/iso_4217.html) [TSV](tsv/iso_4217.tsv)
+ISO 639-2 | [Drieletterige codes talen](https://nl.wikipedia.org/w/index.php?search=ISO_639#ISO_639-2) | [MD](md/iso_639-2.md) [HTML](html/iso_639-2.html) [TSV](tsv/iso_639-2.tsv)
+ISO 639-3 | [Drieletterige codes alle talen](https://nl.wikipedia.org/w/index.php?search=ISO_639#ISO_639-3) | [MD](md/iso_639-3.md) [HTML](html/iso_639-3.html) [TSV](tsv/iso_639-3.tsv)
+ISO 639-5 | [Drieletterige codes taalfamilies](https://nl.wikipedia.org/w/index.php?search=ISO_639-5) | [MD](md/iso_639-5.md) [HTML](html/iso_639-5.html) [TSV](tsv/iso_639-5.tsv)
+
+## Contribute
 
 Translating the remaining language names is not trivial. Only when you are
 very sure about your Dutch translation skills, please contribute via
@@ -46,19 +66,8 @@ For questions regarding existing translations, you can also open an issue
 at https://github.com/OpenTaal/opentaal-isocodes/issues to discuss
 improvements before adding them to Weblate.
 
-For maintaining these translations and supporting them in the Dutch spelling
-checker, donate via
-<a target="_blank" href="https://liberapay.com/opentaal">Liberapay</a> to
-Stichting OpenTaal.
+Please, help us create free and open Dutch writing tools. Donate tax free to our
+foundation at https://www.opentaal.org/vrienden-van-opentaal or contact us is
+you have word lists to database skills to offer.
 
-Standaard | Beschrijving | Vertalingen
----|---|---
-ISO 15924 | [Vierletterige codes schriftsystemen](https://nl.wikipedia.org/w/index.php?search=ISO_15924) | [MD](md/iso_15924.md) [HTML](html/iso_15924.html) [TSV](tsv/iso_15924.tsv)
-ISO 3166-1 | [Drieletterige codes landnamen](https://nl.wikipedia.org/w/index.php?search=ISO_3166-1) | [MD](md/iso_3166-1.md) [HTML](html/iso_3166-1.html) [TSV](tsv/iso_3166-1.tsv)
-ISO 3166-2 | [Codes onderverdelingen van landen](https://nl.wikipedia.org/w/index.php?search=ISO_3166-2) | [MD](md/iso_3166-2.md) [HTML](html/iso_3166-2.html) [TSV](tsv/iso_3166-2.tsv)
-ISO 3166-3 | [Vierletterige codes voormalige landen](https://nl.wikipedia.org/w/index.php?search=ISO_3166-3) | [MD](md/iso_3166-3.md) [HTML](html/iso_3166-3.html) [TSV](tsv/iso_3166-3.tsv)
-ISO 4217 | [Drieletterige codes valuta's](https://nl.wikipedia.org/w/index.php?search=ISO_4217) | [MD](md/iso_4217.md) [HTML](html/iso_4217.html) [TSV](tsv/iso_4217.tsv)
-ISO 639-2 | [Drieletterige codes talen](https://nl.wikipedia.org/w/index.php?search=ISO_639#ISO_639-2) | [MD](md/iso_639-2.md) [HTML](html/iso_639-2.html) [TSV](tsv/iso_639-2.tsv)
-ISO 639-3 | [Drieletterige codes alle talen](https://nl.wikipedia.org/w/index.php?search=ISO_639#ISO_639-3) | [MD](md/iso_639-3.md) [HTML](html/iso_639-3.html) [TSV](tsv/iso_639-3.tsv)
-ISO 639-5 | [Drieletterige codes taalfamilies](https://nl.wikipedia.org/w/index.php?search=ISO_639-5) | [MD](md/iso_639-5.md) [HTML](html/iso_639-5.html) [TSV](tsv/iso_639-5.tsv)
-
+Donating is also possible with <noscript><a href="https://liberapay.com/opentaal/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
