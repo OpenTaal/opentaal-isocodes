@@ -55,8 +55,8 @@ license.
 
 ## Updating
 
-For generating updated versions of the MarkDown, HTML and TSV files, install
-[polib](https://pypi.org/project/polib/) with e.g.:
+For generating updated versions of the MarkDown, HTML and TSV files, install the
+required packages with:
 
     sudo pip3 install -U polib termcolor
 
