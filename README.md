@@ -13,17 +13,22 @@ Dutch translation of ISO codes for improving writing aid files.
 
 ## Usage
 
-The files offered belowe are only for improving Dutch writing aid files such as
-word list, spelling checker dictionary, hyphenations patterns, etc.
+The files offered below are intended for improving Dutch writing aid files such
+as word list, spelling checker dictionary, hyphenations patterns, etc. However,
+they can also be used in software applications.
 
-The Dutch translations are best used in software from upstream stable releases
-which are found at:
-- [source files](https://salsa.debian.org/iso-codes-team/iso-codes/-/releases)
+The upstream package containing translations for Dutch and many other languages
+is called isocodes, see:
+- [releases](https://salsa.debian.org/iso-codes-team/iso-codes/-/releases)
 - [Debian package](https://packages.debian.org/search?keywords=iso-codes)
 - [Ubuntu package](https://packages.ubuntu.com/search?keywords=iso-codes)
 
-These contain XML and JSON files with translations in MO files. For use in
-Python, please see [pycountry](https://pypi.org/project/pycountry/).
+It contains XML and JSON files with translations in MO files. For use in
+Python, please see the package pycountry:
+- [releases](https://salsa.debian.org/iso-codes-team/iso-codes/-/releases)
+- [PyPI package](https://pypi.org/project/pycountry/)
+- [Debian package](https://packages.debian.org/search?keywords=python3-pycountry)
+- [Ubuntu package](https://packages.ubuntu.com/search?keywords=python3-pycountry)
 
 Standard | Description | Dutch Translations
 ---|---|---
@@ -35,6 +40,12 @@ ISO 4217 | [Drieletterige codes valuta's](https://nl.wikipedia.org/w/index.php?s
 ISO 639-2 | [Drieletterige codes talen](https://nl.wikipedia.org/w/index.php?search=ISO_639#ISO_639-2) | [MD](md/iso_639-2.md) [HTML](html/iso_639-2.html) [TSV](tsv/iso_639-2.tsv)
 ISO 639-3 | [Drieletterige codes alle talen](https://nl.wikipedia.org/w/index.php?search=ISO_639#ISO_639-3) | [MD](md/iso_639-3.md) [HTML](html/iso_639-3.html) [TSV](tsv/iso_639-3.tsv)
 ISO 639-5 | [Drieletterige codes taalfamilies](https://nl.wikipedia.org/w/index.php?search=ISO_639-5) | [MD](md/iso_639-5.md) [HTML](html/iso_639-5.html) [TSV](tsv/iso_639-5.tsv)
+
+See also the package isoquery:
+- [releases](https://codeberg.org/toddy/isoquery/releases)
+- [Debian package](https://packages.debian.org/search?keywords=isoquery)
+- [Ubuntu package](https://packages.ubuntu.com/search?keywords=isoquery)
+
 
 ## Source
 
