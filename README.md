@@ -58,7 +58,7 @@ license.
 For generating updated versions of the MarkDown, HTML and TSV files, install the
 required packages with:
 
-    sudo pip3 install -U polib termcolor
+    pip install -U polib termcolor
 
 Then in the directory `scripts`, run:
 

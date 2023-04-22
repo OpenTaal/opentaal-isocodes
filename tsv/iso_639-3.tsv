@@ -89,8 +89,8 @@ acy, Inverted name for	Arabic, Cypriot	Arabisch, Cypriotisch
 acy, Name for	Cypriot Arabic	Cypriotisch Arabisch
 acz, Name for	Acheron	Acheron
 ada, Name for	Adangme	Adangme
-adb, Name for	Atauran	Waray
-add, Name for	Lidzonka	NOG NIET VERTAALD
+adb, Name for	Atauran	Wetarees
+add, Name for	Lidzonka	Dzodinka
 ade, Name for	Adele	Adele
 adf, Inverted name for	Arabic, Dhofari	Arabisch, Dhofari
 adf, Name for	Dhofari Arabic	Dhofarisch Arabisch
@@ -225,7 +225,7 @@ aji, Name for	Ajië	NOG NIET VERTAALD
 ajn, Name for	Andajin	Andajin
 ajp, Inverted name for	Arabic, South Levantine	Arabisch, Zuid-Levantijns
 ajp, Name for	South Levantine Arabic	Zuid-Levantijns Arabisch
-ajs, Name for	Algerian Jewish Sign Language	Algerijnse Gebarentaal
+ajs, Name for	Algerian Jewish Sign Language	Algerijns-joodse Gebarentaal
 aju, Inverted name for	Arabic, Judeo-Moroccan	Arabisch, Judeo-Marokkaans
 aju, Name for	Judeo-Moroccan Arabic	Judeo-Marokkaans Arabisch
 ajw, Name for	Ajawa	Ajawa
@@ -1639,7 +1639,7 @@ csa, Inverted name for	Chinantec, Chiltepec	NOG NIET VERTAALD
 csa, Name for	Chiltepec Chinantec	NOG NIET VERTAALD
 csb, Name for	Kashubian	Kasjoebiaans
 csc, Name for	Catalan Sign Language	Catalaanse Gebarentaal
-csd, Name for	Chiangmai Sign Language	Chamische talen
+csd, Name for	Chiangmai Sign Language	Chamische Gebarentaal
 cse, Name for	Czech Sign Language	Tsjechische Gebarentaal
 csf, Name for	Cuba Sign Language	Cubaanse Gebarentaal
 csg, Name for	Chilean Sign Language	Chileense Gebarentaal
@@ -1668,7 +1668,7 @@ csv, Inverted name for	Chin, Sumtu	NOG NIET VERTAALD
 csv, Name for	Sumtu Chin	NOG NIET VERTAALD
 csw, Inverted name for	Cree, Swampy	NOG NIET VERTAALD
 csw, Name for	Swampy Cree	NOG NIET VERTAALD
-csx, Name for	Cambodian Sign Language	Tsjaadse Gebarentaal
+csx, Name for	Cambodian Sign Language	Cambodjaanse Gebarentaal
 csy, Inverted name for	Chin, Siyin	NOG NIET VERTAALD
 csy, Name for	Siyin Chin	NOG NIET VERTAALD
 csz, Name for	Coos	NOG NIET VERTAALD
@@ -3259,7 +3259,7 @@ jko, Name for	Kubo	NOG NIET VERTAALD
 jkp, Inverted name for	Karen, Paku	Karen
 jkp, Name for	Paku Karen	NOG NIET VERTAALD
 jkr, Name for	Koro (India)	Bodo (India)
-jks, Name for	Amami Koniya Sign Language	Armeense Gebarentaal
+jks, Name for	Amami Koniya Sign Language	Amami Koniya Gebarentaal
 jku, Name for	Labir	Latijn
 jle, Name for	Ngile	Nogai
 jls, Name for	Jamaican Sign Language	Jamaicaanse Gebarentaal
@@ -4348,22 +4348,22 @@ lrt, Name for	Larantuka Malay	Lamba
 lrv, Name for	Larevat	NOG NIET VERTAALD
 lrz, Name for	Lemerig	Komi
 lsa, Name for	Lasgerdi	NOG NIET VERTAALD
-lsb, Name for	Burundian Sign Language	Indiaanse Gebarentaal
-lsc, Name for	Albarradas Sign Language	Albanese Gebarentaal
+lsb, Name for	Burundian Sign Language	Burundese Gebarentaal
+lsc, Name for	Albarradas Sign Language	Albarradas Gebarentaal
 lsd, Name for	Lishana Deni	Litouws
 lse, Name for	Lusengo	Luiseno
 lsh, Name for	Lish	NOG NIET VERTAALD
 lsi, Name for	Lashi	Lushai
 lsl, Name for	Latvian Sign Language	Letse Gebarentaal
 lsm, Name for	Saamia	Sasaaks
-lsn, Name for	Tibetan Sign Language	Lybische Gebarentaal
+lsn, Name for	Tibetan Sign Language	Tibetaanse Gebarentaal
 lso, Name for	Laos Sign Language	Laotiaanse Gebarentaal
 lsp, Name for	Panamanian Sign Language	Panamase Gebarentaal
 lsr, Name for	Aruop	NOG NIET VERTAALD
 lss, Name for	Lasi	Masai
 lst, Name for	Trinidad and Tobago Sign Language	Trinidad en Tobago Gebarentaal
-lsv, Name for	Sivia Sign Language	Boliviaanse Gebarentaal
-lsw, Name for	Seychelles Sign Language	Rennellese Gebarentaal
+lsv, Name for	Sivia Sign Language	Sivia Gebarentaal
+lsw, Name for	Seychelles Sign Language	Seychelles Gebarentaal
 lsy, Name for	Mauritian Sign Language	Mauritaanse Gebarentaal
 ltc, Inverted name for	Chinese, Late Middle	NOG NIET VERTAALD
 ltc, Name for	Late Middle Chinese	NOG NIET VERTAALD
@@ -5146,7 +5146,7 @@ myz, Name for	Classical Mandaic	NOG NIET VERTAALD
 mza, Inverted name for	Mixtec, Santa María Zacatepec	NOG NIET VERTAALD
 mza, Name for	Santa María Zacatepec Mixtec	NOG NIET VERTAALD
 mzb, Name for	Tumzabt	NOG NIET VERTAALD
-mzc, Name for	Madagascar Sign Language	Madagaskar Gebarentaal
+mzc, Name for	Madagascar Sign Language	Madagaskarse Gebarentaal
 mzd, Name for	Malimba	Maleis
 mze, Name for	Morawa	Mohawk
 mzg, Name for	Monastic Sign Language	Monastische Gebarentaal
@@ -6335,7 +6335,7 @@ prx, Name for	Purik	NOG NIET VERTAALD
 prz, Name for	Providencia Sign Language	Providencia Gebarentaal
 psa, Inverted name for	Awyu, Asue	NOG NIET VERTAALD
 psa, Name for	Asue Awyu	NOG NIET VERTAALD
-psc, Name for	Iranian Sign Language	Indiaanse Gebarentaal
+psc, Name for	Iranian Sign Language	Iraanse Gebarentaal
 psd, Name for	Plains Indian Sign Language	NOG NIET VERTAALD
 pse, Inverted name for	Malay, Central	Santali
 pse, Name for	Central Malay	Santali
@@ -6578,7 +6578,7 @@ rgu, Name for	Ringgou	NOG NIET VERTAALD
 rhg, Name for	Rohingya	Ndonga
 rhp, Name for	Yahang	Sjaans
 ria, Name for	Riang (India)	Riang (India)
-rib, Name for	Bribri Sign Language	Britse Gebarentaal
+rib, Name for	Bribri Sign Language	Bribri Gebarentaal
 rif, Name for	Tarifit	NOG NIET VERTAALD
 ril, Name for	Riang Lang	Giangan
 rim, Name for	Nyaturu	Nauruaans
@@ -6630,7 +6630,7 @@ rmx, Name for	Romam	Roma
 rmy, Inverted name for	Romani, Vlax	Romani, Vlach
 rmy, Name for	Vlax Romani	Vlach Romani
 rmz, Name for	Marma	Mari
-rnb, Name for	Brunca Sign Language	Franse Gebarentaal
+rnb, Name for	Brunca Sign Language	Brunca Gebarentaal
 rnd, Name for	Ruund	Rundi
 rng, Name for	Ronga	Ndonga
 rnl, Name for	Ranglong	NOG NIET VERTAALD
@@ -6664,7 +6664,7 @@ rsb, Name for	Romano-Serbian	Roemeens
 rsk, Name for	Ruthenian	Zuid-Sothaans
 rsl, Name for	Russian Sign Language	Russische Gebarentaal
 rsm, Name for	Miriwoong Sign Language	Miriwoong Gebarentaal
-rsn, Name for	Rwandan Sign Language	Ugandese Gebarentaal
+rsn, Name for	Rwandan Sign Language	Rwandese Gebarentaal
 rtc, Inverted name for	Chin, Rungtu	NOG NIET VERTAALD
 rtc, Name for	Rungtu Chin	NOG NIET VERTAALD
 rth, Name for	Ratahan	Catalaans
@@ -7301,7 +7301,7 @@ szg, Name for	Sengele	NOG NIET VERTAALD
 szl, Name for	Silesian	Siciliaans
 szn, Name for	Sula	Fulah
 szp, Name for	Suabo	Sangho
-szs, Name for	Solomon Islands Sign Language	Colombiaanse Gebarentaal
+szs, Name for	Solomon Islands Sign Language	Solomon Eilanden Gebarentaal
 szv, Name for	Isu (Fako Division)	NOG NIET VERTAALD
 szw, Name for	Sawai	Swati
 szy, Name for	Sakizaya	NOG NIET VERTAALD
@@ -8206,7 +8206,7 @@ wbm, Name for	Wa	NOG NIET VERTAALD
 wbp, Name for	Warlpiri	NOG NIET VERTAALD
 wbq, Name for	Waddar	Mandars
 wbr, Name for	Wagdi	NOG NIET VERTAALD
-wbs, Name for	West Bengal Sign Language	Benkala Gebarentaal
+wbs, Name for	West Bengal Sign Language	West Bengaalse Gebarentaal
 wbt, Name for	Warnman	Samoaans
 wbv, Name for	Wajarri	NOG NIET VERTAALD
 wbw, Name for	Woi	NOG NIET VERTAALD
@@ -8988,7 +8988,7 @@ ysc, Name for	Yassic	NOG NIET VERTAALD
 ysd, Name for	Samatao	Samoaans
 ysg, Name for	Sonaga	Zenaga
 ysl, Name for	Yugoslavian Sign Language	Joegoslavische Gebarentaal
-ysm, Name for	Myanmar Sign Language	Bamako Gebarentaal
+ysm, Name for	Myanmar Sign Language	Myanmar Gebarentaal
 ysn, Name for	Sani	Sanskriet
 yso, Name for	Nisi (China)	NOG NIET VERTAALD
 ysp, Inverted name for	Lolopo, Southern	Zuid-Sothaans
