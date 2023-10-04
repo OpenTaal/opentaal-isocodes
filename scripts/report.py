@@ -9,14 +9,13 @@ from os import getcwd, path
 from pathlib import Path
 import sys
 
-from hunspell import HunSpell
+from opentaal import Checker, Mark
 from polib import pofile
-from termcolor import cprint
 
 #from nltk import edit_distance
 
 __location__ = path.realpath(path.join(getcwd(), path.dirname(__file__)))
-hun_obj = HunSpell('/usr/share/hunspell/nl.dic', '/usr/share/hunspell/nl.aff')
+checker = Checker()
 
 
 def description(iso, base):
@@ -42,35 +41,19 @@ def description(iso, base):
 
 def header(html, mado, spel, title):
     '''Write HTML and mado header.'''
-    html.write(f'''<!DOCTYPE html>
-<html lang="nl">
-<head>
-<meta charset="utf-8">
-<title>{title}</title>
-<style>
-* {{font-family: monospace, monospace;}}
-textarea {{line-height: 150%;}}
-</style>
-</head>
-<body>
-<h1>{title}</h1>
-''')
-    mado.write(f'''# {title}
-
-''')
-    spel.write(f'''# {title}
-
-''')
+    html.write(Mark.html_head(title, mono=True,
+                              style='textarea {line-height: 150%;}'))
+    mado.write(Mark.md_head(title))
+    spel.write(Mark.md_head(title))
 
 def footer(html, mado):
     '''Write HTML and Markdown footer.'''
-    html.write('''<br>
-<small>Voor het onderhouden van deze vertalingen en de ondersteuning hiervan in de Nederlandse spellingcontrole, doneer via <a target="_blank" href="https://liberapay.com/opentaal">Liberapay</a> aan Stichting OpenTaal.</small>
-</body>
-</html''')
-    mado.write('''
-<small>Voor het onderhouden van deze vertalingen en de ondersteuning hiervan in de Nederlandse spellingcontrole, doneer via <a target="_blank" href="https://liberapay.com/opentaal">Liberapay</a> aan Stichting OpenTaal.</small>
-''')
+    text = 'Voor het onderhouden van deze vertalingen en de ondersteuning' \
+    ' hiervan in de Nederlandse spellingcontrole, doneer via' \
+    f' {Mark.html_link("Liberapay", "https://liberapay.com/opentaal", new=True)}' \
+    ' aan Stichting OpenTaal.'
+    html.write(Mark.html_foot(text))
+    mado.write(Mark.md_foot(text))
 
 def htmlcomment(comment, base):
     '''Write HTML comment, i.e. code with description.'''
@@ -99,7 +82,7 @@ def htmlpart(parts, base):
             prev = ''
             while ndx < len(parts):
                 if prev == parts[ndx]: # not really needed up to now
-                    cprint(f'WARNING: Identical parts {prev}', 'yellow')
+                    print(f'WARNING: Identical parts {prev}')
                 parts[ndx] = f'<a target="_blank" href="{base}{parts[ndx].replace(",", "")}">{parts[ndx]}</a>'
                 prev = parts[ndx]
                 ndx += 1
@@ -227,7 +210,7 @@ def fix(line):
 
 def write_spelling(spel, code, en, nl):
     '''Write spelling checker information.'''
-    spell = hun_obj.spell(nl)
+    spell = checker.check(nl)
     count = 0
     if not spell:
         if ' ' in nl:
@@ -238,7 +221,7 @@ def write_spelling(spel, code, en, nl):
                 for end in (';', ',', ')'):
                     if subterm[-1] == end:
                         subterm = subterm[:-1]
-                if subterm != '' and not hun_obj.spell(subterm):
+                if subterm != '' and not checker.check(subterm):
                     spel.write(f'`{code}` | `{en}` | `{nl}` | `{subterm}`\n')
                     count += 1
         else:
@@ -347,10 +330,12 @@ def main():
         iso = sourcepath.parts[-2]
         name = iso.replace('iso_', 'ISO ')
         isos[iso] = name
+# pylint:disable=unspecified-encoding
         with open(path.join(path.join(__location__, '..'), f'html/{iso}.html'), 'w') as html, \
         open(path.join(path.join(__location__, '..'), f'md/{iso}.md'), 'w') as mado, \
         open(path.join(path.join(__location__, '..'), f'spelling/{iso}.md'), 'w') as spel, \
         open(path.join(path.join(__location__, '..'), f'tsv/{iso}.tsv'), 'w') as tsv:  # pylint:disable=unspecified-encoding
+# pylint:enable=unspecified-encoding
             sourcefile = pofile(sourcepath)
             header(html, mado, spel, name)
             desc = description(iso, base_nl)
@@ -444,7 +429,7 @@ def main():
                     data_name = data_3166_2_code[data_code]['name']
                     data_type = data_3166_2_code[data_code]['type']
                     if data_name not in ('', value[0]):
-                        cprint(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"', 'yellow')
+                        print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
                     html.write(f'<tr><td>{htmlcomment(code, base_en)}</td>'
                                f'<td>{data_type}</td>'
                                f'<td>{htmlpart(value[0], base_en)}</td>'
