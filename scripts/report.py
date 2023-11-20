@@ -12,7 +12,7 @@ import sys
 from opentaal import Checker, Mark
 from polib import pofile
 
-#from nltk import edit_distance
+# from nltk import edit_distance
 
 __location__ = path.realpath(path.join(getcwd(), path.dirname(__file__)))
 checker = Checker()
@@ -39,6 +39,7 @@ def description(iso, base):
                     }
     return descriptions[iso]
 
+
 def header(html, mado, spel, title):
     '''Write HTML and mado header.'''
     html.write(Mark.html_head(title, mono=True,
@@ -46,14 +47,16 @@ def header(html, mado, spel, title):
     mado.write(Mark.md_head(title))
     spel.write(Mark.md_head(title))
 
+
 def footer(html, mado):
     '''Write HTML and Markdown footer.'''
     text = 'Voor het onderhouden van deze vertalingen en de ondersteuning' \
-    ' hiervan in de Nederlandse spellingcontrole, doneer via' \
-    f' {Mark.html_link("Liberapay", "https://liberapay.com/opentaal", new=True)}' \
-    ' aan Stichting OpenTaal.'
+           ' hiervan in de Nederlandse spellingcontrole, doneer via' \
+           f' {Mark.html_link("Liberapay", "https://liberapay.com/opentaal", new=True)}' \
+           ' aan Stichting OpenTaal.'
     html.write(Mark.html_foot(text))
     mado.write(Mark.md_foot(text))
+
 
 def htmlcomment(comment, base):
     '''Write HTML comment, i.e. code with description.'''
@@ -63,10 +66,12 @@ def htmlcomment(comment, base):
     pos = comment.find(', ')
     return f'<a target="_blank" href="{base}{comment[:pos]}">{comment[:pos]}</a>&nbsp;{comment[pos+2:-4]}'
 
+
 def madocomment(comment, base):
     '''Write Markdown comment, i.e. code with description.'''
     pos = comment.find(', ')
     return f'[`{comment[:pos]}`]({base}{comment[:pos]})`{comment[pos+1:-4]}`'
+
 
 def htmlpart(parts, base):
     '''Note that monospace is added outside of this method.'''
@@ -81,7 +86,7 @@ def htmlpart(parts, base):
             ndx = 0
             prev = ''
             while ndx < len(parts):
-                if prev == parts[ndx]: # not really needed up to now
+                if prev == parts[ndx]:  # not really needed up to now
                     print(f'WARNING: Identical parts {prev}')
                 parts[ndx] = f'<a target="_blank" href="{base}{parts[ndx].replace(",", "")}">{parts[ndx]}</a>'
                 prev = parts[ndx]
@@ -95,6 +100,7 @@ def htmlpart(parts, base):
             ndx += 1
         return ' / '.join(parts)
     return f'<a target="_blank" href="{base}{parts.replace(",", "")}">{parts}</a>'
+
 
 def madopart(parts, base):
     '''Note that monospace via ` is added inside this method as it needs to be
@@ -121,6 +127,7 @@ def madopart(parts, base):
         return '` / `'.join(parts)
     return f'[`{parts}`]({base}{parts.replace(",", "").replace(" ", "%20")})'
 
+
 def get_category(directory):
     '''Get category.'''
     if directory in ('iso_3166-1', 'iso_3166-2', 'iso_3166-3'):
@@ -135,7 +142,7 @@ def get_category(directory):
         return 'taal'
     print(f'ERROR: Unknown ISO code {directory}')
     sys.exit(1)
-    return ''
+
 
 def is_useless(msgstr):
     '''Test if msgstr is useful.'''
@@ -167,6 +174,7 @@ def is_useless(msgstr):
     #         return True
     return False
 
+
 def fix(line):
     '''Fix line.'''
     for match in (' (na', ' (tot', ' (ca. ', ' (1', ' (2', ' (3', ' (4', ' (5',
@@ -179,12 +187,12 @@ def fix(line):
                   ', op het Frans gebaseerd', ', op het Portugees gebaseerd'):
         if line.endswith(match):
             line = line[:-len(match)]
-    #Zuid, etc
+    # Zuid, etc
     # if line.endswith(', Oud'):
     #     line = f'Oud {line[:-5]}'
     # if line.endswith(', Middel'):
     #     line = f'Middle {line[:-8]}'
-    #TODO make a for loop
+    # TODO make a for loop
     if line.endswith(', Republiek'):
         line = f'Republiek {line[:-11]}'
     if line.endswith(', Socialistische Republiek van de Unie van'):
@@ -215,7 +223,7 @@ def write_spelling(spel, code, en, nl):
     if not spell:
         if ' ' in nl:
             for subterm in nl.split(' '):
-                #TODO also in opentaal-woordinfo
+                # TODO also in opentaal-woordinfo
                 if subterm[0] == '(':
                     subterm = subterm[1:]
                 for end in (';', ',', ')'):
@@ -239,7 +247,7 @@ def main():
     base_nl = 'https://nl.wikipedia.org/w/index.php?search='
     isos = {}
 
-    #TODO move to inside weblate loop
+    # TODO move to inside weblate loop
     # data_639_2_alpha_2 = {}
     data_639_2_alpha_3 = {}
     data_639_3_alpha_3 = {}
@@ -332,9 +340,9 @@ def main():
         isos[iso] = name
 # pylint:disable=unspecified-encoding
         with open(path.join(path.join(__location__, '..'), f'html/{iso}.html'), 'w') as html, \
-        open(path.join(path.join(__location__, '..'), f'md/{iso}.md'), 'w') as mado, \
-        open(path.join(path.join(__location__, '..'), f'spelling/{iso}.md'), 'w') as spel, \
-        open(path.join(path.join(__location__, '..'), f'tsv/{iso}.tsv'), 'w') as tsv:  # pylint:disable=unspecified-encoding
+             open(path.join(path.join(__location__, '..'), f'md/{iso}.md'), 'w') as mado, \
+             open(path.join(path.join(__location__, '..'), f'spelling/{iso}.md'), 'w') as spel, \
+             open(path.join(path.join(__location__, '..'), f'tsv/{iso}.tsv'), 'w') as tsv:  # pylint:disable=unspecified-encoding
 # pylint:enable=unspecified-encoding
             sourcefile = pofile(sourcepath)
             header(html, mado, spel, name)
@@ -353,7 +361,7 @@ def main():
             max_len_msgid = 0
             max_len_msgstr = 0
             spell_count = 0
-            for entry in sourcefile.translated_entries() + sourcefile.fuzzy_entries(): #TODO report fuzzy seperately
+            for entry in sourcefile.translated_entries() + sourcefile.fuzzy_entries():  # TODO report fuzzy seperately
                 for comment in entry.comment.split(', '):
                     pos = comment.rfind(' ')
                     comment = f'{comment[pos+1:]}, {comment[:pos]}'
@@ -385,7 +393,7 @@ def main():
                            '<th>Kort</th>'
                            '<th>Vlag</th>'
                            '<th>Engels</th>'
-                           '<th>Nederlands</th></tr>\n') #TODO refactor voor achtergrondkleur, niet via browser
+                           '<th>Nederlands</th></tr>\n')  # TODO refactor voor achtergrondkleur, niet via browser
                 mado.write('Code | Kort | Vlag | Engels | Nederlands\n')
                 mado.write('---|---|---|---|---\n')
                 spel.write('Code | Engels | Nederlands | Spelling niet ondersteund\n')
@@ -398,7 +406,7 @@ def main():
                     data_short = data_3166_1_alpha_3[data_code]['alpha_2']
                     data_flag = data_3166_1_alpha_3[data_code]['flag']
                     # if data_name != '' and data_name != value[0]:
-                        # print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
+                    #     print(f'WARNING: Mismatch data name "{data_name}" with msgid "{value[0]}" for code "{data_code}"')
                     html.write(f'<tr><td>{htmlcomment(code, base_en)}</td>'
                                f'<td>{data_short}</td>'
                                f'<td>{data_flag}</td>'
@@ -440,7 +448,7 @@ def main():
                                f'{madopart(value[1], base_nl)}\n')
                     tsv.write(f'{code}\t{data_type}\t{value[0]}\t{value[1]}\n')
                     spell_count += write_spelling(spel, code, value[0], value[1])
-                    #TODO value[] for index for better sort
+                    # TODO value[] for index for better sort
                     regions_en[countries_en[data_code[:2]] + data_code] = (data_code, f'{countries_en[data_code[:2]]}: {value[0]}')
                     regions_nl[countries_nl[data_code[:2]] + data_code] = (data_code, f'{countries_nl[data_code[:2]]}: {value[1]}')
             else:
@@ -503,7 +511,7 @@ def main():
         for key, values in sorted(regions_en.items()):
             code, name = values
             # if len(code) > max_len:
-                # max_len = len(code)
+            #     max_len = len(code)
             if code[:2] not in countries_sort:
                 jsonfile.write(f',\n        ["{code}", "{name}"]')
         jsonfile.write('\n    ],\n')
@@ -517,7 +525,7 @@ def main():
         for key, values in sorted(regions_nl.items()):
             code, name = values
             # if len(code) > max_len:
-                # max_len = len(code)
+            #     max_len = len(code)
             if code[:2] not in countries_sort:
                 jsonfile.write(f',\n        ["{code}", "{name}"]')
         jsonfile.write('\n    ]\n')
@@ -536,7 +544,7 @@ def main():
                     jsonfile.write(f',\n        ["{code}", "{name}"]')
         for name, code in sorted(languages_en.items()):
             # if len(code) > max_len:
-                # max_len = len(code)
+            #     max_len = len(code)
             if code not in languages_sort:
                 jsonfile.write(f',\n        ["{code}", "{name}"]')
         jsonfile.write('\n    ],\n')
@@ -548,7 +556,7 @@ def main():
                     jsonfile.write(f',\n        ["{code}", "{name}"]')
         for name, code in sorted(languages_nl.items()):
             # if len(code) > max_len:
-                # max_len = len(code)
+            #     max_len = len(code)
             if code not in languages_sort:
                 jsonfile.write(f',\n        ["{code}", "{name}"]')
         jsonfile.write('\n    ]\n')
@@ -600,6 +608,7 @@ def main():
     #         for l, count in sorted(msgstrs.items()):
     #             if count > 1:
     #                 print(f'{count} {l}')
+
 
 if __name__ == "__main__":
     main()

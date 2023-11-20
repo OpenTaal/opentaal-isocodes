@@ -1,0 +1,7 @@
+flake8
+mypy
+#opentaal
+polib
+pylint
+pyflakes
+types-polib

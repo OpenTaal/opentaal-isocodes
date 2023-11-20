@@ -58,7 +58,8 @@ license.
 For generating updated versions of the MarkDown, HTML and TSV files, install the
 required packages with:
 
-    pip install -U polib
+    pip install -Ur requirements.txt
+    sudo apt-get -y install devscripts
 
 Then in the directory `scripts`, run:
 

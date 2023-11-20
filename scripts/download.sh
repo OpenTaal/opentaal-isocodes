@@ -4,7 +4,10 @@ set -e
 cd ..
 
 if [ -e data ]; then
-    rm -rf data
+    if [ -e data.prev ]; then
+        rm -rf data.prev
+    fi
+    mv data data.prev
 fi
 mkdir data
 cd data
@@ -20,7 +23,8 @@ fi
 mkdir weblate
 cd weblate
 wget -O iso-codes.zip \
-https://hosted.weblate.org/download-language/nl/iso-codes/?format=zip
+https://hosted.weblate.org/download/iso-codes/-/nl/?format=zip
+#https://hosted.weblate.org/download-language/nl/iso-codes/?format=zip
 unzip -o iso-codes.zip
 rm -f iso-codes.zip
 mv iso-codes/iso-639-2/* .
