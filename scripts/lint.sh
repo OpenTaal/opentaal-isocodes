@@ -1,8 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
+echo '* CHECKBASISMS'
 checkbashisms *.sh
 
-flake8 --ignore E501 *.py
-pylint --disable C0301 *.py
-pyflakes *.py
-mypy *.py
+FILES=*.py
+echo '* FLAKE8'
+flake8 --ignore E501 $FILES
+echo '* PYLINT'
+pylint --disable C0301 $FILES
+echo '* PYFLAKES'
+pyflakes $FILES
+echo '* MYPY'
+mypy $FILES
