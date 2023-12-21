@@ -64,7 +64,12 @@ def htmlcomment(comment, base):
     comment = comment.replace('Official name', 'Off.')
     comment = comment.replace('Common name', 'Com.')
     pos = comment.find(', ')
-    return f'<a target="_blank" href="{base}{comment[:pos]}">{comment[:pos]}</a>&nbsp;{comment[pos+2:-4]}'
+    if comment[2] == '-':
+        return f'<a target="_blank" href="{base}{comment[0:2]}">' \
+            f'{comment[0:2]}</a>-<a target="_blank" href="{base}' \
+            f'{comment[3:pos]}">{comment[3:pos]}</a>&nbsp;{comment[pos+2:-4]}'
+    return f'<a target="_blank" href="{base}{comment[:pos]}">{comment[:pos]}' \
+        f'</a>&nbsp;{comment[pos+2:-4]}'
 
 
 def madocomment(comment, base):
@@ -88,7 +93,8 @@ def htmlpart(parts, base):
             while ndx < len(parts):
                 if prev == parts[ndx]:  # not really needed up to now
                     print(f'WARNING: Identical parts {prev}')
-                parts[ndx] = f'<a target="_blank" href="{base}{parts[ndx].replace(",", "")}">{parts[ndx]}</a>'
+                parts[ndx] = f'<a target="_blank" href="{base}' \
+                    f'{parts[ndx].replace(",", "")}">{parts[ndx]}</a>'
                 prev = parts[ndx]
                 ndx += 1
             return '; '.join(parts)
@@ -96,7 +102,8 @@ def htmlpart(parts, base):
         parts = parts.split(' / ')
         ndx = 0
         while ndx < len(parts):
-            parts[ndx] = f'<a target="_blank" href="{base}{parts[ndx].replace(",", "")}">{parts[ndx]}</a>'
+            parts[ndx] = f'<a target="_blank" href="{base}' \
+                f'{parts[ndx].replace(",", "")}">{parts[ndx]}</a>'
             ndx += 1
         return ' / '.join(parts)
     return f'<a target="_blank" href="{base}{parts.replace(",", "")}">{parts}</a>'
@@ -115,14 +122,16 @@ def madopart(parts, base):
             parts = parts.split('; ')
             ndx = 0
             while ndx < len(parts):
-                parts[ndx] = f'[`{parts[ndx]}`]({base}{parts[ndx].replace(",", "").replace(" ", "%20")})'
+                parts[ndx] = f'[`{parts[ndx]}`]({base}' \
+                    f'{parts[ndx].replace(",", "").replace(" ", "%20")})'
                 ndx += 1
             return '`; `'.join(parts)
     if ' / ' in parts:
         parts = parts.split(' / ')
         ndx = 0
         while ndx < len(parts):
-            parts[ndx] = f'[`{parts[ndx]}`]({base}{parts[ndx].replace(",", "").replace(" ", "%20")})'
+            parts[ndx] = f'[`{parts[ndx]}`]({base}' \
+                f'{parts[ndx].replace(",", "").replace(" ", "%20")})'
             ndx += 1
         return '` / `'.join(parts)
     return f'[`{parts}`]({base}{parts.replace(",", "").replace(" ", "%20")})'
@@ -175,7 +184,7 @@ def is_useless(msgstr):
     return False
 
 
-def fix(line):
+def fix(line):  # pylint:disable=too-many-branches
     '''Fix line.'''
     for match in (' (na', ' (tot', ' (ca. ', ' (1', ' (2', ' (3', ' (4', ' (5',
                   ' (6', ' (7', ' (8', ' (9'):
@@ -238,7 +247,7 @@ def write_spelling(spel, code, en, nl):
     return count
 
 
-def main():
+def main():  # pylint:disable=too-many-locals
     '''Run main functionality.'''
     utcnow = datetime.utcnow()
     dtstamp = utcnow.strftime('%Y-%m-%d %H:%M:%S UTC')
@@ -258,7 +267,8 @@ def main():
     data_3166_3_alpha_2 = {}
     data_3166_3_alpha_3 = {}
     data_3166_3_alpha_4 = {}
-    for dataname in sorted(('639-2', '639-3', '639-5', '3166-1', '3166-2', '3166-3', '4217', '15924')):
+    for dataname in sorted(('639-2', '639-3', '639-5', '3166-1', '3166-2',
+                            '3166-3', '4217', '15924')):
         with open(path.join(__location__, f'../data/iso_{dataname}.json')) as filepath:  # pylint:disable=unspecified-encoding
             keys = {}
             data = load(filepath)

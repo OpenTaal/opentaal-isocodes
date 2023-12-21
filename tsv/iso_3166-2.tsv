@@ -400,10 +400,10 @@ BG-25, Name for	District	Targovishte	Targovisjte
 BG-26, Name for	District	Haskovo	Chaskovo
 BG-27, Name for	District	Shumen	Sjoemen
 BG-28, Name for	District	Yambol	Jambol
-BH-13, Name for	Governorate	Al ‘Āşimah	Al-Asimah
-BH-14, Name for	Governorate	Al Janūbīyah	Al Janblyah
-BH-15, Name for	Governorate	Al Muḩarraq	Al Muharraq
-BH-17, Name for	Governorate	Ash Shamālīyah	Ash Shamallyah
+BH-13, Name for	Governorate	Al ‘Āşimah	al-'Asimah
+BH-14, Name for	Governorate	Al Janūbīyah	al-Janobiyah
+BH-15, Name for	Governorate	Al Muḩarraq	al-Muharaq
+BH-17, Name for	Governorate	Ash Shamālīyah	ash-Shamaliyah
 BI-BB, Name for	Province	Bubanza	Bubanza
 BI-BL, Name for	Province	Bujumbura Rural	Bujumbura Rural
 BI-BM, Name for	Province	Bujumbura Mairie	Bujumbura Mairie
@@ -1277,15 +1277,15 @@ FI-02, Name for	Region	Etelä-Karjala	Zuid-Karelië
 FI-03, Name for	Region	Etelä-Pohjanmaa	Zuid-Ostrobothnië
 FI-04, Name for	Region	Etelä-Savo	Zuid-Savonië
 FI-05, Name for	Region	Kainuu	Kainuu
-FI-06, Name for	Region	Egentliga Tavastland	Egentliga Tavastland
+FI-06, Name for	Region	Egentliga Tavastland	Egentliga-Tavastland
 FI-07, Name for	Region	Keski-Pohjanmaa	Centraal-Ostrobothnië
 FI-08, Name for	Region	Keski-Suomi	Centraal-Finland
 FI-09, Name for	Region	Kymenlaakso	Kymenlaakso
 FI-10, Name for	Region	Lappi	Lapland
-FI-11, Name for	Region	Birkaland	Birkirkara
+FI-11, Name for	Region	Birkaland	Birkaland
 FI-12, Name for	Region	Pohjanmaa	Ostrobothnië
-FI-13, Name for	Region	Norra Karelen	NOG NIET VERTAALD
-FI-14, Name for	Region	Norra Österbotten	NOG NIET VERTAALD
+FI-13, Name for	Region	Norra Karelen	Noord-Karelië
+FI-14, Name for	Region	Norra Österbotten	Noord-Ostrobothnië
 FI-15, Name for	Region	Norra Savolax	Noord-Savonië
 FI-16, Name for	Region	Päijänne-Tavastland	Päijänne-Tavastland
 FI-17, Name for	Region	Satakunta	Satakunta
@@ -2123,7 +2123,7 @@ IS-KJO, Name for	Municipality	Kjósarhreppur	Kjósarhreppur
 IS-KOP, Name for	Municipality	Kópavogsbær	Kópavogur
 IS-LAN, Name for	Municipality	Langanesbyggð	Langanesbyggð
 IS-MOS, Name for	Municipality	Mosfellsbær	Mosfellsbær
-IS-MUL, Name for	Municipality	Múlaþing	NOG NIET VERTAALD
+IS-MUL, Name for	Municipality	Múlaþing	Múlaþing
 IS-MYR, Name for	Municipality	Mýrdalshreppur	Mýrdalshreppur
 IS-NOR, Name for	Municipality	Norðurþing	Norðurþing
 IS-RGE, Name for	Municipality	Rangárþing eystra	Rangárþing eystra
@@ -2490,16 +2490,16 @@ KW-AH, Name for	Governorate	Al Aḩmadī	Ahmadi
 KW-FA, Name for	Governorate	Al Farwānīyah	Al Farwanlyah
 KW-HA, Name for	Governorate	Ḩawallī	Hawalli
 KW-JA, Name for	Governorate	Al Jahrā’	Jahra
-KW-KU, Name for	Governorate	Al ‘Āşimah	Al-Asimah
+KW-KU, Name for	Governorate	Al ‘Āşimah	al-'Asimah
 KW-MU, Name for	Governorate	Mubārak al Kabīr	Mubarak Al-Kabier
-KZ-10, Name for	Region	Abajskaja oblast’	Atıraw, Provincie
+KZ-10, Name for	Region	Abajskaja oblast’	Abajskaja, Provincie
 KZ-11, Name for	Region	Akmolinskaja oblast'	Aqmola, Provincie
 KZ-15, Name for	Region	Aktjubinskaja oblast'	Aqtöbe, Provincie
 KZ-19, Name for	Region	Almatinskaja oblast'	Almaty, Provincie
 KZ-23, Name for	Region	Atyrauskaja oblast'	Atıraw, Provincie
 KZ-27, Name for	Region	Batys Qazaqstan oblysy	Batıs Qazaqstan, Provincie
 KZ-31, Name for	Region	Zhambyl oblysy	Jambıl, Provincie
-KZ-33, Name for	Region	Zhetisū oblysy	Mañğıstaw, Provincie
+KZ-33, Name for	Region	Zhetisū oblysy	Zhetisū, Provincie
 KZ-35, Name for	Region	Karagandinskaja oblast'	Karaganda, Provincie
 KZ-39, Name for	Region	Kostanajskaja oblast'	Qostanay, Provincie
 KZ-43, Name for	Region	Kyzylordinskaja oblast'	Qızılorda, Provincie
@@ -2507,9 +2507,9 @@ KZ-47, Name for	Region	Mangghystaū oblysy	Mañğıstaw, Provincie
 KZ-55, Name for	Region	Pavlodar oblysy	Pavlodar, Provincie
 KZ-59, Name for	Region	Severo-Kazahstanskaja oblast'	Noord-Kazachstan, Provincie
 KZ-61, Name for	Region	Turkestankaya oblast'	Türkistan, Provincie
-KZ-62, Name for	Region	Ulytauskaja oblast’	Atıraw, Provincie
+KZ-62, Name for	Region	Ulytauskaja oblast’	Ulytauskaja, Provincie
 KZ-63, Name for	Region	Shyghys Qazaqstan oblysy	Oost-Kazachstan, Provincie
-KZ-71, Name for	City	Astana	Astara
+KZ-71, Name for	City	Astana	Astana
 KZ-75, Name for	City	Almaty	Alma-Ata
 KZ-79, Name for	City	Shymkent	ŞımkentToshkent
 LA-AT, Name for	Province	Attapu	Attapeu
@@ -2656,7 +2656,7 @@ LT-35, Name for	District municipality	Plungė	Plungė
 LT-36, Name for	District municipality	Prienai	Prienai
 LT-37, Name for	District municipality	Radviliškis	Radviliškis
 LT-38, Name for	District municipality	Raseiniai	Raseiniai
-LT-39, Name for	Municipality	Rietavas	Rietavo
+LT-39, Name for	Municipality	Rietavas	Rietavas
 LT-40, Name for	District municipality	Rokiškis	Rokiškis
 LT-41, Name for	District municipality	Šakiai	Šakiai
 LT-42, Name for	District municipality	Šalčininkai	Šalčininkai
@@ -2700,7 +2700,7 @@ LU-RD, Name for	Canton	Redange	Redange
 LU-RM, Name for	Canton	Remich	Remich
 LU-VD, Name for	Canton	Vianden	Vianden
 LU-WI, Name for	Canton	Wiltz	Wiltz
-LV-002, Name for	Municipality	Aizkraukles novads	Aglona
+LV-002, Name for	Municipality	Aizkraukles novads	Aizkraukle
 LV-007, Name for	Municipality	Alūksnes novads	Alūksne
 LV-011, Name for	Municipality	Ādažu novads	Ādaži
 LV-015, Name for	Municipality	Balvu novads	Balvi
@@ -2733,16 +2733,16 @@ LV-099, Name for	Municipality	Tukuma novads	Tukums
 LV-101, Name for	Municipality	Valkas novads	Valka
 LV-102, Name for	Municipality	Varakļānu novads	Varakļāni
 LV-106, Name for	Municipality	Ventspils novads	Ventspils
-LV-111, Name for	Municipality	Augšdaugavas novads	Dundaga
-LV-112, Name for	Municipality	Dienvidkurzemes Novads	Priekule
-LV-113, Name for	Municipality	Valmieras Novads	Valka
+LV-111, Name for	Municipality	Augšdaugavas novads	Augšdaugava
+LV-112, Name for	Municipality	Dienvidkurzemes Novads	Dienvidkurzeme
+LV-113, Name for	Municipality	Valmieras Novads	Valmiera
 LV-DGV, Name for	State city	Daugavpils	Daugavpils (stad)
 LV-JEL, Name for	State city	Jelgava	Jelgava (stad)
 LV-JUR, Name for	State city	Jūrmala	Jūrmala
 LV-LPX, Name for	State city	Liepāja	Liepāja
 LV-REZ, Name for	State city	Rēzekne	Rēzekne (stad)
 LV-RIX, Name for	State city	Rīga	Riga
-LV-VEN, Name for	State city	Ventspils	Ventspils
+LV-VEN, Name for	State city	Ventspils	Ventspils (stad)
 LY-BA, Name for	Popularate	Banghāzī	Benghazi
 LY-BU, Name for	Popularate	Al Buţnān	Al Butnan
 LY-DR, Name for	Popularate	Darnah	Darnah
@@ -3404,8 +3404,8 @@ NO-42, Name for	County	Agder	Agder
 NO-46, Name for	County	Vestland	Vestland
 NO-50, Name for	County	Trööndelage	Trøndelag
 NO-54, Name for	County	Romssa ja Finnmárkku	Troms og Finnmark
-NP-P1, Name for	Province	Koshi	Kagoshima
-NP-P2, Name for	Province	Madhesh	Madhya Pradesh
+NP-P1, Name for	Province	Koshi	Koshi
+NP-P2, Name for	Province	Madhesh	Madhesh
 NP-P3, Name for	Province	Bagmati	Bagmati
 NP-P4, Name for	Province	Gandaki	Gandaki
 NP-P5, Name for	Province	Lumbini	Lumbini
@@ -3877,19 +3877,19 @@ RW-02, Name for	Province	Eastern	Oost
 RW-03, Name for	Province	Northern	Northern
 RW-04, Name for	Province	Western	Western
 RW-05, Name for	Province	Southern	Zuid
-SA-01, Name for	Region	Ar Riyāḑ	Riyad
+SA-01, Name for	Region	Ar Riyāḑ	Ar Riyāḑ
 SA-02, Name for	Region	Makkah al Mukarramah	Mekka
-SA-03, Name for	Region	Al Madīnah al Munawwarah	Medina
+SA-03, Name for	Region	Al Madīnah al Munawwarah	Al Madīnah al Munawwarah
 SA-04, Name for	Region	Ash Sharqīyah	Ash Sharqiyah
 SA-05, Name for	Region	Al Qaşīm	Al Qasim
-SA-06, Name for	Region	Ḩā'il	Hail
+SA-06, Name for	Region	Ḩā'il	Ḩā'il
 SA-07, Name for	Region	Tabūk	Tabuk
-SA-08, Name for	Region	Al Ḩudūd ash Shamālīyah	Al Hudud ash Shamaliyah
+SA-08, Name for	Region	Al Ḩudūd ash Shamālīyah	Al Ḩudūd ash Shamālīyah
 SA-09, Name for	Region	Jāzān	Jizan
 SA-10, Name for	Region	Najrān	Najran
-SA-11, Name for	Region	Al Bāḩah	Al Bahah
+SA-11, Name for	Region	Al Bāḩah	Al Bāḩah
 SA-12, Name for	Region	Al Jawf	Al Jawf
-SA-14, Name for	Region	'Asīr	Asir
+SA-14, Name for	Region	'Asīr	'Asīr
 SB-CE, Name for	Province	Central	Central
 SB-CH, Name for	Province	Choiseul	Choiseul
 SB-CT, Name for	Capital territory	Capital Territory (Honiara)	Honiara, Hoofdstedelijk Gewest
@@ -4017,7 +4017,7 @@ SI-040, Name for	Municipality	Izola	Izola
 SI-041, Name for	Municipality	Jesenice	Jesenice
 SI-042, Name for	Municipality	Juršinci	Jursinci
 SI-043, Name for	Municipality	Kamnik	Kamnik
-SI-044, Name for	Municipality	Kanal ob Soči	NOG NIET VERTAALD
+SI-044, Name for	Municipality	Kanal ob Soči	Kanal ob Soči
 SI-045, Name for	Municipality	Kidričevo	Kidricevo
 SI-046, Name for	Municipality	Kobarid	Kobarid
 SI-047, Name for	Municipality	Kobilje	Kobilje
@@ -4088,8 +4088,8 @@ SI-111, Name for	Municipality	Sežana	Sezana
 SI-112, Name for	Urban municipality	Slovenj Gradec	Slovenj Gradec
 SI-113, Name for	Municipality	Slovenska Bistrica	Slovenska Bistrica
 SI-114, Name for	Municipality	Slovenske Konjice	Slovenske Konjice
-SI-115, Name for	Municipality	Starše	Starče
-SI-116, Name for	Municipality	Sveti Jurij ob Ščavnici	Sveti Jurij
+SI-115, Name for	Municipality	Starše	Starše
+SI-116, Name for	Municipality	Sveti Jurij ob Ščavnici	Sveti Jurij ob Ščavnici
 SI-117, Name for	Municipality	Šenčur	Sencur
 SI-118, Name for	Municipality	Šentilj	Sentilj
 SI-119, Name for	Municipality	Šentjernej	Sentjernej
@@ -4154,10 +4154,10 @@ SI-178, Name for	Municipality	Selnica ob Dravi	Selnica ob Dravi
 SI-179, Name for	Municipality	Sodražica	Sodrazica
 SI-180, Name for	Municipality	Solčava	Solcava
 SI-181, Name for	Municipality	Sveta Ana	Sveta Ana
-SI-182, Name for	Municipality	Sveti Andraž v Slovenskih goricah	Sveta Andraž v Slovenskih Goricah
+SI-182, Name for	Municipality	Sveti Andraž v Slovenskih goricah	Sveti Andraž v Slovenskih goricah
 SI-183, Name for	Municipality	Šempeter-Vrtojba	Sempeter-Vrtojba
 SI-184, Name for	Municipality	Tabor	Tabor
-SI-185, Name for	Municipality	Trnovska Vas	Trnovska vas
+SI-185, Name for	Municipality	Trnovska Vas	Trnovska Vas
 SI-186, Name for	Municipality	Trzin	Trzin
 SI-187, Name for	Municipality	Velika Polana	Velika Polana
 SI-188, Name for	Municipality	Veržej	Verzej
@@ -4169,23 +4169,23 @@ SI-193, Name for	Municipality	Žužemberk	Zuzemberk
 SI-194, Name for	Municipality	Šmartno pri Litiji	Smartno pri Litiji
 SI-195, Name for	Municipality	Apače	Apače
 SI-196, Name for	Municipality	Cirkulane	Cirkulane
-SI-197, Name for	Municipality	Kostanjevica na Krki	Kosanjevica na Krki
+SI-197, Name for	Municipality	Kostanjevica na Krki	Kostanjevica na Krki
 SI-198, Name for	Municipality	Makole	Makole
 SI-199, Name for	Municipality	Mokronog-Trebelno	Mokronog-Trebelno
 SI-200, Name for	Municipality	Poljčane	Poljčane
 SI-201, Name for	Municipality	Renče-Vogrsko	Renče-Vogrsko
 SI-202, Name for	Municipality	Središče ob Dravi	Središče ob Dravi
 SI-203, Name for	Municipality	Straža	Straža
-SI-204, Name for	Municipality	Sveta Trojica v Slovenskih goricah	Sveta Trojica v Slovenskih Goricah
+SI-204, Name for	Municipality	Sveta Trojica v Slovenskih goricah	Sveta Trojica v Slovenskih goricah
 SI-205, Name for	Municipality	Sveti Tomaž	Sveti Tomaž
-SI-206, Name for	Municipality	Šmarješke Toplice	Šmarjeske Topliče
+SI-206, Name for	Municipality	Šmarješke Toplice	Šmarješke Toplice
 SI-207, Name for	Municipality	Gorje	Gorje
 SI-208, Name for	Municipality	Log-Dragomer	Log-Dragomer
 SI-209, Name for	Municipality	Rečica ob Savinji	Rečica ob Savinji
-SI-210, Name for	Municipality	Sveti Jurij v Slovenskih goricah	Sveti Jurij v Slovenskih Goricah
+SI-210, Name for	Municipality	Sveti Jurij v Slovenskih goricah	Sveti Jurij v Slovenskih goricah
 SI-211, Name for	Municipality	Šentrupert	Šentrupert
-SI-212, Name for	Municipality	Mirna	Mirna Pec
-SI-213, Name for	Municipality	Ankaran	Ankara
+SI-212, Name for	Municipality	Mirna	Mirna
+SI-213, Name for	Municipality	Ankaran	Ankaran
 SK-BC, Name for	Region	Banskobystrický kraj	Banská Bystrica, Regio
 SK-BL, Name for	Region	Bratislavský kraj	Bratislava, Regio
 SK-KI, Name for	Region	Košický kraj	Košice, Regio
@@ -4299,7 +4299,7 @@ SZ-HH, Name for	Region	Hhohho	Hhohho
 SZ-LU, Name for	Region	Lubombo	Lubombo
 SZ-MA, Name for	Region	Manzini	Manzini
 SZ-SH, Name for	Region	Shiselweni	Shiselweni
-TD-BA, Name for	Province	Batha	NOG NIET VERTAALD
+TD-BA, Name for	Province	Batha	Batha
 TD-BG, Name for	Province	Bahr el Ghazal	Bahr el Ghazal
 TD-BO, Name for	Province	Borkou	Borkou
 TD-CB, Name for	Province	Chari-Baguirmi	Chari-Baguirmi
@@ -4308,26 +4308,26 @@ TD-EO, Name for	Province	Ennedi-Ouest	Ennedi Ouest
 TD-GR, Name for	Province	Guéra	Guéra
 TD-HL, Name for	Province	Hadjer Lamis	Hadjer-Lamis
 TD-KA, Name for	Province	Kanem	Kanem
-TD-LC, Name for	Province	Lac	Lacs
+TD-LC, Name for	Province	Lac	Lac
 TD-LO, Name for	Province	Logone-Occidental	Logone Occidental
 TD-LR, Name for	Province	Logone-Oriental	Logone Oriental
 TD-MA, Name for	Province	Mandoul	Mandoul
 TD-MC, Name for	Province	Moyen-Chari	Moyen-Chari
 TD-ME, Name for	Province	Mayo-Kebbi-Est	Mayo-Kebbi Est
 TD-MO, Name for	Province	Mayo-Kebbi-Ouest	Mayo-Kebbi Ouest
-TD-ND, Name for	Province	Ville de Ndjamena	Vallei van de Cauca
+TD-ND, Name for	Province	Ville de Ndjamena	Ville de Ndjamena
 TD-OD, Name for	Province	Ouaddaï	Ouaddaï
 TD-SA, Name for	Province	Salamat	Salamat
 TD-SI, Name for	Province	Sila	Sila
 TD-TA, Name for	Province	Tandjilé	Tandjilé
 TD-TI, Name for	Province	Tibesti	Tibesti
 TD-WF, Name for	Province	Wadi Fira	Wadi Fira
-TG-C, Name for	Region	Centrale	Central
-TG-K, Name for	Region	Kara	Karas
-TG-M, Name for	Region	Maritime (Région)	Fromager, Regio
+TG-C, Name for	Region	Centrale	Centrale
+TG-K, Name for	Region	Kara	Kara
+TG-M, Name for	Region	Maritime (Région)	Maritime
 TG-P, Name for	Region	Plateaux	Plateaux
 TG-S, Name for	Region	Savanes	Savanes
-TH-10, Name for	Metropolitan administration	Krung Thep Maha Nakhon	Krung Thep Maha Nakhon Bangkok
+TH-10, Name for	Metropolitan administration	Krung Thep Maha Nakhon	Krung Thep Maha Nakhon
 TH-11, Name for	Province	Samut Prakan	Samut Prakan
 TH-12, Name for	Province	Nonthaburi	Nonthaburi
 TH-13, Name for	Province	Pathum Thani	Pathum Thani
@@ -4353,7 +4353,7 @@ TH-34, Name for	Province	Ubon Ratchathani	Ubon Ratchathani
 TH-35, Name for	Province	Yasothon	Yasothon
 TH-36, Name for	Province	Chaiyaphum	Chaiyaphum
 TH-37, Name for	Province	Amnat Charoen	Amnat Charoen
-TH-38, Name for	Province	Bueng Kan	Stoeng Treng
+TH-38, Name for	Province	Bueng Kan	Bueng Kan
 TH-39, Name for	Province	Nong Bua Lam Phu	Nong Bua Lam Phu
 TH-40, Name for	Province	Khon Kaen	Khon Kaen
 TH-41, Name for	Province	Udon Thani	Udon Thani
@@ -4658,16 +4658,16 @@ UG-113, Name for	District	Wakiso	Wakiso
 UG-114, Name for	District	Lyantonde	Lyantonde
 UG-115, Name for	District	Mityana	Mityana
 UG-116, Name for	District	Nakaseke	Nakaseke
-UG-117, Name for	District	Buikwe	NOG NIET VERTAALD
-UG-118, Name for	District	Bukomansibi	NOG NIET VERTAALD
-UG-119, Name for	District	Butambala	Butaleja
-UG-120, Name for	District	Buvuma	Ruvuma
-UG-121, Name for	District	Gomba	Zomba
-UG-122, Name for	District	Kalungu	Kasungu
-UG-123, Name for	District	Kyankwanzi	NOG NIET VERTAALD
-UG-124, Name for	District	Lwengo	Bengo
-UG-125, Name for	District	Kyotera	Kyoto
-UG-126, Name for	District	Kasanda	Kandal
+UG-117, Name for	District	Buikwe	Buikwe
+UG-118, Name for	District	Bukomansibi	Bukomansibi
+UG-119, Name for	District	Butambala	Butambala
+UG-120, Name for	District	Buvuma	Buvuma
+UG-121, Name for	District	Gomba	Gomba
+UG-122, Name for	District	Kalungu	Kalungu
+UG-123, Name for	District	Kyankwanzi	Kyankwanzi
+UG-124, Name for	District	Lwengo	Lwengo
+UG-125, Name for	District	Kyotera	Kyotera
+UG-126, Name for	District	Kasanda	Kasanda
 UG-201, Name for	District	Bugiri	Bugiri
 UG-202, Name for	District	Busia	Busia
 UG-203, Name for	District	Iganga	Iganga
@@ -4687,24 +4687,24 @@ UG-216, Name for	District	Amuria	Amuria
 UG-217, Name for	District	Budaka	Budaka
 UG-218, Name for	District	Bududa	Bududa
 UG-219, Name for	District	Bukedea	Bukedea
-UG-220, Name for	District	Bukwo	Bukwa
+UG-220, Name for	District	Bukwo	Bukwo
 UG-221, Name for	District	Butaleja	Butaleja
 UG-222, Name for	District	Kaliro	Kaliro
 UG-223, Name for	District	Manafwa	Manafwa
 UG-224, Name for	District	Namutumba	Namutumba
-UG-225, Name for	District	Bulambuli	NOG NIET VERTAALD
-UG-226, Name for	District	Buyende	Mubende
-UG-227, Name for	District	Kibuku	NOG NIET VERTAALD
-UG-228, Name for	District	Kween	NOG NIET VERTAALD
-UG-229, Name for	District	Luuka	NOG NIET VERTAALD
-UG-230, Name for	District	Namayingo	Namangan
-UG-231, Name for	District	Ngora	Zagora
-UG-232, Name for	District	Serere	NOG NIET VERTAALD
-UG-233, Name for	District	Butebo	Butel
-UG-234, Name for	District	Namisindwa	NOG NIET VERTAALD
-UG-235, Name for	District	Bugweri	NOG NIET VERTAALD
-UG-236, Name for	District	Kapelebyong	NOG NIET VERTAALD
-UG-237, Name for	District	Kalaki	Kalasin
+UG-225, Name for	District	Bulambuli	Bulambuli
+UG-226, Name for	District	Buyende	Buyende
+UG-227, Name for	District	Kibuku	Kibuku
+UG-228, Name for	District	Kween	Kween
+UG-229, Name for	District	Luuka	Luuka
+UG-230, Name for	District	Namayingo	Namayingo
+UG-231, Name for	District	Ngora	Ngora
+UG-232, Name for	District	Serere	Serere
+UG-233, Name for	District	Butebo	Butebo
+UG-234, Name for	District	Namisindwa	Namisindwa
+UG-235, Name for	District	Bugweri	Bugweri
+UG-236, Name for	District	Kapelebyong	Kapelebyong
+UG-237, Name for	District	Kalaki	Kalaki
 UG-301, Name for	District	Adjumani	Adjumani
 UG-302, Name for	District	Apac	Apac
 UG-303, Name for	District	Arua	Arua
@@ -4726,22 +4726,22 @@ UG-318, Name for	District	Kaabong	Kaabong
 UG-319, Name for	District	Koboko	Koboko
 UG-320, Name for	District	Maracha	Maracha
 UG-321, Name for	District	Oyam	Oyam
-UG-322, Name for	District	Agago	NOG NIET VERTAALD
-UG-323, Name for	District	Alebtong	NOG NIET VERTAALD
-UG-324, Name for	District	Amudat	NOG NIET VERTAALD
-UG-325, Name for	District	Kole	NOG NIET VERTAALD
-UG-326, Name for	District	Lamwo	NOG NIET VERTAALD
-UG-327, Name for	District	Napak	NOG NIET VERTAALD
-UG-328, Name for	District	Nwoya	NOG NIET VERTAALD
-UG-329, Name for	District	Otuke	NOG NIET VERTAALD
-UG-330, Name for	District	Zombo	Zomba
-UG-331, Name for	District	Omoro	NOG NIET VERTAALD
-UG-332, Name for	District	Pakwach	NOG NIET VERTAALD
-UG-333, Name for	District	Kwania	Pwani
-UG-334, Name for	District	Nabilatuk	NOG NIET VERTAALD
-UG-335, Name for	District	Karenga	Yatenga
-UG-336, Name for	District	Madi-Okollo	NOG NIET VERTAALD
-UG-337, Name for	District	Obongi	Kaabong
+UG-322, Name for	District	Agago	Agago
+UG-323, Name for	District	Alebtong	Alebtong
+UG-324, Name for	District	Amudat	Amudat
+UG-325, Name for	District	Kole	Kole
+UG-326, Name for	District	Lamwo	Lamwo
+UG-327, Name for	District	Napak	Napak
+UG-328, Name for	District	Nwoya	Nwoya
+UG-329, Name for	District	Otuke	Otuke
+UG-330, Name for	District	Zombo	Zombo
+UG-331, Name for	District	Omoro	Omoro
+UG-332, Name for	District	Pakwach	Pakwach
+UG-333, Name for	District	Kwania	Kwania
+UG-334, Name for	District	Nabilatuk	Nabilatuk
+UG-335, Name for	District	Karenga	Karenga
+UG-336, Name for	District	Madi-Okollo	Madi-Okollo
+UG-337, Name for	District	Obongi	Obongi
 UG-401, Name for	District	Bundibugyo	Bundibugyo
 UG-402, Name for	District	Bushenyi	Bushenyi
 UG-403, Name for	District	Hoima	Hoima
@@ -4761,22 +4761,22 @@ UG-416, Name for	District	Buliisa	Bulisa
 UG-417, Name for	District	Ibanda	Ibanda
 UG-418, Name for	District	Isingiro	Isingiro
 UG-419, Name for	District	Kiruhura	Kiruhura
-UG-420, Name for	District	Buhweju	NOG NIET VERTAALD
-UG-421, Name for	District	Kiryandongo	Bayanhongor
-UG-422, Name for	District	Kyegegwa	NOG NIET VERTAALD
-UG-423, Name for	District	Mitooma	NOG NIET VERTAALD
-UG-424, Name for	District	Ntoroko	NOG NIET VERTAALD
-UG-425, Name for	District	Rubirizi	NOG NIET VERTAALD
-UG-426, Name for	District	Sheema	NOG NIET VERTAALD
-UG-427, Name for	District	Kagadi	Kgalagadi
-UG-428, Name for	District	Kakumiro	NOG NIET VERTAALD
-UG-429, Name for	District	Rubanda	Ibanda
-UG-430, Name for	District	Bunyangabu	Shinyanga
-UG-431, Name for	District	Rukiga	NOG NIET VERTAALD
-UG-432, Name for	District	Kikuube	NOG NIET VERTAALD
-UG-433, Name for	District	Kazo	NOG NIET VERTAALD
-UG-434, Name for	District	Kitagwenda	Ohangwena
-UG-435, Name for	District	Rwampara	Gampaha
+UG-420, Name for	District	Buhweju	Buhweju
+UG-421, Name for	District	Kiryandongo	Kiryandongo
+UG-422, Name for	District	Kyegegwa	Kyegegwa
+UG-423, Name for	District	Mitooma	Mitooma
+UG-424, Name for	District	Ntoroko	Ntoroko
+UG-425, Name for	District	Rubirizi	Rubirizi
+UG-426, Name for	District	Sheema	Sheema
+UG-427, Name for	District	Kagadi	Kagadi
+UG-428, Name for	District	Kakumiro	Kakumiro
+UG-429, Name for	District	Rubanda	Rubanda
+UG-430, Name for	District	Bunyangabu	Bunyangabu
+UG-431, Name for	District	Rukiga	Rukiga
+UG-432, Name for	District	Kikuube	Kikuube
+UG-433, Name for	District	Kazo	Kazo
+UG-434, Name for	District	Kitagwenda	Kitagwenda
+UG-435, Name for	District	Rwampara	Rwampara
 UG-C, Name for	Geographical region	Central	Central
 UG-E, Name for	Geographical region	Eastern	Oost
 UG-N, Name for	Geographical region	Northern	Northern
@@ -4911,68 +4911,68 @@ VE-W, Name for	Federal dependency	Dependencias Federales	Federale Afhankelijkhed
 VE-X, Name for	State	La Guaira	La Guaira
 VE-Y, Name for	State	Delta Amacuro	Delta Amacuro
 VE-Z, Name for	State	Amazonas	Amazonas
-VN-01, Name for	Province	Lai Châu	Lai Chau
-VN-02, Name for	Province	Lào Cai	Lao Cai
-VN-03, Name for	Province	Hà Giang	Ha Giang
-VN-04, Name for	Province	Cao Bằng	Cao Bang
-VN-05, Name for	Province	Sơn La	Son La
-VN-06, Name for	Province	Yên Bái	Yen Bai
-VN-07, Name for	Province	Tuyên Quang	Tuyen Quang
-VN-09, Name for	Province	Lạng Sơn	Lang Son
-VN-13, Name for	Province	Quảng Ninh	Quang Ninh
-VN-14, Name for	Province	Hòa Bình	Hoa Binh
-VN-18, Name for	Province	Ninh Bình	Ninh Binh
-VN-20, Name for	Province	Thái Bình	Thai Binh
-VN-21, Name for	Province	Thanh Hóa	Thanh Hoa
-VN-22, Name for	Province	Nghệ An	Nghe An
-VN-23, Name for	Province	Hà Tĩnh	Ha Tinh
-VN-24, Name for	Province	Quảng Bình	Quang Binh
-VN-25, Name for	Province	Quảng Trị	Quang Tri
-VN-26, Name for	Province	Thừa Thiên-Huế	Thua Thien-Hue
-VN-27, Name for	Province	Quảng Nam	Quang Nam
+VN-01, Name for	Province	Lai Châu	Lai Châu
+VN-02, Name for	Province	Lào Cai	Lào Cai
+VN-03, Name for	Province	Hà Giang	Hà Giang
+VN-04, Name for	Province	Cao Bằng	Cao Bằng
+VN-05, Name for	Province	Sơn La	Sơn La
+VN-06, Name for	Province	Yên Bái	Yên Bái
+VN-07, Name for	Province	Tuyên Quang	Tuyên Quang
+VN-09, Name for	Province	Lạng Sơn	Lạng Sơn
+VN-13, Name for	Province	Quảng Ninh	Quảng Ninh
+VN-14, Name for	Province	Hòa Bình	Hòa Bình
+VN-18, Name for	Province	Ninh Bình	Ninh Bình
+VN-20, Name for	Province	Thái Bình	Thái Bình
+VN-21, Name for	Province	Thanh Hóa	Thanh Hóa
+VN-22, Name for	Province	Nghệ An	Nghệ An
+VN-23, Name for	Province	Hà Tĩnh	Hà Tĩnh
+VN-24, Name for	Province	Quảng Bình	Quảng Bình
+VN-25, Name for	Province	Quảng Trị	Quảng Trị
+VN-26, Name for	Province	Thừa Thiên-Huế	Thừa Thiên-Huế
+VN-27, Name for	Province	Quảng Nam	Quảng Nam
 VN-28, Name for	Province	Kon Tum	Kon Tum
-VN-29, Name for	Province	Quảng Ngãi	Quang Ngai
+VN-29, Name for	Province	Quảng Ngãi	Quảng Ngãi
 VN-30, Name for	Province	Gia Lai	Gia Lai
-VN-31, Name for	Province	Bình Định	Binh Dinh
-VN-32, Name for	Province	Phú Yên	Phu Yen
-VN-33, Name for	Province	Đắk Lắk	Dac Lak
-VN-34, Name for	Province	Khánh Hòa	Khanh Hoa
-VN-35, Name for	Province	Lâm Đồng	Lam Dong
-VN-36, Name for	Province	Ninh Thuận	Ninh Thuan
-VN-37, Name for	Province	Tây Ninh	Tay Ninh
-VN-39, Name for	Province	Đồng Nai	Dong Nai
-VN-40, Name for	Province	Bình Thuận	Binh Thuan
+VN-31, Name for	Province	Bình Định	Bình Định
+VN-32, Name for	Province	Phú Yên	Phú Yên
+VN-33, Name for	Province	Đắk Lắk	Đắk Lắk
+VN-34, Name for	Province	Khánh Hòa	Khánh Hòa
+VN-35, Name for	Province	Lâm Đồng	Lâm Đồng
+VN-36, Name for	Province	Ninh Thuận	Ninh Thuận
+VN-37, Name for	Province	Tây Ninh	Tây Ninh
+VN-39, Name for	Province	Đồng Nai	Đồng Nai
+VN-40, Name for	Province	Bình Thuận	Bình Thuận
 VN-41, Name for	Province	Long An	Long An
-VN-43, Name for	Province	Bà Rịa - Vũng Tàu	Bà Rịa-Vũng Tàu
+VN-43, Name for	Province	Bà Rịa - Vũng Tàu	Bà Rịa - Vũng Tàu
 VN-44, Name for	Province	An Giang	An Giang
-VN-45, Name for	Province	Đồng Tháp	Dong Thap
-VN-46, Name for	Province	Tiền Giang	Tien Giang
-VN-47, Name for	Province	Kiến Giang	Kien Giang
-VN-49, Name for	Province	Vĩnh Long	Vinh Long
-VN-50, Name for	Province	Bến Tre	Ben Tre
-VN-51, Name for	Province	Trà Vinh	Tra Vinh
-VN-52, Name for	Province	Sóc Trăng	Soc Trang
-VN-53, Name for	Province	Bắc Kạn	Bac Kan
-VN-54, Name for	Province	Bắc Giang	Bac Giang
-VN-55, Name for	Province	Bạc Liêu	Bac Lieu
-VN-56, Name for	Province	Bắc Ninh	Bac Ninh
-VN-57, Name for	Province	Bình Dương	Binh Duong
-VN-58, Name for	Province	Bình Phước	Binh Phuoc
-VN-59, Name for	Province	Cà Mau	Ca Mau
-VN-61, Name for	Province	Hải Dương	Hai Duong
-VN-63, Name for	Province	Hà Nam	Ha Nam
-VN-66, Name for	Province	Hưng Yên	Hung Yen
-VN-67, Name for	Province	Nam Định	Nam Dinh
-VN-68, Name for	Province	Phú Thọ	Phu Tho
-VN-69, Name for	Province	Thái Nguyên	Thai Nguyen
-VN-70, Name for	Province	Vĩnh Phúc	Vinh Phuc
-VN-71, Name for	Province	Điện Biên	Dien Bien
-VN-72, Name for	Province	Đắk Nông	Dak Nong
-VN-73, Name for	Province	Hậu Giang	Hau Giang
-VN-CT, Name for	Municipality	Cần Thơ	Can Tho
-VN-DN, Name for	Municipality	Đà Nẵng	Da Nang (stad)
+VN-45, Name for	Province	Đồng Tháp	Đồng Tháp
+VN-46, Name for	Province	Tiền Giang	Tiền Giang
+VN-47, Name for	Province	Kiến Giang	Kiến Giang
+VN-49, Name for	Province	Vĩnh Long	Vĩnh Long
+VN-50, Name for	Province	Bến Tre	Bến Tre
+VN-51, Name for	Province	Trà Vinh	Trà Vinh
+VN-52, Name for	Province	Sóc Trăng	Sóc Trăng
+VN-53, Name for	Province	Bắc Kạn	Bắc Kạn
+VN-54, Name for	Province	Bắc Giang	Bắc Giang
+VN-55, Name for	Province	Bạc Liêu	Bạc Liêu
+VN-56, Name for	Province	Bắc Ninh	Bắc Ninh
+VN-57, Name for	Province	Bình Dương	Bình Dương
+VN-58, Name for	Province	Bình Phước	Bình Phước
+VN-59, Name for	Province	Cà Mau	Cà Mau
+VN-61, Name for	Province	Hải Dương	Hải Dương
+VN-63, Name for	Province	Hà Nam	Hà Nam
+VN-66, Name for	Province	Hưng Yên	Hưng Yên
+VN-67, Name for	Province	Nam Định	Nam Định
+VN-68, Name for	Province	Phú Thọ	Phú Thọ
+VN-69, Name for	Province	Thái Nguyên	Thái Nguyên
+VN-70, Name for	Province	Vĩnh Phúc	Vĩnh Phúc
+VN-71, Name for	Province	Điện Biên	Điện Biên
+VN-72, Name for	Province	Đắk Nông	Đắk Nông
+VN-73, Name for	Province	Hậu Giang	Hậu Giang
+VN-CT, Name for	Municipality	Cần Thơ	Cần Thơ
+VN-DN, Name for	Municipality	Đà Nẵng	Đà Nẵng
 VN-HN, Name for	Municipality	Hà Nội	Hanoi
-VN-HP, Name for	Municipality	Hải Phòng	Hai Phong
+VN-HP, Name for	Municipality	Hải Phòng	Hải Phòng
 VN-SG, Name for	Municipality	Hồ Chí Minh	Ho Chi Minhstad
 VU-MAP, Name for	Province	Malampa	Malampa
 VU-PAM, Name for	Province	Pénama	Penama
