@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-'''Report Dutch translation in iso-codes for review and word list inclusion.'''
+"""Report Dutch translation in iso-codes for review and word list inclusion."""
 
 from datetime import datetime
 # from glob import glob
@@ -19,7 +19,7 @@ checker = Checker()
 
 
 def description(iso, base):
-    '''Describe an ISO standard.'''
+    """Describe an ISO standard."""
     descriptions = {'iso_15924': ('Vierletterige codes schriftsystemen',
                                   f'{base}ISO_15924'),
                     'iso_3166-1': ('Drieletterige codes landnamen',
@@ -41,7 +41,7 @@ def description(iso, base):
 
 
 def header(html, mado, spel, title):
-    '''Write HTML and mado header.'''
+    """Write HTML and mado header."""
     html.write(Mark.html_head(title, mono=True,
                               style='textarea {line-height: 150%;}'))
     mado.write(Mark.md_head(title))
@@ -49,7 +49,7 @@ def header(html, mado, spel, title):
 
 
 def footer(html, mado):
-    '''Write HTML and Markdown footer.'''
+    """Write HTML and Markdown footer."""
     text = 'Voor het onderhouden van deze vertalingen en de ondersteuning' \
            ' hiervan in de Nederlandse spellingcontrole, doneer via' \
            f' {Mark.html_link("Liberapay", "https://liberapay.com/opentaal", new=True)}' \
@@ -59,7 +59,7 @@ def footer(html, mado):
 
 
 def htmlcomment(comment, base):
-    '''Write HTML comment, i.e. code with description.'''
+    """Write HTML comment, i.e. code with description."""
     comment = comment.replace('Inverted name', 'Inv.')
     comment = comment.replace('Official name', 'Off.')
     comment = comment.replace('Common name', 'Com.')
@@ -73,13 +73,13 @@ def htmlcomment(comment, base):
 
 
 def madocomment(comment, base):
-    '''Write Markdown comment, i.e. code with description.'''
+    """Write Markdown comment, i.e. code with description."""
     pos = comment.find(', ')
     return f'[`{comment[:pos]}`]({base}{comment[:pos]})`{comment[pos+1:-4]}`'
 
 
 def htmlpart(parts, base):
-    '''Note that monospace is added outside of this method.'''
+    """Note that monospace is added outside of this method."""
     if parts == 'NOG NIET VERTAALD':
         return parts
     if '; ' in parts:
@@ -106,12 +106,12 @@ def htmlpart(parts, base):
                 f'{parts[ndx].replace(",", "")}">{parts[ndx]}</a>'
             ndx += 1
         return ' / '.join(parts)
-    return f'<a target="_blank" href="{base}{parts.replace(",", "")}">{parts}</a>'
+    return f'<a target="_blank" href="{base}{parts.replace(",", "")}">' \
+           f'{parts}</a>'
 
 
 def madopart(parts, base):
-    '''Note that monospace via ` is added inside this method as it needs to be
-    inside of the link.'''
+    """Note that monospace via ` is added inside this method as it needs to be inside of the link."""
     if parts == 'NOG NIET VERTAALD':
         return f'`{parts}`'
     if '; ' in parts:
@@ -138,7 +138,7 @@ def madopart(parts, base):
 
 
 def get_category(directory):
-    '''Get category.'''
+    """Get category."""
     if directory in ('iso_3166-1', 'iso_3166-2', 'iso_3166-3'):
         return 'land'
     if 'iso_4217' == directory:
@@ -154,7 +154,7 @@ def get_category(directory):
 
 
 def is_useless(msgstr):
-    '''Test if msgstr is useful.'''
+    """Test if msgstr is useful."""
     strings = ('',
                'Gereserveerd voor privégebruik (begin)',
                'Gereserveerd voor privégebruik (einde)',
@@ -185,7 +185,7 @@ def is_useless(msgstr):
 
 
 def fix(line):  # pylint:disable=too-many-branches
-    '''Fix line.'''
+    """Fix line."""
     for match in (' (na', ' (tot', ' (ca. ', ' (1', ' (2', ' (3', ' (4', ' (5',
                   ' (6', ' (7', ' (8', ' (9'):
         pos = line.find(match)
@@ -226,7 +226,7 @@ def fix(line):  # pylint:disable=too-many-branches
 
 
 def write_spelling(spel, code, en, nl):
-    '''Write spelling checker information.'''
+    """Write spelling checker information."""
     spell = checker.check(nl)
     count = 0
     if not spell:
@@ -248,7 +248,7 @@ def write_spelling(spel, code, en, nl):
 
 
 def main():  # pylint:disable=too-many-locals
-    '''Run main functionality.'''
+    """Run main functionality."""
     utcnow = datetime.utcnow()
     dtstamp = utcnow.strftime('%Y-%m-%d %H:%M:%S UTC')
     directory = Path(path.join(path.join(__location__, '..'), 'weblate'))
@@ -371,6 +371,7 @@ def main():  # pylint:disable=too-many-locals
             max_len_msgid = 0
             max_len_msgstr = 0
             spell_count = 0
+# pylint:disable=consider-using-max-builtin
             for entry in sourcefile.translated_entries() + sourcefile.fuzzy_entries():  # TODO report fuzzy seperately
                 for comment in entry.comment.split(', '):
                     pos = comment.rfind(' ')
@@ -393,6 +394,7 @@ def main():  # pylint:disable=too-many-locals
                         if len(entry.msgid) > max_len_msgid:
                             max_len_msgid = len(entry.msgid)
                         codes[comment] = (entry.msgid, 'NOG NIET VERTAALD')
+# pylint:enable=consider-using-max-builtin
 
             # html.write(f'<h2>Vertaald ({len(sourcefile.translated_entries())}), onvertaald </h2>')
             html.write('<table>\n')
@@ -620,5 +622,5 @@ def main():  # pylint:disable=too-many-locals
     #                 print(f'{count} {l}')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

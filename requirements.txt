@@ -1,6 +1,6 @@
 flake8
 mypy
-#opentaal
+opentaal
 polib
 pylint
 pyflakes

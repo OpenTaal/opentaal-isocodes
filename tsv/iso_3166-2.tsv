@@ -400,10 +400,10 @@ BG-25, Name for	District	Targovishte	Targovisjte
 BG-26, Name for	District	Haskovo	Chaskovo
 BG-27, Name for	District	Shumen	Sjoemen
 BG-28, Name for	District	Yambol	Jambol
-BH-13, Name for	Governorate	Al ‘Āşimah	al-'Asimah
-BH-14, Name for	Governorate	Al Janūbīyah	al-Janobiyah
-BH-15, Name for	Governorate	Al Muḩarraq	al-Muharaq
-BH-17, Name for	Governorate	Ash Shamālīyah	ash-Shamaliyah
+BH-13, Name for	Governorate	Al ‘Āşimah	Al-Asimah
+BH-14, Name for	Governorate	Al Janūbīyah	Al-Janobiyah
+BH-15, Name for	Governorate	Al Muḩarraq	Al-Muharaq
+BH-17, Name for	Governorate	Ash Shamālīyah	Ash-Shamaliyah
 BI-BB, Name for	Province	Bubanza	Bubanza
 BI-BL, Name for	Province	Bujumbura Rural	Bujumbura Rural
 BI-BM, Name for	Province	Bujumbura Mairie	Bujumbura Mairie
@@ -549,8 +549,8 @@ BY-BR, Name for	Oblast	Bresckaja voblasć	Brest, Provincie
 BY-HM, Name for	City	Gorod Minsk	Minsk (stad)
 BY-HO, Name for	Oblast	Gomel'skaja oblast'	Homel, Provincie
 BY-HR, Name for	Oblast	Grodnenskaja oblast'	Grodno, Provincie
-BY-MA, Name for	Oblast	Mahilioŭskaja voblasć	Mahiljow, Provincie
-BY-MI, Name for	Oblast	Minskaja oblast'	Minsk, Oblast
+BY-MA, Name for	Oblast	Mahilioŭskaja voblasć	Mogiljov, Provincie
+BY-MI, Name for	Oblast	Minskaja oblast'	Minsk, Provincie
 BY-VI, Name for	Oblast	Viciebskaja voblasć	Vitebsk, Provincie
 BZ-BZ, Name for	District	Belize	Belize
 BZ-CY, Name for	District	Cayo	Cayo
@@ -1272,25 +1272,25 @@ ET-SN, Name for	Regional state	Southern Nations, Nationalities and Peoples	Yedeb
 ET-SO, Name for	Regional state	Somali	Somali
 ET-SW, Name for	Regional state	Southwest Ethiopia Peoples	Zuidwestelijke Ethiopische Volken
 ET-TI, Name for	Regional state	Tigrai	Tigray
-FI-01, Name for	Region	Ahvenanmaan maakunta	Åland, Landschap
+FI-01, Name for	Region	Landskapet Åland	Åland, Landschap
 FI-02, Name for	Region	Etelä-Karjala	Zuid-Karelië
 FI-03, Name for	Region	Etelä-Pohjanmaa	Zuid-Ostrobothnië
 FI-04, Name for	Region	Etelä-Savo	Zuid-Savonië
 FI-05, Name for	Region	Kainuu	Kainuu
-FI-06, Name for	Region	Egentliga Tavastland	Egentliga-Tavastland
+FI-06, Name for	Region	Kanta-Häme	Kanta-Häme
 FI-07, Name for	Region	Keski-Pohjanmaa	Centraal-Ostrobothnië
 FI-08, Name for	Region	Keski-Suomi	Centraal-Finland
 FI-09, Name for	Region	Kymenlaakso	Kymenlaakso
 FI-10, Name for	Region	Lappi	Lapland
-FI-11, Name for	Region	Birkaland	Birkaland
+FI-11, Name for	Region	Pirkanmaa	Pirkanmaa
 FI-12, Name for	Region	Pohjanmaa	Ostrobothnië
-FI-13, Name for	Region	Norra Karelen	Noord-Karelië
-FI-14, Name for	Region	Norra Österbotten	Noord-Ostrobothnië
-FI-15, Name for	Region	Norra Savolax	Noord-Savonië
-FI-16, Name for	Region	Päijänne-Tavastland	Päijänne-Tavastland
+FI-13, Name for	Region	Pohjois-Karjala	Noord-Karelië
+FI-14, Name for	Region	Pohjois-Pohjanmaa	Noord-Ostrobothnië
+FI-15, Name for	Region	Pohjois-Savo	Noord-Savonië
+FI-16, Name for	Region	Päijät-Häme	Päijät-Häme
 FI-17, Name for	Region	Satakunta	Satakunta
-FI-18, Name for	Region	Nyland	Nyland
-FI-19, Name for	Region	Egentliga Finland	Zuidwest-Finland
+FI-18, Name for	Region	Uusimaa	Uusimaa
+FI-19, Name for	Region	Varsinais-Suomi	Zuidwest-Finland
 FJ-01, Name for	Province	Ba	Ba
 FJ-02, Name for	Province	Bua	Bua
 FJ-03, Name for	Province	Cakaudrove	Cakaudrove
@@ -2490,7 +2490,7 @@ KW-AH, Name for	Governorate	Al Aḩmadī	Ahmadi
 KW-FA, Name for	Governorate	Al Farwānīyah	Al Farwanlyah
 KW-HA, Name for	Governorate	Ḩawallī	Hawalli
 KW-JA, Name for	Governorate	Al Jahrā’	Jahra
-KW-KU, Name for	Governorate	Al ‘Āşimah	al-'Asimah
+KW-KU, Name for	Governorate	Al ‘Āşimah	Al-Asimah
 KW-MU, Name for	Governorate	Mubārak al Kabīr	Mubarak Al-Kabier
 KZ-10, Name for	Region	Abajskaja oblast’	Abajskaja, Provincie
 KZ-11, Name for	Region	Akmolinskaja oblast'	Aqmola, Provincie
