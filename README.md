@@ -53,7 +53,7 @@ The upstream source is https://salsa.debian.org/iso-codes-team/iso-codes with
 https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/main/COPYING as
 license.
 
-## Updating
+## Build
 
 For generating updated versions of the MarkDown, HTML and TSV files, install the
 required packages with:
@@ -61,10 +61,42 @@ required packages with:
     pip install -Ur requirements.txt
     sudo apt-get -y install devscripts
 
-Then in the directory `scripts`, run:
+Then run:
 
     ./download.sh
-    ./report.py
+    ./build.sh
+
+Install
+
+```sh
+sudo apt-get -y install python3-pip python3-venv
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -Ur requirements.txt
+```
+
+Run
+
+```sh
+./download.sh
+./build.sh
+```
+
+## Development
+
+Install
+
+```sh
+. .venv/bin/activate
+pip install -Ur requirements-dev.txt
+```
+
+Run
+
+```sh
+checkbashisms *.sh
+./lint.sh
+```
 
 ## Contribute
 

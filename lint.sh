@@ -1,15 +1,13 @@
 #!/usr/bin/env sh
 
-echo '* CHECKBASHISMS'
-checkbashisms *.sh
-
+. .venv/bin/activate
 FILES=*.py
 echo '* PYDOCSTYLE'
 pydocstyle --convention=numpy $FILES
 echo '* FLAKE8'
 flake8 --ignore E501 $FILES
 echo '* PYLINT'
-pylint --disable C0301 $FILES
+pylint $FILES
 echo '* PYFLAKES'
 pyflakes $FILES
 echo '* PYRIGHT-ALRIGHT'

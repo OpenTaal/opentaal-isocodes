@@ -67,15 +67,15 @@ def htmlcomment(comment, base):
     if comment[2] == '-':
         return f'<a target="_blank" href="{base}{comment[0:2]}">' \
             f'{comment[0:2]}</a>-<a target="_blank" href="{base}' \
-            f'{comment[3:pos]}">{comment[3:pos]}</a>&nbsp;{comment[pos+2:-4]}'
+            f'{comment[3:pos]}">{comment[3:pos]}</a>&nbsp;{comment[pos + 2:-4]}'
     return f'<a target="_blank" href="{base}{comment[:pos]}">{comment[:pos]}' \
-        f'</a>&nbsp;{comment[pos+2:-4]}'
+        f'</a>&nbsp;{comment[pos + 2:-4]}'
 
 
 def madocomment(comment, base):
     """Write Markdown comment, i.e. code with description."""
     pos = comment.find(', ')
-    return f'[`{comment[:pos]}`]({base}{comment[:pos]})`{comment[pos+1:-4]}`'
+    return f'[`{comment[:pos]}`]({base}{comment[:pos]})`{comment[pos + 1:-4]}`'
 
 
 def htmlpart(parts, base):
@@ -375,7 +375,7 @@ def main():  # pylint:disable=too-many-locals
             for entry in sourcefile.translated_entries() + sourcefile.fuzzy_entries():  # TODO report fuzzy seperately
                 for comment in entry.comment.split(', '):
                     pos = comment.rfind(' ')
-                    comment = f'{comment[pos+1:]}, {comment[:pos]}'
+                    comment = f'{comment[pos + 1:]}, {comment[:pos]}'
                     if comment in codes:
                         print(f'ERROR: Duplicate code {comment}')
                     else:
@@ -387,7 +387,7 @@ def main():  # pylint:disable=too-many-locals
             for entry in sourcefile.untranslated_entries():
                 for comment in entry.comment.split(', '):
                     pos = comment.rfind(' ')
-                    comment = f'{comment[pos+1:]}, {comment[:pos]}'
+                    comment = f'{comment[pos + 1:]}, {comment[:pos]}'
                     if comment in codes:
                         print(f'ERROR: Duplicate code {comment}')
                     else:
